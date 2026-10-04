@@ -1,0 +1,10 @@
+# Links lychee should skip. Every entry needs a reason.
+
+# The site's own canonical URLs (in <head>). They resolve only after deploy.
+^https://anytimebook\.org/
+
+# These load in a browser but block GitHub's CI servers (404 or TLS errors).
+# Checked by hand 2026-10-04. Recheck by hand when re-verifying the Topic.
+^https://www\.fda\.gov/
+^https://www\.childwelfare\.gov/
+^https://liheapch\.acf\.gov/
