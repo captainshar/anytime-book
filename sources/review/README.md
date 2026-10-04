@@ -46,7 +46,7 @@ All 58 Topic pages are now `status: draft`. Each resource on them was checked on
 
 - **SNAP time limits:** USDA's public pages (updated 2026) still list exemptions for homeless people, veterans, and former foster youth. USDA's Oct 2025 guidance removes them. Pages follow the guidance (2.3, 6.5).
 - **Marketplace subsidies:** no plain HealthCare.gov statement that they ended, only CMS documents (6.5).
-- **America Saves (4.5)** timed out from two networks on 2026-10-04 and fails the link check. Check whether the site is down, then keep or drop it.
+- **America Saves (4.5)** timed out from two networks on 2026-10-04, so it was taken off the page (`on_page: false` in 4.5.yml). Re-add it once the site loads.
 - Numbers the agents couldn't see on the org's own page: MyFreeTaxes 866-698-9435, TransUnion 888-909-8872, AnnualCreditReport 877-322-8228 (4.x). Also check whether Poison Help is 24/7 (5.2) and whether Mental Health America's screening quizzes are anonymous (10.2).
 - **Status unclear:** Job Corps centers (paused in 2025), TRIO Educational Opportunity Centers (left off), and CRHE's alumni-group dates (8.x, 3.x).
 - **Gone or going:** GCFGlobal lessons broken (redirects to LearnFree), TV411 closing at the end of 2026, SwiftStudent gone with FormSwift (Sept 2026), Dare to Doubt down. Homeschool Alumni Reaching Out and Homeschoolers Anonymous have been inactive since 2018.

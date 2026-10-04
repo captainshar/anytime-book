@@ -37,14 +37,6 @@ A short, plain guide from the Consumer Financial Protection Bureau (CFPB), a gov
 - **How to start:** Read the first part. Then pick one small goal, like your first $50.
 - **Good to know:** No account or ID needed to read it.
 
-**[America Saves pledge](https://americasaves.org/)**
-A free program run by the Consumer Federation of America, a nonprofit. You make a pledge to save for one goal. Then they send short reminders and tips to keep you going.
-
-- **Cost:** Free
-- **Who can use it:** Anyone. It's built for people with low to moderate income.
-- **How to start:** Click "Take the Pledge." Pick a goal, like "emergency savings," and an amount you can save each month.
-- **Good to know:** You'll give an email or phone number for the reminders. Use one that only you can see.
-
 **[GreenPath Financial Wellness](https://www.greenpath.com/counseling/)**
 A nonprofit with free, private counseling sessions. A counselor can help you find room in your budget to start saving.
 

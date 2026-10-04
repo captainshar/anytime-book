@@ -21,7 +21,7 @@ resources:
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
-    on_page: true
+    on_page: false   # site timed out from CI and from a home network on 2026-10-04; re-add once it loads
     notes: "Managed by the nonprofit Consumer Federation of America. Pledge -> email and text reminders. Gemini's 'free AFC coaching via Yellow Ribbon Network' link pointed to a staging site (as-stage.americasaves.org); not confirmed on live site, so page doesn't promise coaching."
   - name: GreenPath Financial Wellness
     url: https://www.greenpath.com/counseling/
