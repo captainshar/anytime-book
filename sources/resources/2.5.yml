@@ -1,0 +1,111 @@
+topic: "2.5"
+resources:
+  - name: 211 (United Way)
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/about-us/your-local-211
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Same record as 2.2. Whether a given 211 knows of bus-pass/gas-card programs varies locally."
+  - name: "Community Action Partnership 'Find a CAP'"
+    url: https://communityactionpartnership.com/find-a-cap/
+    scope: national
+    eligibility: "Low-income people; each local agency sets rules"
+    cost: free
+    prereqs: [internet]
+    source_url: https://communityactionpartnership.com/find-a-cap/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Search by agency name, ZIP, state, county, radius, or service. The finder page does not mention transportation; page says only 'Some help with transportation' and tells the reader to ask. Same name as the 5.1 dropped entry (5.1 didn't verify it)."
+  - name: "Medicaid Non-Emergency Medical Transportation (NEMT)"
+    url: https://www.cms.gov/medicare/medicaid-coordination/states/non-emergency-medical-transportation
+    scope: national
+    eligibility: "Medicaid beneficiaries with no other reasonable way to get to Medicaid-covered care; states set details"
+    cost: free
+    prereqs: [Medicaid enrollment, advance scheduling]
+    source_url: https://www.cms.gov/medicare-medicaid-coordination/fraud-prevention/medicaid-integrity-education/downloads/nemt-factsheet.pdf
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "CMS page modified Aug 12, 2025. CMS fact sheet 'Let Medicaid Give You a Ride': may get a ride if no working car or no license, or disability; states differ; call caseworker, ride service, or managed care plan; schedule in advance; ride only to medical office and back home, otherwise 'you and the driver could be charged with stealing from Medicaid'. Modes: taxi, car, van, bus, subway. Gemini's broker names (Modivcare, MTM, 'LogistiCare' — LogistiCare is Modivcare's old name) not needed."
+  - name: "American Cancer Society Road To Recovery"
+    url: https://www.cancer.org/support-programs-and-services/road-to-recovery.html
+    phone: "1-800-227-2345"
+    scope: national
+    eligibility: "Patients traveling to a cancer-related medical appointment; availability varies by area"
+    cost: free
+    prereqs: [advance notice]
+    source_url: https://www.cancer.org/support-programs-and-services/road-to-recovery.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'It can take several business days to coordinate your ride.' ACS line hours not stated on page."
+  - name: DAV Transportation Network
+    url: https://www.dav.org/get-help-now/medical-transportation/
+    scope: national
+    eligibility: "Injured and ill veterans going to VA medical facilities"
+    cost: free
+    prereqs: [VA medical appointment]
+    source_url: https://www.dav.org/get-help-now/medical-transportation/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Volunteer-run; 'unable to cover every community'; schedule via Hospital Service Coordinator directory. Gemini's '7-day notice' not stated on page — left off."
+  - name: National Runaway Safeline
+    url: https://www.1800runaway.org/youth-teens/home-free
+    phone: "1-800-786-2929"
+    text: "1-800-786-2929"
+    scope: national
+    eligibility: "Home Free: ages 12-21, away from home with no safe way back, ready to reunite with family or a safe adult who agrees to help (or alternative living arrangement such as transitional living program)"
+    cost: free
+    prereqs: []
+    source_url: https://www.1800runaway.org/youth-teens/home-free
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Free Greyhound bus ticket. Same org record as 2.2. Gemini said youth 'must be named on a runaway report' — not on the official page; left off."
+dropped:
+  - name: Transit app
+    reason: "Commercial app; not verified on its own site. Page gives a general 'map apps can show bus routes' tip instead."
+    source_url: https://transitapp.com/
+    checked_on: 2026-10-04
+  - name: Google Maps offline maps
+    reason: "Useful tip but belongs in 8.1 Computer and Internet Basics; Gemini's menu path not verified."
+    source_url: https://support.google.com/maps/answer/6291838
+    checked_on: 2026-10-04
+  - name: Eldercare Locator
+    reason: "Real (1-800-677-1116, call/text/chat), but hours, age range, and transportation help not shown on the page I opened; mostly for older adults. Candidate for 6.x or a later round."
+    source_url: https://eldercare.acl.gov/
+    checked_on: 2026-10-04
+  - name: Travelers Aid International
+    reason: "Not national in practice: direct help only at a few airports/stations (DC, NYC/Newark, Philadelphia, Bradley); bus tickets only in the DC area 'pending eligibility'."
+    source_url: https://www.travelersaid.org/need-help/
+    checked_on: 2026-10-04
+  - name: Families to Freedom
+    reason: "Regional (North/East Texas) and not verified on its own site this round."
+    source_url: https://www.familiestofreedom.org/services.php
+    checked_on: 2026-10-04
+  - name: Lyft Up / Uber Health
+    reason: "Not available directly to riders; only through partner agencies. 211 covers it."
+    source_url: https://www.lyft.com/lyftup/programs
+    checked_on: 2026-10-04
+  - name: Mercy Medical Angels / Angel Flight
+    reason: "Not verified on own sites; niche long-distance medical travel."
+    source_url: https://aircharitynetwork.org/request-a-flight/
+    checked_on: 2026-10-04
+  - name: "Gemini claim: federal law requires half fares for seniors and people with disabilities"
+    reason: "Partly true (FTA half-fare rule applies to fixed-route systems receiving certain federal funds, off-peak) but too technical; page says 'many transit agencies' have reduced fares."
+    source_url: https://www.transit.dot.gov/
+    checked_on: 2026-10-04

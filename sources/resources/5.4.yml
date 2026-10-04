@@ -1,0 +1,78 @@
+topic: "5.4"
+resources:
+  - name: American Cleaning Institute — Laundry Basics
+    url: https://www.cleaninginstitute.org/cleaning-tips/clothes/laundry-basics
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.cleaninginstitute.org/cleaning-tips/clothes/laundry-basics
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Sorting, stain removal, care-label symbol guide. Updated Mar 10 2026. ACI is the cleaning-products industry trade group — page says so plainly."
+  - name: Laundry Love
+    url: https://laundrylove.org/find-a-location/
+    scope: national
+    serves_where: "310+ local events at laundromats across the US; set days and times"
+    eligibility: "People with low or no income; no rules stated"
+    cost: free
+    prereqs: []
+    source_url: https://laundrylove.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Pays for washers/dryers and gives detergent at set times. Load limits vary by site (one site: 3 loads per person, 6 per family). Many events are hosted by churches — page says so. Map footer says (c)2023; Sharon may want to spot-check a local listing."
+  - name: 211 — clothing closets and coat drives
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free, confidential referrals. Local closets set their own rules (ID, address, visit limits). Gemini's 'text ZIP to 898-211' not verified on 211.org; left off."
+  - name: Dress for Success
+    url: https://dressforsuccess.org/
+    scope: national
+    serves_where: "Local affiliates in many US cities; not everywhere"
+    eligibility: "Women looking for work or starting a job"
+    cost: free
+    prereqs: [referral in many locations]
+    source_url: https://dressforsuccess.org/get-involved/referral-agencies/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Each affiliate is independent and sets its own referral rules. Many serve by referral only from a partner agency (job center, shelter, caseworker); some take self-referrals (e.g., Worcester). Affiliate pages (Worcester, Northern Nevada, Philadelphia) say services are free. Typically interview outfit, then work clothes once hired."
+  - name: Freecycle
+    url: https://www.freecycle.org/
+    scope: national
+    eligibility: "Anyone with an email account"
+    cost: free
+    prereqs: [email, internet]
+    source_url: https://www.freecycle.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Nonprofit local giving groups; 'Membership is always free.' Meeting strangers to pick up items — page adds a safety tip."
+dropped:
+  - name: The Laundry Project (Current Initiatives)
+    reason: "Periodic events in a few cities (Tampa, Nashville, Las Vegas, Columbus seen). Not a reliable national option."
+    source_url: https://laundrybycurrent.org/
+    checked_on: 2026-10-04
+  - name: Career Gear
+    reason: "Site shows only a New York City address and newest news from 2019. Can't confirm it's serving now or outside NYC."
+    source_url: https://www.careergear.org/
+    checked_on: 2026-10-04
+  - name: 211 text line (898-211)
+    reason: "Not shown on 211.org; text options vary by local 211."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04

@@ -1,0 +1,70 @@
+name: Resource checks
+
+# Weekly: find broken links and stale resource checks, and open an issue if any.
+# Also runs on pull requests that touch Topic pages or resource records.
+on:
+  schedule:
+    - cron: '0 13 * * 1'   # Mondays, 13:00 UTC
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - 'src/content/docs/**'
+      - 'sources/resources/**'
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+      - run: npm ci
+
+      - name: Check resource records (stale checks fail on the weekly run)
+        id: records
+        continue-on-error: true
+        run: |
+          node scripts/check-resources.mjs ${{ github.event_name == 'schedule' && '--strict' || '' }} 2>&1 | tee records-report.txt
+          exit ${PIPESTATUS[0]}
+
+      - name: Check links
+        id: lychee
+        uses: lycheeverse/lychee-action@v2
+        with:
+          args: >-
+            --no-progress
+            --scheme https --scheme http
+            --max-concurrency 4
+            --accept 200..=299,403,429
+            --timeout 30
+            'src/content/docs/**/*.md' 'sources/resources/*.yml'
+          output: lychee-report.md
+          fail: false
+
+      - name: Open an issue on the weekly run
+        if: github.event_name == 'schedule' && (steps.lychee.outputs.exit_code != 0 || steps.records.outcome == 'failure')
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          {
+            echo "Automated weekly check found problems. Re-verify these resources (see sources/STYLE.md)."
+            echo
+            echo "## Resource records"
+            echo '```'
+            cat records-report.txt
+            echo '```'
+            echo
+            echo "## Links"
+            cat lychee-report.md
+          } > issue.md
+          gh issue create --title "Resource check $(date +%F)" --body-file issue.md
+
+      - name: Fail the PR check on problems
+        if: github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != 0 || steps.records.outcome == 'failure')
+        run: exit 1

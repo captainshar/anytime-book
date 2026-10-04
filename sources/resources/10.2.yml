@@ -1,0 +1,139 @@
+topic: "10.2"
+resources:
+  - name: "Pete Walker - The 4Fs: A Trauma Typology in Complex PTSD"
+    url: https://www.pete-walker.com/fourFs_TraumaTypologyComplexPTSD.htm
+    scope: national
+    serves_where: "Online"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.pete-walker.com/fourFs_TraumaTypologyComplexPTSD.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Static site, no visible date; still live. Page promotes his books and therapy practice."
+  - name: "Mental Health America - Burnout: signs, causes, and how to recover"
+    url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Covers micro-boundaries and burnout vs depression. Site shows 2026 conference banner (active)."
+  - name: Self-Compassion Break (Self-Compassion.org, Dr. Kristin Neff)
+    url: https://self-compassion.org/exercises/exercise-2-self-compassion-break/
+    scope: national
+    serves_where: "Online"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://self-compassion.org/exercises/exercise-2-self-compassion-break/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Listed under 'Free Practice Resources'. Site also sells books and courses."
+  - name: Libby (OverDrive library app)
+    url: https://libbyapp.com/
+    scope: national
+    eligibility: "Anyone with a library card; instant digital card by phone number at some US libraries"
+    cost: free
+    prereqs: [smartphone or computer, library card or phone number]
+    source_url: https://help.libbyapp.com/en-us/6125.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Help page: 'I Would Like A Card' then 'Use My Phone Number'. Loans auto-return, no late fees (help.libbyapp.com/en-us/6103.htm)."
+  - name: "Rest Is Resistance (Tricia Hersey) - publisher page"
+    url: https://www.hachettebookgroup.com/titles/tricia-hersey/rest-is-resistance/9780316365536/
+    scope: national
+    eligibility: "Anyone (borrow from library)"
+    cost: "free from library"
+    prereqs: [library card]
+    source_url: https://www.hachettebookgroup.com/titles/tricia-hersey/rest-is-resistance/9780316365536/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Little, Brown Spark, 2022. Used instead of The Nap Ministry blog (last post Nov 2024). Author is a theologian; spiritual and racial-justice framing - see review file."
+  - name: "Laziness Does Not Exist (Devon Price) - publisher page"
+    url: https://www.simonandschuster.com/books/Laziness-Does-Not-Exist/Devon-Price/9781982140113
+    scope: national
+    eligibility: "Anyone (borrow from library)"
+    cost: "free from library"
+    prereqs: [library card]
+    source_url: https://www.simonandschuster.com/books/Laziness-Does-Not-Exist/Devon-Price/9781982140113
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Atria/Simon & Schuster. Page avoids pronouns for the author (Gemini used 'his'; publisher text uses 'they')."
+  - name: Mental Health America screening tools
+    url: https://screening.mhanational.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://screening.mhanational.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Page says 'free, quick, confidential'. Includes a PTSD test. Login appears optional. 'Anonymous' (Gemini's claim) NOT confirmed - page text says no account needed, not 'anonymous'."
+  - name: Insomnia Coach (VA app)
+    url: https://mobile.va.gov/app/insomnia-coach
+    scope: national
+    eligibility: "Everyone, including veterans and service members"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://mobile.va.gov/app/insomnia-coach
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Not in Gemini doc; added for 'Sleep'. Free confirmed on Apple App Store (developer US Dept of Veterans Affairs, v1.3.4, June 11 2025). Do not swap in CBT-i Coach: VA says it is for use with a provider."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7/365, free, confidential. Call or text 988; chat at chat.988lifeline.org; Spanish text/chat. Gemini said 'text HOME to 988' - wrong (HOME is the Crisis Text Line keyword for 741741). Just text 988."
+dropped:
+  - name: The Nap Ministry blog
+    reason: "Blog live but last post November 2024, so not current. Replaced with the founder's book via the library."
+    source_url: https://thenapministry.wordpress.com/
+    checked_on: 2026-10-04
+  - name: Devon Price Medium essay
+    reason: "Gemini's link was a third-party Medium repost, not the author's own page. Used the publisher's book page instead."
+    source_url: https://medium.com/@trulyalivebyak/laziness-does-not-exist-5c6db3e44372
+    checked_on: 2026-10-04
+  - name: Mindfulness Exercises (mindfulnessexercises.com)
+    reason: "Commercial site that duplicates Self-Compassion.org. Not checked further."
+    source_url: https://mindfulnessexercises.com/free-self-compassion-exercises/
+    checked_on: 2026-10-04
+  - name: Reclamation Collective Safety Index Tool
+    reason: "Free and live (2026 copyright), but it is about spotting spiritual abuse, not rest. Better fit for the beliefs/religious-exit Topic. Org also sells consultations and merch. Kept off this page."
+    source_url: https://www.reclamationcollective.com/safety-index-tool
+    checked_on: 2026-10-04
+  - name: Religious Trauma Institute podcasts / religiousharmrecovery.com
+    reason: "Vague ('search a podcast app'); religiousharmrecovery.com is a private practice blog. Belongs to the religious-exit Topic."
+    source_url: https://religiousharmrecovery.com/
+    checked_on: 2026-10-04
+  - name: 211 and SAMHSA National Helpline
+    reason: "Both live, but out of scope for a rest page and covered in other Areas. 988 kept as the one crisis line."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04

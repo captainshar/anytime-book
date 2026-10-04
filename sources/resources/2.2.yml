@@ -1,0 +1,167 @@
+topic: "2.2"
+resources:
+  - name: 211 (United Way)
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/about-us/your-local-211
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'211 is available 24/7'; 'confidential help'. Site has a 'find your local 211' search if dialing 211 fails. Local 211s are run by local agencies, so text/chat options vary; not promised on page. Same name as in 5.1.yml."
+  - name: "USA.gov: Get emergency housing"
+    url: https://www.usa.gov/emergency-housing
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.usa.gov/emergency-housing
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Updated Apr 15, 2026. Links to HUD state shelter lists, 211, HUD Exchange, PHAs; lists VA and NRS numbers."
+  - name: National Domestic Violence Hotline
+    url: https://www.thehotline.org/
+    phone: "1-800-799-7233"
+    text: "START to 88788"
+    scope: national
+    eligibility: "Anyone affected by relationship abuse; page does not define limits"
+    cost: free
+    prereqs: []
+    source_url: https://www.thehotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'Free. Confidential. 24/7.' Text START to 88788; live chat; Spanish site; quick exit (Escape twice). Also offers 'Ruth' AI chatbot (not mentioned on page). Gemini's claim that it serves people leaving cults/family control is not stated by the Hotline; page wording says 'someone close to them' and 'you can still call' — flagged for Sharon."
+  - name: StrongHearts Native Helpline
+    url: https://strongheartshelpline.org/
+    phone: "1-844-762-8483"
+    text: "START to 1-844-762-8483"
+    scope: national
+    eligibility: "Native Americans and Alaska Natives"
+    cost: free
+    prereqs: []
+    source_url: https://strongheartshelpline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Now 24/7 (call, text, chat). Gemini said 7am-10pm — outdated."
+  - name: The Deaf Hotline
+    url: https://www.thedeafhotline.org/
+    phone: "855-812-1001"
+    scope: national
+    eligibility: "Deaf, DeafBlind, hard of hearing survivors of abuse"
+    cost: free
+    prereqs: [videophone]
+    source_url: https://www.thedeafhotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'Free, Confidential, 24/7 ASL Hotline at 855-812-1001' (videophone). Gemini's email address nationaldeafhotline@adwas.org not confirmed on the site; left off."
+  - name: National Runaway Safeline
+    url: https://www.1800runaway.org/
+    phone: "1-800-786-2929"
+    text: "1-800-786-2929"
+    scope: national
+    eligibility: "Young people; Home Free bus program ages 12-21. General hotline age range not stated on the get-help page."
+    cost: free
+    prereqs: []
+    source_url: https://www.1800runaway.org/youth-teens/get-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7 call, text (to 1-800-786-2929), chat, email form. Gemini's text short code 66008 is not on the site — dropped. Same record in 2.5.yml."
+  - name: "National Safe Place: TXT 4 HELP"
+    url: https://www.nationalsafeplace.org/txt-4-help
+    text: "SAFE + location to 44357"
+    scope: national
+    eligibility: "Youth in crisis (no age range stated)"
+    cost: free
+    prereqs: [phone that can text]
+    source_url: https://www.nationalsafeplace.org/txt-4-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Text SAFE and your location (city, state, or ZIP) to 4HELP (44357); or text 2Chat to 44357. 24/7. Short code 69866 does not appear anywhere — dropped. Safe Place sites: schools, fire stations, libraries, businesses (homepage)."
+  - name: Covenant House
+    url: https://www.covenanthouse.org/homeless-shelters
+    phone: "1-800-388-3888"
+    hours: "Shelters 24/7; phone weekdays 8:30am-5pm ET"
+    scope: regional
+    serves_where: "About 30 cities in 15+ states and DC (AK, CA, FL, GA, IL, LA, MD, MA (Boston opening 2026), MI, MO, NJ, NY, PA, TX, DC)"
+    eligibility: "Ages 18-24"
+    cost: free
+    prereqs: []
+    source_url: https://www.covenanthouse.org/homeless-shelters
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Gemini said ages 16-24; site says 18-24. No referral needed. 1-800 number is the general/Donor Care line, not a crisis line (per contact page)."
+  - name: National Call Center for Homeless Veterans
+    url: https://www.va.gov/homeless/nationalcallcenter.asp
+    phone: "1-877-424-3838"
+    scope: national
+    eligibility: "Veterans at risk of or experiencing homelessness, and people helping them"
+    cost: free
+    prereqs: []
+    source_url: https://www.va.gov/homeless/nationalcallcenter.asp
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "24/7 phone and chat. Not in Gemini doc; added from USA.gov emergency housing page."
+  - name: Holding Out HELP
+    url: https://www.holdingouthelp.org/
+    phone: "801-548-3492"
+    hours: "Mon-Thu 9am-4pm MT"
+    scope: regional
+    serves_where: "Utah (based in Draper, UT)"
+    eligibility: "People from a polygamous culture"
+    cost: "Not stated on site"
+    prereqs: []
+    source_url: https://www.holdingouthelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Services listed: basic needs, case management, therapy, life skills, housing assistance, host homes, referrals. Email help@holdingouthelp.org. Known gap from prior review; not in Gemini doc. Cost not on site — flagged."
+dropped:
+  - name: "HUD Resource Locator (resources.hud.gov)"
+    reason: "Covered by the USA.gov emergency housing page, which links HUD's shelter lists; kept the list short."
+    source_url: https://www.usa.gov/emergency-housing
+    checked_on: 2026-10-04
+  - name: Recovering from Religion
+    reason: "Peer support, not shelter. Belongs in Area 3 (3.6 Finding Meaning Again)."
+    source_url: https://www.recoveringfromreligion.org/
+    checked_on: 2026-10-04
+  - name: Dare to Doubt
+    reason: "Resource directory, not shelter; not verified this round. Belongs in Area 3."
+    source_url: https://daretodoubt.org/
+    checked_on: 2026-10-04
+  - name: Olive Leaf Network
+    reason: "Exit guides, not shelter; Gemini cited the New Zealand site. Not verified this round. Belongs in Area 3 or 9.2."
+    source_url: https://oliveleaf.network/
+    checked_on: 2026-10-04
+  - name: International Cultic Studies Association (ICSA)
+    reason: "Education/directory, not shelter. Belongs in Area 3 or 9.2."
+    source_url: https://internationalculticstudies.org/resources-for-survivors-families-friends/
+    checked_on: 2026-10-04
+  - name: "National Safe Place short code 69866"
+    reason: "Not on the official TXT 4 HELP page; only 4HELP (44357) is listed."
+    source_url: https://www.nationalsafeplace.org/txt-4-help
+    checked_on: 2026-10-04
+  - name: "National Runaway Safeline text code 66008"
+    reason: "Not on the official site; texting goes to 1-800-786-2929."
+    source_url: https://www.1800runaway.org/youth-teens/get-help
+    checked_on: 2026-10-04

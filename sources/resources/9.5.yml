@@ -1,0 +1,153 @@
+topic: "9.5"
+resources:
+  - name: Title X Family Planning Clinic Locator (HHS Office of Population Affairs)
+    url: https://reproductivehealthservices.gov/
+    scope: national
+    eligibility: "Anyone; costs based on income"
+    cost: "free or low-cost (sliding fee)"
+    prereqs: [ZIP code or city]
+    source_url: https://reproductivehealthservices.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Locator live (verified in browser). 2025-26 changes: FY2026 appropriations (signed Feb 3, 2026) kept about $286.5M
+      for Title X, but HHS delayed continuation awards and changed priorities; HHS withheld Title X funds from some
+      grantees in 2025; 57 Planned Parenthood clinics closed or consolidated since Jan 2025 (KFF, search result).
+      Page tells readers to call first. Gemini's "legally prohibited from turning a patient away" and "parallel charts"
+      claims not verified on OPA's own pages; page says "tell the clinic" instead.
+  - name: Bedsider (Power to Decide)
+    url: https://www.bedsider.org/birth-control
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.bedsider.org/birth-control
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Method pages and 'Compare birth control.' Power to Decide ownership per Gemini; footer not re-checked."
+  - name: All-Options Talkline
+    url: https://www.all-options.org/find-support/talkline/
+    phone: "1-888-493-0092"
+    hours: "Mon-Fri 10 a.m.-1 a.m. ET; Sat-Sun 10 a.m.-6 p.m. ET"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.all-options.org/find-support/talkline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Gemini gave no hours. Faith Aloud line (1-888-717-5010) not verified on this pass; omitted."
+  - name: Charley abortion chatbot
+    url: https://www.chatwithcharley.org/
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.chatwithcharley.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Site: helps understand abortion options 'no matter where you live', anonymously; quick-exit button. Privacy claims (hourly deletion) from Gemini/Ms. not re-verified; page only says 'private' and to use a safe device."
+  - name: M+A Hotline (Miscarriage and Abortion Hotline)
+    url: https://mahotline.org/
+    phone: "1-833-246-2632"
+    text: "1-833-246-2632"
+    hours: "8 a.m.-1 a.m. ET (5 a.m.-10 p.m. PT), daily"
+    scope: national
+    eligibility: "People in the US"
+    cost: free
+    prereqs: []
+    source_url: https://mahotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Gemini said 10 a.m.-10 p.m. (wrong). Site: experienced doctors and nurses; 'We do not sell abortion pills.' Calling/texting U.S. only."
+  - name: Nurse-Family Partnership (Changent)
+    url: https://changent.org/nfp-moms/
+    phone: "1-844-637-6667"
+    text: "1-844-637-6667"
+    scope: national
+    eligibility: "First-time pregnant people under 29 weeks who meet income rules; not offered in every area"
+    cost: free
+    prereqs: []
+    source_url: https://changent.org/nfp-moms/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "nursefamilypartnership.org redirects to changent.org (national office renamed). FAQ: 'less than 29 weeks pregnant', first baby, income requirements, completely free, voluntary. 'Not everywhere' wording is from general knowledge of NFP's footprint; Sharon may want to confirm."
+  - name: National Maternal Mental Health Hotline (HRSA)
+    url: https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline
+    phone: "1-833-852-6262"
+    text: "1-833-852-6262"
+    scope: national
+    eligibility: "Pregnant and postpartum people and their families"
+    cost: free
+    prereqs: []
+    source_url: https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "1-833-TLC-MAMA; free, confidential, 24/7; English and Spanish counselors plus interpreters for 60+ languages. Not in Gemini doc."
+  - name: Postpartum Support International HelpLine
+    url: https://postpartum.net/
+    phone: "1-800-944-4773"
+    text: "Help to 800-944-4773"
+    scope: national
+    eligibility: "Anyone affected by perinatal mood issues"
+    cost: free
+    prereqs: []
+    source_url: https://postpartum.net/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Mentioned inside the NMMH entry. Not a crisis line (site says people in crisis should call physician/emergency)."
+  - name: Childhelp National Child Abuse Hotline
+    url: https://childhelphotline.org/
+    phone: "1-800-422-4453"
+    text: "1-800-422-4453"
+    scope: national
+    eligibility: "Anyone concerned about or affected by child abuse"
+    cost: free
+    prereqs: []
+    source_url: https://childhelphotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      See 9.2. Used here for parents afraid of hurting a child, in place of the National Parent & Youth Helpline
+      (could not verify). Childhelp's stated audience is "anyone concerned about or affected by child abuse"; Sharon
+      may want to confirm it fits a parent-at-their-limit call. "Put the baby down safely and step away" is standard
+      shaken-baby prevention advice, not from Childhelp's page.
+dropped:
+  - name: National Parent & Youth Helpline (1-855-427-2736)
+    reason: "nationalparenthelpline.org failed to load (fetch failed; browser showed ERR_CERT_COMMON_NAME_INVALID) on 2026-10-04. Could not verify operation or hours."
+    source_url: https://www.nationalparenthelpline.org/
+    checked_on: 2026-10-04
+  - name: Parents as Teachers
+    reason: "Gemini's 'Find a Local Program' tool not found (parentsasteachers.org/find-programs/ 404). Couldn't confirm a public finder."
+    source_url: https://parentsasteachers.org/
+    checked_on: 2026-10-04
+  - name: Faith Aloud (1-888-717-5010)
+    reason: "Not verified on All-Options' own page this pass."
+    source_url: https://www.all-options.org/about-us/
+    checked_on: 2026-10-04
+  - name: Circle of Security videos; books (Good Inside, How to Talk So Kids Will Listen); Janet Lansbury podcast
+    reason: "Commercial books/podcast and a training company's free videos; judgment call for Sharon on endorsing specific parenting authors. Not published."
+    source_url: https://www.circleofsecurityinternational.com/blogs/resources/videos-for-parents
+    checked_on: 2026-10-04
+  - name: Named harmful books (To Train Up a Child; On Becoming Babywise)
+    reason: "Gemini's sources were Patheos, Romper, Wikipedia, and a blog; AAP statements not verified. Page warns generally without naming titles. Sharon to decide."
+    source_url: https://en.wikipedia.org/wiki/On_Becoming_Baby_Wise
+    checked_on: 2026-10-04

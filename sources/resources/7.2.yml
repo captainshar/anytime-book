@@ -1,0 +1,117 @@
+topic: "7.2"
+resources:
+  - name: 211
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.unitedway.org/our-impact/community-resiliency/211-connecting-people-to-local-resources
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "211.org says 24/7 and confidential; United Way says free, 180 languages, reachable by about 99% of US. Text/chat options vary by local 211 — Gemini's 'text ZIP to 898-211' is not universal, so not published."
+  - name: USAGov contact center
+    url: https://www.usa.gov/phone
+    phone: "1-844-872-4681"
+    hours: "Mon-Fri 8 a.m.-8 p.m. ET, except federal holidays"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.usa.gov/phone
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "1-844-USA-GOV1. Helps find the right federal agency/program. Chat at usa.gov/chat."
+  - name: Social Security Administration
+    url: https://www.ssa.gov/manage-benefits/make-an-appointment
+    phone: "1-800-772-1213"
+    hours: "Mon-Fri 8 a.m.-7 p.m. local time; automated service 24/7"
+    scope: national
+    eligibility: "Anyone with Social Security business (cards, benefits, SSI)"
+    cost: free
+    prereqs: []
+    source_url: https://www.ssa.gov/agency/contact/phone.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "TTY 1-800-325-0778. Online appointment scheduler at ssa.gov/manage-benefits/make-an-appointment (appointment may be phone or in person). Since Jan 6 2025 field offices are appointment-focused; SSA says it will still serve walk-ins it can, especially vulnerable people (ssa.gov/news/en/advocates/2024-11-13.html, seen in search results only). Waits shorter in mornings, later in the week and month. Reconsideration deadline: 60 days after decision (ssa.gov/apply/appeal-decision-we-made/request-reconsideration)."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Anyone can read; free lawyers are usually limited to people with low income (rules set by each local program)"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Run by Pro Bono Net with legal aid partners; 'always free to use'. Choose your state for local guides, forms, and legal aid directory."
+  - name: Legal Services Corporation (LSC) legal aid finder
+    url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    scope: national
+    eligibility: "Low-income people (each program sets its own rules)"
+    cost: free
+    prereqs: []
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Enter an address or city to find an LSC-funded legal aid office. Funds 129 organizations in every state, DC, and territories."
+  - name: ABA Free Legal Answers
+    url: https://abafreelegalanswers.org/
+    scope: national
+    serves_where: "40+ states and territories; not available in some (site listed CO, DE, KY, NV, OH, RI, WA, WY as absent)"
+    eligibility: "Low-income adults with a civil (not criminal) question; answer qualifying questions"
+    cost: free
+    prereqs: [email, internet, account]
+    source_url: https://abafreelegalanswers.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Type a question; a volunteer lawyer answers by message. Must create an account. Absent-states list came from a page summary — wording on page says 'not every state' rather than naming states."
+  - name: Community Action Partnership — Find a Community Action Agency
+    url: https://communityactionpartnership.com/find-a-cap/
+    scope: national
+    eligibility: "Mostly low- and moderate-income people; local rules vary"
+    cost: free
+    prereqs: []
+    source_url: https://communityactionpartnership.com/find-a-cap/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Search by ZIP, state, county. Local agencies help with energy bills (LIHEAP), and other anti-poverty programs; getting money usually needs proof of ID and income."
+dropped:
+  - name: HealthCare.gov Find Local Help / Navigators
+    reason: "Verified live (healthcare.gov/apply-and-enroll/get-help-applying), but health coverage belongs in Topic 6.5; kept off this page to avoid duplication."
+    source_url: https://www.healthcare.gov/apply-and-enroll/get-help-applying/
+    checked_on: 2026-10-04
+  - name: SHIP (State Health Insurance Assistance Program)
+    reason: "Medicare-only; belongs in Topic 6.5. Not verified for this page."
+    source_url: https://www.shiphelp.org/
+    checked_on: 2026-10-04
+  - name: LawHelp Interactive
+    reason: "Reached through LawHelp.org state sites; not listed separately to keep the page short."
+    source_url: https://www.lawhelp.org/
+    checked_on: 2026-10-04
+  - name: SSA POMS SI 00601.100 'SSA must help vulnerable claimants get evidence'
+    reason: "Gemini presented an internal SSA manual section as a right readers can invoke at the counter. This is legal-ish advice; not verified on secure.ssa.gov and not published. See review file."
+    source_url: https://secure.ssa.gov/poms.nsf/lnx/0500601100
+    checked_on: 2026-10-04
+  - name: Medicaid citizenship-documentation assistance (CMS)
+    reason: "Gemini cited a 2008-era CMS fact sheet; Medicaid rules are changing under H.R. 1. Not verified; belongs in 2.1 / 6.5."
+    source_url: https://www.cms.gov/newsroom/fact-sheets/medicaid-citizenship-guidelines
+    checked_on: 2026-10-04
+  - name: Public library social workers
+    reason: "Real but only in some library systems; no national finder. Mentioned as a tip ('ask at the desk'), not as a listed resource."
+    source_url: https://www.ala.org/pla/resources/tools/homelessness
+    checked_on: 2026-10-04

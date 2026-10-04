@@ -15,6 +15,7 @@ jobs:
           node-version: 24
           cache: npm
       - run: npm ci
+      - run: node scripts/check-resources.mjs
       - run: npm run build
       - uses: pandoc/actions/setup@v1
       - run: node scripts/build-epub.mjs ci

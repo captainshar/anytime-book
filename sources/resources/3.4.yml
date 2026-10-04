@@ -1,0 +1,99 @@
+topic: "3.4"
+resources:
+  - name: Building Boundaries worksheet (Mental Health America)
+    url: https://screening.mhanational.org/diy-tools/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet, printer optional]
+    source_url: https://screening.mhanational.org/diy-tools/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Listed on MHA's DIY tools page; no login needed (login only to save). PDF at mhanational.org/wp-content/uploads/2025/03/Building-Boundaries-Worksheet.pdf could not be text-extracted locally; content summary relies on MHA's listing description."
+  - name: love is respect — "What are my boundaries?" and helpline
+    url: https://www.loveisrespect.org/resources/what-are-my-boundaries/
+    phone: "866-331-9474"
+    text: "22522 (text LOVEIS)"
+    scope: national
+    eligibility: "Young adults and teens; boundary articles useful for anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.loveisrespect.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7 call, text, chat. Project of the National Domestic Violence Hotline (site footer), federally funded. Site does not print the word 'free' on the homepage; cost recorded as free based on NDVH model — Sharon may want to confirm."
+  - name: Nedra Glover Tawwab — free worksheets and book Set Boundaries, Find Peace
+    url: https://www.nedratawwab.com/free-worksheets
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet; library card to borrow the book]
+    source_url: https://www.nedratawwab.com/free-worksheets
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free worksheets incl. Set Boundaries, Find Peace Book Club Guide. Boundaries quiz requires email signup (not recommended on page). Book linked to WorldCat library search. License not shown on worksheet page; widely described as LCSW — Sharon check."
+  - name: SAMHSA National Helpline and FindTreatment.gov
+    url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    phone: "1-800-662-4357"
+    text: "435748 (text your ZIP code)"
+    scope: national
+    eligibility: "Anyone facing mental health or substance use issues, or their family"
+    cost: free
+    prereqs: []
+    source_url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "24/7/365, English and Spanish, TTY 1-800-487-4889. Referral only, no counseling. Can refer uninsured callers to state-funded and sliding-fee care."
+  - name: HRSA Find a Health Center
+    url: https://findahealthcenter.hrsa.gov/
+    scope: national
+    eligibility: "Anyone; fees based on income"
+    cost: low-cost
+    prereqs: [internet to search, "income info for sliding fee"]
+    source_url: https://findahealthcenter.hrsa.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Finder loads (JS app). 'Regardless of ability to pay' and behavioral-health wording could not be fetched from bphc.hrsa.gov (403) — standard HRSA health center rule; Area 6 agent may have the citation. Sharon check."
+  - name: Open Path Psychotherapy Collective
+    url: https://openpathcollective.org/
+    scope: national
+    eligibility: "People without insurance or with poor mental health coverage who cannot afford usual rates"
+    cost: "$65 one-time membership, then $40-$70 per session ($30 with student intern)"
+    prereqs: [money, internet, payment card]
+    source_url: https://openpathcollective.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Nonprofit. Income cap (<$100k per Gemini) not confirmed on official homepage; left off page."
+dropped:
+  - name: Therapist Aid boundaries worksheets
+    reason: "Download now requires making an account; premium tiers exist."
+    source_url: https://www.therapistaid.com/therapy-worksheet/boundaries-psychoeducation-printout
+    checked_on: 2026-10-04
+  - name: RAINN
+    reason: "Verified, but placed in 3.1 (sexual abuse) rather than here."
+    source_url: https://rainn.org/
+    checked_on: 2026-10-04
+  - name: Melissa Urban, The Book of Boundaries / KC Davis, Who Deserves Your Love
+    reason: "Not verified on publisher/library pages this pass; kept page to one book. Sharon may want to add one."
+    source_url: https://www.simonandschuster.com/books/Who-Deserves-Your-Love/KC-Davis/9781668056486
+    checked_on: 2026-10-04
+  - name: Library ID workarounds (shelter letters, ACP, guest passes)
+    reason: "Sourced largely from Reddit and single-library policies; belongs in Area 1/8 library coverage, not verifiable nationally."
+    source_url: https://www.reddit.com/r/librarians/
+    checked_on: 2026-10-04
+  - name: Trevor Project Coming Out Handbook
+    reason: "Moved to 3.5."
+    source_url: https://www.thetrevorproject.org/resources/guide/the-coming-out-handbook/
+    checked_on: 2026-10-04

@@ -1,0 +1,98 @@
+topic: "4.2"
+resources:
+  - name: Budget Worksheet (consumer.gov)
+    url: https://consumer.gov/your-money/budget-worksheet
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.gov/your-money/budget-worksheet
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "FTC plain-language site. Direct PDF link returned 403 to scripts; page with 'Download PDF' works, so the page is linked."
+  - name: "Behind on bills? booklet (CFPB)"
+    url: https://files.consumerfinance.gov/f/documents/cfpb_ymyg_behind-on-bills_print.pdf
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/booklets-talk-about-money/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "PDF resolves (200, application/pdf). Gemini said CFPB mails free copies by phone; not confirmed on the booklets page (it says download/print), so the page doesn't promise mailing."
+  - name: National Foundation for Credit Counseling (NFCC)
+    url: https://www.nfcc.org/
+    phone: "800-388-2227"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: "Free initial counseling; debt management plans carry fees"
+    prereqs: []
+    source_url: https://www.nfcc.org/contact-us/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Contact page: 'Talk to an NFCC certified credit counselor at (800) 388-2227.' Homepage also shows 877-360-6322 and 833-746-7578 (likely campaign lines); page uses the contact-page number. Nonprofit since 1951."
+  - name: GreenPath Financial Wellness
+    url: https://www.greenpath.com/counseling/
+    phone: "800-550-1961"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: "Free counseling sessions; some specialized services (reverse mortgage, home-buyer) have fees"
+    prereqs: []
+    source_url: https://www.greenpath.com/counseling/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Gemini gave 866-224-7829 (4.2) and 877-337-3399/866-648-8117 (4.5); GreenPath's own counseling and contact pages use 800-550-1961 as the main number (877-337-3399 also appears). Nonprofit, NFCC member; FAQ says it is not a debt settlement company and does not lend money. Counseling hours exist on the contact page but did not render to text; hours omitted."
+  - name: "211"
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "211.org: 'Every call is completely confidential.' Local availability of free financial coaching varies."
+  - name: Goodbudget
+    url: https://goodbudget.com/
+    scope: national
+    eligibility: "Anyone with a phone or computer"
+    cost: "Free plan $0; Premium $10/month or $80/year"
+    prereqs: [email]
+    source_url: https://goodbudget.com/signup
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Free plan: 10 regular + 10 more envelopes, 1 account, 2 devices, 1 year history. Bank sync is Premium-only, so free plan is manual entry. Pricing changes; recheck yearly."
+dropped:
+  - name: Mint
+    reason: "Shut down in 2024. Must not appear."
+    source_url: https://mint.intuit.com/
+    checked_on: 2026-10-04
+  - name: EveryDollar (free tier)
+    reason: "Pricing page 404 (everydollar.com/pricing); could not confirm what the free tier includes. Also heavy upsell to paid tier."
+    source_url: https://www.everydollar.com/pricing
+    checked_on: 2026-10-04
+  - name: GCFGlobal / LearnFree Money Basics
+    reason: "Site appears mid-rebrand: edu.gcfglobal.org money pages redirect to learnfree.org and 404; learnfree.org/series/money-basics loads with no lessons (missing images). Recheck later."
+    source_url: https://www.learnfree.org/series/money-basics
+    checked_on: 2026-10-04
+  - name: CFPB Cash Flow Calendar
+    reason: "Not checked separately; the Behind on Bills booklet covers the same bill-calendar tool."
+    source_url: https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/
+    checked_on: 2026-10-04
+  - name: Cooperative Extension offices / public libraries
+    reason: "Not listed as resources: no single official finder verified. Gemini's 'USDA website directory' was cited via a garden blog."
+    source_url: https://mygardenlife.com/how-to-grow/cooperative-extension-office
+    checked_on: 2026-10-04

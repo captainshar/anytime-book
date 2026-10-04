@@ -1,0 +1,116 @@
+topic: "10.4"
+resources:
+  - name: "First Aid: American Red Cross app"
+    url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/mobile-apps.html
+    scope: national
+    eligibility: "Anyone with an iOS or Android device"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://www.redcross.org/about-us/news-and-events/news/2026/red-cross-first-aid-app-helps-save-child-after-snake-bite.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Red Cross June 24 2026 news: free; step-by-step guidance; audible hands-free steps; hospital locator; download by searching 'American Red Cross' or redcross.org/apps. Offline/preloaded claim (Gemini, from App Store) NOT verified on Red Cross page - not used. 'Text GETFIRST to 90999' seen only in search snippet - not used."
+  - name: MedlinePlus First Aid
+    url: https://medlineplus.gov/firstaid.html
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://medlineplus.gov/firstaid.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "NLM/NIH. First aid kit page: medlineplus.gov/ency/article/001958.htm (live)."
+  - name: American Heart Association Hands-Only CPR
+    url: https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Page image text: 'Two Steps to save a life. First, call 9 1 1. Second, push hard and fast.' Videos 1:00-1:34, English/Spanish/Mandarin. 30+ kiosks (Gemini implied many airports). 'Adult or teen' wording is standard AHA but not seen in page text - Sharon check."
+  - name: ACS Stop the Bleed Interactive Course
+    url: https://www.stopthebleed.org/get-trained/online-course/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.stopthebleed.org/get-trained/online-course/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'Free to all students and can be taken multiple times.' Certificate requires an in-person Skills-Only course (fees vary). Gemini's 'backed by Department of Defense' not used."
+  - name: Poison Help
+    url: https://poisonhelp.hrsa.gov/
+    phone: "1-800-222-1222"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://poisonhelp.hrsa.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "HRSA page: 24/7, 100+ languages. No-cost confirmed at poisoncenters.org (America's Poison Centers, 53 centers). Not in Gemini doc; added."
+  - name: American Red Cross First Aid/CPR/AED classes
+    url: https://www.redcross.org/take-a-class/first-aid
+    scope: national
+    eligibility: "Anyone"
+    cost: "$37 online-only adult course; in-person varies by location"
+    prereqs: [payment]
+    source_url: https://www.redcross.org/take-a-class/classes/adult-first-aid%2Fcpr%2Faed-online/a6RVx000000Xi3t.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Online-only course page: $37.00, 'does not meet OSHA requirements for workplace certification'; recommends instructor-led or blended. Gemini's '$30-$100+' range not used. ID-at-class requirement not verified - not stated on page."
+  - name: R.A.D. Systems student program locator
+    url: https://www.rad-systems.com/program_locator_student.html
+    scope: national
+    eligibility: "Varies by course (women, men, seniors, children)"
+    cost: "set by each host"
+    prereqs: []
+    source_url: https://www.rad-systems.com/about_us.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Since 1989; 11,000+ instructors; colleges and municipal law enforcement; 'free lifetime return and practice policy'. Site footer (c) 2024 - not updated recently, but locator live. Gemini phone 1-888-472-3543 not found on site - not used."
+  - name: NWMAF Empowerment Self-Defense certified instructors
+    url: https://nwmaf.org/empowerment/search-nwmaf-certified-instructors/
+    scope: national
+    eligibility: "Mainly women, LGBTQIA+ and non-binary people"
+    cost: "set by each instructor"
+    prereqs: [internet or phone to contact instructor]
+    source_url: https://nwmaf.org/empowerment/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "National Women's Martial Arts Federation; (c) 2026. ESD page: trauma-aware teaching, rejects victim-blaming. Replaces Gemini's esdglobalselfdefense.org (dead)."
+dropped:
+  - name: ESD Global (esdglobalselfdefense.org)
+    reason: "Domain shows a Wix 'ConnectYourDomain' error; /whatisesd returns 404. Not operating."
+    source_url: https://www.esdglobalselfdefense.org/
+    checked_on: 2026-10-04
+  - name: FEMA CERT / IS-317
+    reason: "Live and free, but it is disaster-volunteer training, needs a FEMA Student ID for the exam, and local teams may need background checks. Off-topic for a beginner first aid page. Could fit an emergency-prep Topic."
+    source_url: https://training.fema.gov/programs/independent-study/courseoverview.aspx?code=IS-317.a&lang=en
+    checked_on: 2026-10-04
+  - name: 211 / local libraries (as self-defense class finders)
+    reason: "Mentioned in one line only ('ask your library or call 211'); full entries live in other Areas."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04
+  - name: Local YWCA / Parks and Rec self-defense workshops
+    reason: "Local only, no national finder; folded into NWMAF 'Good to know'."
+    source_url: https://www.ywca.org/
+    checked_on: 2026-10-04

@@ -1,0 +1,116 @@
+topic: "3.1"
+resources:
+  - name: Pete Walker's free articles on Complex PTSD
+    url: https://www.pete-walker.com/
+    scope: national
+    eligibility: "Anyone; written for adults hurt by ongoing childhood abuse or neglect"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.pete-walker.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Licensed MFT (MFT 25210 per his site). Free articles incl. 13 Steps for Managing Flashbacks, Shrinking the Inner Critic, The 4Fs. Book 'Complex PTSD: From Surviving to Thriving' linked via WorldCat."
+  - name: Out of the Storm
+    url: https://www.outofthestorm.website/
+    scope: national
+    eligibility: "English-speaking adults with a history of ongoing abuse or neglect; no diagnosis needed"
+    cost: free
+    prereqs: [internet, "username to post (reading is open)"]
+    source_url: https://www.outofthestorm.website/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free, anonymous moderated forum since 2014; site copyright 2026. Not a crisis service. International (online)."
+  - name: Adult Children of Alcoholics & Dysfunctional Families (ACA)
+    url: https://adultchildren.org/
+    scope: national
+    eligibility: "Adults who grew up in any troubled or dysfunctional home, not only with drinking"
+    cost: free
+    prereqs: []
+    source_url: https://adultchildren.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Meetings free (in person, online, phone) via adultchildren.org/meeting-search/. Laundry List at adultchildren.org/laundry-list/. 2026 events on site. 12-step format uses 'Higher Power' language — flagged for Sharon."
+  - name: Coalition for Responsible Home Education (CRHE) — alumni guides and alumni groups
+    url: https://crhe.org/guides/a-message-for-homeschool-alumni/
+    phone: "617-765-7096"
+    scope: national
+    eligibility: "Homeschool alumni (groups are alumni-only)"
+    cost: free
+    prereqs: [internet, email to sign up for groups]
+    source_url: https://crhe.org/resources/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Guides: healing and justice, diploma/transcript, deficient education. Virtual alumni groups facilitated by trained alumni (crhe.org/homeschool-alumni-groups/); listed dates Aug/Sept without a year (Sun/Mon pattern matches 2026). Email info@responsiblehomeschooling.org. Site (c) 2013-2026."
+  - name: RAINN National Sexual Assault Hotline
+    url: https://rainn.org/
+    phone: "800-656-4673"
+    text: "64673 (text HOPE)"
+    scope: national
+    eligibility: "Survivors of sexual violence at any age, including abuse that happened in childhood"
+    cost: free
+    prereqs: []
+    source_url: https://rainn.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7, English and Spanish. Chat at rainn.org/hotline. Checked in browser (site blocks scripted fetch)."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in emotional distress"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7 call, text, chat (chat.988lifeline.org). Spanish text/chat."
+  - name: Educated, by Tara Westover (memoir)
+    url: https://www.penguinrandomhouse.com/books/550168/educated-by-tara-westover/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [library card for borrowing]
+    source_url: https://www.penguinrandomhouse.com/books/550168/educated-by-tara-westover/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Optional 'you're not alone' reading, suggested via coordinator from community input. Publisher page; borrow free from library. Spanish edition 'Una educación' exists."
+dropped:
+  - name: Patrick Teahan (YouTube / patrickteahan.com)
+    reason: "Real free content, but his own site does not state his license type; Gemini's 'LCSW' unconfirmed. Creator endorsement is Sharon's call. Kept off page for now."
+    source_url: https://www.patrickteahan.com/about
+    checked_on: 2026-10-04
+  - name: Childhelp National Child Abuse Hotline
+    reason: "Own pages say 'anyone affected by child abuse' but never clearly say adult survivors are served; confidentiality has a reporting exception. Better fit for 9.2 (siblings still at home)."
+    source_url: https://childhelphotline.org/how-it-works/
+    checked_on: 2026-10-04
+  - name: CPTSD Foundation
+    reason: "Mix of free and paid tiers ($4.99–$99/mo per Gemini); not verified in time. Sharon to decide if the free peer chat is worth listing."
+    source_url: https://cptsdfoundation.org/cptsd-resources/
+    checked_on: 2026-10-04
+  - name: Homeschool Alumni Reaching Out (HARO) / Homeschoolers Anonymous
+    reason: "Homeschoolers Anonymous is an archived blog; last post March 2018. No HARO activity found after 2016."
+    source_url: https://homeschoolersanonymous.net/
+    checked_on: 2026-10-04
+  - name: OpenCounseling directory
+    reason: "Third-party aggregator, not an official source; use FindTreatment.gov / HRSA finders instead (see 3.4)."
+    source_url: https://www.opencounseling.com/
+    checked_on: 2026-10-04
+  - name: Public libraries (generic)
+    reason: "Not a single resource; library access is covered in Area 1 / 8. Book links here go to publisher or WorldCat."
+    source_url: https://libbyapp.com/
+    checked_on: 2026-10-04

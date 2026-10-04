@@ -1,0 +1,148 @@
+topic: "4.4"
+resources:
+  - name: AnnualCreditReport.com
+    url: https://www.annualcreditreport.com/
+    phone: "877-322-8228"
+    scope: national
+    eligibility: "Anyone; free weekly reports from each bureau"
+    cost: free
+    prereqs: [SSN or ITIN, identity questions]
+    source_url: https://consumer.ftc.gov/articles/free-credit-reports
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "AnnualCreditReport.com blocks scripted fetches (403 / JS-rendered), so verified via FTC article (updated June 2026): only authorized site; weekly free reports from each bureau; phone 1-877-322-8228."
+  - name: Equifax credit freeze
+    url: https://www.equifax.com/personal/credit-report-services/credit-freeze/
+    phone: "888-298-0045"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [identity verification, myEquifax account for online]
+    source_url: https://www.equifax.com/personal/credit-report-services/credit-freeze/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Equifax page: 'manage your freeze by phone: call us at (888) 298-0045'. Experian's page lists a different Equifax number (1-888-378-4329); page uses Equifax's own. Free + no score impact confirmed by FTC (https://consumer.ftc.gov/articles/what-know-about-credit-freezes-and-fraud-alerts, updated Aug 2025)."
+  - name: Experian credit freeze
+    url: https://www.experian.com/freeze/center.html
+    phone: "888-397-3742"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [identity verification]
+    source_url: https://www.experian.com/freeze/center.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "1-888-EXPERIAN (1-888-397-3742) to add or remove a freeze by phone."
+  - name: TransUnion credit freeze
+    url: https://www.transunion.com/credit-freeze
+    phone: "888-909-8872"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [identity verification]
+    source_url: https://www.transunion.com/credit-freeze/mail-or-phone
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "transunion.com returns 403 to scripted fetches. Number confirmed from transunion.com search snippets (freeze/mail-or-phone and FAQ pages): automated freeze line 888-909-8872; representative 800-916-8800. Sharon: open the TransUnion freeze page in a browser to confirm."
+  - name: IdentityTheft.gov
+    url: https://www.identitytheft.gov/
+    phone: "877-438-4338"
+    hours: "Interpreters (press 3) 9am-5pm ET"
+    scope: national
+    eligibility: "Anyone whose information was misused"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/consumer-alerts/2024/09/how-recover-identity-theft
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "identitytheft.gov is JS-rendered; verified via FTC consumer alert and FTC contact page. Creates Identity Theft Report + recovery plan with pre-filled letters."
+  - name: "CFPB: How do I dispute an error on my credit report?"
+    url: https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-on-my-credit-report-en-314/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/ask-cfpb/how-do-i-dispute-an-error-on-my-credit-report-en-314/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Live as of 2026-10-04: dispute with credit reporting company first, then the furnisher; sample letters; certified mail suggested."
+  - name: National Foundation for Credit Counseling (NFCC)
+    url: https://www.nfcc.org/
+    phone: "800-388-2227"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: "Free initial counseling; DMP fees"
+    prereqs: []
+    source_url: https://www.nfcc.org/contact-us/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+  - name: Financial Counseling Association of America (FCAA)
+    url: https://www.fcaa.org/
+    phone: "800-450-1794"
+    scope: national
+    eligibility: "Anyone; member agencies in all 50 states and Puerto Rico"
+    cost: "Initial conversation free; some services have fees"
+    prereqs: []
+    source_url: https://www.fcaa.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "501(c)(3) association. Header number (800) 450-1794 is the consumer line; 866-278-1567 is labeled 'Office'. 'Find a Credit Counselor' form routes to a member agency."
+  - name: CFPB complaint portal
+    url: https://www.consumerfinance.gov/complaint/
+    phone: "855-411-2372"
+    hours: "Mon-Fri 9am-6pm ET, except federal holidays; TTY 855-729-2372"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/complaint/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Despite 2025 CFPB cuts, portal is operating: accepts complaints on checking/savings, credit cards, credit reports, debt collection, debt management, money transfers, payday/personal loans, prepaid cards, student loans, vehicle loans, mortgages. 'Most companies respond within 15 days.' Hours from https://www.consumerfinance.gov/about-us/contact-us/."
+  - name: "FTC: How to get out of debt"
+    url: https://consumer.ftc.gov/articles/how-get-out-debt
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/how-get-out-debt
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: false
+    notes: "Updated Dec 2025. Source for 'only scammers collect fees before settling debts' and 'stop paying/stop communicating' red flags. CPN/new credit identity warning from FTC alerts (consumer.ftc.gov/consumer-alerts/2025/12/looking-fix-your-credit-illegal-credit-repair-scam-isnt-answer)."
+dropped:
+  - name: Mission Asset Fund Lending Circles
+    reason: "Zero-interest, reports to all 3 bureaus (verified), but could not confirm where it serves: some programs are SF Bay Area only and the site doesn't state national eligibility. Gemini implied nationwide."
+    source_url: https://www.missionassetfund.org/lending-circles/
+    checked_on: 2026-10-04
+  - name: Credit Builders Alliance member map
+    reason: "Not checked: CBA is a network for organizations, not a consumer service."
+    source_url: https://creditbuildersalliance.org/find-a-member/
+    checked_on: 2026-10-04
+  - name: HUD-approved housing counselor finder (CFPB)
+    reason: "Not checked; better fit for Area 5 renting Topics."
+    source_url: https://www.consumerfinance.gov/find-a-housing-counselor/
+    checked_on: 2026-10-04
+  - name: FDIC Money Smart (877-275-3342)
+    reason: "Not checked; GetBanked is listed on 4.1."
+    source_url: https://www.fdic.gov/consumer-resource-center/learn-money-smart
+    checked_on: 2026-10-04

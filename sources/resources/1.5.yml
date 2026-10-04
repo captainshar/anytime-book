@@ -1,0 +1,89 @@
+topic: "1.5"
+resources:
+  - name: MedlinePlus — Healthy Sleep
+    url: https://medlineplus.gov/healthysleep.html
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://medlineplus.gov/healthysleep.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "NIH National Library of Medicine. Adults 18+: 7–9 hours. Tips: regular schedule, limit caffeine/nicotine/alcohol/late meals, cool dark quiet room, morning light. Updated Dec 9, 2025."
+  - name: Insomnia Coach (VA National Center for PTSD)
+    url: https://www.ptsd.va.gov/appvid/mobile/insomnia_coach.asp
+    scope: national
+    eligibility: "Everyone, not only Veterans; not recommended for sleep apnea, bipolar disorder, seizure disorders, sleepwalking, night terrors, excessive daytime sleepiness, or shift workers"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://www.ptsd.va.gov/appvid/mobile/insomnia_coach.asp
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'created for everyone, including Veterans and Service members'. Based on CBT-I; 5-week plan, sleep diary, tools. Data stay on the device ('only as secure as the device'). iOS and Android. Page updated April 21, 2026."
+  - name: PTSD Coach (VA National Center for PTSD)
+    url: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
+    scope: national
+    eligibility: "Anyone who wants to manage symptoms after trauma"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'for anyone who wants to learn about and manage symptoms after a trauma'; 'not meant to replace professional care'. Data on device. Built-in crisis links point to Veterans Crisis Line (988 press 1) — page notes that non-Veterans can just call or text 988. Updated April 21, 2026."
+  - name: UCLA Mindful app
+    url: https://www.uclahealth.org/programs/uclamindful/free-guided-meditations/ucla-mindful-app-faq
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://www.uclahealth.org/programs/uclamindful/free-guided-meditations/ucla-mindful-app-faq
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "FAQ: 'completely free to download and use, with no hidden fees or subscriptions'; 'do not share your personal information'. No account requirement mentioned. Sleep-specific tracks not confirmed — page doesn't promise them. Gemini's 'English and Spanish' not confirmed; left off."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in emotional distress, not only suicidal crisis"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Call, text, or chat; 24/7/365; free and confidential; 'for everyone'; Spanish text/chat available. LGBTQ+ Press 3 option noted as restored. Added as the 'hard night' line; Gemini listed RAINN and NDVH instead (those belong in safety Areas)."
+dropped:
+  - name: Path to Better Sleep (VA)
+    reason: "Free, but built for Veterans with no clear statement that others may use it, and pages say 'Last updated February 14, 2023'. Insomnia Coach (updated 2026, open to everyone) covers the same CBT-I method."
+    source_url: https://www.veterantraining.va.gov/sleep/about.asp
+    checked_on: 2026-10-04
+  - name: Healthy Minds Program (Humin)
+    reason: "Free, but needs registration and signup opts you into Humin marketing emails. Kept page to one meditation app (UCLA Mindful, no account mentioned). Gemini's humin URL works; hminnovations.org has a broken certificate."
+    source_url: https://www.humin.org/wellbeing-tools/app
+    checked_on: 2026-10-04
+  - name: Smiling Mind
+    reason: "Not opened. Australian nonprofit; one meditation app is enough on this page."
+    source_url: https://www.smilingmind.com.au/
+    checked_on: 2026-10-04
+  - name: RAINN hotline; National Domestic Violence Hotline
+    reason: "Both live (RAINN homepage seen 2026-10-04: 800.656.HOPE, text HOPE to 64673). Left off this page to keep it about sleep; they belong in the safety Areas. 988 used as the general 'hard night' line instead. Sharon may want one linked here — see review."
+    source_url: https://rainn.org/
+    checked_on: 2026-10-04
+  - name: Libby and Hoopla (library audiobooks/sleep sounds)
+    reason: "Need a library card; card rules vary and Gemini's workarounds came from Reddit. Better covered in a library Topic."
+    source_url: https://www.overdrive.com/apps/libby
+    checked_on: 2026-10-04
+  - name: Gemini claims on cult 'sleep deprivation', '10,000 hours', recovery timelines, sleep-lab fraud
+    reason: "Sources were counseling-practice blogs and law-firm pages, not official. Not used."
+    source_url: "n/a"
+    checked_on: 2026-10-04

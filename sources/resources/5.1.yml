@@ -1,0 +1,149 @@
+topic: "5.1"
+resources:
+  - name: HUD-approved housing counselors
+    url: https://answers.hud.gov/housingcounseling/
+    phone: "800-569-4287"
+    hours: "Live operator; hours not stated on the page"
+    scope: national
+    eligibility: "Anyone; counselors help renters as well as buyers"
+    cost: "free or low-cost"
+    prereqs: []
+    source_url: https://www.hud.gov/stat/sfh/housing-counseling
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "TTY 202-708-1455. HUD page says operators speak many languages. CFPB also runs a ZIP-code finder (consumerfinance.gov/find-a-housing-counselor) that says counselors help with renting, 'often at little or no cost'. Agencies set their own fees, so the page says 'free or low-cost'."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Anyone can read the guides; legal aid offices listed usually serve people with low incomes"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Run by Pro Bono Net with nonprofit legal aid groups. Pick your state for local renter guides and legal aid contacts. Used here instead of a state table of tenant laws."
+  - name: Legal Services Corporation legal aid finder
+    url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    scope: national
+    eligibility: "Low-income people; each local office sets its own rules"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Enter an address or city to find an LSC-funded legal aid office. The page does not state an income limit, so the book does not give one."
+  - name: CFPB — Review your rental background check
+    url: https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/
+    phone: "855-411-2372"
+    scope: national
+    eligibility: "Any renter turned down or charged more because of a background check"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/rules-policy/tenant-background-checks/review-your-rental-background-check/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Landlord must give the screening company's name, address, phone. Free copy if requested within 60 days. Dispute in writing with the company and the source. TTY 855-729-2372. Complaints at consumerfinance.gov/complaint. Page last modified Jan 30 2024; still live."
+  - name: FTC — Rental listing scams / ReportFraud.ftc.gov
+    url: https://consumer.ftc.gov/articles/rental-listing-scams
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://consumer.ftc.gov/articles/rental-listing-scams
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Updated June 2026. Red flags: low rent, rush, won't show inside, wire/gift card/crypto payment, asks for SSN before agreement, home actually for sale. Report at ReportFraud.ftc.gov. FTC phone not published on page because not confirmed on the pages checked."
+  - name: HUD — Report Housing Discrimination
+    url: https://www.hud.gov/reporthousingdiscrimination
+    phone: "1-800-669-9777"
+    scope: national
+    eligibility: "Anyone harmed by housing discrimination (race, color, national origin, religion, sex, disability, familial status); VAWA protections too"
+    cost: free
+    prereqs: []
+    source_url: https://www.hud.gov/reporthousingdiscrimination
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Online, phone, or mail. Page says there are time limits, so report soon; it does not state the limit, so the book does not give one. Retaliation is illegal."
+  - name: National Energy Assistance Referral (NEAR) — LIHEAP
+    url: https://liheapch.acf.gov/referral.htm
+    phone: "1-866-674-6327"
+    scope: national
+    eligibility: "Low-income households; each state sets its rules"
+    cost: free
+    prereqs: []
+    source_url: https://liheapch.acf.gov/referral.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Tells you where to apply for LIHEAP (help with heating/cooling bills). Email energyassistance@ncat.org with city, county, state. energyhelp.us redirects to the LIHEAP Clearinghouse search tool."
+  - name: 211 (United Way)
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Confidential referrals for rent help, utilities, and more. Run through local 211 centers, so hours and services vary."
+  - name: SettleIn — housing guides
+    url: https://www.settleinus.org/life-us/housing/newcomer%E2%80%99s-guide-renting-us
+    scope: national
+    eligibility: "Made for newcomers to the US; anyone can read"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.settleinus.org/life-us/housing/newcomer%E2%80%99s-guide-renting-us
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Run by the International Rescue Committee (Gemini said CORE). Content developed under HHS agreements. Has chat support in many languages and an app. Guide updated Aug 2026."
+dropped:
+  - name: HUD tenant rights by state (hud.gov/topics/rental_assistance/tenantrights)
+    reason: "The main page loads with no content (title only), and the state pages (hud.gov/states/<state>/renting/tenantrights) return 404. HUD seems to be moving its site. USA.gov still links to it. Used LawHelp.org instead."
+    source_url: https://www.hud.gov/topics/rental_assistance/tenantrights
+    checked_on: 2026-10-04
+  - name: HUD Resource Locator (resources.hud.gov)
+    reason: "Not checked closely enough to publish; subsidized housing waitlists fit better in a housing-assistance Topic. Recheck if added."
+    source_url: https://resources.hud.gov/
+    checked_on: 2026-10-04
+  - name: Community Action Partnership 'Find a CAP'
+    reason: "Not verified this round; 211 covers local help. Good candidate to add after a check."
+    source_url: https://communityactionpartnership.com/find-a-cap/
+    checked_on: 2026-10-04
+  - name: Affordable Housing Online
+    reason: "Private, ad-supported site. Book prefers official or nonprofit sources."
+    source_url: https://affordablehousingonline.com/
+    checked_on: 2026-10-04
+  - name: Rent Well / Rent Smart classes
+    reason: "Local programs (Rent Well is Portland, OR area; Rent Smart is Wisconsin). Not national. Page tells readers to ask a housing counselor about renter classes instead."
+    source_url: https://rentwell.org/
+    checked_on: 2026-10-04
+  - name: Beyond Backgrounds (HousingLink)
+    reason: "Minnesota-only program."
+    source_url: https://www.housinglink.org/
+    checked_on: 2026-10-04
+  - name: Tenant Union Federation
+    reason: "Gemini's source was Wikipedia. Not verified on its own site this round; organizing groups vary by city. Page points to legal aid for local tenant groups."
+    source_url: https://tenantfederation.org/
+    checked_on: 2026-10-04
+  - name: National Fair Housing Alliance local help
+    reason: "Not verified this round; HUD's own complaint line covers the need."
+    source_url: https://nationalfairhousing.org/
+    checked_on: 2026-10-04

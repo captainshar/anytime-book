@@ -1,0 +1,109 @@
+topic: "1.1"
+resources:
+  - name: National Literacy Directory
+    url: https://www.nld.org/
+    phone: "1-877-389-6874"
+    scope: national
+    eligibility: "Any adult looking for a local reading, writing, math, English, or GED class or tutor"
+    cost: free
+    prereqs: [zip code or city]
+    source_url: https://www.nld.org/page/join-the-directory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      nld.org's own "Join the Directory" page says "toll-free 24-hour hotline for program referrals (1-877-389-6874)".
+      Gemini 1.1 said "business hours" (wrong); Gemini 1.2 said 24/7 (matches). Spanish: stated on partner NCFL's page
+      (familieslearning.org, undated), not on nld.org itself, so the page does not promise Spanish. Run by NCFL and
+      ProLiteracy with Dollar General Literacy Foundation support (nld.org/page/about). Search asks for a goal
+      ("Read and write better") and a location. Cost of listed programs is not stated on nld.org, so the page says
+      many classes are free or low-cost and tells the reader to ask first.
+  - name: LINCS Learner Center (U.S. Department of Education)
+    url: https://lincs.ed.gov/learner
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://lincs.ed.gov/learner
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Live 2026-10-04 with Learn to Read / Learn Math / Learn English sections. No account. Links out to other sites; some listed items (e.g. TV411) are being retired."
+  - name: Reading Skills for Today's Adults
+    url: https://www.readingskills4today.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.readingskills4today.com/level1
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: >-
+      Run by Southwest Adult Basic Education (Marshall, MN). 16 levels of short adult-life stories with audio; Level 1
+      page loads with stories, no login seen. Footer says (c) 2015 and "under construction"; site notes some audio is
+      wrong and marked (NC). Older but working. Gemini claim of "slow/medium/fast" audio not checked, left off page.
+  - name: USA Learns
+    url: https://www.usalearns.org/
+    scope: national
+    eligibility: "Anyone; built for people learning English as a new language"
+    cost: free
+    prereqs: [internet, email to make an account]
+    source_url: https://www.usalearns.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Run by Sacramento County Office of Education. Courses: 1st English Course, English 1 Plus, 2nd English Course, Practice English & Reading, citizenship. Registration required. ESL-focused, so placed for readers whose first language isn't English."
+  - name: Coalition for Responsible Home Education (CRHE) — For Homeschool Alumni
+    url: https://crhe.org/guides/a-message-for-homeschool-alumni/
+    scope: national
+    eligibility: "Adults who were homeschooled"
+    cost: free
+    prereqs: [internet]
+    source_url: https://crhe.org/guides/a-message-for-homeschool-alumni/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: >-
+      Alumni page links "So You Have a Deficient Homeschool Education. What Next?", "Adult Basic Education for the
+      Educationally Neglected Homeschool Graduate" (personal essay, posted 2016-04-01, Washington State example,
+      "$25 per quarter" is the author's own cost then — not a current price), and diploma/transcript how-tos. Site
+      (crhe.org) is current (main page modified 2026-08). The old domain responsiblehomeschooling.org now 404s.
+dropped:
+  - name: GCFGlobal / GCFLearnFree (reading lessons)
+    reason: >-
+      edu.gcfglobal.org now 308-redirects to learnfree.org (footer: "Learnfree, Inc., North Carolina"). Old reading
+      lesson URLs (/en/reading/, /en/learning-to-read/) 404 or bounce to the home page, and the new topic menu shows
+      no beginning-reading course. Series pages returned "Category is not found!" on 2026-10-04. Site mid-migration;
+      owner change not confirmed. Recheck in a few months.
+    source_url: https://www.learnfree.org/
+    checked_on: 2026-10-04
+  - name: TV411
+    reason: "tv411.org notice dated September 29, 2026: the site will be retired by the end of 2026; some videos moving to EDC's YouTube channel."
+    source_url: https://www.tv411.org/
+    checked_on: 2026-10-04
+  - name: ReadTheory
+    reason: "Homepage now markets to K-12 schools ('grades K-12, ESL, and Special Ed', 'Turns out kids like reading'). Not adult-facing; a grown reader may feel talked down to."
+    source_url: https://readtheory.org/
+    checked_on: 2026-10-04
+  - name: Citizen Literacy
+    reason: "Learner app is free, but it is made in Scotland (UK phonics/accent, prices in GBP) and US app-store availability was not confirmed on its site. Possible future add if Sharon wants it."
+    source_url: https://citizenliteracy.com/pricing/
+    checked_on: 2026-10-04
+  - name: GogyUp Reader
+    reason: "Official site says 'free download' but does not state paid tiers, account needs, or what happens to photos of documents. Could not verify pricing or data practices."
+    source_url: https://www.gogyup.com/individuals
+    checked_on: 2026-10-04
+  - name: ProLiteracy
+    reason: "Homepage has no learner-facing 'find help' path; it serves programs and tutors. Learners are better served by the National Literacy Directory, which ProLiteracy co-runs."
+    source_url: https://www.proliteracy.org/
+    checked_on: 2026-10-04
+  - name: Library card workarounds (guest pass, courtesy card, shelter letter)
+    reason: "Gemini's sources were Reddit threads and single local libraries. Rules vary by library. Page says only 'rules differ, ask'."
+    source_url: "n/a (Gemini cited Reddit threads; not opened)"
+    checked_on: 2026-10-04

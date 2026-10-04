@@ -1,0 +1,90 @@
+topic: "1.3"
+resources:
+  - name: Math is Fun — Clocks
+    url: https://www.mathsisfun.com/time-clocks.html
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.mathsisfun.com/time-clocks.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Explains big hand / little hand with examples; links to AM/PM and 24-hour clock page. (c) 2026. Has ads. No login needed."
+  - name: Goblin Tools — Magic ToDo
+    url: https://goblin.tools/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://goblin.tools/About
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Made by Bram De Buyser (an individual developer; not a nonprofit). Website free, no ads, "kept free
+      by our sponsors"; phone apps cost "a low price" (amount not shown); optional Pro subscription for sync/history;
+      "existing features will never be locked behind a paywall." Privacy page: text you type is sent to OpenAI for
+      processing, not stored by Goblin Tools; "Without a Pro account nothing you type is stored anywhere but your own
+      browser." AI output accuracy varies (their own warning). Page tells reader not to type private details.
+  - name: CHADD — For Adults articles and National Resource Center on ADHD
+    url: https://chadd.org/for-adults/time-management-planner/
+    phone: "1-866-200-8098"
+    hours: "Mon–Fri, 1–5 pm Eastern"
+    scope: national
+    eligibility: "Anyone with questions about ADHD; articles open to all"
+    cost: free
+    prereqs: []
+    source_url: https://chadd.org/about/about-nrc/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      NRC phone and hours from chadd.org/about/about-nrc/ ("1-866-200-8098, M-F, 1-5 pm ET"); CDC cooperative
+      agreement still cited; CHADD press release on a 2026 award for the NRC. Spanish mentioned on planner page fetch
+      but not on NRC page; left off. Planner article: six steps for using a day planner, free PDF. The helpline is
+      about ADHD; page says you don't need a diagnosis to read the articles (true — they're public) and does not
+      claim the helpline requires none.
+  - name: Focusmate
+    url: https://www.focusmate.com/
+    scope: national
+    eligibility: "Age 17+ (Focusmate support/terms per search result); camera required"
+    cost: "Free for 3 sessions a week; Plus $8/mo billed yearly or $12/mo monthly"
+    prereqs: [internet, camera, account]
+    source_url: https://www.focusmate.com/pricing/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Free plan "3 sessions per week", "No credit card required". Camera must stay on (homepage: "stay on camera").
+      Community rules ban nudity, harassment, screenshots without consent. Age 17 seen in search snippet of Focusmate
+      support pages, not opened directly — page says "adults". You're on video with a stranger: flagged for Sharon.
+dropped:
+  - name: visualtimer.com
+    reason: "Free, no account, but a small private company (Applorium Ltd). A phone's built-in timer does the same job; page tells reader to use that instead."
+    source_url: https://visualtimer.com/
+    checked_on: 2026-10-04
+  - name: Tiimo
+    reason: "Free plan is limited and app-only; full features need Pro subscription; 7-day trial auto-renews unless cancelled 24 hours before. Upsell risk for this reader."
+    source_url: https://www.tiimoapp.com/pricing
+    checked_on: 2026-10-04
+  - name: ShareWell body doubling groups
+    reason: "Not verified on official pages in this pass (peer-run groups, account needed). Possible future add after safety/moderation check."
+    source_url: https://sharewellnow.com/support-groups/body-doubling
+    checked_on: 2026-10-04
+  - name: GCFGlobal (Google Calendar, workplace skills)
+    reason: "Site moved to learnfree.org and many lesson links are broken as of 2026-10-04. See 1.1/1.2 notes."
+    source_url: https://www.learnfree.org/
+    checked_on: 2026-10-04
+  - name: DigitalLearn (Public Library Association)
+    reason: "Not opened. Digital skills belong in a later Area; not core to time and schedules."
+    source_url: https://digitallearn.org/
+    checked_on: 2026-10-04
+  - name: Passion Planner free printables; ADDitude printables
+    reason: "Not opened. Both require an email for downloads; commercial sites with sales funnels. A notebook or phone calendar is enough."
+    source_url: https://passionplanner.com/collections/free-downloads
+    checked_on: 2026-10-04

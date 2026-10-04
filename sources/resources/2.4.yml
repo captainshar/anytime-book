@@ -1,0 +1,129 @@
+topic: "2.4"
+resources:
+  - name: Lifeline
+    url: https://www.lifelinesupport.org/
+    phone: "1-800-234-9473"
+    hours: "Support Center 7 days, 9am-9pm ET"
+    scope: national
+    eligibility: "Household income at or below 135% of 2026 Federal Poverty Guidelines, or SNAP, Medicaid, SSI, Federal Public Housing Assistance, Veterans Pension, certain Tribal programs. One benefit per household."
+    cost: free
+    prereqs: [proof of eligibility, identity information]
+    source_url: https://www.fcc.gov/lifeline-consumers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Up to $9.25/month; up to $34.25 on Tribal lands. Apply online (Apply Now -> getinternet.gov National Verifier), by mail (Lifeline Support Center, PO Box 1000, Horseheads, NY 14845), or via a participating company. Oregon and Texas apply through state sites. FCC: if provider charges no monthly fee, must use service at least once every 30 days; recertify yearly. Household = people at same address sharing income and expenses; FCC notes support is available to eligible people in group living settings (text truncated in my read). Companies Near Me tool: https://www.lifelinesupport.org/companies-near-me/ (may not list every company)."
+  - name: "FCC Safe Connections: Separate your phone line"
+    url: https://www.fcc.gov/consumers/guides/how-request-phone-line-separation-abusers-account
+    scope: national
+    eligibility: "Survivors of domestic violence, dating violence, stalking, sexual assault, human trafficking, or similar crimes; need not be account holder; can include people in your care"
+    cost: free
+    prereqs: [one document naming survivor and abuser and stating abuse]
+    source_url: https://www.fcc.gov/consumers/guides/how-request-phone-line-separation-abusers-account
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Last updated Sep 29, 2025. Accepted docs: signed affidavit from licensed medical/mental health provider, social worker, victim services provider, or court employee; police report, charging docs, protective/restraining orders; military protective orders; for someone in your care, affidavit signed by you and the survivor. Request online, phone, email, or in person; most cases processed within 2 business days; no early termination fees. FCC disability help: DRO@fcc.gov, 202-418-2517, 844-432-2275 (ASL). NOTE: FCC page lists the Hotline as '1-888-799-SAFE (7233)' — a typo; the Hotline is 1-800-799-7233. Not copied."
+  - name: Lifeline Survivor Benefit
+    url: https://www.lifelinesupport.org/survivor-benefit/
+    scope: national
+    eligibility: "Survivors who requested line separation and have financial hardship (Lifeline programs, or income at/below 200% FPG, WIC, free/reduced school meals incl. CEP, or Pell Grant)"
+    cost: free
+    prereqs: [carrier confirmation of line-separation request]
+    source_url: https://www.lifelinesupport.org/survivor-benefit/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Up to 6 months, up to $9.25/month. Carrier confirmation arrives by email, text, or letter. Apply online or by mail. Eligibility list from FCC Safe Connections page."
+  - name: "Safety Net Project (NNEDV) — resources for survivors"
+    url: https://www.techsafety.org/resources-survivors
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.techsafety.org/resources-survivors/technology-safety-plan
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Guides on phones, iPhone privacy, location, stalkerware, email. Tech safety plan: use a safer device if monitored; new email with non-identifying username; don't link to old accounts or reuse passwords; plan before removing trackers since abuser may react."
+  - name: "Apple Safety Check (iPhone)"
+    url: https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/web
+    scope: national
+    eligibility: "iPhone with iOS 16 or later"
+    cost: free
+    prereqs: [iPhone iOS 16+]
+    source_url: https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/web
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Settings > Privacy & Security > Safety Check. Emergency Reset; Manage Sharing & Access; Quick Exit. Apple page does not say whether others are notified — page tells reader they may notice and to talk to an advocate."
+  - name: "Google Maps: Share or stop sharing real-time location"
+    url: https://support.google.com/maps/answer/15437054
+    scope: national
+    eligibility: "Google Maps users"
+    cost: free
+    prereqs: []
+    source_url: https://support.google.com/maps/answer/15437054
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "App: profile picture > Location sharing > person > Stop (Android and iPhone). Steps confirmed via Google support search results; page itself not opened in full."
+  - name: Gmail (Google Account)
+    url: https://support.google.com/accounts/answer/27441
+    scope: national
+    eligibility: "Anyone (age rules not stated on page)"
+    cost: free
+    prereqs: [internet]
+    source_url: https://support.google.com/accounts/answer/27441
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'Optional: Add and verify a phone number for your account.'"
+  - name: Proton Mail (free plan)
+    url: https://proton.me/support/create-a-free-email-account-address
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://proton.me/support/human-verification
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Signup: username, password, display name, Recovery Kit. Human verification may be CAPTCHA, email code, or SMS code; phone not strictly required. Gemini's '1 GB free storage' not confirmed — left off."
+dropped:
+  - name: Affordable Connectivity Program (ACP)
+    reason: "Ended June 1, 2024 (FCC archived page). Mentioned only as a scam warning."
+    source_url: https://www.fcc.gov/acp
+    checked_on: 2026-10-04
+  - name: "Assurance Wireless, SafeLink, TAG Mobile, Life Wireless"
+    reason: "Commercial Lifeline carriers; plans and data amounts change often and Gemini's numbers came from carrier marketing and review blogs. Pointed to the official Companies Near Me finder instead."
+    source_url: https://www.lifelinesupport.org/companies-near-me/
+    checked_on: 2026-10-04
+  - name: More Than a Phone
+    reason: "Not verified on its own site this round; phones only through partner DV shelters, so the Hotline referral covers it. Candidate for a later check."
+    source_url: https://morethanaphone.org/
+    checked_on: 2026-10-04
+  - name: Cell Phones for Soldiers (Helping Heroes)
+    reason: "Gemini's sources were a press release and an Alibaba blog; not verified on the org's own site."
+    source_url: https://www.cellphonesforsoldiers.com/
+    checked_on: 2026-10-04
+  - name: Tuta (Tutanota)
+    reason: "Not verified on its own site; one privacy email option (Proton) is enough. Gemini's '48-hour manual review' claim unverified."
+    source_url: https://tuta.com/
+    checked_on: 2026-10-04
+  - name: Bitwarden
+    reason: "Password managers belong in 8.2 Staying Safe Online; not verified this round."
+    source_url: https://bitwarden.com/
+    checked_on: 2026-10-04
+  - name: DuckDuckGo
+    reason: "Search-privacy tip belongs in 8.2; not verified this round."
+    source_url: https://duckduckgo.com/
+    checked_on: 2026-10-04

@@ -1,0 +1,101 @@
+topic: "2.1"
+resources:
+  - name: VoteRiders Helpline
+    url: https://www.voteriders.org/freehelp/
+    phone: "866-432-8683"
+    text: "866-432-8683"
+    scope: national
+    eligibility: "People who need an ID to vote (US citizens of voting age). The helpline page does not spell out eligibility; this comes from VoteRiders' mission statement."
+    cost: free
+    prereqs: []
+    source_url: https://www.voteriders.org/freehelp/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Page says 'All our services are free of charge'. Will set up appointments, request and pay for documents (birth certificate, name change records, naturalization certificate), a copy of the Social Security card, proof of residence, a free ride to DMV/SSA, and the ID itself. Also chat and web form. Hours not stated on the page. Footer (c)2025; 2026-2028 strategic plan linked. Note: 'a copy of your Social Security card' = replacement card; unclear if they help with a first-time SSN."
+  - name: "I Am Here: Vital Document Legal Hotline (National Network for Youth)"
+    url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    phone: "1-888-870-3627"
+    text: "1-888-870-3627"
+    hours: "Wednesdays only, 9am-5pm ET (6am-2pm PT)"
+    scope: national
+    eligibility: "'Any young person' (page focuses on youth experiencing homelessness; upper age not stated on the page)"
+    cost: free
+    prereqs: []
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Call or text 1-888-870-DOCS. State-specific legal information on getting vital documents; page says it does not provide legal advice."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Anyone can search; legal aid providers set income rules"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "State-by-state directory of nonprofit legal aid, maintained by Pro Bono Net with partners; covers all 50 states and territories. Footer reads (c) 2001-2026 Scale Justice."
+  - name: "CDC NCHS: Where to Write for Vital Records"
+    url: https://www.cdc.gov/nchs/w2w/index.htm
+    scope: national
+    eligibility: "Anyone"
+    cost: "Free list; each state sets its certificate fee"
+    prereqs: [internet]
+    source_url: https://www.cdc.gov/nchs/w2w/index.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Click the state where the birth happened for that state's office and instructions. Page 'last reviewed' Aug 15, 2022 but is the official federal pointer; links go to state pages."
+  - name: Social Security Administration
+    url: https://www.ssa.gov/number-card/request-number-first-time
+    phone: "1-800-772-1213"
+    scope: national
+    eligibility: "All US citizens; some noncitizens"
+    cost: free
+    prereqs: [birth certificate, proof of identity, in-person visit]
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "ss5doc.htm 'Original Card for a U.S. Born Adult': citizenship = US birth certificate or passport; age = birth certificate if one exists (else religious record made before age 5, US hospital birth record, or passport); anyone 12+ requesting an original SSN must appear in person for an interview; SSA asks for evidence you never had an SSN (may ask about schools attended or tax records). Originals or certified copies only. Identity: DL, state ID, or passport; if not available within 10 days, other current documents with name + DOB/age, preferably photo (employee ID, school ID, health insurance card not Medicare, military ID). Cross-checked POMS RM 10210.420 (TN 66, 07/31/2026) adult US-citizen secondary list: government or non-government employee ID, certified medical record, health insurance/Medicaid card with photo or DOB, school ID or certified school record for the current school year. Religious records and immunization records are NOT accepted as identity for adults (Gemini listed religious records). Card mailed in 5-10 business days. Pages fetched via browser; WebFetch gets 403 from ssa.gov."
+  - name: USPS General Delivery
+    url: https://faq.usps.com/s/article/What-is-General-Delivery
+    scope: national
+    eligibility: "People without a permanent address (and some other cases)"
+    cost: free
+    prereqs: [suitable ID may be required at pickup]
+    source_url: https://faq.usps.com/s/article/What-is-General-Delivery
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Article dated Aug 4, 2026. Usually one facility per Post Office; use Find USPS Locations filtered for General Delivery and call to confirm. Address format NAME / GENERAL DELIVERY / CITY STATE ZIP. Held up to 30 days. 'Postmasters may restrict the use of General Delivery if a customer cannot present suitable identification.' Gemini's '-9999 ZIP' detail is not on the USPS page; page says ask the facility for the ZIP."
+dropped:
+  - name: Homeless ID Project
+    reason: "Gemini called it national ('all 50 states'); its own site says it serves the Phoenix and Tucson, Arizona areas only."
+    source_url: https://www.homelessidproject.org/
+    checked_on: 2026-10-04
+  - name: "National Runaway Safeline (as an ID resource)"
+    reason: "Not an ID-help service; Gemini said 'under 25' and text 66008, neither on the official site. Listed in 2.2 and 2.5 instead with verified details."
+    source_url: https://www.1800runaway.org/youth-teens/get-help
+    checked_on: 2026-10-04
+  - name: "Gemini claim: shelter-letter residency for DMV is a McKinney-Vento rule"
+    reason: "Wrong. Proof-of-residency alternatives are set by each state DMV. Page says 'many states' and tells reader to ask their DMV."
+    source_url: https://www.dmv.ca.gov/portal/driver-licenses-identification-cards/reduced-no-fee-id-card-program-information-for-organizations/
+    checked_on: 2026-10-04
+  - name: "State fee-waiver table (PA, CA, DC, NY)"
+    reason: "STYLE.md forbids state-by-state tables; page tells reader to search their own state DMV for free/reduced-fee ID."
+    source_url: https://www.cdc.gov/nchs/w2w/index.htm
+    checked_on: 2026-10-04
+  - name: Bread for the City (Washington, DC)
+    reason: "DC-only mail/ID example from a news article; not verified on the org's own site and too local."
+    source_url: https://streetsensemedia.org/article/how-to-get-an-id-if-youre-experiencing-homelessness/
+    checked_on: 2026-10-04

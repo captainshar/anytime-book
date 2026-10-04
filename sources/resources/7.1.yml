@@ -1,0 +1,78 @@
+topic: "7.1"
+resources:
+  - name: DigitalLearn "Intro to Email" course
+    url: https://www.digitallearn.org/
+    scope: national
+    eligibility: "Anyone with internet access"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.digitallearn.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Course list on home page includes Intro to Email (6 lessons, 15 min) and Intro to Email 2. Sign-in is optional; lessons play without an account. Public Library Association project (per site 'Learn More'/funders links)."
+  - name: LearnFree (formerly GCFGlobal / GCFLearnFree) Gmail course
+    url: https://www.learnfree.org/series/gmail
+    scope: national
+    eligibility: "Anyone with internet access"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.learnfree.org/series/gmail
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "GCFGlobal URLs (edu.gcfglobal.org) now redirect to learnfree.org; old Email 101 course URL returns 404. Gmail series has 9 short lessons incl. setting up an account, sending, responding. Lessons open without signing in; site shows a cookie banner and Sign Up prompts."
+  - name: Lifeline
+    url: https://www.lifelinesupport.org/
+    phone: "800-234-9473"
+    hours: "7 days a week, 9 a.m.-9 p.m. ET (per lifelinesupport.org)"
+    scope: national
+    eligibility: "Household income at or below 135% of Federal Poverty Guidelines, or in SNAP, Medicaid, Federal Public Housing Assistance, SSI, Veterans Pension, or certain Tribal programs. One per household."
+    cost: "Up to $9.25/month off ($34.25 on Tribal lands)"
+    prereqs: [proof of income or program participation, application through National Verifier]
+    source_url: https://www.fcc.gov/lifeline-consumers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Apply online via National Verifier (lifelinesupport.org links to getinternet.gov/apply), by mail, or through a provider. Texas and Oregon use state process. Safe Connections Act: DV/trafficking survivors may get emergency Lifeline support up to 6 months and can split a shared phone line from an abuser's plan (lifelinesupport.org/survivor-benefit). Must use free service at least once every 30 days; annual recertification. Likely also listed in Topic 2.4."
+  - name: 711 Speech-to-Speech relay (STS)
+    url: https://www.fcc.gov/consumers/guides/speech-speech-relay-service
+    phone: "711"
+    scope: national
+    eligibility: "People with a speech disability (FCC lists stuttering among examples), or anyone calling someone with a speech disability"
+    cost: free
+    prereqs: []
+    source_url: https://www.fcc.gov/consumers/guides/speech-speech-relay-service
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Dial 711 and ask for an STS call; trained assistant repeats your words. FCC minimum standards: confidential, 24/7. FCC page last reviewed Jan 2021 but service is a standing FCC mandate. Gemini framed it as for anxiety-related breathlessness; FCC frames it as for speech disabilities — page wording kept to FCC scope. 'Free' is not stated on the STS page itself; TRS is funded by the federal TRS Fund and has no extra charge to users — Sharon may want to confirm wording."
+  - name: FTC Phone Scams guide
+    url: https://consumer.ftc.gov/articles/phone-scams
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/phone-scams
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Last updated August 2023. Signs: prizes needing payment, threats of arrest, pressure, payment by gift card/wire/crypto/payment app, caller ID can be faked. Report at ReportFraud.ftc.gov; unwanted calls at DoNotCall.gov."
+dropped:
+  - name: National Literacy Directory (nld.org)
+    reason: "Live (phone 1-877-389-6874), but it is an adult-education finder that fits Topic 1.1 / 8.x better than phone and email skills; site does not state who runs it or that it is free. Left for those Topics."
+    source_url: https://www.nld.org/
+    checked_on: 2026-10-04
+  - name: GCFLearnFree "Email Basics" / Email 101
+    reason: "Old course URL now 404s after GCFGlobal rebranded to LearnFree.org; replaced with LearnFree's live Gmail series."
+    source_url: https://www.learnfree.org/en/email101/
+    checked_on: 2026-10-04
+  - name: Crisis Text Line and Mental Health America grounding tools
+    reason: "Not checked for this Topic; they belong in Area 3 (Your Mind and Feelings), and the page only needs a short calming tip."
+    source_url: https://www.crisistextline.org/
+    checked_on: 2026-10-04

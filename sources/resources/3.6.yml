@@ -1,0 +1,157 @@
+topic: "3.6"
+resources:
+  - name: Recovering from Religion — peer support line, chat, support groups
+    url: https://www.recoveringfromreligion.org/
+    phone: "844-368-2848"
+    hours: "Aims for 24 hours; if no agent, schedule a call or chat"
+    scope: national
+    eligibility: "Anyone doubting, leaving, or hurt by religion; LGBTQ+ explicitly welcome"
+    cost: free
+    prereqs: []
+    source_url: https://www.recoveringfromreligion.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "844-I-DOUBT-IT. Text chat via green bubble bottom-left. Scheduled calls need 72 hours' notice. Groups free, virtual, monthly, anonymous, cameras optional; specialty groups incl. LGBTQA+, youth 16-25, women, men, parents, Spanish-speaking (recoveringfromreligion.org/support-groups). Groups' 'no cost' stated; peer line cost not printed but no fees anywhere. Secular (not religious) org — values flag for Sharon."
+  - name: Secular Therapy Project
+    url: https://www.seculartherapy.org/
+    scope: national
+    eligibility: "Anyone wanting non-religious, evidence-based therapy"
+    cost: "Directory free; therapists set their own fees"
+    prereqs: [email, country, ZIP/postal code, money or insurance for sessions]
+    source_url: https://www.seculartherapy.org/faq
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Run by Recovering from Religion. Therapists screened by licensed evaluators for licensure, evidence-based practice, secular approach. Telehealth options listed."
+  - name: International Cultic Studies Association (ICSA)
+    url: https://internationalculticstudies.org/resources-for-survivors-families-friends/
+    scope: national
+    eligibility: "Former members of cultic or high-control groups, including people born or raised in them; families"
+    cost: free
+    prereqs: [internet]
+    source_url: https://internationalculticstudies.org/resources-for-survivors-families-friends/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Free online library, articles, checklists, survivor stories, video series for second-generation former members, professional directory. ICSA states it does not provide counseling or direct services. 2026 conference listed. Recovery workshops exist (screened, likely paid) — not put on page."
+  - name: Footsteps
+    url: https://www.footstepsorg.org/what-we-offer/
+    phone: "877-783-7755"
+    scope: national
+    serves_where: "Based in New York; remote programs offered nationally"
+    eligibility: "People who have left or are thinking of leaving ultra-Orthodox Jewish communities"
+    cost: "Not stated on page; ask"
+    prereqs: []
+    source_url: https://www.footstepsorg.org/what-we-offer/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "877-STEPS-55; connect@footstepsorg.org; reply within 72 hours; meeting staff does not obligate you to join. Social/emotional support, education and career help, legal support, peer programs."
+  - name: Ex-Muslims of North America — emergency help
+    url: https://exmuslims.org/get-help/
+    scope: national
+    serves_where: "United States and Canada"
+    eligibility: "Ex-Muslims facing abuse or in danger of imminent violence because of non-belief"
+    cost: "Not stated"
+    prereqs: [proof of ID and proof of circumstance requested]
+    source_url: https://exmuslims.org/get-help/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Short-term shelter, transportation, coordination. Contact by email address on the page (obfuscated by Cloudflare in fetch; not printed on our page — link only). EXMNA says it no longer runs support communities directly; affiliate groups listed (Toronto, Chicago, DC, Florida, Pacific NW). Cost 'free' not printed; emergency aid model. Sharon check."
+  - name: Holding Out HELP
+    url: https://www.holdingouthelp.org/
+    phone: "801-548-3492"
+    hours: "Mon-Thu 9am-4pm Mountain Time"
+    scope: state
+    serves_where: "Utah (office in Draper, UT)"
+    eligibility: "People and families leaving polygamous communities"
+    cost: "Not stated; no fees mentioned"
+    prereqs: []
+    source_url: https://www.holdingouthelp.org/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Case management, therapy, housing help, life skills. help@holdingouthelp.org."
+  - name: Journey Free — free articles on religious trauma
+    url: https://www.journeyfree.org/rts/
+    scope: national
+    eligibility: "Anyone"
+    cost: "Articles free; coaching, groups, retreats, workbook paid"
+    prereqs: [internet]
+    source_url: https://www.journeyfree.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Marlene Winell, PhD, coined 'Religious Trauma Syndrome' (2011). Article does not claim RTS is an official diagnosis; page says so plainly. Winell's Journey Free sells 'coaching' — the book warns about coaches; Sharon check the tension."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7."
+  - name: Coalition for Responsible Home Education — alumni groups
+    url: https://crhe.org/homeschool-alumni-groups/
+    scope: national
+    eligibility: "Homeschool alumni"
+    cost: free
+    prereqs: [internet]
+    source_url: https://crhe.org/homeschool-alumni-groups/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Cross-listed from 3.1. Many readers left both a high-control faith and homeschooling."
+dropped:
+  - name: Dare to Doubt
+    reason: "daretodoubt.org returns 404."
+    source_url: https://www.daretodoubt.org/
+    checked_on: 2026-10-04
+  - name: Reclamation Collective
+    reason: "Paid groups ($50-$350); not free-first. Sharon may add if she wants a therapist-led paid option."
+    source_url: https://www.reclamationcollective.com/
+    checked_on: 2026-10-04
+  - name: Leaving the Fold workbook (Journey Free)
+    reason: "Paid (~$5.99 per Gemini, price not verified). Gemini also suggested 'online communities where survivors share free summaries' — rejected (possible piracy). Book is linkable via library if Sharon wants it."
+    source_url: https://www.journeyfree.org/resources/leaving-the-fold-workbook/
+    checked_on: 2026-10-04
+  - name: Graceful Atheist and Secular Buddhism podcasts
+    reason: "Values/endorsement call for Sharon (both point toward particular worldviews). Not verified this pass."
+    source_url: https://gracefulatheist.com/podcast/
+    checked_on: 2026-10-04
+  - name: American Humanist Association local chapters
+    reason: "Verified finder works and chapters 'welcome everyone', but recommending a specific worldview community is Sharon's call. Kept off page."
+    source_url: https://americanhumanist.org/get-involved/find-or-start-a-chapter/
+    checked_on: 2026-10-04
+  - name: SMART Recovery / LifeRing
+    reason: "Addiction recovery; belongs in 6.7."
+    source_url: https://smartrecovery.org/
+    checked_on: 2026-10-04
+  - name: Open Path Collective, SAMHSA, university training clinics
+    reason: "Open Path and SAMHSA are on 3.4. University clinics are local; no national finder verified."
+    source_url: https://openpathcollective.org/
+    checked_on: 2026-10-04
+  - name: Ex-JW and ex-Mormon peer groups
+    reason: "No established, independently run national nonprofit with a verifiable support line found this pass; most activity is on Reddit (blocked) and Facebook. Handed to Gemini."
+    source_url: https://www.recoveringfromreligion.org/support-groups
+    checked_on: 2026-10-04
+  - name: Homeschool Alumni Reaching Out / Homeschoolers Anonymous
+    reason: "Archived; last post March 2018."
+    source_url: https://homeschoolersanonymous.net/
+    checked_on: 2026-10-04

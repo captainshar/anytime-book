@@ -35,7 +35,7 @@ npm run epub -- v0.1.0   # dist-epub/anytime-book-v0.1.0.epub
 
 ## Publishing
 
-- **Website:** Cloudflare Workers Builds deploys `main` automatically: build command `npm run build`, deploy command `npx wrangler deploy` (static assets from `dist/`, configured in `wrangler.jsonc`).
+- **Website:** Cloudflare Pages builds `main` automatically (build command `npm run build`, output `dist`).
 - **Epub:** push a version tag and GitHub Actions attaches the epub to a GitHub Release:
 
   ```bash

@@ -1,0 +1,117 @@
+topic: "7.3"
+resources:
+  - name: Meetup
+    url: https://www.meetup.com/
+    scope: national
+    eligibility: "Anyone with an account (18+ per Meetup terms — not re-checked)"
+    cost: "Free plan for members; some groups charge dues; paid events add a service fee; optional Meetup+ paid subscription"
+    prereqs: [email, internet, account]
+    source_url: https://help.meetup.com/hc/en-us/articles/34744060726669-Meetup-vs-Free-Plan-Members-Key-Differences-and-Benefits
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Known issue answered: members can use a limited free plan; organizers pay subscriptions (help center lists 'Organizer Subscription prices' and a free 'Starter Organizer'). Free plan limits direct messaging and member lists; Meetup+ pop-ups can be dismissed via 'Continue with free plan'. Groups with dues show 'Request to join' instead of 'Join group'."
+  - name: NAMI Connection Recovery Support Group
+    url: https://www.nami.org/support-groups/nami-connection/
+    hours: "Varies by group; NAMI HelpLine (1-800-950-6264, text NAMI to 62640) Mon-Fri 10 a.m.-10 p.m. ET — HelpLine number logged under NAMI HelpLine in 3.3.yml"
+    scope: national
+    eligibility: "Adults 18+ who have had symptoms of a mental health condition; no diagnosis proof required"
+    cost: free
+    prereqs: []
+    source_url: https://www.nami.org/support-groups/nami-connection/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free, peer-led, 90 minutes, weekly/every other week/monthly by location. Many groups virtual and open nationwide. Find via state dropdown -> local affiliate. HelpLine: call 1-800-950-NAMI, text NAMI to 62640, email helpline@nami.org (nami.org/nami-helpline/). Gemini's 'no ID required' not stated but nothing indicates ID needed."
+  - name: Recovering from Religion (RfR)
+    url: https://www.recoveringfromreligion.org/
+    phone: "844-368-2848"
+    hours: "Aims for 24-hour helpline coverage"
+    scope: national
+    serves_where: "US and Canada line; also UK and Australia numbers; groups worldwide"
+    eligibility: "Anyone doubting, changing, or leaving a faith or high-control group"
+    cost: free
+    prereqs: []
+    source_url: https://www.recoveringfromreligion.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "844-I-DOUBT-IT. Peer support, not therapy. Chat via green bubble on site. 50+ peer-led groups (virtual and in person) at meetings.recoveringfromreligion.org. Weekly RfRx Zoom talks Mondays 8 pm ET. Also in 3.6 likely."
+  - name: Idealist (now includes VolunteerMatch)
+    url: https://www.idealist.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.idealist.org/en/about
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Idealist is a 501(c)(3) in New York; merged with VolunteerMatch in early 2025 (volunteermatch.org redirects to idealist.org/volunteermatch). Search volunteer opportunities by location and radius. 'Free for volunteers' not stated explicitly, but no fees for volunteers seen; nonprofit model charges organizations. Community-suggested (HomeschoolRecovery) item."
+  - name: Volunteer.gov
+    url: https://www.volunteer.gov/s/
+    scope: national
+    eligibility: "Anyone; some long-term roles need applications or background checks"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.volunteer.gov/s/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Federal volunteer opportunities (National Park Service etc.). Filters include One Day Events and Volunteer Virtually. Listings dated Oct-Nov 2026 seen."
+  - name: AmeriCorps State and National
+    url: https://americorps.gov/serve/americorps/americorps-state-national
+    phone: "1-800-942-2677"
+    scope: national
+    eligibility: "Age 17+ (no upper limit); US citizen, US national, or lawful permanent resident"
+    cost: "Free; most members get a modest living allowance"
+    prereqs: [application, two professional references, account]
+    source_url: https://americorps.gov/serve/americorps/americorps-state-national
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "A term of service (full or part time), not a drop-in activity. Apply at my.americorps.gov. Benefits: living allowance, education award, some get health/childcare. National Service Hotline 1-800-942-2677. Community-suggested (HomeschoolRecovery). Program was cut back in 2025; site live with Sept/Oct webinars — Sharon may want to re-check before publishing."
+  - name: 211
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.unitedway.org/our-impact/community-resiliency/211-connecting-people-to-local-resources
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Use to find local community centers, adult-ed, rec programs, support groups. Free, confidential, 24/7."
+dropped:
+  - name: Samaritan Scout
+    reason: "Real nonprofit (501(c)(3)), but its About page says scaling to the whole US is a future goal; coverage today is unclear. Gemini called it a nationwide finder."
+    source_url: https://www.samaritanscout.org/about
+    checked_on: 2026-10-04
+  - name: VolunteerMatch
+    reason: "Merged into Idealist in early 2025; volunteermatch.org redirects. Listed as Idealist instead."
+    source_url: https://www.idealist.org/volunteermatch
+    checked_on: 2026-10-04
+  - name: Mental Health America local affiliates
+    reason: "Not verified this pass; affiliate services vary a lot by place. Better fit for Area 3."
+    source_url: https://mhanational.org/our-affiliates/
+    checked_on: 2026-10-04
+  - name: Secular Therapy Project
+    reason: "Therapist directory, not a friendship resource; belongs in 3.6. Not verified here."
+    source_url: https://www.seculartherapy.org/
+    checked_on: 2026-10-04
+  - name: City parks and recreation fee assistance
+    reason: "Local only, no national finder; Gemini's '75% or 100% waiver' figures came from single cities. Mentioned generally on page ('ask about fee help'), not as a resource."
+    source_url: https://www.cityofsancarlos.org/city_hall/departments_and_divisions/parks_and_recreation/registration/recreation_fee_assistance_program.php
+    checked_on: 2026-10-04
+  - name: Community-college non-credit / adult-ed classes (community suggestion)
+    reason: "No single national finder verified; mentioned on page as 'call your local community college'. Adult-ed finders belong to 8.x. Neurodivergent-friendly social options and online communities: no verified national resource found — sent to Gemini."
+    source_url: https://www.nld.org/
+    checked_on: 2026-10-04

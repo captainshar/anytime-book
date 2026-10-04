@@ -1,0 +1,155 @@
+topic: "6.5"
+resources:
+  - name: HealthCare.gov Find Local Help
+    url: https://www.healthcare.gov/find-local-help/
+    phone: "1-800-318-2596"
+    hours: "24/7 except holidays"
+    scope: national
+    eligibility: "Anyone needing help with Marketplace or Medicaid applications"
+    cost: free
+    prereqs: []
+    source_url: https://www.healthcare.gov/contact-us/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "TTY 1-855-889-4325. Assisters/navigators free and non-biased; agents/brokers 'generally paid by insurance companies' (https://www.healthcare.gov/apply-and-enroll/get-help-applying/)."
+  - name: Medicaid.gov — Where can people get help with Medicaid & CHIP
+    url: https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip
+    scope: national
+    eligibility: "Varies by state"
+    cost: free
+    prereqs: [identity, income, citizenship or immigration status]
+    source_url: https://www.medicaid.gov/about-us/where-can-people-get-help-medicaid-chip
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "State map with agency links and phones. Medicaid can be applied for any time (healthcare.gov dates page)."
+  - name: HealthCare.gov Marketplace (dates and deadlines)
+    url: https://www.healthcare.gov/quick-guide/dates-and-deadlines/
+    phone: "1-800-318-2596"
+    scope: national
+    eligibility: "US citizens, nationals, lawfully present"
+    cost: "varies by income"
+    prereqs: [SSN if eligible, income estimate, identity verification]
+    source_url: https://www.healthcare.gov/quick-guide/dates-and-deadlines/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Open Enrollment Nov 1–Jan 15 (for 2027 coverage); SEP Jan 16–Oct 31 only with life event. Low-income (≤150% FPL) monthly SEP repealed per CMS 2025 Marketplace Integrity rule (https://www.cms.gov/newsroom/press-releases/cms-finalizes-major-rule-lower-individual-health-insurance-premiums-americans); enhanced PTCs expired end of 2025 per CMS docs ('expire at the end of 2025 absent Congressional action'). Could not find a HealthCare.gov page stating the expiration in plain words — see review."
+  - name: SNAP State Directory of Resources (USDA FNA)
+    url: https://www.fna.usda.gov/snap/state-directory
+    scope: national
+    eligibility: "Low-income households; state determines"
+    cost: free
+    prereqs: [identity for expedited service]
+    source_url: https://www.fna.usda.gov/snap/state-directory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "USDA FNS is now 'Food and Nutrition Administration' at fna.usda.gov. Expedited service (7 days; <$150 gross income and ≤$100 liquid resources; or income+resources < rent+utilities; or destitute migrant/seasonal with ≤$100) confirmed in 7 CFR 273.2(i) text (https://www.law.cornell.edu/cfr/text/7/273.2; ecfr.gov blocked). ABAWD changes per FNA OBBB ABAWD exceptions implementation memo (issued Oct 3, 2025; https://www.usda.gov/guidance-documents/snap/fns/snap-provisions-one-big-beautiful-bill-act-2025-abawd-exceptions-implementation-memorandum): removes homeless/veteran/former-foster-youth exceptions, age through 64, dependent child under 14. NOTE: fna.usda.gov/snap/work-requirements (updated July 16, 2026) still shows OLD rules with a 'guidance pending' note."
+  - name: USDA National Hunger Hotline (Hunger Free America)
+    url: https://www.hungerfreeamerica.org/en-us/national-hunger-hotline
+    phone: "1-866-348-6479"
+    text: "914-342-7744"
+    hours: "Mon–Fri 8 a.m.–8 p.m. ET"
+    scope: national
+    eligibility: "Anyone seeking food"
+    cost: free
+    prereqs: []
+    source_url: https://www.hungerfreeamerica.org/en-us/national-hunger-hotline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Spanish 1-877-842-6273. Text line is automated keywords (SNAP, EBT, Summer, food); not monitored. Gemini's '97779' was wrong."
+  - name: Social Security — SSI and Disability
+    url: https://www.ssa.gov/ssi
+    phone: "1-800-772-1213"
+    hours: "Mon–Fri 8 a.m.–7 p.m. local time"
+    scope: national
+    eligibility: "SSI: little income/resources plus disability, blindness, or 65+. SSDI: disability plus enough work history"
+    cost: free
+    prereqs: [medical records]
+    source_url: https://www.ssa.gov/disability
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Phone/hours/TTY 1-800-325-0778 confirmed via ssa.gov search results (agency/contact/phone.html); contact page did not show number in browser text."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Low-income; each legal aid office sets rules"
+    cost: free
+    prereqs: []
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Pro Bono Net; '© 2001 - 2026, Scale Justice.' Tools 'always free to use.'"
+  - name: HHS HIPAA Privacy Rule summary — confidential communications
+    url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    scope: national
+    eligibility: "Anyone covered by a HIPAA health plan or provider"
+    cost: free
+    prereqs: [written request may be required, alternate address or contact]
+    source_url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'Health plans must accommodate reasonable requests if the individual indicates that the disclosure... could endanger the individual. The health plan may not question the individual's statement of endangerment.' Content last reviewed March 14, 2025. Used in tip box (6.5 and 6.6). 'In writing' is plan-specific (45 CFR 164.522(b)(2) allows plans to require writing) — not re-read in eCFR (blocked)."
+  - name: CMS Medicaid community engagement interim final rule fact sheet
+    url: https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms
+    scope: national
+    eligibility: "Expansion-group adults 19–64, non-pregnant, not on Medicare"
+    cost: free
+    prereqs: []
+    source_url: https://www.cms.gov/newsroom/fact-sheets/medicaid-community-engagement-requirement-certain-individuals-interim-final-rule-comment-period-cms
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: false
+    notes: "Fact sheet June 1, 2026: 80 hrs/month or income ≥80×federal minimum wage ($580/mo); states implement by Jan 1, 2027 (earlier allowed); verify at application and renewal; 30 days to show compliance after notice; can reapply. Exemptions listed. 6-month renewals for expansion adults from renewals on/after Jan 1, 2027 (Section 71107; SMDL #26-001, https://www.medicaid.gov/federal-policy-guidance/downloads/smd26001.pdf, via search). Background source for page text."
+  - name: HealthCare.gov glossary
+    url: https://www.healthcare.gov/glossary/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.healthcare.gov/glossary/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Checked entries: premium, deductible, co-payment, network, in-network coinsurance, out-of-pocket maximum, HMO, PPO, EPO, HDHP, HSA, FSA. HSA carryover/portability from IRS Pub 969 (https://www.irs.gov/publications/p969). FSA: grace period 2.5 months OR carryover (up to $640 per glossary)."
+dropped:
+  - name: Consumer Assistance Programs (cms.gov/cciio consumer-assistance-grants)
+    reason: "Not verified this pass; federal CAP funding has lapsed in many states and the directory's currency is unclear. Hand to Gemini."
+    source_url: https://www.cms.gov/cciio/resources/consumer-assistance-grants
+    checked_on: 2026-10-04
+  - name: National Maternal Mental Health Hotline (in 6.5)
+    reason: "Fits 6.3 better; listed there."
+    source_url: https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline
+    checked_on: 2026-10-04
+  - name: Gemini Hunger Hotline text code '97779'
+    reason: "Wrong. Official page: text 914-342-7744 (automated keywords)."
+    source_url: https://www.hungerfreeamerica.org/en-us/national-hunger-hotline
+    checked_on: 2026-10-04
+  - name: Gemini claim 'many low-income applicants get $0 plans'
+    reason: "Pre-2026; enhanced premium tax credits expired end of 2025."
+    source_url: https://www.healthcare.gov/lower-costs/
+    checked_on: 2026-10-04
+  - name: Gemini Medicaid appeal timelines (30 days / 72 hours / 90–120 days / 10 days)
+    reason: "Cited third-party state guides (brevy.com etc.), not official pages; deadlines vary by state. Page says 'appeals have short deadlines; call legal aid fast.'"
+    source_url: https://www.lawhelp.org/
+    checked_on: 2026-10-04
+  - name: ID.me / secondary ID document list
+    reason: "Belongs in Proof That You Exist topic; cited ID.me help pages, not agency rules."
+    source_url: https://help.id.me/
+    checked_on: 2026-10-04

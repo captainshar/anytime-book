@@ -1,0 +1,109 @@
+topic: "6.3"
+resources:
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Call, text, or chat (chat.988lifeline.org), 24/7, free and confidential; covers alcohol/drug concerns. Spanish text and chat."
+  - name: Poison Help (HRSA)
+    url: https://poisonhelp.hrsa.gov/
+    phone: "1-800-222-1222"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://poisonhelp.hrsa.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Home page: 24/7, over 100 languages. 'Free and confidential' per poisonhelp.hrsa.gov FAQ (calling-poison-help) via search snippet; FAQ body did not render in browser."
+  - name: National Maternal Mental Health Hotline (HRSA)
+    url: https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline
+    phone: "1-833-852-6262"
+    text: "1-833-852-6262"
+    scope: national
+    eligibility: "Pregnant and new parents; partners and family can also contact"
+    cost: free
+    prereqs: []
+    source_url: https://mchb.hrsa.gov/programs-impact/national-maternal-mental-health-hotline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "1-833-TLC-MAMA. Call, text, or chat. 24/7, English and Spanish."
+  - name: 211 (United Way)
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/about-us/your-local-211
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'211 is available 24/7.' Locally run; services vary."
+  - name: EMTALA (CMS)
+    url: https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act
+    scope: national
+    eligibility: "Anyone presenting to a Medicare-participating hospital ED"
+    cost: "screening/stabilizing regardless of ability to pay; may be billed later"
+    prereqs: []
+    source_url: https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Last modified 03/10/2026. MSE and stabilizing treatment 'regardless of an individual's ability to pay.' Page wording 'you don't need money, insurance, or ID' is a plain-language reading — flagged for Sharon."
+  - name: IRS nonprofit hospital financial assistance policies (501(r))
+    url: https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps
+    scope: national
+    eligibility: "Patients of tax-exempt hospitals who meet each hospital's FAP rules"
+    cost: free
+    prereqs: []
+    source_url: https://www.irs.gov/charities-non-profits/financial-assistance-policies-faps
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FAP, application, plain-language summary must be widely available; notice on bills. Inline link only."
+  - name: MedlinePlus — When to use the emergency room (adult)
+    url: https://medlineplus.gov/ency/patientinstructions/000593.htm
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://medlineplus.gov/ency/patientinstructions/000593.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Reviewed Sept 4, 2024. Basis for the 911/ER/urgent care/wait list on the page."
+dropped:
+  - name: Health insurance nurse lines (as a resource card)
+    reason: "Plan- and state-specific; no single national number. Described in text as 'look on the back of your card.'"
+    source_url: https://medlineplus.gov/ency/patientinstructions/000593.htm
+    checked_on: 2026-10-04
+  - name: Gemini first-aid instructions (choking, burns, spine, seizures)
+    reason: "Detailed first-aid steps are high-risk medical instructions not verified against a current official first-aid source; left off the page. See review file."
+    source_url: https://medlineplus.gov/ency/article/001927.htm
+    checked_on: 2026-10-04
+  - name: Gemini claim 'private freestanding ERs can't take Medicare/Medicaid'
+    reason: "Not verified on an official source; page keeps only the general 'ask if it's an ER or urgent care' warning."
+    source_url: https://www.cms.gov/medicare/regulations-guidance/legislation/emergency-medical-treatment-labor-act
+    checked_on: 2026-10-04
+  - name: Text to 911
+    reason: "911.gov blocked automated fetch (403); availability varies by area, so not stated."
+    source_url: https://www.911.gov/
+    checked_on: 2026-10-04

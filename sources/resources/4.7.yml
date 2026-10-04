@@ -1,0 +1,97 @@
+topic: "4.7"
+resources:
+  - name: ReportFraud.ftc.gov
+    url: https://reportfraud.ftc.gov/
+    phone: "877-382-4357"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.ftc.gov/about-ftc/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "FTC contact page: Consumer Response Center 1-877-FTC-HELP (382-4357). ReportFraud FAQ (via search): FTC can't resolve individual reports; offers next steps after you report."
+  - name: CFPB complaint portal
+    url: https://www.consumerfinance.gov/complaint/
+    phone: "855-411-2372"
+    hours: "Mon-Fri 9am-6pm ET, except federal holidays"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/complaint/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+  - name: State consumer protection offices (USA.gov)
+    url: https://www.usa.gov/state-consumer
+    scope: national
+    serves_where: "Finder for every state's office"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.usa.gov/state-consumer
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+  - name: Payday Alternative Loans (MyCreditUnion.gov)
+    url: https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards/payday-alternative-loans
+    scope: national
+    eligibility: "Federal credit union members, generally after at least one month of membership"
+    cost: "Max 28% APR; application fee up to $20"
+    prereqs: [credit union membership]
+    source_url: https://mycreditunion.gov/manage-your-money/consumer-loans-credit-cards/payday-alternative-loans
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "NCUA consumer site. Not every credit union offers PALs."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Info for anyone; free representation usually income-based"
+    cost: free
+    prereqs: []
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Maintained by Pro Bono Net with legal aid partners; (c) 2001-2026. Gemini said 'funded by LSC' - not confirmed, not on page."
+  - name: "FTC: Multi-level marketing businesses and pyramid schemes"
+    url: https://consumer.ftc.gov/articles/multi-level-marketing-businesses-and-pyramid-schemes
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/multi-level-marketing-businesses-and-pyramid-schemes
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "July 2022. 'Most people who join legitimate MLMs make little or no money. Some of them lose money.' Gemini's '99% lose money' is from an outside commenter's paper, not the FTC; not used."
+dropped:
+  - name: National Association of Consumer Advocates (find an attorney)
+    reason: "Directory of private attorneys; fee arrangements vary. Left off in favor of free legal aid (LawHelp)."
+    source_url: https://www.consumeradvocates.org/findanattorney/
+    checked_on: 2026-10-04
+  - name: Consumer Action hotline (415-777-9635)
+    reason: "Not checked this pass."
+    source_url: https://www.consumer-action.org/helpdesk/
+    checked_on: 2026-10-04
+  - name: Privacy.com virtual cards
+    reason: "Commercial fintech that requires linking a bank account and ID; not a fit as a recommended resource."
+    source_url: https://www.privacy.com/
+    checked_on: 2026-10-04
+  - name: FTC Click-to-Cancel rule (as described by Gemini)
+    reason: "Gemini said it takes effect 2025-26. The rule was vacated by the 8th Circuit on July 8, 2025. Not described as in force."
+    source_url: https://www.lw.com/en/insights/eighth-circuit-vacates-ftc-click-to-cancel-rule
+    checked_on: 2026-10-04
+  - name: HUD-approved housing counselors / NFCC / FCAA
+    reason: "Listed on 4.2/4.4 instead to keep 4.7 focused on reporting and safer borrowing."
+    source_url: https://www.nfcc.org/
+    checked_on: 2026-10-04

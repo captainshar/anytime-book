@@ -1,0 +1,92 @@
+topic: "10.1"
+resources:
+  - name: CareerOneStop Library Finder
+    url: https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Sponsored by US Dept of Labor; data from IMLS. Linked from usa.gov/libraries-and-archives. Library of Things and museum passes mentioned only as 'ask your library' (local; not every library has them)."
+  - name: Creativebug (through public libraries)
+    url: https://www.creativebug.com/libraries
+    scope: national
+    eligibility: "Card holders at a library that subscribes"
+    cost: free
+    prereqs: [library card, internet]
+    source_url: https://www.creativebug.com/libraries
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page says trusted by 1,200+ libraries and has 'Find a Library Near You'. Main site pushes a 30-day free trial; page tells readers to use the library instead."
+  - name: OpenLearn free courses (The Open University)
+    url: https://www.open.edu/openlearn/history-the-arts/free-courses
+    scope: national
+    serves_where: "Online, worldwide (UK public university)"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.open.edu/openlearn/history-the-arts/free-courses
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Account optional. 'Start writing fiction' and 'Introduction to music theory' listed as Level 1 Introductory."
+  - name: Extension Foundation - Find Cooperative Extension in Your State
+    url: https://extension.org/find-cooperative-extension-in-your-state/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://extension.org/find-cooperative-extension-in-your-state/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Nonprofit founded by Extension directors; USDA NIFA support. Lists land-grant institutions by state. Soil-test fees vary (not verified per state; page hedges)."
+  - name: Extension Master Gardener program directory
+    url: https://mastergardener.extension.org/state-and-provincial-master-gardener-programs-extension-and-affiliated-program-listings/
+    scope: national
+    eligibility: "Varies by state program"
+    cost: "Varies by state; training fee common"
+    prereqs: [application, volunteer hours]
+    source_url: https://mastergardener.extension.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Programs in 49 states + DC; volunteers average 60 hours/yr. Gemini's $100-300 fee and 18+ age not verified nationally; page says 'varies' and to ask about fee help."
+  - name: Museums for All
+    url: https://museums4all.org/
+    scope: national
+    eligibility: "People receiving SNAP benefits"
+    cost: "free or reduced admission"
+    prereqs: [EBT card, photo ID]
+    source_url: https://museums4all.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Not in Gemini doc; added. 1,600+ museums; IMLS initiative administered by the Association of Children's Museums. Needs photo ID. Per-museum price and group size not verified (page says to check with the museum)."
+dropped:
+  - name: Instructables
+    reason: "Own site would not render for verification (bot/JS wall in curl, WebFetch, and browser). Ownership by Autodesk confirmed only by third parties. Re-check by hand."
+    source_url: https://www.instructables.com/about/
+    checked_on: 2026-10-04
+  - name: YMCA (as hobby resource)
+    reason: "Moved to 10.3, where it fits better. Pricing is local."
+    source_url: https://www.ymca.org/find-your-y
+    checked_on: 2026-10-04
+  - name: Local Parks and Recreation departments
+    reason: "No national finder to link. Kept as a search tip in a :::tip, not a resource card."
+    source_url: https://www.nrpa.org/
+    checked_on: 2026-10-04
+  - name: Library of Things / library museum pass programs
+    reason: "Local and vary by library; no national official page. Folded into the library entry as 'ask your library'."
+    source_url: https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx
+    checked_on: 2026-10-04

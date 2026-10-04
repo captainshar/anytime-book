@@ -1,0 +1,165 @@
+topic: "6.7"
+resources:
+  - name: SAMHSA National Helpline
+    url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    phone: "1-800-662-4357"
+    text: "435748"
+    scope: national
+    eligibility: "Anyone, for self or family"
+    cost: free
+    prereqs: []
+    source_url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7/365, English and Spanish, referrals not counseling. TTY 1-800-487-4889. Text ZIP code to 435748 (HELP4U). Page last updated 06/09/2023 but phone also shown on FindTreatment.gov (live)."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Covers alcohol or drug use concerns."
+  - name: FindTreatment.gov
+    url: https://findtreatment.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: "free to search"
+    prereqs: []
+    source_url: https://findtreatment.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'Confidential and anonymous'; facility data updated annually/monthly/weekly. Payment filters per Gemini and site nav ('Paying for Treatment') — filter names not individually confirmed."
+  - name: HHS — 42 CFR Part 2 (substance use treatment records)
+    url: https://www.hhs.gov/hipaa/part-2/index.html
+    scope: national
+    eligibility: "Patients of federally assisted SUD programs"
+    cost: free
+    prereqs: []
+    source_url: https://www.hhs.gov/hipaa/part-2/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Last reviewed Sept 29, 2026. Sept 2026 OCR guidance on Medicaid agencies using Part 2 records to verify community-engagement exemptions — worth Sharon's look."
+  - name: FDA — naloxone over the counter
+    url: https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/information-about-naloxone-and-nalmefene
+    scope: national
+    eligibility: "Anyone"
+    cost: "retail price varies; free from many programs"
+    prereqs: []
+    source_url: https://www.fda.gov/drugs/postmarket-drug-safety-information-patients-and-providers/information-about-naloxone-and-nalmefene
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'FDA approved the first over-the-counter naloxone nasal spray in March 2023.' Page updated Aug 8, 2024. Retail price not stated on page."
+  - name: NEXT Distro
+    url: https://nextdistro.org/naloxone
+    scope: national
+    eligibility: "Mainly people who use drugs and those connected to them"
+    cost: free
+    prereqs: [mailing address]
+    source_url: https://nextdistro.org/naloxone
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Mail program via 30+ partner harm reduction programs; state selector covers all states + DC, PR. Availability varies by state."
+  - name: Never Use Alone
+    url: https://neverusealone.com/
+    phone: "800-484-3731"
+    scope: national
+    eligibility: "Anyone in the US using alone"
+    cost: free
+    prereqs: [phone, location]
+    source_url: https://neverusealone.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Also 877-696-1996. 24/7. EMS alerted if unresponsive >30 seconds."
+  - name: SMART Recovery
+    url: https://smartrecovery.org/
+    scope: national
+    eligibility: "Anyone with any addictive behavior; family and friends"
+    cost: free
+    prereqs: []
+    source_url: https://smartrecovery.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'Inclusive language; no religious content'; evidence-informed; in-person and online; meeting finder meetings.smartrecovery.org. Community-suggested (coordinator)."
+  - name: LifeRing Secular Recovery
+    url: https://lifering.org/
+    scope: national
+    eligibility: "People seeking abstinence from alcohol and drugs"
+    cost: free
+    prereqs: []
+    source_url: https://lifering.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Sobriety, Secularity, Self-Empowerment. Site doesn't explicitly say 'free'; peer meetings generally free — flagged."
+  - name: Rethinking Drinking (NIAAA)
+    url: https://rethinkingdrinking.niaaa.nih.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://rethinkingdrinking.niaaa.nih.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Calculators, worksheets, free booklet (English/Spanish)."
+  - name: Poison Help (HRSA)
+    url: https://poisonhelp.hrsa.gov/
+    phone: "1-800-222-1222"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: []
+    source_url: https://poisonhelp.hrsa.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "In emergency aside."
+dropped:
+  - name: Women for Sobriety
+    reason: "Not verified on its own site this pass."
+    source_url: https://womenforsobriety.org/
+    checked_on: 2026-10-04
+  - name: Moderation Management
+    reason: "Not verified on its own site this pass; moderation-focused approach may need a values call."
+    source_url: https://moderation.org/
+    checked_on: 2026-10-04
+  - name: FindSupport.gov
+    reason: "Not verified this pass; SAMHSA find-support content now appears under samhsa.gov/find-support."
+    source_url: https://www.samhsa.gov/find-support
+    checked_on: 2026-10-04
+  - name: harmreduction.org naloxone finder
+    reason: "Not verified this pass; NEXT Distro covers mail access."
+    source_url: https://harmreduction.org/resource-center/harm-reduction-near-you/
+    checked_on: 2026-10-04
+  - name: Gemini fentanyl/xylazine test strip instructions
+    reason: "Step-by-step drug-checking instructions from a state program page; legality of test strips varies by state and was not verified. Left off page — see review."
+    source_url: https://preventoverdoseri.org/fentanyl-test-strips/
+    checked_on: 2026-10-04
+  - name: Alcoholics Anonymous (as a card)
+    reason: "Mentioned in text only; aa.org not opened this pass."
+    source_url: https://www.aa.org/
+    checked_on: 2026-10-04

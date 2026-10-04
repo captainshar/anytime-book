@@ -1,0 +1,107 @@
+topic: "2.3"
+resources:
+  - name: USDA National Hunger Hotline
+    url: https://www.hungerfreeamerica.org/en-us/national-hunger-hotline
+    phone: "1-866-348-6479"
+    text: "food to 914-342-7744"
+    hours: "Mon-Fri 8am-8pm ET (phone); text line is automated"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.hungerfreeamerica.org/en-us/national-hunger-hotline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Operated by Hunger Free America. Spanish: 1-877-842-6273 (1-877-8-HAMBRE). Text keywords: SNAP, EBT, Summer, food. 'These are automated texts and we do NOT reply or monitor texts.' Gemini said 7am-10pm — wrong; page says 8am-8pm ET. Old URL /usda-national-hunger-hotline redirects to /national-hunger-hotline."
+  - name: 211 (United Way)
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.211.org/about-us/your-local-211
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'211 is available 24/7'. Same record as 2.2."
+  - name: "Feeding America: Find your local food bank"
+    url: https://www.feedingamerica.org/find-your-local-foodbank
+    scope: national
+    eligibility: "Anyone who needs extra help affording food"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.feedingamerica.org/find-your-local-foodbank
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "ZIP or state search for food banks in the network. 'A food pantry is where people can get free food.' Staff 'may ask questions or have you fill out a form'. No ID statement on the page; page wording 'Many pantries don't need ID, but some do' is a general statement — flagged."
+  - name: Findhelp
+    url: https://www.findhelp.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.findhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "For-profit company (findhelp) with a free public search; no account needed to search. (c) 2011-2026."
+  - name: "SNAP State Directory (USDA Food and Nutrition Administration)"
+    url: https://www.fna.usda.gov/snap/state-directory
+    scope: national
+    eligibility: "Low-income households; US citizens and certain lawfully present noncitizens; rules changed by H.R. 1 (2025)"
+    cost: free
+    prereqs: [interview, proof of identity]
+    source_url: https://www.fna.usda.gov/snap/recipient/eligibility
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "USDA's Food and Nutrition Service is now the Food and Nutrition Administration (FNA); fns.usda.gov redirects to fna.usda.gov. Eligibility page (updated Oct 1, 2026): processing within 30 days; 'may be eligible to receive SNAP benefits within 7 days... if your household has less than $100 in liquid resources and $150 in monthly gross income, or if... income and liquid resources are less than... rent or mortgage and utilities'. Work rules: FNA implementation memo 'SNAP Provisions of the OBBB Act of 2025: ABAWD Exceptions' issued Oct 3, 2025 (usda.gov guidance portal). Per memo summaries and state manuals: time limit now ages 18-64; dependent-child exception now only for a child under 14; homeless, veteran, and former-foster-youth exceptions removed; new exception for Native Americans. CONFLICT: FNA consumer pages (work-requirements updated Jul 16 2026; eligibility updated Oct 1 2026) still list veterans/homeless/foster youth as excused, with a banner saying OBBB guidance is coming. Page follows the law/memo; flagged for Sharon. Could not open the memo PDF itself (403 / download)."
+  - name: "WIC (USDA Food and Nutrition Administration)"
+    url: https://www.fna.usda.gov/wic/apply
+    scope: national
+    eligibility: "Pregnant, recently pregnant, or breastfeeding people; children under 5; caregivers can apply for kids in their care; income rules apply"
+    cost: free
+    prereqs: [appointment]
+    source_url: https://www.fna.usda.gov/wic
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "WIC home page lists eligibility, 'Moms, dads, foster parents, and anyone else raising kids under 5 can apply', eWIC card. Gemini's 30-day self-declaration/provisional certification detail not verified on federal page — left off."
+dropped:
+  - name: FoodFinder (foodfinder.us)
+    reason: "Not checked on its own site this round; Feeding America, 211, and Findhelp cover the same need."
+    source_url: https://foodfinder.us/
+    checked_on: 2026-10-04
+  - name: Little Free Pantry map
+    reason: "Unstaffed, crowd-mapped boxes; can't verify that any listing is stocked or current. Could be a 'Good to know' line later if Sharon wants."
+    source_url: https://mapping.littlefreepantry.org/
+    checked_on: 2026-10-04
+  - name: Food Not Bombs
+    reason: "Decentralized volunteer chapters with no central verification of which are active; schedules unverifiable."
+    source_url: https://foodnotbombs.net/info/locations/
+    checked_on: 2026-10-04
+  - name: AmpleHarvest.org
+    reason: "Mainly a tool for gardeners to donate produce; duplicates pantry finders for the reader."
+    source_url: https://ampleharvest.org/find-food/
+    checked_on: 2026-10-04
+  - name: SUN Bucks (Summer EBT)
+    reason: "For families with school-age children only, seasonal; Gemini's '$120, full rollout 2026' and public-charge claims not verified. Better in a parenting/benefits Topic."
+    source_url: https://www.fna.usda.gov/summer/sunbucks
+    checked_on: 2026-10-04
+  - name: "Gemini claim: homeless, veterans, former foster youth are exempt from SNAP time limit"
+    reason: "Outdated. H.R. 1 (July 4, 2025) removed these exceptions and raised the age to 64."
+    source_url: https://www.usda.gov/guidance-documents/snap/fns/snap-provisions-one-big-beautiful-bill-act-2025-abawd-exceptions-implementation-memorandum
+    checked_on: 2026-10-04
+  - name: "Gemini advice: keep EBT locked in app, change PIN monthly"
+    reason: "Apps and lock features vary by state processor; not verified. Page keeps general advice only."
+    source_url: https://www.fna.usda.gov/snap/recipient/eligibility
+    checked_on: 2026-10-04

@@ -1,0 +1,120 @@
+topic: "8.2"
+resources:
+  - name: Secure Our World (CISA)
+    url: https://www.cisa.gov/secure-our-world
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.cisa.gov/secure-our-world
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Four tips: phishing, strong passwords and password managers, MFA, software updates. Page has 2025 video content."
+  - name: Bitwarden password manager (free plan)
+    url: https://bitwarden.com/pricing/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [email, internet]
+    source_url: https://bitwarden.com/pricing/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Free plan: unlimited passwords and devices, sharing with one other user. Premium is $1.65/month billed annually ($19.80/year). A commercial product; naming one brand is a judgment call."
+  - name: Safety Net Project (NNEDV), techsafety.org
+    url: https://www.techsafety.org/resources-survivors
+    scope: national
+    eligibility: "Anyone; written for survivors of abuse and stalking"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.techsafety.org/resources-survivors
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Lists Technology Safety Plan, Documentation Tips, Stalkerware, Location Tracking, Survivors' Guide to Phones, Data Brokers, AI Safety. The stalkerware page (updated 2022) warns that removing it may escalate abuse and advises using an unmonitored device. Refers survivors to hotlines rather than giving direct help."
+  - name: National Domestic Violence Hotline
+    url: https://www.thehotline.org/
+    phone: "1-800-799-7233"
+    text: "START to 88788"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.thehotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7; chat on the site; English and Spanish. Probably also listed in Area 9; a duplicate phone number here is intentional."
+  - name: Safety Check for iPhone (Apple)
+    url: https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/web
+    scope: national
+    eligibility: "iPhone users on iOS 16 or later, signed in, with two-factor authentication"
+    cost: free
+    prereqs: [iPhone]
+    source_url: https://support.apple.com/guide/personal-safety/safety-check-iphone-ios-16-ips2aad835e1/web
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Settings > Privacy & Security > Safety Check. Emergency Reset vs Manage Sharing & Access. Apple says to consider safety impacts before making changes. Apple's page does not say whether others are notified; the page's 'may notice' line is our own caution. Needs DV advocate review."
+  - name: IdentityTheft.gov (FTC)
+    url: https://www.identitytheft.gov/
+    phone: "877-438-4338"
+    hours: "Interpreters 9am-5pm ET"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://consumer.ftc.gov/articles/what-know-about-identity-theft
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FTC consumer page: report in English at IdentityTheft.gov, Spanish at RobodeIdentidad.gov; 'call 877-438-4338 and press 3 to report in your preferred language. Interpreters are available from 9:00am - 5:00pm ET.' identitytheft.gov itself is a JS app and its text could not be read. Earlier draft wrongly used the FTC general line here (coordinator caught it)."
+  - name: ReportFraud.ftc.gov (FTC)
+    url: https://reportfraud.ftc.gov/
+    phone: "877-382-4357"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.ftc.gov/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "ftc.gov/contact: Consumer Response Center 1-877-FTC-HELP (382-4357); points to ReportFraud.ftc.gov. Hours not stated. Same org and number as 4.7 (intentional)."
+  - name: RumorGuard (News Literacy Project)
+    url: https://www.rumorguard.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.rumorguard.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page data shows a featured fact-check created 2026-10-01. The site title is 'RumorGuard from the News Literacy Project'."
+dropped:
+  - name: Safe Connections Act line separation / Lifeline Survivor Benefit
+    reason: "Important for leaving a family phone plan, but fcc.gov returned 403 on every fetch, so the details (documentation, 2-business-day timeline, Lifeline amount) could not be verified. Probably belongs in the phone Topic."
+    source_url: https://www.fcc.gov/consumers/guides/how-request-phone-line-separation-abusers-account
+    checked_on: 2026-10-04
+  - name: Clinic to End Tech Abuse (CETA), Cornell
+    reason: "Direct help is NYC-only and by referral; public guides overlap with Safety Net."
+    source_url: https://ceta.tech.cornell.edu/resources
+    checked_on: 2026-10-04
+  - name: DigitalLearn (as a safety resource)
+    reason: "Listed on 8.1 instead."
+    source_url: https://www.digitallearn.org/
+    checked_on: 2026-10-04
+  - name: Crash Course - Navigating Digital Information
+    reason: "The course exists (seen on thecrashcourse.com/courses) and fits, but left off to keep the page short; RumorGuard covers the skill. Easy to add."
+    source_url: https://thecrashcourse.com/courses/
+    checked_on: 2026-10-04
