@@ -73,6 +73,15 @@ jobs:
           } > issue.md
           gh issue create --title "Resource check $(date +%F)" --body-file issue.md
 
-      - name: Fail the PR check on problems
-        if: github.event_name == 'pull_request' && (steps.lychee.outputs.exit_code != 0 || steps.records.outcome == 'failure')
+      # On pull requests, broken links are a warning, not a failure: other
+      # people's sites time out at random, and the weekly run files an issue.
+      # Bad resource records still fail the check.
+      - name: Report link problems on the PR
+        if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != 0
+        run: |
+          echo "::warning title=Link check::Some links failed. See the job summary; recheck them by hand before promoting a page to verified."
+          cat lychee-report.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Fail the PR check on bad resource records
+        if: github.event_name == 'pull_request' && steps.records.outcome == 'failure'
         run: exit 1
