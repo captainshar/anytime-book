@@ -33,17 +33,25 @@ jobs:
           node scripts/check-resources.mjs ${{ github.event_name == 'schedule' && '--strict' || '' }} 2>&1 | tee records-report.txt
           exit ${PIPESTATUS[0]}
 
+      # Check the built site, not the sources: it resolves internal links, and
+      # it skips the dead URLs that sources/resources/*.yml keeps under `dropped:`.
+      - run: npm run build
+
       - name: Check links
         id: lychee
         uses: lycheeverse/lychee-action@v2
         with:
+          # Many .gov sites answer 404 to bot user agents, so send a browser one.
           args: >-
             --no-progress
             --scheme https --scheme http
+            --root-dir ${{ github.workspace }}/dist
+            --user-agent 'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:131.0) Gecko/20100101 Firefox/131.0'
             --max-concurrency 4
+            --max-retries 2
             --accept 200..=299,403,429
             --timeout 30
-            'src/content/docs/**/*.md' 'sources/resources/*.yml'
+            'dist/**/*.html'
           output: lychee-report.md
           fail: false
 
