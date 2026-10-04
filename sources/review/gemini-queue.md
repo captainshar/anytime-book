@@ -77,7 +77,7 @@ Topic: Free ways for an adult to work on tasks alongside other people ("body dou
 
 ## 6. Getting a state ID when you have never had an SSN (2.1)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/418eef863629be2a
 - [ ] Result saved to Drive
 
 ```text
@@ -86,7 +86,7 @@ Topic: The "no SSN, no ID" loop for US-born adults who were never issued a Socia
 
 ## 7. Delayed birth registration for adults (2.1)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/d83d53d4dcdff02b
 - [ ] Result saved to Drive
 
 ```text
@@ -104,7 +104,7 @@ Topic: SNAP (food stamps) eligibility for noncitizens in 2026, after the One Big
 
 ## 9. Shelters and housing for people leaving high-control groups (2.2)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/c41729eae9f2bdc2
 - [ ] Result saved to Drive
 
 ```text
@@ -167,7 +167,7 @@ Topic: Free, gentle, body-based calming videos or audio from universities, hospi
 
 ## 16. Parents who misused an adult child's identity (4.3 / 4.4)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/0c27ca27f7f22104
 - [ ] Result saved to Drive
 
 ```text
@@ -266,7 +266,7 @@ Topic: Free nurse advice lines in the United States. Find which nurse advice lin
 
 ## 27. Medicaid work rules: how each state takes reports, and help with appeals (6.5)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/0c96babb04f33025
 - [ ] Result saved to Drive
 
 ```text
@@ -358,7 +358,7 @@ Topic: Free, plain-language ways for adults who were cut off from mainstream med
 
 ## 37. Homeschool records and transcripts for estranged adults (8.3 / 8.4)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/74e2385bf33a28d6
 - [ ] Result saved to Drive
 
 ```text
@@ -412,7 +412,7 @@ Topic: Catching up on mainstream science, history, and health after a biased or 
 
 ## 43. Police welfare checks and missing-adult reports (9.2)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/7bf9d250ba55920a
 - [ ] Result saved to Drive
 
 ```text
@@ -466,7 +466,7 @@ Topic: The practical steps after a death, for someone with no family help and li
 
 ## 49. Safe, confidential name changes (9.2)
 
-- [ ] Started in Gemini
+- [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/3c8ee1a463613e92
 - [ ] Result saved to Drive
 
 ```text
