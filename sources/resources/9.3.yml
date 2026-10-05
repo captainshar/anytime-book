@@ -1,0 +1,115 @@
+topic: "9.3"
+resources:
+  - name: National Human Trafficking Hotline
+    url: https://humantraffickinghotline.org/en/get-help
+    phone: "1-888-373-7888"
+    text: "233733"
+    scope: national
+    eligibility: "Anyone who may be in a trafficking situation, or worried about someone else"
+    cost: free
+    prereqs: []
+    source_url: https://humantraffickinghotline.org/en/about-us/hotline-faqs
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      FAQ: phone 1-888-373-7888, text 233733, live chat, 24/7, anywhere in the US and territories; TTY 711; 200+
+      languages; confidential. Now operated by Compass Connections with ACF/HHS funding (no longer Polaris). Page asks
+      people to contact only about potential trafficking situations. Gemini's text keywords "HELP"/"BEFREE" not shown
+      on current pages; book gives the number only. NHTH's own safety tips say to keep documents and ID "in your
+      possession at all times" - book resolves Gemini's hide-vs-carry conflict as "keep originals with you or with
+      someone you fully trust; keep a copy somewhere safe." Local services directory at /en/find-local-services.
+  - name: U.S. DOL Wage and Hour Division
+    url: https://www.dol.gov/agencies/whd/contact/complaints
+    phone: "1-866-487-9243"
+    hours: "Mon-Fri 8:00 a.m.-4:30 p.m. local time; hours vary by region"
+    scope: national
+    eligibility: "Workers in the US; enforces the law without regard to immigration status"
+    cost: free
+    prereqs: []
+    source_url: https://www.dol.gov/agencies/whd/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Same as 9.1. Gemini's 'local office will contact you within two days' not found on DOL pages; omitted."
+  - name: VictimConnect Resource Center
+    url: https://victimconnect.org/
+    phone: "1-855-484-2846"
+    text: "1-855-484-2846"
+    scope: national
+    eligibility: "Victims of any crime in the US"
+    cost: free
+    prereqs: []
+    source_url: https://victimconnect.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Homepage: "24-hours a day 7 days a week, anonymous and confidential hotline"; call or text 855-4-VICTIM or chat
+      24/7. Gemini said weekday hours only (wrong). Program of the National Center for Victims of Crime, DOJ OVC grant.
+      Site notice: "We can only talk, text, or chat with you if you are currently physically safe."
+  - name: love is respect
+    url: https://www.loveisrespect.org/
+    phone: "1-866-331-9474"
+    text: "LOVEIS to 22522"
+    scope: national
+    eligibility: "Anyone; aimed at young people"
+    cost: free
+    prereqs: []
+    source_url: https://www.loveisrespect.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Footer: (c) National Domestic Violence Hotline. Call 866-331-9474, text LOVEIS to 22522, live chat."
+  - name: Safety Net Project (NNEDV) - Technology Safety & Privacy toolkit for survivors
+    url: https://www.techsafety.org/resources-survivors
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.techsafety.org/resources-survivors
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Toolkit sections include Survivors' Guide to Phones, Stalkerware & Location Tracking, Data Brokers. Stalkerware
+      page: "Some people may escalate their abusive behavior when stalkerware is removed. You can talk with an advocate
+      about safety planning." Book paraphrases this.
+  - name: FTC - How to avoid a scam / ReportFraud.ftc.gov
+    url: https://consumer.ftc.gov/articles/how-avoid-scam
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://consumer.ftc.gov/articles/how-avoid-scam
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page directs reports to ReportFraud.ftc.gov (site is JavaScript-only; link confirmed from FTC page). Not in Gemini doc; added for money-targeting predators."
+dropped:
+  - name: Freedom Network USA - Survivor Reentry Project
+    reason: "Verified paused: SRP page says 'currently not accepting new intakes' and grant funding ends September 30, 2026, so services may pause or close. Not published. (Gemini's 'late 2026' claim is consistent with the current page.)"
+    source_url: https://freedomnetworkusa.org/advocacy/survivor-reentry-project/
+    checked_on: 2026-10-04
+  - name: International Cultic Studies Association (ICSA)
+    reason: "Mostly an academic/professional library; not verified this pass. Possible fit for Area 7."
+    source_url: https://internationalculticstudies.org/
+    checked_on: 2026-10-04
+  - name: Dare to Doubt
+    reason: "Not verified on the org's own site this pass; see 9.2 dropped."
+    source_url: https://www.daretodoubt.org/cults
+    checked_on: 2026-10-04
+  - name: RAINN, National DV Hotline, 211
+    reason: "Not repeated as full entries here; RAINN and the Hotline are on 9.2 (Hotline cross-linked), 211 in Area 1."
+    source_url: https://www.thehotline.org/
+    checked_on: 2026-10-04
+  - name: Gemini 'trust calibration' / 'hysteresis' / 'safe-exit timers' framing
+    reason: "Sources were an affair-recovery blog and AI research papers. Framing not reused; page uses plain red-flag list instead."
+    source_url: https://aftertheaffair.uk/stages-of-healing-after-an-affair/
+    checked_on: 2026-10-04

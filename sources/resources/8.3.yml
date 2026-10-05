@@ -1,0 +1,168 @@
+topic: "8.3"
+resources:
+  - name: National Literacy Directory
+    url: https://www.nld.org/
+    phone: "1-877-389-6874"
+    scope: national
+    eligibility: "Any adult looking for a local GED, reading, math, or English class"
+    cost: free
+    prereqs: [zip code or city]
+    source_url: https://www.nld.org/page/join-the-directory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      nld.org "Join the Directory" page: "toll-free 24-hour hotline for program referrals (1-877-389-6874)",
+      run with ProLiteracy as "managing partner of the Directory's 24-hour hotline". The homepage shows the number without hours.
+      Gemini contradicted itself (24-hour vs business hours); the official wording is 24-hour. Spanish not stated on nld.org.
+      Same number is on 1.1; the duplicate is intentional.
+  - name: Khan Academy
+    url: https://www.khanacademy.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet, email]
+    source_url: https://www.khanacademy.org/about
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "501(c)(3); 840+ free courses. Khanmigo AI tutor has paid or institutional tiers, so the page says some extra tools cost money."
+  - name: Crash Course
+    url: https://thecrashcourse.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://thecrashcourse.com/courses/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Community-suggested (r/HomeschoolRecovery). Course list includes World History, Literature, Psychology, Statistics, Study Skills. Free videos on YouTube. A college-navigation series ('How to College') was not found on the current course list, so the page does not promise it."
+  - name: OpenStax
+    url: https://openstax.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://openstax.org/details/books/biology-2e
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Community-suggested for catching up on science and history. Site meta: 'free college textbooks... with No Catch'. Biology 2e and US History book pages load (HTTP 200). Rice University sponsorship not confirmed from page text, so not stated."
+  - name: NLS Talking Books (Library of Congress)
+    url: https://www.loc.gov/nls/who-we-serve/reading-disabled/
+    phone: "1-888-657-7323"
+    scope: national
+    eligibility: "US residents whose reading disability (e.g. dyslexia), vision loss, or physical condition prevents reading regular print, certified by a qualified person"
+    cost: free
+    prereqs: [certification signature]
+    source_url: https://www.loc.gov/nls/about/faq
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Added after the coordinator asked for dyslexia-friendly resources. FAQ: certifiers include doctors, psychologists, registered nurses, therapists, and professional staff of public or welfare agencies (educator, social worker, case worker, counselor, reading specialist). Free; postage-free mail or BARD download."
+  - name: GED Testing Service (ged.com)
+    url: https://www.ged.com/
+    scope: national
+    eligibility: "Usually 18+ without a diploma; age, residency and price rules set by each state"
+    cost: "Set by state; free in some states (e.g. Pennsylvania promo code PAFreeGED)"
+    prereqs: [government photo ID, proof of state residency in many states, email]
+    source_url: https://www.ged.com/policies/pennsylvania.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Price and Rules page says fees vary by state and test mode; dollar amounts load by script and could not be read,
+      so the page gives no number. Gemini's "$90/subject, $360" is not used. PA and TX state pages: valid government-issued
+      photo ID required; residency required (driver's license or other proof, e.g. a bill). Online testing needs a green
+      GED Ready score within 60 days, a webcam, and a private room. Under-18 testers need a parent present at online check-in.
+  - name: HiSET (PSI Services)
+    url: https://hiset.org/
+    phone: "1-855-694-4738"
+    hours: "Mon-Fri 6:30am-5pm CT; Sat-Sun 8am-4:30pm CT"
+    scope: national
+    eligibility: "Adults in states that offer the HiSET; state rules apply"
+    cost: "Set by state"
+    prereqs: [original ID meeting state rules, name matching myHiSET account]
+    source_url: https://hiset.org/contact/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "ID rules from hiset.org/test-takers-hiset-test-day-checklist: original document, full name, meets state ID rules, name must match exactly. Paper testing and the price per subtest are not confirmed on official pages, so not stated."
+  - name: National External Diploma Program (NEDP), CASAS
+    url: https://www.casas.org/nedp
+    scope: regional
+    serves_where: "California, Connecticut, District of Columbia, Maryland, New Mexico, New York, Rhode Island, Virginia, West Virginia"
+    eligibility: "Adults in those places; skills assessment at intake"
+    cost: "Varies by program"
+    prereqs: [intake assessment]
+    source_url: https://www.casas.org/nedp/locations
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "casas.org/nedp: awards a traditional high school diploma via an online portfolio. The 9th-10th grade entry level comes from Gemini (sourced to Reddit) and was not seen on CASAS pages; the page says 'about a high school level' and 'a skills test to start'. Cost not stated on CASAS; the page says it depends."
+  - name: CRHE - How to Obtain a Homeschool Diploma / Transcript
+    url: https://crhe.org/guides/resources-for-homeschool-parents/homeschooling-high-school/how-to-obtain-a-homeschool-diploma/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://crhe.org/guides/resources-for-homeschool-parents/homeschooling-high-school/how-to-obtain-a-homeschool-transcript/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      The URLs linked from CRHE's alumni page (crhe.org/how-to-obtain-a-homeschool-diploma/ and .../transcript/) are
+      EMPTY pages (WordPress shows them published 2025-07-05 with no body). The working copies live under
+      /guides/resources-for-homeschool-parents/homeschooling-high-school/. Diploma guide: diplomas come from local public
+      schools (rare; PA and ND named), umbrella/correspondence schools, or parents; a student "can absolutely create and print
+      their own diploma, but they should not forge their parent's signature"; if the parent refuses, a GED may serve best.
+      Transcript guide: a student may put together their own transcript ("legal and acceptable"); no forged signatures; a tutor
+      or portfolio evaluator may sign; strengthen with SAT/ACT, AP/CLEP, community college grades. Related CRHE page
+      crhe.org/why-oversight/transcripts-and-diplomas/ documents parents withholding documents as control.
+  - name: The Homeschool Mom - Homeschooled Adults, What to Do When You Have No Transcripts
+    url: https://thehomeschoolmom.com/homeschooled-adults-what-to-do-when-you-have-no-transcripts
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://thehomeschoolmom.com/homeschooled-adults-what-to-do-when-you-have-no-transcripts
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "By Jeanne Faulconer, Oct 18, 2023. Steps: search email; Google Drive/iCloud/Dropbox/backups; safe-deposit box; parents' friends; co-op/umbrella/online school; Parchment (if a transcript service was used); state homeschool org; state or local education office; past colleges or employers; write your own honest transcript; GED/HiSET; community college as non-degree student. A commercial homeschool-parent site; Sharon may prefer to cite CRHE only."
+dropped:
+  - name: Wikibooks
+    reason: "Community-suggested. Verified as open textbooks anyone can edit, but quality is uneven and many books are unfinished; Khan Academy, Crash Course and OpenStax cover the need better for this reader."
+    source_url: https://en.wikibooks.org/wiki/Main_Page
+    checked_on: 2026-10-04
+  - name: Bookshare
+    reason: "Requested type (dyslexia-friendly). Could not read eligibility or adult (non-student) pricing on bookshare.org."
+    source_url: https://www.bookshare.org/cms/
+    checked_on: 2026-10-04
+  - name: Easy Prep TABE practice / Smart Edition Media TABE practice
+    reason: "Commercial test-prep sites; not needed - a free adult class gives the real placement test."
+    source_url: https://easy-prep.org/free-tabe-practice-test
+    checked_on: 2026-10-04
+  - name: USA Learns
+    reason: "Verified free (Sacramento County Office of Education, registration required), but it is English-learning courses; fits Area 1 / English learners better than GED prep."
+    source_url: https://www.usalearns.org/
+    checked_on: 2026-10-04
+  - name: GEDWorks
+    reason: "Verified (free to employees of participating employers, e.g. KFC, Taco Bell, Pizza Hut, Chili's, Sheetz), but there's no public lookup; only useful if your employer offers it. Could be a one-line tip."
+    source_url: https://www.ged.com/gedworks
+    checked_on: 2026-10-04
+  - name: Public library LearningExpress / Gale test prep
+    reason: "Varies by library; not verifiable nationally. The page suggests asking a librarian instead."
+    source_url: https://www.learningexpresshub.com/
+    checked_on: 2026-10-04

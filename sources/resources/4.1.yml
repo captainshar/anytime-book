@@ -1,0 +1,97 @@
+topic: "4.1"
+resources:
+  - name: Bank On certified accounts list
+    url: https://joinbankon.org/accounts/
+    scope: national
+    eligibility: "Anyone; each bank sets its own account-opening rules"
+    cost: free
+    prereqs: [ID, SSN or ITIN, small opening deposit]
+    source_url: https://joinbankon.org/accounts/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "List shows ~520 certified accounts by state (Capital One 360, Chase Secure Banking, Wells Fargo Clear Access, BofA SafeBalance, PNC, U.S. Bank, Discover, many CUs). Bank On National Account Standards 2025-2026 (CFE Fund): no overdraft/NSF fees; opening deposit $25 or less; monthly fee $5 or less (or up to $10 if waivable). Standards confirmed via search of the 2025-2026 standards PDF (joinbankon.org hosts Spanish version, uploaded 2026-02); CFE Fund standards page URL 404'd. Page says 'low or no monthly fee' to avoid the $5/$10 nuance."
+  - name: "FDIC #GetBanked"
+    url: https://www.fdic.gov/getbanked
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.fdic.gov/getbanked
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "ID alternatives confirmed on page: SSN or ITIN; driver's license, state or military ID, passport; for non-citizens some banks accept foreign passport or consular ID. Also covers second-chance accounts."
+  - name: Credit Union Locator (NCUA)
+    url: https://mapping.ncua.gov/
+    scope: national
+    eligibility: "Anyone can search; membership rules vary by credit union"
+    cost: free
+    prereqs: []
+    source_url: https://mapping.ncua.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page title 'Credit Union Locator & Research a Credit Union | NCUA'. Tool is a JS app; search-by-address behavior not machine-confirmed."
+  - name: ChexSystems consumer reports
+    url: https://www.chexsystems.com/consumer
+    phone: "800-428-9623"
+    hours: "Representatives Mon-Fri 8am-7pm Central; automated line 24 hours"
+    scope: national
+    eligibility: "Anyone; free report once every 12 months, and after a denial that used ChexSystems"
+    cost: free
+    prereqs: [SSN]
+    source_url: https://www.chexsystems.com/consumer
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Phone also matches CFPB consumer reporting company list. Requests now go through the ChexSystems Consumer Portal (register/login)."
+  - name: "CFPB: Bank accounts"
+    url: https://www.consumerfinance.gov/consumer-tools/bank-accounts/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/consumer-tools/bank-accounts/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page last modified Sept. 25, 2026. Includes account-opening checklist and 'options if you have been denied a checking account'."
+  - name: "FinCEN ruling: Address Confidentiality Programs (FIN-2009-R003)"
+    url: https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/customer-identification-program-rule-address
+    scope: national
+    eligibility: "ACP participants"
+    cost: free
+    prereqs: []
+    source_url: https://www.fincen.gov/resources/statutes-regulations/administrative-rulings/customer-identification-program-rule-address
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: false
+    notes: "Background for the page's ACP sentence. Ruling lets banks use the state ACP agency's street address to satisfy CIP. Gemini overstated it as banks 'must' accept; the page says 'allow'. Not linked on page; ACP finder left to Topic 9.2."
+dropped:
+  - name: Capital One 360 / Chase Secure Banking / Wells Fargo Clear Access (as separate entries)
+    reason: "Not listed individually: single-bank product pages read as endorsements and their fees change. All three appear on the Bank On list, which the page links instead."
+    source_url: https://joinbankon.org/accounts/
+    checked_on: 2026-10-04
+  - name: "I Am Here: Vital Document Legal Hotline (National Network for Youth)"
+    reason: "Verified (1-888-870-3627, Wednesdays 9-5 ET, call or text, free) but belongs on Topic 2.x 'Proof That You Exist'; page points there instead to avoid duplication. Note: hours moved earlier from May 6, 2026."
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    checked_on: 2026-10-04
+  - name: Homeless ID Project / IDignity / Homeless Advocacy Project
+    reason: "Not checked: ID help belongs to the Proof That You Exist Topic. Gemini named these alongside national resources; Homeless ID Project is known to be Arizona-only."
+    source_url: https://idignity.org/
+    checked_on: 2026-10-04
+  - name: NACAP member directory
+    reason: "Member list is not every state and has no consumer contact info; ACP finder better handled in Topic 9.2 (Leaving Family Safely)."
+    source_url: https://www.nacap.org/membership.html
+    checked_on: 2026-10-04
+  - name: Legal Services Corporation locator
+    reason: "Not checked: out of scope for a bank-account page; legal aid is covered in Area 9."
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    checked_on: 2026-10-04

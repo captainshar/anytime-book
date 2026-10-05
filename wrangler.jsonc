@@ -1,0 +1,14 @@
+// Cloudflare Workers config: serve the static Astro build from dist/.
+// Cloudflare's build settings run `npm run build` before deploying.
+{
+	"name": "anytime-book",
+	"compatibility_date": "2026-10-01",
+	"assets": {
+		"directory": "./dist",
+		"not_found_handling": "404-page"
+	},
+	// Each PR branch gets a preview at <branch>-anytime-book.<account>.workers.dev.
+	// `wrangler preview` requires the previews block, even if it is empty.
+	"preview_urls": true,
+	"previews": {}
+}

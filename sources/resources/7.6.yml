@@ -1,0 +1,68 @@
+topic: "7.6"
+resources:
+  - name: USAHello — Life in the USA
+    url: https://usahello.org/life-in-usa/
+    scope: national
+    eligibility: "Anyone (written for immigrants and English learners)"
+    cost: free
+    prereqs: [internet]
+    source_url: https://usahello.org/life-in-usa/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Nonprofit; sections American culture, US law, money, daily life, family life. Communication page (usahello.org/life-in-usa/culture/communication/) last updated Sept 9 2022: eye contact, arm's-length space, small talk topics, directness. Home page carries a current immigration-changes banner."
+  - name: Settle In
+    url: https://www.settleinus.org/
+    scope: national
+    eligibility: "Anyone (written for refugees and newcomers)"
+    cost: free
+    prereqs: [internet or smartphone app]
+    source_url: https://www.settleinus.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Developed by the International Rescue Committee under HHS and State Dept (PRM) agreements; content dated Aug-Sept 2026; iOS/Android app; 11 languages; Cultural Adjustment section. Gemini said run by CORE — site credits IRC."
+  - name: LearnFree — Workplace Basics and Business Communication
+    url: https://www.learnfree.org/series/workplace-basics
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.learnfree.org/series/workplace-basics
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Formerly GCFGlobal. Workplace Basics: I-9/W-4, safety, paycheck, taking leave. Business Communication series also exists (body language, business writing) — URL learnfree.org/series/writing-business-communication did not render text when checked, so only Workplace Basics is linked."
+  - name: 211
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.unitedway.org/our-impact/community-resiliency/211-connecting-people-to-local-resources
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "To find local life-skills, adult-ed, or newcomer-style classes."
+dropped:
+  - name: VOA Learning English
+    reason: "Site loads but shows only old evergreen lessons and no dated news; Voice of America was largely shut down in 2025. Cannot confirm it is publishing current events, which was the reason to include it."
+    source_url: https://learningenglish.voanews.com/
+    checked_on: 2026-10-04
+  - name: Coalition for Responsible Home Education (CRHE) alumni guides
+    reason: "Live and valuable (guides on GED, transcripts, adult basic education), but it is about catching up on school, not everyday culture. Recommend for Topic 8.3 / 1.1."
+    source_url: https://crhe.org/guides/a-message-for-homeschool-alumni/
+    checked_on: 2026-10-04
+  - name: Pew Research tipping data / AARP tipping guide
+    reason: "Research and a magazine article, not a help resource. Tipping norms written into page text instead; see review for Sharon's check."
+    source_url: https://www.pewresearch.org/2023/11/09/how-americans-see-recent-developments-in-tipping/
+    checked_on: 2026-10-04
+  - name: Recovering from Religion
+    reason: "Verified in 7.3; not repeated here."
+    source_url: https://www.recoveringfromreligion.org/
+    checked_on: 2026-10-04

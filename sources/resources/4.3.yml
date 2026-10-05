@@ -1,0 +1,113 @@
+topic: "4.3"
+resources:
+  - name: Your Paycheck Explained (consumer.gov)
+    url: https://consumer.gov/your-money/your-paycheck-explained
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.gov/your-money/your-paycheck-explained
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+  - name: VITA free tax help (IRS)
+    url: https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers
+    phone: "800-906-9887"
+    hours: "Most sites seasonal (tax season)"
+    scope: national
+    eligibility: "Generally people who make about $70,244 or less (IRS figure shown on page updated 23-Sep-2026; sites may set their own limits), persons with disabilities, limited-English speakers"
+    cost: free
+    prereqs: [photo ID, Social Security cards or ITIN notices, W-2s and other tax forms]
+    source_url: https://www.irs.gov/individuals/free-tax-return-preparation-for-qualifying-taxpayers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Gemini said $69,000 (wrong). Same IRS page text also says 'the IRS does not set a program-wide income limit, individual VITA sites may establish their own'. Dollar figure kept off the page. What-to-bring from https://www.irs.gov/individuals/checklist-for-free-tax-return-preparation (updated 27-Apr-2026)."
+  - name: AARP Foundation Tax-Aide
+    url: https://www.aarpfoundation.org/tax-aide
+    phone: "888-227-7669"
+    hours: "Appointments early February to mid-April"
+    scope: national
+    eligibility: "Free to those who qualify, focus on over-50 with low to moderate income; AARP membership not required"
+    cost: free
+    prereqs: []
+    source_url: https://www.aarpfoundation.org/tax-aide
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "3,600+ locations in all 50 states; email taxaide@aarp.org."
+  - name: MyFreeTaxes (United Way)
+    url: https://myfreetaxes.com/
+    phone: "866-698-9435"
+    hours: "Seasonal helpline hours"
+    scope: national
+    eligibility: "Self-file: income under $89,000; prepared-for-you option: under $69,000 (as shown on site for filing year 2025, checked 2026-10-04)"
+    cost: free
+    prereqs: [Social Security card or ITIN, tax documents]
+    source_url: https://myfreetaxes.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Income limits read from myfreetaxes.com homepage. Phone 866-698-9435 was NOT visible in the homepage/Support page text I could fetch (JS-rendered); it matches the number the orchestrator confirmed and third-party listings (211 directories). Sharon: confirm phone on site. Dollar limits kept off page."
+  - name: IRS Free File
+    url: https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free
+    scope: national
+    eligibility: "Guided software: AGI $89,000 or less (tax year 2025, filing season 2026). Free File Fillable Forms: any income."
+    cost: "Free federal; some partners charge for state"
+    prereqs: [prior-year AGI or 0 for first-time filers]
+    source_url: https://www.irs.gov/filing/irs-free-file-do-your-taxes-for-free
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Page updated 12-Jun-2026. Must start at IRS.gov/freefile. First-time filer AGI rule: 'If you are a first-time filer over the age of 16, enter zero as your AGI' (https://www.irs.gov/individuals/validating-your-electronically-filed-tax-return, updated 06-Mar-2026). Direct File: not mentioned in IRS 2026 filing-season announcement; IRS told states it 'will not be available in Filing Season 2026' and 'no launch date has been set' (Nextgov/FCW, Federal News Network, Nov 2025). Page says 'isn't available right now'."
+  - name: Identity Protection PIN (IRS)
+    url: https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin
+    scope: national
+    eligibility: "Anyone with an SSN or ITIN who can verify identity"
+    cost: free
+    prereqs: [identity verification (online account), or Form 15227 (AGI under $84,000 single / $168,000 joint), or in-person at a TAC with ID]
+    source_url: https://www.irs.gov/identity-theft-fraud-scams/get-an-identity-protection-pin
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Page updated 04-Aug-2026. New PIN each calendar year; online opt-ins must retrieve it yearly."
+  - name: "IRS guidance: SSN already used / duplicate claim (e-file rejects)"
+    url: https://www.irs.gov/faqs/electronic-filing-e-file/age-name-or-ssn-rejects-errors-correction-procedures/age-name-ssn-rejects-errors-correction-procedures-4
+    phone: "800-829-1040"
+    scope: national
+    eligibility: "Anyone whose e-filed return is rejected for an SSN already used as filer, spouse, or dependent on another return"
+    cost: free
+    prereqs: []
+    source_url: https://www.irs.gov/faqs/electronic-filing-e-file/age-name-or-ssn-rejects-errors-correction-procedures/age-name-ssn-rejects-errors-correction-procedures-4
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: false
+    notes: "Page updated 30-Sep-2026. Options: e-file with a current IP PIN, or file a paper return; IRS will request documents by mail. Backs the page's 'If someone else claimed you' section. CP87B notice page (https://www.irs.gov/individuals/understanding-your-cp87b-notice, updated 23-Jul-2026): if you don't qualify as someone's dependent, no action needed. Age rule (under 19 or full-time student under 24) from https://www.irs.gov/faqs/filing-requirements-status-dependents/dependents (updated 24-Sep-2026). Identity theft guide (https://www.irs.gov/identity-theft-fraud-scams/identity-theft-guide-for-individuals, updated 04-Jun-2026). Not linked as a resource on the page; explained in plain words."
+dropped:
+  - name: IRS Direct File
+    reason: "Not available for filing season 2026; no launch date set. Gemini said 'permanently canceled' - not what IRS said."
+    source_url: https://www.irs.gov/newsroom/irs-opens-2026-filing-season
+    checked_on: 2026-10-04
+  - name: Trump Accounts (530A) / Form 4547
+    reason: "Gemini section too long and aimed at parents; not core for this reader. Left off 4.3 (one-line mention would need its own verification of the $1,000 seed and Dell pledge)."
+    source_url: https://trumpaccounts.gov/
+    checked_on: 2026-10-04
+  - name: ITIN application (Form W-7, CAAs, TAC appointment line 844-545-5640)
+    reason: "Not verified this pass; immigration-adjacent and needs care. See Hand to Gemini."
+    source_url: https://www.irs.gov/tin/itin/how-to-apply-for-an-itin
+    checked_on: 2026-10-04
+  - name: EITC dollar table (2026)
+    reason: "Gemini figures came from Fidelity/Tax Foundation, not IRS, and change yearly. Page explains EITC without numbers."
+    source_url: https://www.irs.gov/credits-deductions/individuals/earned-income-tax-credit-eitc
+    checked_on: 2026-10-04
+  - name: CP53E direct-deposit change
+    reason: "Not verified on IRS page (Gemini cited Taxpayer Advocate blog); page keeps only 'check your bank numbers twice'."
+    source_url: https://www.taxpayeradvocate.irs.gov/news/tax-tips/direct-deposit-changes-for-2026-could-affect-how-and-when-you-get-your-refund/2026/01/
+    checked_on: 2026-10-04

@@ -1,0 +1,112 @@
+topic: "6.4"
+resources:
+  - name: NeedyMeds Drug Discount Card
+    url: https://www.needymeds.org/drug-discount-card
+    phone: "800-503-6897"
+    hours: "Mon–Fri 9 a.m.–5 p.m. ET"
+    scope: national
+    eligibility: "Anyone; no income rules"
+    cost: "free card; pay discounted price"
+    prereqs: []
+    source_url: https://www.needymeds.org/drug-discount-card
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Free card 'save up to 80%'; app, print, or mail. Registered 501(c)(3) (homepage). Can't combine with insurance/Medicare/Medicaid — confirmed via needymeds.org blog/newuser pages (search). Homepage also lists PAP, clinic, and diagnosis-based assistance."
+  - name: GoodRx
+    url: https://www.goodrx.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: "free coupons; optional paid membership not needed"
+    prereqs: []
+    source_url: https://www.goodrx.com/how-goodrx-works
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "For-profit company. 'GoodRx is NOT insurance'; free app/website; 70K pharmacies."
+  - name: Rx Outreach
+    url: https://www.rxoutreach.org/faq/
+    phone: "1-888-796-1234"
+    hours: "Mon–Thu 7 a.m.–6 p.m. CT; Fri 7 a.m.–5:30 p.m. CT"
+    scope: national
+    eligibility: "Anyone with a valid prescription; no application or income proof"
+    cost: low-cost
+    prereqs: [mailing address (PO box OK), payment (card, check, money order)]
+    source_url: https://www.rxoutreach.org/faq/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Ships to all US incl. DC, PR, USVI. Photo ID only for controlled substances. Does not bill insurance."
+  - name: Mark Cuban Cost Plus Drug Company
+    url: https://www.costplusdrugs.com/
+    scope: national
+    eligibility: "Anyone with a valid prescription"
+    cost: low-cost
+    prereqs: [mailing address, payment card, online account]
+    source_url: https://www.costplusdrugs.com/faq/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Transparent pricing (cost + markup + fees); accepts only some insurance plans. Exact markup/fee amounts not published on page (Gemini's '15% + $3' not restated)."
+  - name: Find a Health Center (HRSA) — pharmacy programs
+    url: https://findahealthcenter.hrsa.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: "sliding fee"
+    prereqs: []
+    source_url: https://www.hrsa.gov/get-health-care
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page says 'many have their own low-cost pharmacy or a partner pharmacy' and to ask; 340B details not stated."
+  - name: NABP Safe Site Search
+    url: https://safe.pharmacy/buy-safely/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://safe.pharmacy/buy-safely/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "'Nearly 95% of websites offering prescription-only drugs online operate illegally'; .pharmacy domain accredited. FDA BeSafeRx page (updated 2020) also checked: https://www.fda.gov/drugs/buying-using-medicine-safely/besaferx-your-source-online-pharmacy-information"
+  - name: FDA MedWatch
+    url: https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program
+    phone: "1-888-463-6332"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.fda.gov/safety/medwatch-fda-safety-information-and-adverse-event-reporting-program
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Consumer phone is 1-888-INFO-FDA. Gemini gave 1-800-332-1088 (the MedWatch form line); not used."
+dropped:
+  - name: RxAssist
+    reason: "Site copyright now shows RxVantage (a pharma/industry company), not Volunteers in Health Care as Gemini said; no clear free/nonprofit statement. NeedyMeds covers PAP search."
+    source_url: https://www.rxassist.org/patients
+    checked_on: 2026-10-04
+  - name: Medicine Assistance Tool (PhRMA)
+    reason: "medicineassistancetool.org would not load (connection refused/timed out) on 2026-10-04."
+    source_url: https://medicineassistancetool.org/
+    checked_on: 2026-10-04
+  - name: SAMHSA Helpline / CCBHCs (in 6.4)
+    reason: "Covered in 6.7; CCBHC sliding-fee claims not re-verified here."
+    source_url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    checked_on: 2026-10-04
+  - name: State Pharmaceutical Assistance Programs (medicare.gov/spap)
+    reason: "Mostly for people on Medicare; not verified this pass. Possible addition if Sharon wants Medicare/Extra Help coverage."
+    source_url: https://www.medicare.gov/
+    checked_on: 2026-10-04
+  - name: 211 (in 6.4)
+    reason: "Listed in 6.3; not repeated."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04

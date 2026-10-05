@@ -1,0 +1,31 @@
+name: Release epub
+
+# Push a tag like v1.0.0 to publish a new downloadable edition:
+#   git tag v1.0.0 && git push origin v1.0.0
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  epub:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+      - uses: pandoc/actions/setup@v1
+      - run: node scripts/build-epub.mjs ${{ github.ref_name }}
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          cp dist-epub/anytime-book-${{ github.ref_name }}.epub dist-epub/anytime-book.epub
+          gh release create "${{ github.ref_name }}" \
+            dist-epub/anytime-book-${{ github.ref_name }}.epub \
+            dist-epub/anytime-book.epub \
+            --title "The Anytime Book ${{ github.ref_name }}" \
+            --generate-notes

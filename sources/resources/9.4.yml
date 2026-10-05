@@ -1,0 +1,142 @@
+topic: "9.4"
+resources:
+  - name: USAGov - State motor vehicle services
+    url: https://www.usa.gov/state-motor-vehicle-services
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.usa.gov/state-motor-vehicle-services
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Official finder for each state's DMV. Used instead of state-by-state links. State manuals are free on each DMV site."
+  - name: Texas DPS - adult driver education requirement (example on page)
+    url: https://www.dps.texas.gov/section/driver-license/choosing-driver-education-course
+    scope: state
+    serves_where: "Texas"
+    eligibility: "Ages 18-24 must take a 6-hour adult driver education course before testing; 25+ not required"
+    cost: "varies by course"
+    prereqs: []
+    source_url: https://www.dps.texas.gov/section/driver-license/choosing-driver-education-course
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Cited in text as an example that some states add steps for young adults. Gemini said adults are 'generally exempt'; that is not true everywhere."
+  - name: FTC - Buying a used car from a dealer
+    url: https://consumer.ftc.gov/articles/buying-used-car-dealer
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/buying-used-car-dealer
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Buyers Guide shows warranty or 'as is'; advises independent mechanic inspection and vehicle history report."
+  - name: NMVTIS (National Motor Vehicle Title Information System)
+    url: https://vehiclehistory.bja.ojp.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: "set by each approved provider"
+    prereqs: [VIN]
+    source_url: https://vehiclehistory.bja.ojp.gov/nmvtis_vehiclehistory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "vehiclehistory.gov redirects here. 'Research Vehicle History' page lists Approved NMVTIS Data Providers. Report covers title, latest odometer, brand history, sometimes theft. No price stated on the official site, so none published."
+  - name: NHTSA recall lookup
+    url: https://www.nhtsa.gov/recalls
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [VIN]
+    source_url: https://www.nhtsa.gov/recalls
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Not in Gemini doc. NHTSA monitors recalls so owners receive 'safe, free, and effective remedies.'"
+  - name: CFPB - Auto loans
+    url: https://www.consumerfinance.gov/consumer-tools/auto-loans/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/consumer-tools/auto-loans/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Yo-yo financing page (ask-cfpb en-831, last reviewed Mar 8, 2024): 'Make sure the financing is final before you take the car home'; describes spot delivery / conditional financing."
+  - name: California Low Cost Auto Insurance (CLCA)
+    url: https://www.insurance.ca.gov/01-consumers/105-type/95-guides/01-auto/lca/
+    phone: "1-866-602-8861"
+    scope: state
+    serves_where: "California"
+    eligibility: "Income-eligible California drivers; vehicle value limit $25,000; driving record rules"
+    cost: low-cost
+    prereqs: [California driver's license, proof of income]
+    source_url: https://www.insurance.ca.gov/01-consumers/105-type/95-guides/01-auto/lca/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "CDI page names mylowcostauto.com and 1-866-602-8861. mylowcostauto.com rendered blank in both fetch and browser on 2026-10-04 (JS app). Gemini premium range ($244-$966) not published."
+  - name: Car Care Council - Car Care Guide
+    url: https://www.carcare.org/car-care-resources/car-care-guide/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.carcare.org/car-care-resources/car-care-guide/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'80 pages... available free, electronically o[r in print]'. About page 404'd; funding source not confirmed (believed industry-supported), so page doesn't claim it."
+  - name: FTC - Payday and car title loans
+    url: https://consumer.ftc.gov/articles/what-know-about-payday-and-car-title-loans
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/what-know-about-payday-and-car-title-loans
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Linked from Watch out."
+dropped:
+  - name: Working Cars for Working Families (NCLC)
+    reason: "workingcarsforworkingfamilies.org did not load (fetch failed) on 2026-10-04; only third-party descriptions found. Could not confirm it is operating."
+    source_url: https://www.workingcarsforworkingfamilies.org/
+    checked_on: 2026-10-04
+  - name: Free Charity Cars (1-800-Charity Cars)
+    reason: "Homepage only (copyright 2021); applications expire after 3 months and Gemini says chances improve by promoting the charity on social media - a privacy risk for survivors. Not published; 211 suggested instead."
+    source_url: https://freecharitycars.org/
+    checked_on: 2026-10-04
+  - name: Vehicles for Change
+    reason: "Regional (MD/VA/MI) and referral-only; not verified this pass."
+    source_url: https://www.vehiclesforchange.org/if-you-need-a-car
+    checked_on: 2026-10-04
+  - name: NJ SAIP (Dollar-a-Day) and Hawaii Joint Underwriting Plan
+    reason: "Gemini cited insurer blogs; official state pages not opened. SAIP is medical-only with no liability coverage, which could mislead. Not published."
+    source_url: https://njsaip.com/
+    checked_on: 2026-10-04
+  - name: VoteRiders
+    reason: "ID help is covered in Area 1 (Proof That You Exist); page links there instead."
+    source_url: https://www.voteriders.org/freehelp/
+    checked_on: 2026-10-04
+  - name: Public library databases (LearningExpress, Auto Repair Source) and ChrisFix YouTube
+    reason: "Availability varies by library; YouTube channel is a private creator. Not verified as a single resource."
+    source_url: https://about.ebsco.com/products/research-databases/auto-repair-source
+    checked_on: 2026-10-04
+  - name: Gemini loan-term example table
+    reason: "Source was an insurance-comparison site; numbers not verified. Not published."
+    source_url: https://insurify.com/car-insurance/new-jersey/dollar-a-day/
+    checked_on: 2026-10-04

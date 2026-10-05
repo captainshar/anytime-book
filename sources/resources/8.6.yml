@@ -1,0 +1,101 @@
+topic: "8.6"
+resources:
+  - name: "Crash Course: Business Soft Skills"
+    url: https://thecrashcourse.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://thecrashcourse.com/courses/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'Business: Soft Skills' appears on the course list."
+  - name: Wage and Hour Division (U.S. Department of Labor)
+    url: https://www.dol.gov/agencies/whd/contact
+    phone: "1-866-487-9243"
+    hours: "Mon-Fri 8am-4:30pm local time"
+    scope: national
+    eligibility: "Most US workers"
+    cost: free
+    prereqs: []
+    source_url: https://www.dol.gov/agencies/whd/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "1-866-4-USWAGE; TTY via 711."
+  - name: Equal Employment Opportunity Commission (EEOC)
+    url: https://www.eeoc.gov/how-file-charge-employment-discrimination
+    phone: "1-800-669-4000"
+    scope: national
+    eligibility: "Job applicants and workers; most laws cover employers with 15+ employees"
+    cost: free
+    prereqs: []
+    source_url: https://www.eeoc.gov/contact-eeoc
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "TTY 1-800-669-6820; ASL video 1-844-234-5122. 180 days, extended to 300 where a state/local agency enforces a similar law. The 15-employee threshold is general knowledge (the fetch summary was not certain); the age law covers 20+. The page lists religion, race, sex, disability, age 40+; it leaves out the EEOC's current position on sexual orientation and gender identity on purpose, because that has shifted in 2025 - Sharon should check."
+  - name: National Labor Relations Board (NLRB)
+    url: https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights
+    phone: "1-844-762-6572"
+    scope: national
+    eligibility: "Most private-sector employees"
+    cost: free
+    prereqs: []
+    source_url: https://www.nlrb.gov/about-nlrb/rights-we-protect/your-rights
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "General inquiries 1-844-762-NLRB. Protects concerted activity, including discussing pay. Supervisors and some worker types are not covered, so the page says 'usually'."
+  - name: OSHA
+    url: https://www.osha.gov/workers/file-complaint
+    phone: "1-800-321-6742"
+    scope: national
+    eligibility: "Most workers"
+    cost: free
+    prereqs: []
+    source_url: https://www.osha.gov/workers/file-complaint
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Complaints can be filed anonymously (safety and health complaints only, not whistleblower complaints). Online, phone, mail, in person."
+  - name: Unemployment Benefits Finder (CareerOneStop)
+    url: https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/find-unemployment-benefits.aspx
+    phone: "1-877-872-5627"
+    scope: national
+    eligibility: "Workers who lost a job through no fault of their own; state rules"
+    cost: free
+    prereqs: [Social Security number, employer names and dates]
+    source_url: https://www.careeronestop.org/LocalHelp/UnemploymentBenefits/find-unemployment-benefits.aspx
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Finder page loads (HTTP 200); links to each state's official UI site. CareerOneStop's phone line covers unemployment questions too (contact page). The 'weekly certification' and 'apply right away' points are general UI rules; states differ."
+dropped:
+  - name: LearnFree work skills (formerly GCFGlobal)
+    reason: "edu.gcfglobal.org now 308-redirects to learnfree.org (Learnfree, Inc., 2026). Old tutorial URLs redirect to a select-a-goal sign-up page; could not confirm any lesson loads today. The Area 1 agent also dropped it. Re-add only if a lesson opens without a paywall."
+    source_url: https://www.learnfree.org/en/
+    checked_on: 2026-10-04
+  - name: Northstar Digital Literacy (work-skills use)
+    reason: "Listed on 8.1."
+    source_url: https://www.digitalliteracyassessment.org/
+    checked_on: 2026-10-04
+  - name: Google Applied Digital Skills
+    reason: "Not checked; LearnFree and Crash Course cover workplace basics without a Google account."
+    source_url: https://grow.google/applied-digital-skills
+    checked_on: 2026-10-04
+  - name: USAJOBS and state job banks
+    reason: "Belongs on 8.5 if anywhere; not checked this pass."
+    source_url: https://www.usajobs.gov/
+    checked_on: 2026-10-04
+  - name: FTC job scams page
+    reason: "Linked inline from 8.5 Watch out for rather than as a resource card."
+    source_url: https://consumer.ftc.gov/articles/job-scams
+    checked_on: 2026-10-04

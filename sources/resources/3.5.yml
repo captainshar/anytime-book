@@ -1,0 +1,95 @@
+topic: "3.5"
+resources:
+  - name: The Trevor Project — crisis lines, TrevorSpace, Coming Out Handbook
+    url: https://www.thetrevorproject.org/get-help/
+    phone: "1-866-488-7386"
+    text: "678-678 (text START)"
+    scope: national
+    eligibility: "LGBTQ+ young people (Trevor's research and TrevorSpace cite ages 13-24)"
+    cost: free
+    prereqs: []
+    source_url: https://www.thetrevorproject.org/get-help/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7/365 call, text, chat; TTY 1-866-803-3699. TrevorSpace (13-24, free, moderated): https://www.thetrevorproject.org/visit-trevorspace/. Coming Out Handbook free online/PDF. Trevor confirmed (blog, Sept 30 2026) its own lines continue; it was excluded from the restored 988 Press 3."
+  - name: Trans Lifeline
+    url: https://translifeline.org/hotline/
+    phone: "877-565-8860"
+    hours: "Mon-Fri, 1pm-9pm ET (10am-6pm PT); closed some holidays"
+    scope: national
+    eligibility: "Trans and questioning people, including people not in crisis"
+    cost: free
+    prereqs: []
+    source_url: https://translifeline.org/hotline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Peer line run by trans people. Will not call police or emergency services without the caller's explicit request. Hotline page lists 2025 holiday closures (no 2026 list seen) — Sharon check. Cost not printed on hotline page; nonprofit peer line, recorded as free."
+  - name: LGBT National Help Center (hotlines and online chat)
+    url: https://lgbthotline.org/
+    phone: "888-843-4564"
+    hours: "Mon-Fri 2pm-11pm ET (11am-8pm PT); Sat noon-5pm ET (9am-2pm PT)"
+    scope: national
+    eligibility: "Anyone; separate lines for coming out, youth, seniors"
+    cost: free
+    prereqs: []
+    source_url: https://lgbthotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Coming Out Support Hotline 888-688-5428; Youth Talkline 800-246-7743; Senior Hotline 888-234-7243. One-to-one online chat. 'We don't report calls to outside organizations.' Since 1996. Checked in browser (Cloudflare blocks scripted fetch)."
+  - name: CenterLink — find an LGBTQ community center
+    url: https://www.lgbtqcenters.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet; transportation to visit]
+    source_url: https://web.lgbtqcenters.org/atlas/directory/category/all-centerlink-members
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Member directory loaded with 311 centers. Services vary by center."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Listed only as the general line. LGBTQ+ youth 'Press 3' ended July 17 2025 and was restored Sept 30 / Oct 1 2026 (988 homepage + Trevor Project blog + Advocate). HHS would not confirm trans callers' names/pronouns will be respected; Trevor no longer a provider. Kept OFF the page pending Sharon's decision — see review file."
+dropped:
+  - name: 988 "Press 3" LGBTQ+ youth option
+    reason: "Restored Sept 30 2026 (four days before this check), but HHS declined to say trans and nonbinary youth will be affirmed. Not listed until Sharon decides how to present it."
+    source_url: https://www.thetrevorproject.org/blog/the-trevor-project-applauds-the-return-of-the-988-lifelines-press-3-specialized-services-for-lgbtq-youth/
+    checked_on: 2026-10-04
+  - name: Therapist Aid values worksheets
+    reason: "Download requires an account; premium tiers."
+    source_url: https://www.therapistaid.com/
+    checked_on: 2026-10-04
+  - name: PositivePsychology.com values tools
+    reason: "Commercial site that sells a paid toolkit; not an org page to rely on."
+    source_url: https://positivepsychology.com/values-clarification/
+    checked_on: 2026-10-04
+  - name: Reclamation Collective
+    reason: "Groups and workshops paid ($50-$350 seen in Gemini sources); for-profit therapist group. Not free-first."
+    source_url: https://www.reclamationcollective.com/support-groups
+    checked_on: 2026-10-04
+  - name: Dare to Doubt
+    reason: "daretodoubt.org and www.daretodoubt.org return 404 as of check."
+    source_url: https://www.daretodoubt.org/
+    checked_on: 2026-10-04
+  - name: American Job Centers, Community Action Agencies, public libraries
+    reason: "Real, but belong to Areas 8 and 4; not this Topic's job."
+    source_url: https://www.careeronestop.org/
+    checked_on: 2026-10-04

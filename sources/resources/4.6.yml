@@ -1,0 +1,78 @@
+topic: "4.6"
+resources:
+  - name: Investor.gov (SEC)
+    url: https://www.investor.gov/introduction-investing
+    phone: "800-732-0330"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.investor.gov/contact-us
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+  - name: FINRA Smart Investing Courses
+    url: https://www.finra.org/investors/investing/investing-basics/smart-investing-courses
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.finra.org/investors/investing/investing-basics/smart-investing-courses
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+  - name: MyMoney.gov
+    url: https://www.mymoney.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.mymoney.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Treasury/FLEC site, active (July 2026 FLEC meeting posted). Homepage now promotes Trump Accounts."
+  - name: "Saver's Match (IRS)"
+    url: https://www.irs.gov/credits-deductions/savers-match
+    scope: national
+    eligibility: "18+ by end of tax year; not a full-time student; not claimed as a dependent; US resident for tax purposes; income limits (2027: full match up to $20,500 MAGI single, phases out at $35,500)"
+    cost: free
+    prereqs: [contribution to workplace plan or IRA, Form 8880-A with 2027 return filed in 2028]
+    source_url: https://www.irs.gov/credits-deductions/savers-match
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Page updated 29-Sep-2026. 50% match up to $1,000/yr (on first $2,000), deposited to the account. Replaces Saver's Credit for plan/IRA contributions from tax year 2027. Dollar limits kept off the page."
+  - name: BrokerCheck (FINRA)
+    url: https://brokercheck.finra.org/
+    phone: "800-289-9999"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.finra.org/investors/protect-your-money/check-registration
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+dropped:
+  - name: Khan Academy Personal Finance
+    reason: "Site served a bot challenge; could not confirm the course page. Likely fine; recheck by hand."
+    source_url: https://www.khanacademy.org/college-careers-more/personal-finance
+    checked_on: 2026-10-04
+  - name: "Smart investing@your library"
+    reason: "Not checked: it's a grant program for libraries, not a consumer service."
+    source_url: https://smartinvesting.ala.org/
+    checked_on: 2026-10-04
+  - name: Trump Accounts (530A)
+    reason: "For parents of children; not core for this reader. Not verified this pass."
+    source_url: https://trumpaccounts.gov/
+    checked_on: 2026-10-04
+  - name: IRA contribution limits
+    reason: "Change yearly; kept off page."
+    source_url: https://www.irs.gov/retirement-plans/plan-participant-employee/retirement-topics-ira-contribution-limits
+    checked_on: 2026-10-04

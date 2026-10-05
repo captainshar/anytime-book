@@ -1,0 +1,129 @@
+topic: "9.1"
+resources:
+  - name: LSC legal aid finder (Legal Services Corporation)
+    url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    scope: national
+    eligibility: "Low-income people with civil legal problems; each funded office sets its own rules"
+    cost: free
+    prereqs: [address or city, internet]
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid/i-need-legal-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Page says 129 LSC-funded programs (Gemini said 130). Search by address/city or map. Page does not state the
+      125% FPG figure Gemini gave, so the book says "low incomes; each office sets its own rules."
+  - name: LawHelp.org
+    url: https://www.lawhelp.org/
+    scope: national
+    eligibility: "Anyone can read guides; listed legal aid offices mostly serve low-income people"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.lawhelp.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Maintained by Pro Bono Net with nonprofit legal aid partners; state dropdown/map routes to state sites. Also linked from 9.2 and 9.6."
+  - name: ABA Free Legal Answers
+    url: https://www.abafreelegalanswers.org/
+    scope: national
+    eligibility: "Low-income adults in participating states (not all states); income/asset screening questions; civil questions only"
+    cost: free
+    prereqs: [internet, email account]
+    source_url: https://www.abafreelegalanswers.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Site lists participating states plus a federal page (abafederal.freelegalanswers.org) for immigration and
+      federal veterans questions. Several states not listed (e.g., CO, DE, ID, KY, NV, OH, RI, WA, WY per fetch).
+      Gemini's 250% FPG and $6,000-$10,000 asset limits are state-portal specific and not on the national page; omitted.
+  - name: ACLU Know Your Rights - Stopped by Police
+    url: https://www.aclu.org/know-your-rights/stopped-by-police
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.aclu.org/know-your-rights/stopped-by-police
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Page last updated June 8, 2026. Bullets on the book page paraphrase the ACLU's own points: say out loud you wish
+      to remain silent; some states require giving your name; ask if free to leave; don't run/resist/lie; if arrested
+      ask for a lawyer, don't sign anything. Legal-sensitive: flagged for lawyer review.
+  - name: U.S. DOL Wage and Hour Division
+    url: https://www.dol.gov/agencies/whd/contact/complaints
+    phone: "1-866-487-9243"
+    hours: "Mon-Fri 8:00 a.m.-4:30 p.m. local time; hours vary by region"
+    scope: national
+    eligibility: "Workers in the US; WHD says it enforces the law without regard to immigration status"
+    cost: free
+    prereqs: []
+    source_url: https://www.dol.gov/agencies/whd/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Complaints confidential and retaliation illegal (dol.gov/agencies/whd/contact/complaints). Immigration statement from dol.gov/agencies/whd/workers. Also on 9.3."
+  - name: CMS - Emergency room rights (EMTALA)
+    url: https://www.cms.gov/priorities/your-patient-rights/emergency-room-rights
+    scope: national
+    eligibility: "Anyone at a Medicare-participating hospital emergency department (most US hospitals)"
+    cost: free
+    prereqs: []
+    source_url: https://www.cms.gov/priorities/your-patient-rights/emergency-room-rights
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Screening exam, stabilizing treatment or appropriate transfer. Hospital may ask about insurance if it doesn't delay the exam. Bill may still come later."
+  - name: USAGov - Find and contact elected officials
+    url: https://www.usa.gov/elected-officials
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.usa.gov/elected-officials
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Added per coordinator/community input (legislator contact). Page last updated March 2, 2026. Links to federal, state, local officials."
+  - name: EOIR List of Pro Bono Legal Service Providers
+    url: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+    scope: national
+    eligibility: "Made for people in immigration proceedings"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Linked in the notario 'Watch out' bullet; full entry on 9.2. FTC page confirms only attorneys or DOJ-authorized people may give immigration advice."
+dropped:
+  - name: Law school clinics (general)
+    reason: "No single verifiable finder; varies by school. Not worth a resource slot."
+    source_url: https://www.uspto.gov/learning-and-resources/ip-policy/public-information-about-practitioners/law-school-clinic-1
+    checked_on: 2026-10-04
+  - name: HUD housing counselors / HOPE Hotline
+    reason: "Housing is covered by Topic 5.1 (which lists HUD counselors). Not repeated here."
+    source_url: https://answers.hud.gov/housingcounseling/
+    checked_on: 2026-10-04
+  - name: Patient Advocate Foundation
+    reason: "Serves people with serious/chronic illness; better fit for the health Area. Not verified here."
+    source_url: https://www.patientadvocate.org/
+    checked_on: 2026-10-04
+  - name: Workplace Fairness
+    reason: "Gemini's citations were a 2008 law-firm blog and a directory; not verified on the org's own site. Omitted for space."
+    source_url: https://www.workplacefairness.org/
+    checked_on: 2026-10-04
+  - name: 211
+    reason: "Covered in Area 1 Topics; not repeated."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04

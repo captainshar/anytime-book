@@ -1,0 +1,91 @@
+topic: "5.2"
+resources:
+  - name: Poison Help line
+    url: https://poisonhelp.hrsa.gov/
+    phone: "1-800-222-1222"
+    scope: national
+    eligibility: "Anyone in the US and many territories"
+    cost: free
+    prereqs: []
+    source_url: https://poisonhelp.hrsa.gov/about-us
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "HRSA-funded; connects to your local poison center; nurse, pharmacist, or doctor answers; free, confidential; interpretation in 161 languages. About Us page read in browser (WebFetch got 403). 24/7 appears in HRSA site search snippets but not on the About Us page itself — Sharon please confirm on poisonhelp.hrsa.gov."
+  - name: webPOISONCONTROL (National Capital Poison Center)
+    url: https://www.poison.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.poison.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Online tool at triage.webpoisoncontrol.org gives a recommendation in under 3 minutes. NCPC closed its own call center March 31 2025 and is now all-digital; the 1-800 number still routes to local poison centers. Also has a cleaning-products safety page and a chlorine gas article (bleach + acid; bleach + ammonia = chloramine)."
+  - name: National Pesticide Information Center (NPIC)
+    url: https://npic.orst.edu/
+    phone: "800-858-7378"
+    hours: "Monday-Friday, excluding holidays"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://npic.orst.edu/contactus.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Oregon State University + EPA cooperative agreement. Call, email, or chat. Email shown as npic@oregonstate.edu on homepage and npic@ace.orst.edu on contact page — email left off the page. Hours' time zone not given on page (likely Pacific). Contact page last updated Dec 2023; no closure notice."
+  - name: American Red Cross — Sound the Alarm (free smoke alarm installation)
+    url: https://www.redcross.org/sound-the-alarm.html
+    scope: national
+    eligibility: "Households; availability depends on location"
+    cost: free
+    prereqs: []
+    source_url: https://www.redcross.org/sound-the-alarm.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Sign up for a home fire safety visit with free smoke alarm installation from your local Red Cross; enter ZIP code. Page says 'Availability depends on your location.' Gemini claimed no ID/eligibility rules and gave 1-800-RED-CROSS; neither confirmed on page, so not published. Renters may need landlord OK to install — page tells readers to ask landlord first."
+  - name: U.S. Fire Administration — Smoke alarms
+    url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.usfa.fema.gov/prevention/home-fires/prepare-for-fire/smoke-alarms/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Last reviewed Sept 28 2026. Test monthly; 9-volt batteries yearly; replace alarms every 10 years; some fire departments give free or low-cost alarms — call the non-emergency number."
+  - name: Cooperative Extension office finder
+    url: https://extension.org/find-cooperative-extension-in-your-state/
+    scope: national
+    serves_where: "Every state and territory, through local land-grant universities"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://extension.org/find-cooperative-extension-in-your-state/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Run by the Extension Foundation (nonprofit). Lists each state's extension program. Local offices have free cleaning, mold, pest, and home-care guides; some local classes may have fees."
+dropped:
+  - name: HUD Healthy Homes / 'Help Yourself to a Healthy Home'
+    reason: "hud.gov/healthyhomes loads as a title-only page with no content (HUD site in transition). The booklet lives on nchh.org as an older PDF; not verified as current."
+    source_url: https://www.hud.gov/healthyhomes
+    checked_on: 2026-10-04
+  - name: EPA Safer Choice
+    reason: "Page is live, but it's a product-label program, not help for the reader. Left off to keep the list short; could be mentioned in prose later."
+    source_url: https://www.epa.gov/saferchoice
+    checked_on: 2026-10-04
+  - name: 1-800-RED-CROSS for smoke alarms
+    reason: "Not shown on the Sound the Alarm page checked; the page uses a ZIP-code sign-up instead."
+    source_url: https://www.redcross.org/sound-the-alarm.html
+    checked_on: 2026-10-04

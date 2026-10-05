@@ -1,0 +1,89 @@
+topic: "8.5"
+resources:
+  - name: American Job Centers (CareerOneStop)
+    url: https://www.careeronestop.org/LocalHelp/AmericanJobCenters/find-american-job-centers.aspx
+    phone: "1-877-872-5627"
+    scope: national
+    eligibility: "Anyone looking for work; WIOA-funded training and supportive services need eligibility checks"
+    cost: free
+    prereqs: [ID and work authorization for WIOA services]
+    source_url: https://www.careeronestop.org/ContactUs/contact-us.aspx
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Contact page: 'For information about jobs, training, career resources, or unemployment benefits call 1-877-US2-JOBS (1-877-872-5627)', TTY 1-877-889-5627. Sponsored by DOL ETA. WIOA supportive-service details (clothes, tools, bus fare) come from local board policies cited by Gemini, not a national page, so the page says 'some people can get'."
+  - name: Apprenticeship Finder (Apprenticeship.gov)
+    url: https://www.apprenticeship.gov/apprenticeship-job-finder
+    scope: national
+    eligibility: "Set by each program"
+    cost: free
+    prereqs: []
+    source_url: https://www.apprenticeship.gov/career-seekers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Community-suggested. Career-seekers page: 'paid work experience', 'Earn a competitive wage from day one', progressive wage increases."
+  - name: Job Corps
+    url: https://www.jobcorps.gov/
+    phone: "1-800-733-5627"
+    scope: national
+    eligibility: "Low-income young adults 16-24; citizenship/residency and background check"
+    cost: free
+    prereqs: [ID, proof of age, background check]
+    source_url: https://www.jobcorps.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "jobcorps.gov (2026) is actively recruiting, '120+ campuses', free housing, meals, basic medical care, living allowance. DOL paused 99 contractor-run centers in mid-2025; court fights followed; 2026 status of individual centers unclear. Page tells readers to ask which centers are open. Note: 1-800-733-5627 and 1-877-872-5627 share the last four digits - not the same number."
+  - name: State Vocational Rehabilitation agencies (RSA list)
+    url: https://rsa.ed.gov/about/states
+    scope: national
+    eligibility: "People with a physical or mental impairment that is a barrier to work"
+    cost: free
+    prereqs: [documentation of disability (VR may help arrange)]
+    source_url: https://rsa.ed.gov/about/states
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "RSA page lists each state's VR agency with phones. Eligibility wording and 'may help arrange an exam' are general VR rules, not quoted from this page; IPS supported employment from Gemini not included."
+  - name: Senior Community Service Employment Program (SCSEP)
+    url: https://www.dol.gov/agencies/eta/seniors
+    scope: national
+    eligibility: "55+, unemployed, family income at or below 125% of poverty level"
+    cost: free
+    prereqs: [proof of age and income]
+    source_url: https://www.dol.gov/agencies/eta/seniors
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "About 20 hours/week at the highest of federal, state or local minimum wage. Find via CareerOneStop Older Worker Program Finder or the CareerOneStop line 1-877-US2-JOBS (recorded under American Job Centers; phone field omitted here so the checker does not see two orgs on one number). No pause notice seen, but the program has faced budget threats."
+  - name: Dress for Success
+    url: https://dressforsuccess.org/
+    scope: national
+    eligibility: "Women seeking work; local affiliate rules vary"
+    cost: free
+    prereqs: [possibly a referral]
+    source_url: https://dressforsuccess.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Network of affiliates with a location finder; 'Referral Agencies' section suggests some offices need referrals. Events listed through Oct 2026."
+dropped:
+  - name: Local public libraries (as a listed resource)
+    reason: "No national finder checked; used in the 'one thing' text on 8.1 instead."
+    source_url: https://www.ala.org/
+    checked_on: 2026-10-04
+  - name: ALA JobLIST Placement Center
+    reason: "For library-industry jobs, not general job seekers."
+    source_url: https://www.ala.org/educationcareers/employment/placement
+    checked_on: 2026-10-04
+  - name: Individual Placement and Support (IPS) as a standalone resource
+    reason: "Delivered through local mental health and VR programs; no national intake. Could be a note under VR."
+    source_url: https://library.samhsa.gov/sites/default/files/ips-guide-state-leaders-pep25-01-002.pdf
+    checked_on: 2026-10-04

@@ -1,0 +1,92 @@
+topic: "5.5"
+resources:
+  - name: Dad, how do I? (YouTube)
+    url: https://www.youtube.com/@DadhowdoI
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.youtube.com/@DadhowdoI/videos
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Official channel; 5.77M subscribers, 638 videos; playlists by topic. Has a store tab; videos are free. Creator's backstory came from Reddit in Gemini's sources — not used."
+  - name: Mercury Stardust (The Trans Handy Ma'am)
+    url: https://www.mercurystardust.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.mercurystardust.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free renter-friendly repair videos on YouTube, TikTok, Instagram. Sells books (second book Sept 2026) and merch. Inclusion is a values call — see review file."
+  - name: See Jane Drill
+    url: https://seejanedrill.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://seejanedrill.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free videos and written how-tos; also promotes a paid course (seejanedrillcourse.com). Page says free videos are enough."
+  - name: Tool Library Alliance map
+    url: https://www.toollibraryalliance.org/
+    scope: national
+    eligibility: "Varies by library; most require local residence"
+    cost: "free or low-cost"
+    prereqs: [photo ID (often), proof of address (often)]
+    source_url: https://www.toollibraryalliance.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Volunteer-run (fiscal sponsor Shareable). Map says it's 'a work in progress and not a comprehensive resource.' localtools.org/find (myTurn) points to the same map. ID/address rules are typical, per Gemini; not confirmed per library, so page says 'often.'"
+  - name: Cooperative Extension office finder
+    url: https://extension.org/find-cooperative-extension-in-your-state/
+    scope: national
+    serves_where: "Every state and territory"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://extension.org/find-cooperative-extension-in-your-state/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Home-maintenance checklists and guides from state land-grant universities."
+  - name: FTC — How to avoid a home improvement scam
+    url: https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://consumer.ftc.gov/articles/how-avoid-home-improvement-scam
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Updated July 2022 but live. Red flags: door-to-door 'in the area', pressure, cash or full payment up front, 'leftover materials.'"
+dropped:
+  - name: Habitat Learns (Habitat for Humanity)
+    reason: "Free, but it's an orientation and training platform for Habitat volunteers and staff, not beginner home-repair lessons for renters."
+    source_url: https://www.habitat.org/about/habitat-learns
+    checked_on: 2026-10-04
+  - name: HUD Healthy Homes maintenance checklist
+    reason: "hud.gov/healthyhomes loads with no content. The checklist PDF is on nchh.org; not checked as current."
+    source_url: https://www.hud.gov/healthyhomes
+    checked_on: 2026-10-04
+  - name: This Old House
+    reason: "Commercial, ad-heavy, aimed at homeowners doing renovations. Not a fit for beginner renters; three free beginner channels cover the need."
+    source_url: https://www.thisoldhouse.com/
+    checked_on: 2026-10-04
+  - name: toollibraryfinder.com
+    reason: "Unknown operator; used the Tool Library Alliance map instead."
+    source_url: https://toollibraryfinder.com/
+    checked_on: 2026-10-04

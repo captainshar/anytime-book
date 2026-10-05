@@ -1,0 +1,110 @@
+topic: "3.3"
+resources:
+  - name: Self-Compassion Break (Greater Good in Action, UC Berkeley)
+    url: https://ggia.berkeley.edu/practice/self_compassion_break
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://ggia.berkeley.edu/practice/self_compassion_break
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Greater Good Science Center, UC Berkeley. 5 minutes. Account optional. Practice is Kristin Neff's."
+  - name: Building Self-Compassion workbook (Centre for Clinical Interventions)
+    url: https://www.cci.health.wa.gov.au/resources/looking-after-yourself/self-compassion
+    scope: national
+    serves_where: "Online; made by the Department of Health, Western Australia, free worldwide"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet, printer optional]
+    source_url: https://www.cci.health.wa.gov.au/resources/looking-after-yourself/self-compassion
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "7 modules, free PDF, no registration. Australian spelling."
+  - name: Perfectionism in Perspective workbook (Centre for Clinical Interventions)
+    url: https://www.cci.health.wa.gov.au/resources/looking-after-yourself/perfectionism
+    scope: national
+    serves_where: "Online; Western Australia Dept of Health, free worldwide"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.cci.health.wa.gov.au/resources/looking-after-yourself/perfectionism
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "9 modules, free download (single modules or zip)."
+  - name: Pete Walker — Shrinking the Inner Critic in Complex PTSD
+    url: https://www.pete-walker.com/shrinkingInnerCritic.htm
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.pete-walker.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Licensed MFT. Also '14 Common Inner Critic Attacks' on his site."
+  - name: Tara Brach — RAIN practice
+    url: https://www.tarabrach.com/rain/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.tarabrach.com/rain/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free guided audio (9-20 min) and printable PDF; no login. Tara Brach, PhD. Buddhist-rooted meditation teacher — flagged for Sharon (readers from high-control religion may react to any spiritual framing)."
+  - name: NAMI HelpLine
+    url: https://www.nami.org/support-education/nami-helpline/
+    phone: "800-950-6264"
+    text: "62640 (text NAMI)"
+    hours: "Mon-Fri 10am-10pm ET, excluding federal holidays"
+    scope: national
+    eligibility: "Anyone with questions about mental health, for themselves or others"
+    cost: free
+    prereqs: []
+    source_url: https://www.nami.org/support-education/nami-helpline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Peer support, information, referrals (e.g., local NAMI Connection groups). Not a crisis line; page points to 988 for crisis. Page modified 2026-09-28."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7."
+dropped:
+  - name: Self-Compassion.org (Kristin Neff)
+    reason: "Free practices exist, but the site also sells memberships, courses, and 'life coaching'. Used the same Self-Compassion Break via UC Berkeley's free page instead."
+    source_url: https://self-compassion.org/self-compassion-practices/
+    checked_on: 2026-10-04
+  - name: Rick Hanson — Taking in the Good
+    reason: "Not verified on his own site in this pass; also overlaps. Gemini's '5 good interactions for 1 bad' stat is a claim the book should not repeat."
+    source_url: https://rickhanson.com/take-in-the-good/
+    checked_on: 2026-10-04
+  - name: The Mindset Kit (Stanford PERTS)
+    reason: "Not verified in this pass; aimed at teachers/mentors. Growth-mindset framing can read as 'try harder' to readers with real barriers — Sharon's call."
+    source_url: https://www.mindsetkit.org/about
+    checked_on: 2026-10-04
+  - name: SAMHSA Treatment Locator / public libraries
+    reason: "Covered in 3.4 (low-cost counseling) and Areas 1/8 (libraries) to avoid repeating."
+    source_url: https://findtreatment.gov/
+    checked_on: 2026-10-04

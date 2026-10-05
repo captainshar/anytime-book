@@ -1,0 +1,147 @@
+topic: "7.5"
+resources:
+  - name: Scarleteen
+    url: https://www.scarleteen.com/
+    text: "206-866-2279"
+    scope: national
+    eligibility: "Ages 13 and up for direct services; text line US only"
+    cost: free
+    prereqs: []
+    source_url: https://www.scarleteen.com/ask
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Text (206) 866-2279 for quick questions, 24/7 most days (closed listed holidays); message/data rates apply. Message boards; live chat Mon 8-10 pm CST and Sun 12-3 pm CST. Aimed at teens and young adults but useful for adults who missed sex ed. Tagline 'Queer Sex Ed For All Since 1998'."
+  - name: Bedsider
+    url: https://www.bedsider.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.bedsider.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Run by Power to Decide (nonprofit). Birth control method explorer and clinic finder."
+  - name: Title X Family Planning Clinic Locator (HHS)
+    url: https://reproductivehealthservices.gov/
+    phone: "1-877-696-6775"
+    scope: national
+    eligibility: "Anyone"
+    cost: "Low-cost or free depending on income (sliding scale per Title X rules; not stated on locator page)"
+    prereqs: []
+    source_url: https://reproductivehealthservices.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Locator live (v1.4.5). Services listed: family planning, HPV vaccine, PrEP, cancer screening, IPV screening. Phone is the general HHS line, not clinic help — not published. 2025 Title X funding was withheld from some grantees, so some listed clinics may have closed or changed — page says call first. Cost wording comes from Title X regulations (42 CFR 59.5), not re-opened; flag for Sharon."
+  - name: love is respect
+    url: https://www.loveisrespect.org/
+    phone: "1-866-331-9474"
+    text: "22522"
+    scope: national
+    eligibility: "Teens, young adults, and their loved ones in the US"
+    cost: free
+    prereqs: []
+    source_url: https://www.loveisrespect.org/get-relationship-help-24-7-365/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Same record as 7.4. Text LOVEIS to 22522; 24/7. 'Relationship rights' list includes saying no at any time even after yes."
+  - name: RAINN National Sexual Assault Hotline
+    url: https://rainn.org/help-and-healing/hotline/
+    phone: "800-656-4673"
+    text: "64673"
+    scope: national
+    eligibility: "Survivors of sexual violence and their loved ones"
+    cost: free
+    prereqs: []
+    source_url: https://rainn.org/help-and-healing/hotline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "800.656.HOPE; text HOPE to 64673 (new — Gemini had no text line); online chat; 24/7. Anonymous unless you share name and location; if you do and are under 18 or a vulnerable adult, RAINN must report to authorities."
+  - name: Swipe Safely digital dating guide (NNEDV Safety Net Project)
+    url: https://www.techsafety.org/swipe-safely
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.techsafety.org/swipe-safely
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "(c) 2025, with eleven24. Tips: watch what photos reveal, avoid live location tags, don't share number/address early, watch for money talk and love-bombing, meet in public, own transportation, tell a friend. This is the current dating-app safety guidance used on the page."
+  - name: Cyber Civil Rights Initiative (CCRI) Crisis Helpline
+    url: https://cybercivilrights.org/ccri-crisis-helpline/
+    phone: "844-878-2274"
+    scope: national
+    eligibility: "Victims in the US of nonconsensual intimate images, recorded sexual assault, or sextortion"
+    cost: free
+    prereqs: []
+    source_url: https://cybercivilrights.org/ccri-crisis-helpline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "844-878-CCRI. 24/7; interpretation in most languages; information, support, referrals, non-legal advice. 'Free' not stated in words; toll-free nonprofit helpline."
+  - name: StopNCII.org
+    url: https://stopncii.org/
+    scope: national
+    serves_where: "International tool (run by UK charity SWGfL / Revenge Porn Helpline)"
+    eligibility: "Adults who were 18+ in the image and are 18+ now"
+    cost: free
+    prereqs: [the image on your own device]
+    source_url: https://stopncii.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Makes a hash on your device; image never leaves device; partner platforms block matches."
+  - name: Take It Down (NCMEC)
+    url: https://takeitdown.ncmec.org/
+    scope: national
+    eligibility: "Images or videos taken when you were under 18"
+    cost: free
+    prereqs: [the image on your own device]
+    source_url: https://takeitdown.ncmec.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Anonymous; image stays on device; hash shared with participating platforms. Relevant to adults whose images are from when they were minors."
+  - name: FTC — What to Know About Romance Scams
+    url: https://consumer.ftc.gov/articles/what-know-about-romance-scams
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/what-know-about-romance-scams
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Last updated Aug 2022. Rule: never send money or gifts to a sweetheart you haven't met in person. Report at ReportFraud.ftc.gov."
+dropped:
+  - name: The Trevor Project
+    reason: "Verified live (1-866-488-7386; text START to 678-678), but it is a 24/7 crisis/suicide line for LGBTQ+ young people, not a dating resource. Better in Area 3 crisis or 3.5. Off this page; LGBTQ+ dating gap sent to Gemini."
+    source_url: https://www.thetrevorproject.org/get-help/
+    checked_on: 2026-10-04
+  - name: Google Voice as a second number
+    reason: "Gemini noted it needs an existing US number to set up; Google product terms not verified. Page gives the general tip (don't share your real number early) without naming a product."
+    source_url: https://workspace.google.com/products/voice/
+    checked_on: 2026-10-04
+  - name: Google intimate-image removal form
+    reason: "Gemini's source was Reddit (blocked/not allowed). Not verified on Google's own page this pass."
+    source_url: https://support.google.com/websearch/
+    checked_on: 2026-10-04
+  - name: "Claim: VAWA 2022 makes sharing intimate images a federal civil claim incl. deepfakes"
+    reason: "Legal claim; not verified on DOJ page and not needed on page. Left for review."
+    source_url: https://www.justice.gov/ovw/sharing-intimate-images-without-consent-know-your-rights
+    checked_on: 2026-10-04

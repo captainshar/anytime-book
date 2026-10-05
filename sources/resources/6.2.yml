@@ -1,0 +1,94 @@
+topic: "6.2"
+resources:
+  - name: Find a Health Center (HRSA)
+    url: https://findahealthcenter.hrsa.gov/
+    scope: national
+    eligibility: "Anyone, with or without insurance"
+    cost: "sliding fee based on income"
+    prereqs: [income information or self-declaration]
+    source_url: https://www.hrsa.gov/get-health-care
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Primary medical and dental care. Not all sites have dental."
+  - name: CODA Find a Program (dental and dental hygiene schools)
+    url: https://coda.ada.org/find-a-program
+    scope: national
+    eligibility: "Set by each school clinic"
+    cost: low-cost
+    prereqs: []
+    source_url: https://coda.ada.org/find-a-program
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Filter by program type (DDS/DMD, Allied incl. dental hygiene), state, city. Prices not verified per school; page says 'ask the school.' Long-appointment claim is general (Gemini cited a single school)."
+  - name: Remote Area Medical (RAM)
+    url: https://www.ramusa.org/schedule/
+    scope: regional
+    serves_where: "Pop-up clinics in many states (Oct 2026 schedule showed ~17 states incl. AL, AR, CT, FL, GA, IL, MD, MI, MT, NV, NH, NY, NC, OH, PA, TN, VA); not all states"
+    eligibility: "Anyone; no ID or insurance required"
+    cost: free
+    prereqs: [arrive early; first-come first-served]
+    source_url: https://www.ramusa.org/faq/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FAQ: 'We do not require identification'; parking lot opens at midnight; may need to choose dental or vision. Also has telehealth clinics mostly in TN."
+  - name: EyeCare America (American Academy of Ophthalmology)
+    url: https://www.aao.org/eyecare-america/patients
+    phone: "877-887-6327"
+    hours: "Mon–Fri 8 a.m.–2 p.m. PT"
+    scope: national
+    eligibility: "US citizen or legal resident, 18+, no HMO/PPO/private insurance/VA benefits, not seen by an ophthalmologist in 3+ years, never seen by an EyeCare America volunteer"
+    cost: free
+    prereqs: [email]
+    source_url: https://www.aao.org/eyecare-america/patients
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Covers medical eye exam and up to 1 year follow-up. Does NOT cover refraction/glasses prescription, glasses, contacts, surgery, tests, meds. Gemini omitted the no-refraction and no-private-insurance limits."
+  - name: New Eyes
+    url: https://new-eyes.org/who-is-eligible
+    scope: national
+    eligibility: "Low-income US residents, household net monthly income below 250% of poverty guidelines"
+    cost: "free glasses; non-refundable application fee"
+    prereqs: [glasses prescription within 24 months with pupillary distance, email, card to pay fee]
+    source_url: https://new-eyes.org/application
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Official page states a non-refundable fee but not the amount. Third-party listings say $15 since April 2025 (Gemini said $10). Amount not published on page. No phone on official page (Gemini's 973 number not confirmed)."
+  - name: Lions Clubs International club locator
+    url: https://www.lionsclubs.org/en/start-our-approach/club-locator
+    scope: national
+    eligibility: "Set by each local club"
+    cost: "often free; varies"
+    prereqs: []
+    source_url: https://www.lionsclubs.org/en/start-our-approach/club-locator
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Locator supports 'requesting service from a club.' Vision help varies by club and is not guaranteed; page says so."
+dropped:
+  - name: NAFC Clinic Finder (in 6.2)
+    reason: "Listed in 6.1; omitted here to keep the page focused on teeth and eyes."
+    source_url: https://nafcclinics.org/find-clinic/
+    checked_on: 2026-10-04
+  - name: VSP Sight for Students
+    reason: "For children 18 and under only; this book's reader is an adult. Not re-verified."
+    source_url: https://www.vsp.com/
+    checked_on: 2026-10-04
+  - name: Respectacle
+    reason: "Not verified on its own site this pass; Gemini cited it via AAO page and the program structure is unclear."
+    source_url: http://www.respectacle.org
+    checked_on: 2026-10-04
+  - name: New Eyes phone 973-376-4903
+    reason: "Not shown on New Eyes' own eligibility or application pages (email only); Gemini cited a 211 listing."
+    source_url: https://new-eyes.org/who-is-eligible
+    checked_on: 2026-10-04

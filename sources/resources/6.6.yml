@@ -1,0 +1,141 @@
+topic: "6.6"
+resources:
+  - name: Title X Family Planning Clinic Locator (HHS OPA)
+    url: https://reproductivehealthservices.gov/
+    scope: national
+    eligibility: "Anyone; insurance not required"
+    cost: "low-cost or free; 'regardless of one's ability to pay'"
+    prereqs: [income information for sliding fee]
+    source_url: https://opa.hhs.gov/grant-programs/title-x-service-grants/about-title-x-service-grants
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Locator loads (v1.4.5). OPA: services 'voluntary, confidential, and provided regardless of one's ability to pay'; trauma-informed. 1-877-696-6775 is the general HHS call center shown in footer, not a clinic line — not published. Title X grant funding was withheld/changed for some grantees in 2025; listings may be stale — page says call first."
+  - name: Planned Parenthood health center finder
+    url: https://www.plannedparenthood.org/health-center
+    phone: "1-800-230-7526"
+    scope: national
+    eligibility: "Anyone"
+    cost: "accepts most insurance; low-cost or free for some without insurance"
+    prereqs: []
+    source_url: https://www.plannedparenthood.org/health-center
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "In-person and telehealth; abortion 'where legal and available.' 1-800-230-PLAN listed for EC info. H.R. 1 Medicaid funding restriction affected some affiliates; closures not verified on PP's site."
+  - name: Bedsider (Power to Decide)
+    url: https://www.bedsider.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.bedsider.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Birth control, EC (OTC pills, ella, IUD), clinic locator."
+  - name: Scarleteen
+    url: https://www.scarleteen.com/
+    scope: national
+    eligibility: "Anyone; written mainly for young people"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.scarleteen.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Since 1998. Format of direct 'Ask for help' service not confirmed."
+  - name: All-Options Talkline
+    url: https://www.all-options.org/find-support/talkline/
+    phone: "1-888-493-0092"
+    scope: national
+    eligibility: "Anyone in the US or Canada"
+    cost: free
+    prereqs: [phone]
+    source_url: https://www.all-options.org/find-support/talkline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Volunteer peer counselors (not licensed). Callback within 48 hours from blocked number. Hours not stated on page."
+  - name: AbortionFinder (Power to Decide)
+    url: https://www.abortionfinder.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: "free to search"
+    prereqs: [internet]
+    source_url: https://www.abortionfinder.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Verified providers (PPFA, NAF, ACN, others); state-by-state guide; funding help. © 2026. Book does not state legality by state."
+  - name: Repro Legal Helpline (If/When/How)
+    url: https://reprolegalhelpline.org/
+    phone: "844-868-2812"
+    scope: national
+    eligibility: "Anyone, any age or immigration status; all 50 states, DC, territories"
+    cost: free
+    prereqs: []
+    source_url: https://reprolegalhelpline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Secure form; 'We'll always call you back.' Gemini's '2 business days' response time not on page."
+  - name: M+A Hotline
+    url: https://mahotline.org/
+    phone: "1-833-246-2632"
+    text: "1-833-246-2632"
+    hours: "8 a.m.–1 a.m. ET"
+    scope: national
+    eligibility: "Anyone in the US with miscarriage or abortion questions"
+    cost: free
+    prereqs: []
+    source_url: https://mahotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Doctors and nurses; anonymous; replies within one hour. Gemini gave no number."
+  - name: HHS HIPAA confidential communications
+    url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    scope: national
+    eligibility: "Anyone covered by a HIPAA health plan"
+    cost: free
+    prereqs: [alternate address or contact]
+    source_url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Same source as 6.5 tip box."
+dropped:
+  - name: CDC GetTested
+    reason: "Search results page did not load any listings in testing on 2026-10-04; Title X/health centers/Planned Parenthood cover STI testing."
+    source_url: https://gettested.cdc.gov/
+    checked_on: 2026-10-04
+  - name: Title X phone 1-877-696-6775
+    reason: "It is the general HHS headquarters call center (site footer), not a clinic-finding line."
+    source_url: https://reproductivehealthservices.gov/
+    checked_on: 2026-10-04
+  - name: Gemini emergency contraception weight limits (165/195 lb)
+    reason: "Medical detail sourced to a PP blog, not re-verified on an official label/FDA page; page tells reader to ask a pharmacist."
+    source_url: https://www.bedsider.org/
+    checked_on: 2026-10-04
+  - name: Gemini Title X fee rules (no charge ≤100% FPL, minors' income, bypass insurance)
+    reason: "Cited state grantee documents, not the current OPA rule text; not restated."
+    source_url: https://opa.hhs.gov/grant-programs/title-x-service-grants/about-title-x-service-grants
+    checked_on: 2026-10-04
+  - name: Gemini ACOG pelvic exam / chaperone 'rights'
+    reason: "Framed as legal rights; these are clinical guidelines. Page only says you can ask for another staff member and ask to stop."
+    source_url: https://www.acog.org/
+    checked_on: 2026-10-04
+  - name: 211 (in 6.6)
+    reason: "Listed in 6.3."
+    source_url: https://www.211.org/
+    checked_on: 2026-10-04

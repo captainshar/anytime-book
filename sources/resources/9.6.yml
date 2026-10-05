@@ -1,0 +1,131 @@
+topic: "9.6"
+resources:
+  - name: CaringInfo - Advance directive forms by state
+    url: https://www.caringinfo.org/planning/advance-directives/by-state/
+    scope: national
+    eligibility: "Any adult"
+    cost: free
+    prereqs: [internet, printer or library]
+    source_url: https://www.caringinfo.org/planning/advance-directives/by-state/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "'A program of the National Alliance for Care at Home.' Free state PDFs; 'states vary in their requirements for witnesses, notarization'; some states allow online notarization."
+  - name: The Conversation Project
+    url: https://theconversationproject.org/get-started
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://theconversationproject.org/get-started
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free guides incl. Conversation Starter Guide and choosing a health care proxy; save before typing. IHI initiative per Gemini (not re-checked)."
+  - name: FreeWill
+    url: https://www.freewill.com/
+    scope: national
+    eligibility: "US adults with simple estates"
+    cost: free
+    prereqs: [internet, printer]
+    source_url: https://www.freewill.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Homepage: "100% free - no credit card required", "We never sell your personal data", "supported by nonprofits"
+      (2,400+), "One in six users include a charity in their will." So the upsell is a charitable-bequest prompt, not a
+      fee. FAQ: two witnesses 18+, not named in the will; complex estates should see an attorney. Louisiana and other
+      state-specific limits not checked.
+  - name: CFPB - Does a person's debt go away when they die?
+    url: https://www.consumerfinance.gov/ask-cfpb/does-a-persons-debt-go-away-when-they-die-en-1463/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/ask-cfpb/does-a-persons-debt-go-away-when-they-die-en-1463/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Last reviewed Aug 2, 2023. Survivors not responsible unless they shared responsibility (co-signer, joint account, community property / state rules)."
+  - name: FTC - The Funeral Rule
+    url: https://consumer.ftc.gov/articles/ftc-funeral-rule
+    scope: national
+    eligibility: "Anyone dealing with a funeral home"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/ftc-funeral-rule
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Phone prices without giving name; itemized choices; outside casket/urn with no fee; alternative containers; 'No state law requires routine embalming for every death.'"
+  - name: Funeral Consumers Alliance
+    url: https://www.funerals.org/
+    phone: "802-865-8300"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.funerals.org/contact/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "501(c)(3); contact page lists 802-865-8300 and an address in Graham, NC. 'Find An Affiliate' page exists."
+  - name: Eldercare Locator (ACL)
+    url: https://eldercare.acl.gov/home
+    phone: "1-800-677-1116"
+    text: "1-800-677-1116"
+    scope: national
+    eligibility: "Older adults, families, caregivers"
+    cost: free
+    prereqs: []
+    source_url: https://eldercare.acl.gov/home
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Call or text, chat, email. Hours not shown on homepage; not published. Last modified 03/02/2026."
+  - name: SSA Representative Payee Program
+    url: https://www.ssa.gov/payee/
+    phone: "1-800-772-1213"
+    scope: national
+    eligibility: "People helping a beneficiary who can't manage benefits"
+    cost: free
+    prereqs: [ID, interview]
+    source_url: https://www.ssa.gov/payee/faqrep.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FAQ: power of attorney, authorized representative, or joint account 'is not the same as being a payee'; payee keeps records and accounts to SSA."
+  - name: Family Caregiver Alliance
+    url: https://www.caregiver.org/
+    scope: national
+    eligibility: "Caregivers of adults with chronic illness or disability"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.caregiver.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Gemini's 1-800-445-8106 not found on caregiver.org (contact page is a web form, 3-5 business day reply); phone not published. Bay Area Caregiver Center and some services are California-only."
+dropped:
+  - name: Gemini 'credible witness' notary details by state
+    reason: "Sources were a title-company blog and a notary forum; state rules vary. Page says only 'ask the notary what your state allows.'"
+    source_url: https://www.nationalnotary.org/notary-bulletin/blog/2015/10/notary-challenge-how-handle-credible-witness
+    checked_on: 2026-10-04
+  - name: Gemini claim that paying one dollar on a deceased person's debt makes you liable for all of it
+    reason: "Not found on CFPB pages; not published. Page says 'don't agree to pay anything until you check.'"
+    source_url: https://www.consumerfinance.gov/ask-cfpb/can-a-debt-collector-contact-me-about-a-deceased-relatives-debts-en-1469/
+    checked_on: 2026-10-04
+  - name: Gemini claim that the FTC is about to require online funeral price posting
+    reason: "Rulemaking status not verified; omitted."
+    source_url: https://www.ftc.gov/news-events/topics/truth-advertising/funeral-rule
+    checked_on: 2026-10-04

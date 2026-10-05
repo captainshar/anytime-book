@@ -1,0 +1,82 @@
+topic: "8.1"
+resources:
+  - name: DigitalLearn (Public Library Association)
+    url: https://www.digitallearn.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.ala.org/news/2026/06/pla-launches-redesigned-digitallearnorg-expand-free-digital-literacy-access
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "ALA/PLA announcement of the redesign dated June 24, 2026: free, mobile-first, English and Spanish, login optional to track progress. digitallearn.org itself is JS-rendered and could not be read as text."
+  - name: Northstar Digital Literacy
+    url: https://www.digitalliteracyassessment.org/
+    scope: national
+    eligibility: "Anyone (free online assessments); certificates only at a Northstar location"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.digitalliteracyassessment.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Program of Literacy Minnesota. Assessments can be taken without an account; proctored certificates at a location. Northstar Online Learning (lessons) appears to need a location-created account, so the page only promises the free check-ups. Webinar listed for Oct 2026."
+  - name: Senior Planet from AARP Tech Hotline
+    url: https://seniorplanet.org/
+    phone: "888-713-3495"
+    hours: "Mon-Fri 9am-8pm ET"
+    scope: national
+    eligibility: "Built for adults 60+"
+    cost: free
+    prereqs: [phone]
+    source_url: https://oats.org/wp-content/uploads/2024/05/Hotline-Flyer_English_Digital.pdf
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Official OATS/Senior Planet flyer (May 2024) gives the number, Mon-Fri 9-8 ET hours and "age 60+". Third-party
+      listings add Saturday 9am-2pm ET; not on the official flyer, so not on the page. seniorplanet.org pages are JS-only and
+      could not be read. Gemini's claim that it is "welcoming to anyone" is not verified; the page says "made for 60+".
+      The flyer is from 2024 (it mentions the ended ACP), so a test call is advised.
+  - name: "211"
+    url: https://www.211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: free
+    prereqs: [phone]
+    source_url: https://www.211.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "211.org: call 211, every call confidential, local 211 network. Local digital-navigator and computer programs vary by area; the page says so."
+dropped:
+  - name: LearnFree (formerly GCFGlobal / GCFLearnFree)
+    reason: "edu.gcfglobal.org now 308-redirects to learnfree.org (Learnfree, Inc., 2026). Old tutorial URLs redirect to a select-a-goal sign-up page; could not confirm any lesson loads today. The Area 1 agent also dropped it. Re-add only if a lesson opens without a paywall."
+    source_url: https://www.learnfree.org/en/
+    checked_on: 2026-10-04
+  - name: PCs for People
+    reason: "Low-cost computers and internet, but needs photo ID plus income proof, and the site lists about a dozen metro locations; could not confirm nationwide shipping."
+    source_url: https://www.pcsforpeople.org/eligibility/
+    checked_on: 2026-10-04
+  - name: EveryoneOn
+    reason: "Offer locator exists, but the site describes place-based work in the Bay Area, Central Valley, Los Angeles and Milwaukee; nationwide coverage not confirmed."
+    source_url: https://www.everyoneon.org/find-offers
+    checked_on: 2026-10-04
+  - name: TechBoomers
+    reason: "Commercial tutorial site; Gemini cited only third-party library listings. Not needed given DigitalLearn and LearnFree."
+    source_url: https://techboomers.com/
+    checked_on: 2026-10-04
+  - name: TypingClub and other typing/mouse games (ByteBackTyping, SenseLang, Mousercise)
+    reason: "Not checked one by one; LearnFree already has mouse and typing lessons. Gemini's TypingClub premium note came from Reddit."
+    source_url: https://www.typingclub.com/
+    checked_on: 2026-10-04
+  - name: Local Digital Navigator programs (PA 211, Philadelphia)
+    reason: "Local only; covered generally through 211."
+    source_url: https://www.pa211.org/digital-navigation/
+    checked_on: 2026-10-04

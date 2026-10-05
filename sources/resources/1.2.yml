@@ -1,0 +1,87 @@
+topic: "1.2"
+resources:
+  - name: Khan Academy — Arithmetic
+    url: https://www.khanacademy.org/math/arithmetic
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet, email if you want to save progress]
+    source_url: https://www.khanacademy.org/math/arithmetic
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: >-
+      501(c)(3) nonprofit; "free, world-class education to anyone, anywhere" (c) 2026. Arithmetic course has 19 units
+      (multiplication through fractions, decimals, negatives); lessons viewable without login. Site shows a large
+      donation pop-up and cookie banner on arrival — page tells the reader donating is optional. Khanmigo (AI tutor)
+      may be paid; not needed.
+  - name: Math is Fun — Money Master
+    url: https://www.mathsisfun.com/money/money-master.html
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.mathsisfun.com/money/money-master.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Practice giving change by dragging bills and coins; US dollars is one of the currency choices. (c) 2026 Rod Pierce. Site shows ads ('Hide Ads | About Ads' seen on pages). Login optional."
+  - name: Math Antics
+    url: https://mathantics.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://mathantics.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Site says of video lessons: 'They're all free to watch!' Printable materials are offered as samples; full printables appear to be paid (price not shown). Topics: place value, arithmetic, fractions, decimals, percents, measurement."
+  - name: National Literacy Directory
+    url: https://www.nld.org/
+    phone: "1-877-389-6874"
+    scope: national
+    eligibility: "Any adult looking for a local class or tutor, including math"
+    cost: free
+    prereqs: [zip code or city]
+    source_url: https://www.nld.org/page/join-the-directory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Same record as 1.1. nld.org states a 24-hour hotline. LINCS describes NLD as covering 'reading and writing, math, English, technology, and workforce skills'."
+dropped:
+  - name: GCFGlobal / GCFLearnFree (math lessons)
+    reason: >-
+      Domain now redirects to learnfree.org (Learnfree, Inc.). Home menu lists Math: Fractions/Decimals/Percents and
+      Money Basics, but the course pages returned "Category is not found!" and old lesson URLs bounce to the home page
+      on 2026-10-04. Mid-migration; recheck later. Was the strongest beginner math pick, so worth re-adding once fixed.
+    source_url: https://www.learnfree.org/
+    checked_on: 2026-10-04
+  - name: Learning Upgrade
+    reason: "Free only with a class code from a partner program; individual learners can't get in on their own. Gemini's ProLiteracy email for codes not checked."
+    source_url: https://web.learningupgrade.com/
+    checked_on: 2026-10-04
+  - name: CFPB Your Money, Your Goals
+    reason: "Live (page modified Dec 15, 2025) but written for case workers, not learners, and it is about budgeting. Belongs in the Money Area, not Everyday Math."
+    source_url: https://www.consumerfinance.gov/consumer-tools/educator-tools/your-money-your-goals/
+    checked_on: 2026-10-04
+  - name: MyMoney.gov
+    reason: "Not opened. Budgeting tool, belongs in the Money Area. Left for that Area's agent."
+    source_url: https://www.mymoney.gov/
+    checked_on: 2026-10-04
+  - name: Finish Your Diploma
+    reason: "Not opened. GED-focused; better placed in an education Area than in Everyday Math."
+    source_url: https://finishyourdiploma.org/
+    checked_on: 2026-10-04
+  - name: LINCS Learner Center — Learn Math
+    reason: "Live, but the math page is mostly budgeting links plus TV411 (retiring end of 2026) and NASA problems for grades 3+. Not a good beginner math start."
+    source_url: https://lincs.ed.gov/learner/resources/math
+    checked_on: 2026-10-04
+  - name: TV411 Finance
+    reason: "tv411.org says the site will be retired by the end of 2026 (notice dated Sept 29, 2026)."
+    source_url: https://www.tv411.org/
+    checked_on: 2026-10-04

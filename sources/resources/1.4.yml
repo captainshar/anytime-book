@@ -1,0 +1,117 @@
+topic: "1.4"
+resources:
+  - name: Simply the Basics — Hygiene Locator
+    url: https://www.simplythebasics.org/hygienelocator
+    scope: national
+    eligibility: "Anyone; each local site sets its own rules"
+    cost: free
+    prereqs: [internet, city or zip code]
+    source_url: https://www.simplythebasics.org/hygienelocator
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: >-
+      Search by city or zip; filter by product type and language. Site says it "is not directly affiliated with every
+      organization" and can't guarantee hours or supplies — page tells reader to call first. Nationwide coverage not
+      stated in words on the locator page; treated as a national finder with uneven coverage. Gemini's "Daily
+      Essentials kits" and ID claims not verified, left off.
+  - name: 211
+    url: https://211.org/
+    phone: "211"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://211.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Dial 211 or search 211.org; 'every call is completely confidential'; United Way runs the network, local 211s answer. Hours not stated on national page — page says hours depend on area. Alliance for Period Supplies' own Get Help page tells people to call 2-1-1."
+  - name: Alliance for Period Supplies — Allied Programs
+    url: https://allianceforperiodsupplies.org/allied-programs/
+    scope: national
+    eligibility: "People who need period supplies; each local program sets rules"
+    cost: free
+    prereqs: []
+    source_url: https://allianceforperiodsupplies.org/get-help/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Get Help page: call 2-1-1 or 211.org and ask for period supplies or basic needs; also try faith groups and food pantries. Allied member list is by state; not every state has one (e.g., 'no allied programs in Delaware')."
+  - name: I Support The Girls — Affiliate Network
+    url: https://isupportthegirls.org/find-a-location/affiliate-network/
+    phone: "240-816-0570"
+    scope: national
+    eligibility: "People who need bras or period products, through local affiliates"
+    cost: free
+    prereqs: []
+    source_url: https://isupportthegirls.org/get-involved/request-products/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Request page: 'ISTG would love to donate to individuals, but we currently do not have the capacity'; find a local affiliate instead. Affiliates in many but not all US states (plus some abroad). Phone is general office; not put on page."
+  - name: HRSA Find a Health Center
+    url: https://findahealthcenter.hrsa.gov/
+    scope: national
+    eligibility: "Anyone, insured or not"
+    cost: "sliding scale by income"
+    prereqs: [city, state, or zip]
+    source_url: https://bphc.hrsa.gov/about-health-center-program/what-health-center
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "HRSA: health centers treat 'medical, dental, mental health...' needs, 'adjust their fees based on income and family size', must 'serve everyone, even if they cannot pay'. Page reviewed Nov 2025. Not every site has a dentist — page says call and ask."
+  - name: NIDCR — Finding Low-Cost Dental Care
+    url: https://www.nidcr.nih.gov/health-info/finding-dental-care
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.nidcr.nih.gov/health-info/finding-dental-care
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Lists dental school clinics, health centers, Medicaid/CHIP, 211, United Way. Last reviewed Dec 2024. Medicaid dental benefits vary by state; H.R. 1 work rules (by Dec 31 2026) may affect Medicaid adults — page doesn't promise Medicaid coverage."
+  - name: CDC — Hygiene Basics
+    url: https://www.cdc.gov/hygiene/about/index.html
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.cdc.gov/hygiene/about/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Last reviewed June 3, 2025. Covers handwashing, hair, feet, nails, face, menstrual hygiene. No teeth section."
+  - name: National Weather Service
+    url: https://www.weather.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.weather.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Homepage box: local forecast by 'City, St' or ZIP. No account; no ads (government site)."
+dropped:
+  - name: Beauty school student salons (Empire Beauty School, Paul Mitchell Schools)
+    reason: "For-profit chains with local prices; not verified per location. Kept as a general tip idea for Sharon, not on page."
+    source_url: https://www.empire.edu/guest-services
+    checked_on: 2026-10-04
+  - name: Haircut how-to, clipper guard sizes, '3:2:1 rule', tipping 15–20%
+    reason: "Gemini sources were Reddit and barbershop blogs, not official. Needs a better source; see Hand to Gemini."
+    source_url: "n/a (Gemini cited Reddit and commercial blogs)"
+    checked_on: 2026-10-04
+  - name: Nemours KidsHealth hygiene/period pages
+    reason: "Not opened in this pass. Written for teens; tone may not suit adults. Possible add for period basics after Sharon decides on tone."
+    source_url: https://kidshealth.org/en/teens/menstruation.html
+    checked_on: 2026-10-04

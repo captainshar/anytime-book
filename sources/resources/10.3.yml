@@ -1,0 +1,79 @@
+topic: "10.3"
+resources:
+  - name: YMCA - Find Your Y
+    url: https://www.ymca.org/find-your-y
+    scope: national
+    eligibility: "Anyone; financial assistance varies by local Y"
+    cost: "set by each local Y; financial assistance at many Ys"
+    prereqs: [proof of income may be asked for financial assistance]
+    source_url: https://www.ymca.org/what-we-do/healthy-living/water-safety
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "ymca.org confirms lessons for kids and adults; tells people to ask their local Y about financial assistance/scholarships. The 'inability to pay will never prohibit' line on ymca.org is about children - not promised for adults on the page. Gemini's '50-75% off' and photo-ID-to-enter claims are branch-specific; not used."
+  - name: American Red Cross Adult Swim Lessons
+    url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
+    scope: national
+    eligibility: "Older teens and adults, any level"
+    cost: "set by the local pool"
+    prereqs: []
+    source_url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Three adult levels; taught by certified WSIs. Finder: redcross.org/take-a-class/swimming/learn-to-swim-providers (map). Free Red Cross Swim app (sponsored by ZAC Foundation) mentioned on same page - it is mainly kid/family focused."
+  - name: U.S. Masters Swimming - Adult Learn to Swim
+    url: https://www.usms.org/alts-central/learn-to-swim
+    scope: national
+    eligibility: "Adults who can't swim or had scary water experiences"
+    cost: "set by each instructor/club"
+    prereqs: []
+    source_url: https://www.usms.org/alts-central/learn-to-swim
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "'Find an Instructor' -> usms.org/alts/altsinstrsearch.php. Gemini's '$60 a month' not on official page; not used."
+  - name: Sea Tow Foundation Life Jacket Loaner Program
+    url: https://www.boatingsafety.com/page/life-jacket-loaner-program
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.boatingsafety.com/page/life-jacket-loaner-program
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "1,500+ stations at boat ramps, marinas, parks; funded since 2008 via Sport Fish Restoration & Boating Trust Fund administered by USCG. 2026 grant cycle text confirms active. 'See the map here' link goes to a Maptive map. Gemini's 'all 50 states' not stated on page."
+  - name: "National Weather Service - Surviving a Rip Current"
+    url: https://www.weather.gov/safety/ripcurrent-surviving
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Steps on page summarized: relax; don't swim straight to shore; swim along the shoreline until free; if you can't, face shore and call/wave for help. Not in Gemini doc; added."
+dropped:
+  - name: Diversity in Aquatics
+    reason: "Live, but its free courses are Red Cross 'Water Safety for Parents and Caregivers' (kid-focused); nonprofit status not stated on page. Low fit for adult learners."
+    source_url: https://www.diversityinaquatics.org/water-safety-resources/
+    checked_on: 2026-10-04
+  - name: Miracle Swimming
+    reason: "Commercial program; in-person classes are high-cost. Free content is mainly marketing/instructor material. Not a free-first resource."
+    source_url: https://miracleswimming.com/
+    checked_on: 2026-10-04
+  - name: Local Parks and Recreation pools
+    reason: "No national finder; kept as a search tip in a :::tip."
+    source_url: https://www.nrpa.org/
+    checked_on: 2026-10-04
+  - name: "IRS 'Verification of Non-filing Letter' tip for YMCA aid"
+    reason: "Gemini paperwork table; branch requirements vary and IRS process not checked. Left off; the page just says 'ask what else they accept'."
+    source_url: https://www.irs.gov/
+    checked_on: 2026-10-04

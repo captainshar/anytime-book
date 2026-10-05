@@ -1,0 +1,118 @@
+topic: "6.1"
+resources:
+  - name: Find a Health Center (HRSA)
+    url: https://findahealthcenter.hrsa.gov/
+    scope: national
+    eligibility: "Anyone, with or without insurance"
+    cost: "sliding fee based on income; full discount or nominal fee at or below 100% FPG"
+    prereqs: [income information or self-declaration]
+    source_url: https://www.hrsa.gov/get-health-care
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "HRSA: 'primary medical and dental care to people of all ages, whether or not they have health insurance... sliding fee scale.' Sliding fee rules confirmed in BPHC Compliance Manual ch. 9 (https://bphc.hrsa.gov/compliance/compliance-manual/chapter9). 877-464-4772 is HRSA Health Center Program Support (grantee/inquiry line, Mon–Fri 8–8 ET), not a patient line, so not published."
+  - name: NAFC Find a Clinic
+    url: https://nafcclinics.org/find-clinic/
+    phone: "703-647-7427"
+    scope: national
+    eligibility: "Mostly uninsured/underinsured; each clinic sets its own rules"
+    cost: free
+    prereqs: []
+    source_url: https://nafcclinics.org/find-clinic/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Search by city/ZIP. Phone is NAFC office, not published on page."
+  - name: CDC Immunization Information System (IIS) contacts to locate records
+    url: https://www.cdc.gov/iis/contacts-locate-records/index.html
+    scope: national
+    eligibility: "Anyone seeking their own records"
+    cost: free
+    prereqs: [proof of identity (state-specific)]
+    source_url: https://www.cdc.gov/iis/contacts-locate-records/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page updated July 13, 2026. Titer/repeat-vaccine wording from CDC adult records page (https://www.cdc.gov/vaccines-adults/recommended-vaccines/keeping-vaccine-records-up-to-date.html, updated June 2024): 'it is safe to repeat vaccines'; 'doctor can also sometimes do blood tests'."
+  - name: NACCHO Directory of Local Health Departments
+    url: https://www.naccho.org/membership/lhd-directory
+    scope: national
+    eligibility: "Residents of the health department's area"
+    cost: "free to search; services often free or low cost"
+    prereqs: []
+    source_url: https://www.naccho.org/membership/lhd-directory
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Search by state or ZIP. © 2026."
+  - name: CDC How to Pay for Vaccines (adults)
+    url: https://www.cdc.gov/vaccines-adults/recommended-vaccines/how-to-pay-adult-vaccines.html
+    scope: national
+    eligibility: "Adults"
+    cost: free
+    prereqs: []
+    source_url: https://www.cdc.gov/vaccines-adults/recommended-vaccines/how-to-pay-adult-vaccines.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Updated Sept 2, 2026. Uninsured: HealthCare.gov, health centers with sliding fee, health departments. Used as an inline link, not a full card. No schedule listed on page by design (ACIP changes 2025–26)."
+  - name: HealthCare.gov Find Local Help
+    url: https://www.healthcare.gov/find-local-help/
+    phone: "1-800-318-2596"
+    hours: "24/7 except holidays"
+    scope: national
+    eligibility: "Anyone needing help with Marketplace or Medicaid applications"
+    cost: free
+    prereqs: []
+    source_url: https://www.healthcare.gov/contact-us/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "localhelp.healthcare.gov redirects here. TTY 1-855-889-4325. Assisters are free and unbiased; agents/brokers are paid by insurers (https://www.healthcare.gov/apply-and-enroll/get-help-applying/)."
+  - name: FindTreatment.gov (therapist tip)
+    url: https://findtreatment.gov/
+    scope: national
+    eligibility: "Anyone"
+    cost: "free to search"
+    prereqs: []
+    source_url: https://findtreatment.gov/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Mentioned in therapist tip box; 'confidential and anonymous resource' for mental and substance use disorders."
+dropped:
+  - name: HRSA phone 1-877-464-4772 as patient line
+    reason: "HRSA contact page lists it as Health Center Program Support/EHBs line for grantees and inquiries, not a patient clinic-finder line."
+    source_url: https://www.hrsa.gov/about/contact
+    checked_on: 2026-10-04
+  - name: NeedyMeds clinic locator
+    reason: "Duplicates HRSA/NAFC; kept NeedyMeds for 6.4 instead."
+    source_url: https://www.needymeds.org/
+    checked_on: 2026-10-04
+  - name: Patient Advocate Foundation
+    reason: "Serves people with chronic/serious conditions, not general first-time care; not re-verified this pass. Candidate for a medical-bills topic."
+    source_url: https://www.patientadvocate.org/
+    checked_on: 2026-10-04
+  - name: SAMHSA National Helpline (in 6.1)
+    reason: "Moved to 6.7, where it fits."
+    source_url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    checked_on: 2026-10-04
+  - name: Gemini adult vaccine catch-up schedule (Tdap, MMR, HPV, PCV etc.)
+    reason: "ACIP/CDC adult recommendations changed in 2025–26; book points readers to their clinic instead of listing a schedule."
+    source_url: https://www.cdc.gov/vaccines-adults/index.html
+    checked_on: 2026-10-04
+  - name: Section 317 free adult vaccine claims
+    reason: "Could not confirm current national availability on an official consumer page; replaced with CDC's 'ask health centers/health departments' guidance."
+    source_url: https://www.cdc.gov/vaccines-adults/recommended-vaccines/how-to-pay-adult-vaccines.html
+    checked_on: 2026-10-04
+  - name: Vaccines.gov
+    reason: "Site shows a notice that functionality may be impacted while being updated; no clear adult vaccine finder confirmed."
+    source_url: https://www.vaccines.gov/
+    checked_on: 2026-10-04

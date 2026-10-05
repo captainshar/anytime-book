@@ -1,0 +1,114 @@
+topic: "4.8"
+resources:
+  - name: "FTC: Online Shopping"
+    url: https://consumer.ftc.gov/articles/online-shopping
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/online-shopping
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+  - name: "FTC: How to Evaluate Online Reviews"
+    url: https://consumer.ftc.gov/articles/how-evaluate-online-reviews
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/how-evaluate-online-reviews
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Updated Oct 2022."
+  - name: CamelCamelCamel
+    url: https://camelcamelcamel.com/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [email for alerts]
+    source_url: https://camelcamelcamel.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free Amazon price tracker; Amazon only."
+  - name: "FTC: Free trials, auto-renewals, and negative option subscriptions"
+    url: https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/getting-and-out-free-trials-auto-renewals-and-negative-option-subscriptions
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Updated Sept 2024 (before the click-to-cancel vacatur); still says businesses 'must make canceling simple for you. It's the law' (ROSCA). Chargeback advice confirmed."
+  - name: "FTC: Cooling-Off Rule"
+    url: https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help
+    scope: national
+    eligibility: "Sales at home/workplace/dorm of $25+; at seller's temporary locations of $130+"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/buyers-remorse-ftcs-cooling-rule-may-help
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Gemini said $25 for temporary locations too - wrong; temporary locations are $130+."
+  - name: ReportFraud.ftc.gov
+    url: https://reportfraud.ftc.gov/
+    phone: "877-382-4357"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.ftc.gov/about-ftc/contact
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+  - name: State consumer protection offices (USA.gov)
+    url: https://www.usa.gov/state-consumer
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.usa.gov/state-consumer
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "State auto-renewal laws exist in several states (per law-firm summaries of the vacatur); page says only 'some states'."
+dropped:
+  - name: Consumer Action Handbook (USA.gov, 1-844-872-4681)
+    reason: "usa.gov/handbook returns 404; appears discontinued."
+    source_url: https://www.usa.gov/handbook
+    checked_on: 2026-10-04
+  - name: Fraud.org (National Consumers League)
+    reason: "Verified active (NCL project), but left off to keep one clear reporting path (ReportFraud.ftc.gov)."
+    source_url: https://fraud.org/
+    checked_on: 2026-10-04
+  - name: FakeFind (fakefind.ai)
+    reason: "Not checked; new, unknown AI tool, cited via a Mozilla forum post."
+    source_url: https://fakefind.ai/
+    checked_on: 2026-10-04
+  - name: Keepa
+    reason: "Not checked; one Amazon price tracker (CamelCamelCamel) is enough."
+    source_url: https://keepa.com/
+    checked_on: 2026-10-04
+  - name: Google Shopping price insights
+    reason: "Not checked; commercial and changes often."
+    source_url: https://support.google.com/faqs/answer/10675605?hl=en
+    checked_on: 2026-10-04
+  - name: GCFGlobal online safety tutorials
+    reason: "Site mid-rebrand to LearnFree; content not loading (see 4.2)."
+    source_url: https://www.learnfree.org/
+    checked_on: 2026-10-04
+  - name: Consumer Reports via library databases
+    reason: "No single official link to verify; kept as a general tip idea for Sharon, not on page."
+    source_url: https://about.ebsco.com/products/research-databases/consumerreportsorg
+    checked_on: 2026-10-04

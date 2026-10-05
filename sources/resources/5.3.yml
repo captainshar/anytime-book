@@ -1,0 +1,128 @@
+topic: "5.3"
+resources:
+  - name: Spend Smart. Eat Smart. (Iowa State University Extension)
+    url: https://spendsmart.extension.iastate.edu/
+    scope: national
+    eligibility: "Anyone with internet"
+    cost: free
+    prereqs: [internet]
+    source_url: https://spendsmart.extension.iastate.edu/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Recipes, menu planning, shopping and unit-price videos. Blog posts dated Sept 2026, so still active. Historically SNAP-Ed funded; no notice about funding changes seen, but recheck if SNAP-Ed ending affects it."
+  - name: Good and Cheap (Leanne Brown)
+    url: https://leannebrown.com/good-and-cheap-2/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [email, internet]
+    source_url: https://leannebrown.com/good-and-cheap-2/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free PDF in English and Spanish ('Bueno y Barato') when you sign up for the author's newsletter (email required). Gemini said no account needed — wrong."
+  - name: FoodSafety.gov — Cold Food Storage Chart and FoodKeeper app
+    url: https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.foodsafety.gov/food-safety-charts/cold-food-storage-charts
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Read in browser (WebFetch 403). Fridge at 40F or below; frozen at 0F keeps indefinitely (quality only). FoodKeeper (USDA FSIS + Cornell + FMI) covers 650+ items, web and app; page last reviewed 2019 but live."
+  - name: USDA Meat and Poultry Hotline
+    url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/usda-meat-and-poultry-hotline
+    phone: "1-888-674-6854"
+    hours: "Monday-Friday, 10 a.m.-6 p.m. ET, English or Spanish; recorded messages 24 hours"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.fsis.usda.gov/food-safety/safe-food-handling-and-preparation/usda-meat-and-poultry-hotline
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Page last updated Apr 6 2026. Also email MPHotline@usda.gov and askFSIS. Read in browser."
+  - name: Cooperative Extension office finder
+    url: https://extension.org/find-cooperative-extension-in-your-state/
+    scope: national
+    serves_where: "Every state and territory"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://extension.org/find-cooperative-extension-in-your-state/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Page tells readers to ASK what cooking or budgeting classes exist, because many free nutrition classes were SNAP-Ed funded and SNAP-Ed ended after FY2025 under H.R. 1. Do not promise classes."
+  - name: National Alliance for Eating Disorders helpline
+    url: https://www.allianceforeatingdisorders.com/
+    phone: "866-662-1235"
+    hours: "Monday-Friday, 9 a.m.-7 p.m. Eastern"
+    scope: national
+    eligibility: "Anyone worried about eating, food, or body image, and loved ones"
+    cost: free
+    prereqs: []
+    source_url: https://www.allianceforeatingdisorders.com/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Answered by licensed therapists who specialize in eating disorders. Free weekly therapist-led support groups. findEDhelp.com is their treatment directory (they don't endorse listings). Events listed for Oct 2026."
+  - name: ANAD Eating Disorder Helpline
+    url: https://anad.org/eating-disorder-helpline/
+    phone: "1-888-375-7767"
+    hours: "Monday-Friday, 9 a.m.-9 p.m. Central"
+    scope: national
+    eligibility: "Anyone; no diagnosis needed"
+    cost: free
+    prereqs: []
+    source_url: https://anad.org/eating-disorder-helpline/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Run by trained volunteers; support and referrals; not a crisis line. No text/chat option seen."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone in emotional distress"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Call or text 988, chat at chat.988lifeline.org, 24/7/365, free and confidential. Listed as the after-hours/crisis option since both ED lines are weekday only."
+dropped:
+  - name: NEDA Helpline
+    reason: "NEDA closed its helpline in 2023. Must not appear as active."
+    source_url: https://www.nationaleatingdisorders.org/
+    checked_on: 2026-10-04
+  - name: MyPlate.gov / MyPlate Kitchen
+    reason: "myplate.gov now shows only a notice pointing to the new Dietary Guidelines at RealFood.gov; myplate-kitchen redirects to that notice. Gemini's 'myplate.food' links are a third-party site. Needs a fresh decision (see review file)."
+    source_url: https://www.myplate.gov/
+    checked_on: 2026-10-04
+  - name: SNAP-Ed classes
+    reason: "SNAP-Ed ended after FY2025 under H.R. 1; fns.usda.gov page blocked automated reads. Not sending readers to SNAP-Ed."
+    source_url: https://www.fns.usda.gov/snap/snap-ed
+    checked_on: 2026-10-04
+  - name: Ellyn Satter Institute
+    reason: "Free articles exist, but the site also sells books and trainings and is a single-author model. Held for Sharon's judgment (see review file)."
+    source_url: https://www.ellynsatterinstitute.org/
+    checked_on: 2026-10-04
+  - name: University extension 'mindful eating' pages (USU, SDSU)
+    reason: "Generic search tip, not a single resource. Covered by the Extension finder."
+    source_url: https://extension.usu.edu/nutrition/research/mindful-eating
+    checked_on: 2026-10-04

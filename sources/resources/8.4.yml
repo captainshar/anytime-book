@@ -1,0 +1,109 @@
+topic: "8.4"
+resources:
+  - name: FAFSA / Federal Student Aid Information Center
+    url: https://studentaid.gov/
+    phone: "1-800-433-3243"
+    hours: "Mon 8am-9pm ET; Tue-Wed 8am-8pm ET; Thu-Fri 8am-6pm ET"
+    scope: national
+    eligibility: "US citizens and eligible non-citizens with a diploma, GED/HiSET, completed homeschool under state law, or an ATB route"
+    cost: free
+    prereqs: [Social Security number for online account, email]
+    source_url: https://fsapartners.ed.gov/help-center/fsa-customer-service-center/service-centers-for-students/federal-student-aid-information-center-fsaic
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Hours from the FSA Partner Connect FSAIC page. studentaid.gov is JS-only and timed out, so rules were checked in the
+      2026-27 FSA Handbook instead:
+      (1) Vol 1 ch1 (fsapartners.ed.gov/knowledge-center/fsa-handbook/2026-2027/vol1/ch1-school-determined-requirements):
+      academic qualification includes "completed homeschooling at the secondary level as defined by state law"; a student
+      "may self-certify on the FAFSA form" homeschool completion; schools "may rely on a homeschooled student's
+      self-certification". If the state issues and requires a homeschool completion credential, the student must get it.
+      So no diploma does NOT mean ATB-only (corrects Gemini). Colleges' own admission documents are separate - the
+      parent-signed-transcript barrier is real but is an admissions issue, not a federal aid rule.
+      (2) AVG ch2: independent if born before January 1, 2003 (2026-27).
+      (3) AVG ch5: provisional independent status; FAA decides UHY / override / parent data / unsub-only. Override
+      documentation may be a documented interview with the FAA; carries forward at the same school unless circumstances
+      change. Not unusual circumstances: parents refuse to pay or to give info, not claimed on taxes, self-sufficiency.
+      Parents-refuse case = dependent-level Direct Unsubsidized Loan only, needs third-party documentation.
+      H.R. 1 / OBBBA: Pell ineligibility when non-federal grants cover full COA (2026-27); Workforce Pell program approvals
+      began July 1, 2026 (GENERAL-26-32); new loan limits, Parent PLUS caps, less-than-full-time loan proration from 2026-27
+      (seen on a college page, govst.edu, not an ED page). The page only says loan limits changed and Workforce Pell is starting.
+  - name: SchoolHouse Connection - FAFSA Independence Guide for Unaccompanied Homeless Youth
+    url: https://schoolhouseconnection.org/article/fafsa-independence-guide-for-uhy
+    scope: national
+    eligibility: "Students under 24 who are unaccompanied and homeless or self-supporting and at risk of homelessness"
+    cost: free
+    prereqs: [internet]
+    source_url: https://schoolhouseconnection.org/article/fafsa-independence-guide-for-uhy
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Current as of Feb 2026. Determinations by McKinney-Vento liaisons, shelter/homeless program directors, TRIO or GEAR UP directors, or the FAA (which must decide if no one else can). Matches AVG ch5."
+  - name: Modern States (free CLEP prep and exam vouchers)
+    url: https://modernstates.org/
+    scope: national
+    eligibility: "Anyone 13+"
+    cost: free
+    prereqs: [email, ID at CLEP test]
+    source_url: https://modernstates.org/faq/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FAQ: complete a Modern States course, get a voucher covering the CLEP exam fee; some test centers charge an extra administration fee (they mention reimbursement requests). CLEP accepted by 'nearly 3,000 colleges'. College Board's CLEP fee page 404'd; CLEP remote proctoring page exists. The ID requirement for CLEP is assumed, not confirmed - low risk."
+  - name: NACAC Request for Admission Application Fee Waiver
+    url: https://www.nacacnet.org/student/fee-waivers/
+    scope: national
+    eligibility: "First-year applicants with financial need, including out-of-school adults and homeschooled students; separate transfer form"
+    cost: free
+    prereqs: [signature from counselor, community-organization official or clergy]
+    source_url: https://www.nacacnet.org/student/fee-waivers/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Recommends up to four colleges. 'Many community colleges have no application fee' on the page is general knowledge, worded as 'just ask'."
+  - name: DAPIP (U.S. Department of Education) and CHEA accreditation databases
+    url: https://ope.ed.gov/dapip/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.chea.org/search-institutions
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Community-suggested (check accreditation). DAPIP loads (title 'DAPIP', Database of Accredited Postsecondary Institutions and Programs, JS app). CHEA database lists 8,000+ institutions accredited by accreditors recognized by CHEA or USDE."
+dropped:
+  - name: SwiftStudent (Seldin/Haring-Smith Foundation)
+    reason: "formswift.com, which hosts the tool, now shows a notice that FormSwift closed in September 2026. shs.foundation still says SwiftStudent 'remains available' but links to the closed FormSwift page. Treat as not live."
+    source_url: https://formswift.com/swift-student
+    checked_on: 2026-10-04
+  - name: TRIO Educational Opportunity Centers
+    reason: "ed.gov returned 403. News (2026) reports EOC grants were rewritten and far fewer centers (about 55) funded for FY2026. Too unstable to list as a sure thing; mentioned only as someone who can write a homeless-youth letter."
+    source_url: https://www.ed.gov/grants-and-programs/grants-higher-education/trio-home-page
+    checked_on: 2026-10-04
+  - name: Study Hall (Crash Course + ASU, gostudyhall.com)
+    reason: "Community-suggested. studyhall.asu.edu redirects to gostudyhall.com, a JS-only page; current prices (reported ~$25 to enroll, ~$400 for ASU credit, from 2023 news) and terms could not be read on the official site."
+    source_url: https://gostudyhall.com/
+    checked_on: 2026-10-04
+  - name: Common App fee waiver
+    reason: "Not checked on commonapp.org this pass; NACAC waiver covers the need. Easy to add."
+    source_url: https://www.commonapp.org/
+    checked_on: 2026-10-04
+  - name: Chafee Education and Training Vouchers (ETV)
+    reason: "Only for former foster youth, run by states; not checked. Could be added as a one-liner with the childwelfare.gov coordinator list."
+    source_url: https://www.childwelfare.gov/resources/states-territories-tribes/state-child-welfare-agency-education-contacts-independent-living-and-education-and-training
+    checked_on: 2026-10-04
+  - name: College Promise tool (mypromisetool.org) and NASFAA state aid directory
+    reason: "Not checked; lower priority."
+    source_url: https://www.mypromisetool.org/
+    checked_on: 2026-10-04
+  - name: McKinney-Vento liaisons (as a standalone resource)
+    reason: "Mainly serve K-12 students; folded into the SchoolHouse Connection entry."
+    source_url: https://schoolhouseconnection.org/article/mckinney-vento-act-quick-reference
+    checked_on: 2026-10-04

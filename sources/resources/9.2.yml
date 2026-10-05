@@ -1,0 +1,323 @@
+topic: "9.2"
+resources:
+  - name: National Domestic Violence Hotline
+    url: https://www.thehotline.org/
+    phone: "1-800-799-7233"
+    text: "START to 88788"
+    scope: national
+    eligibility: "Anyone experiencing or worried about abuse"
+    cost: free
+    prereqs: []
+    source_url: https://www.thehotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Homepage: "Free. Confidential. 24/7"; call 800.799.SAFE (7233), text START to 88788, live chat; AI chat "Ruth" when
+      advocates are busy; banner warns of high demand and long waits. Interactive safety plan tool at
+      /plan-for-safety/create-your-personal-safety-plan/. The Hotline's framing is mainly relationship (partner) abuse;
+      the book says you can call about family abuse too. Sharon/advocate to confirm wording. Note: the FCC Safe
+      Connections page misprints the Hotline as 1-888-799-SAFE; the correct number is 1-800-799-7233.
+  - name: StrongHearts Native Helpline
+    url: https://strongheartshelpline.org/
+    phone: "1-844-762-8483"
+    text: "1-844-762-8483"
+    scope: national
+    eligibility: "Native American and Alaska Native people"
+    cost: free
+    prereqs: []
+    source_url: https://strongheartshelpline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Site: 'Call 1-844-762-8483 7NATIVE Or Text 24/7'. Listed as a bullet, not a full entry."
+  - name: RAINN National Sexual Assault Hotline
+    url: https://rainn.org/
+    phone: "1-800-656-4673"
+    text: "HOPE to 64673"
+    scope: national
+    eligibility: "Survivors of sexual violence and their loved ones"
+    cost: free
+    prereqs: []
+    source_url: https://rainn.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Verified in browser (direct fetch returned 403). 24/7, English and Spanish; chat at rainn.org/hotline; text HOPE to 64673 (Gemini omitted the text line)."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/get-help/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Call, text, chat; Spanish text and chat available. Gemini used the old name 'National Suicide Prevention Lifeline'; corrected."
+  - name: Recovering from Religion
+    url: https://www.recoveringfromreligion.org/
+    phone: "1-844-368-2848"
+    scope: national
+    eligibility: "Anyone doubting, leaving, or recovering from religion"
+    cost: free
+    prereqs: []
+    source_url: https://www.recoveringfromreligion.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "84-I-Doubt-It (844-368-2848); web calls, chat, scheduled conversations; site says 'We try to offer a 24-hour service.' Secular Therapy Project therapists charge fees."
+  - name: Footsteps
+    url: https://www.footstepsorg.org/
+    phone: "1-877-783-7755"
+    scope: regional
+    serves_where: "New York City area in person; many programs (scholarships, virtual programming, career and education counseling) available nationwide"
+    eligibility: "Adults 18+ who are leaving or have left ultra-Orthodox Jewish communities"
+    cost: free
+    prereqs: []
+    source_url: https://www.footstepsorg.org/about-us/frequently-asked-questions/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "FAQ: membership free; 'the vast majority of what Footsteps offers is free of charge'; serves everyone over 18; under-18s pointed to The Door."
+  - name: WomensLaw.org
+    url: https://www.womenslaw.org/
+    scope: national
+    eligibility: "Anyone; site says 'WomensLaw serves and supports all survivors'"
+    cost: free
+    prereqs: [internet]
+    source_url: https://hotline.womenslaw.org/public
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      NNEDV project, funded in part by a DOJ Office for Victims of Crime grant. Email hotline: every email answered or
+      reviewed by an attorney; response in 1-5 business days; legal information, not advice; cannot call you;
+      accounts deleted after 90 days. Homepage has "Know the Laws - By State."
+  - name: EOIR List of Pro Bono Legal Service Providers
+    url: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+    scope: national
+    eligibility: "Made for people in immigration proceedings"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.justice.gov/eoir/list-pro-bono-legal-service-providers
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Replaces Gemini's Survivor Justice Center (Los Angeles only). VAWA self-petition is mentioned only as 'special protections'; needs immigration-lawyer review."
+  - name: Address Confidentiality Programs by State (Missouri Secretary of State directory)
+    url: https://www.sos.mo.gov/business/SafeAtHome/AddressConfidentialityProgramsByState
+    scope: national
+    eligibility: "Directory; each state program sets its own rules (usually DV, sexual assault, stalking, trafficking)"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.sos.mo.gov/business/SafeAtHome/AddressConfidentialityProgramsByState
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Gemini's 38-number state table NOT published. Directory shows Arkansas offers confidentiality only for
+      driver's license records; South Carolina has an ACP through the Attorney General; Rhode Island's number is
+      401-222-5149 (Gemini gave New Jersey's). techsafety.org also keeps a 'State Address Confidentiality Programs' page.
+  - name: Police missing-adult policies (LAPD, Las Vegas Metro PD, Phoenix PD)
+    url: https://www.lapdonline.org/faqs-missing-persons/
+    scope: local
+    serves_where: "Los Angeles, Las Vegas, Phoenix (cited as examples of a common policy)"
+    eligibility: "n/a - cited as examples"
+    cost: free
+    prereqs: []
+    source_url: https://www.lvmpd.com/services/missing-persons/adults
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      LAPD and LVMPD: police notify the reporter once the person is found but "cannot disclose the location or
+      whereabouts of the missing person without that person's consent" (LVMPD adds "unless the person requesting has
+      court-appointed guardianship"). Phoenix PD: "We will not reveal the whereabouts of an adult missing person."
+      LVMPD: "Being a missing person is not a crime." The book generalizes cautiously and names LA and Las Vegas as
+      examples. Not a national rule. Needs advocate or lawyer review.
+  - name: FCC Safe Connections - Separate Your Phone Line
+    url: https://www.fcc.gov/consumers/guides/how-request-phone-line-separation-abusers-account
+    scope: national
+    eligibility: "Survivors of DV, dating violence, stalking, sexual assault, trafficking, or similar crimes; need not be the account holder"
+    cost: free
+    prereqs: [document naming the survivor and the abuser]
+    source_url: https://www.fcc.gov/consumers/guides/how-request-phone-line-separation-abusers-account
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Verified in browser (fetch returned 403). Last reviewed Sept 29, 2025. Provider must usually process within two
+      business days; no early termination fees; Lifeline emergency support up to 6 months for survivors with
+      financial hardship. Accepted documents include affidavits from medical, mental health, social work, or victim
+      services providers, police reports, and protective orders.
+  - name: HHS HIPAA Privacy Rule summary (confidential communications)
+    url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    scope: national
+    eligibility: "Anyone with a health plan"
+    cost: free
+    prereqs: []
+    source_url: https://www.hhs.gov/hipaa/for-professionals/privacy/laws-regulations/index.html
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Health plans must accommodate reasonable requests for confidential communications if disclosure could endanger the person, and may not question that statement. Confirmed from HHS page text in search results; full page body not fetched. Re-check."
+  - name: FTC Credit Freezes and Fraud Alerts
+    url: https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://consumer.ftc.gov/articles/credit-freezes-and-fraud-alerts
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free; contact Equifax, Experian, and TransUnion."
+  - name: Safety Net Project (NNEDV) survivor toolkit, incl. data brokers
+    url: https://www.techsafety.org/resources-survivors
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.techsafety.org/resources-survivors
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Toolkit includes 'Data Brokers: What They Are and What You Can Do', 'State Address Confidentiality Programs', and phone and location-tracking guides. Full entry on 9.3."
+  - name: USPS Standard Forward Mail and Change of Address
+    url: https://www.usps.com/manage/forward.htm
+    scope: national
+    eligibility: "n/a - cited in Watch out"
+    cost: free
+    prereqs: []
+    source_url: https://www.usps.com/manage/forward.htm
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "USPS: 'You'll get a Move Validation letter to the address you're moving from (your old address).' Matters when family lives at the old address. Online COA has a small ID-check fee; not published."
+  - name: USAGov name change guide
+    url: https://www.usa.gov/name-change
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.usa.gov/name-change
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Name change through marriage, divorce, or court; update SSA and the state DMV. Fee waivers and sealed or unpublished name changes are described generally on the page; flagged for review."
+  - name: Childhelp National Child Abuse Hotline
+    url: https://childhelphotline.org/
+    phone: "1-800-422-4453"
+    text: "1-800-422-4453"
+    scope: national
+    eligibility: "Anyone concerned about or affected by child abuse"
+    cost: free
+    prereqs: []
+    source_url: https://www.childwelfare.gov/how-report-child-abuse-and-neglect/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: >-
+      Added per coordinator (community input). Child Welfare Information Gateway: "Call or text 1-800-4-A-CHILD",
+      24/7, over 170 languages, confidential. Childhelp's own site: "It is not a reporting line and is not connected
+      to 911"; won't ask for names or addresses. Site shows 'TEXT "GO" TO 800.422.4453'; the book says "text or chat
+      from the website" rather than publishing a keyword. Also on 9.5.
+  - name: Child Welfare Information Gateway - State Child Abuse and Neglect Reporting Numbers
+    url: https://www.childwelfare.gov/state-child-abuse-and-neglect-reporting-numbers/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.childwelfare.gov/how-report-child-abuse-and-neglect/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Linked from the official 'How to Report' page (link found in browser; '?rt=795' tracking parameter dropped). Used instead of a state table."
+  - name: VictimConnect Resource Center
+    url: https://victimconnect.org/
+    phone: "1-855-484-2846"
+    text: "1-855-484-2846"
+    scope: national
+    eligibility: "Victims of any crime in the US"
+    cost: free
+    prereqs: []
+    source_url: https://victimconnect.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "From the 9.2 name-change follow-up. Homepage: 24/7, call or text 1-855-4VICTIM, free and confidential, program of the National Center for Victims of Crime, (c) 2026. Same record as 9.3; keep name identical for CI."
+  - name: LawHelp Interactive
+    url: https://lawhelpinteractive.org/
+    scope: national
+    eligibility: "Anyone; which forms exist depends on the state"
+    cost: free
+    prereqs: [internet]
+    source_url: https://lawhelpinteractive.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "From the 9.2 follow-up. 'helps you fill out legal documents for free'; run by Scale Justice with LSC and partners; forms are state-specific via partner sites. Page says 'In some states' because name-change interviews are not offered everywhere (not checked state by state)."
+dropped:
+  - name: Gemini state ACP phone table
+    reason: "About 16 of 38 numbers didn't match the Missouri SOS directory; RI listed with NJ's number; AR and SC wrongly listed as having no program. Replaced with a link to the maintained directory."
+    source_url: https://www.sos.mo.gov/business/SafeAtHome/AddressConfidentialityProgramsByState
+    checked_on: 2026-10-04
+  - name: Survivor Justice Center
+    reason: "Los Angeles only, not national. Replaced with the EOIR free legal provider list, LawHelp.org, and Hotline referrals."
+    source_url: https://www.survivorjusticecenter.org/immigration/
+    checked_on: 2026-10-04
+  - name: Gemini safety-plan tactics (false trail, burner phone, escape-route rehearsal, go-bag specifics)
+    reason: "Tactical escape advice not published on Claude's judgment. The page points to advocates and the Hotline's own safety plan tool. Flagged for Sharon and a DV advocate."
+    source_url: https://www.thehotline.org/plan-for-safety/create-your-personal-safety-plan/
+    checked_on: 2026-10-04
+  - name: Advocates for Trans Equality Name Change Project
+    reason: "Gemini's evidence was a Garden State Equality (NJ) page and a job posting; A4TE's own name-change program page not verified. Re-check later."
+    source_url: https://transequality.org/contact-us
+    checked_on: 2026-10-04
+  - name: Dare to Doubt
+    reason: "Gemini's citations were a podcast interview and Reddit; not verified on the org's own site this pass. Better fit for Area 7."
+    source_url: https://www.daretodoubt.org/
+    checked_on: 2026-10-04
+  - name: Army Emergency Relief / Military and Family Support Centers
+    reason: "Narrow audience (military dependents); not verified this pass."
+    source_url: https://www.armyemergencyrelief.org/
+    checked_on: 2026-10-04
+  - name: The Deaf Hotline
+    reason: "Gemini gave a videophone number; not opened on the org's own site. Add after checking."
+    source_url: https://www.thehotline.org/
+    checked_on: 2026-10-04
+  - name: Coalition for Responsible Home Education (CRHE)
+    reason: "Coordinator asked to note CRHE's advocacy. responsiblehomeschooling.org returned 404 on every URL tried on 2026-10-04 (root, www, /about/). Could not verify; not published."
+    source_url: https://responsiblehomeschooling.org/
+    checked_on: 2026-10-04
+  - name: "Gemini 9.2 follow-up: 'most states' require fingerprints/background check for adult name changes"
+    reason: "Not verified; varies by state. Also unverified: fingerprint fee $20-50, 'wait 48 hours after SSA before DMV', and 'courts will generally grant the fee waiver immediately' if on SNAP/Medicaid. Kept off the page."
+    source_url: https://www.lawhelp.org/
+    checked_on: 2026-10-05
+  - name: "Gemini 9.2 follow-up: passport name-change forms (DS-5504 free within 1 year; DS-82 about $130)"
+    reason: "Could not open travel.state.gov (bot check). Left off the page; the USAGov name change guide links the State Department steps."
+    source_url: https://travel.state.gov/en/passports/renew-replace/change-correct-passport.html
+    checked_on: 2026-10-05

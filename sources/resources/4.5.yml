@@ -1,0 +1,67 @@
+topic: "4.5"
+resources:
+  - name: "CFPB: An essential guide to building an emergency fund"
+    url: https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.consumerfinance.gov/an-essential-guide-to-building-an-emergency-fund/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+  - name: America Saves pledge
+    url: https://americasaves.org/
+    scope: national
+    eligibility: "Anyone; aimed at low- to moderate-income households"
+    cost: free
+    prereqs: [email or phone for reminders]
+    source_url: https://americasaves.org/about-us/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: false   # site timed out from CI and from a home network on 2026-10-04; re-add once it loads
+    notes: "Managed by the nonprofit Consumer Federation of America. Pledge -> email and text reminders. Gemini's 'free AFC coaching via Yellow Ribbon Network' link pointed to a staging site (as-stage.americasaves.org); not confirmed on live site, so page doesn't promise coaching."
+  - name: GreenPath Financial Wellness
+    url: https://www.greenpath.com/counseling/
+    phone: "800-550-1961"
+    scope: national
+    eligibility: "Anyone in the US"
+    cost: "Free counseling sessions; some specialized services have fees"
+    prereqs: []
+    source_url: https://www.greenpath.com/counseling/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Gemini gave 877-337-3399 / 866-648-8117; main number on GreenPath's pages is 800-550-1961."
+  - name: FDIC BankFind
+    url: https://banks.data.fdic.gov/bankfind-suite/bankfind
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://www.fdic.gov/resources/deposit-insurance/understanding-deposit-insurance
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "FDIC: insures deposits 'to at least $250,000 per depositor', per bank, per ownership category. BankFind URL resolves (200)."
+dropped:
+  - name: Prosperity Now IDA directory map
+    reason: "prosperitynow.org/map/idas now redirects to the homepage; no working IDA finder. Status of federal AFI funding (cited by Gemini) not checked. See Hand to Gemini."
+    source_url: https://prosperitynow.org/map/idas
+    checked_on: 2026-10-04
+  - name: Money Canvas (Thrivent)
+    reason: "Page text didn't load for verification. Also Thrivent is a Christian membership organization; flagged for Sharon given readers leaving high-control religion."
+    source_url: https://www.thrivent.com/generosity/money-canvas
+    checked_on: 2026-10-04
+  - name: Capital One 360 Performance Savings / Discover / Ally / GreenFi savings
+    reason: "Commercial products with changing rates; Gemini's APY table came from GreenFi's own marketing blog. Page links FDIC BankFind instead."
+    source_url: https://www.greenfi.com/resources/best-high-yield-savings-accounts-2026
+    checked_on: 2026-10-04
+  - name: State vital-records fee waiver table (PA, DC, FL, ID, AZ)
+    reason: "State-by-state table is against style rules and belongs to the ID Topic."
+    source_url: https://schoolhouseconnection.org/article/state-laws-on-vital-records
+    checked_on: 2026-10-04

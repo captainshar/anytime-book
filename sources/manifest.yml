@@ -1,0 +1,95 @@
+# The Anytime Book — research source manifest
+# Maps each book Topic to its Gemini Deep Research doc in the
+# "Auntie Anytime" Google Drive folder (16FMj4sA2qWV6MZHgpEtMLyax9_7CrXCi).
+# Inventory taken 2026-10-04: all 49 Topics have research. 5.1 was run twice.
+
+drive_folder: 16FMj4sA2qWV6MZHgpEtMLyax9_7CrXCi
+
+planning_docs:
+  outline: 1VdjZWqr3Z2RGxJirIceFg-kkChQfOe0Hs_zXNTQaunE          # The-Anytime-Book
+  outline_md_copy: 1EBkF79capYCWrXOzIgq7RGfS-O-zLoFAxhlIShMv97w  # The-Anytime-Book.md
+  prompt_pack: 1mn5jN_18b1vdTfIB3vTuMnFQAuwJEWdotzlH9MFwk0o      # Gemini-Deep-Research-Prompts.md
+  gap_analysis: 185uzTZs5KoieY4oBwISZ-UC1SLaLNzMNp5fbBqk617A     # Anytime-Book-Missing-Topics.md
+  background_homeschool: 1EojZZ9poJouzIsNPDoHJYm8Un6ANTl0viC4jBPMphPw   # Resources for home schoolers
+  background_survivors: 1axLIUq9U3N6CTAs7aHq8NdnLkKsMV_OEZDpPvQebEAw    # Building Support for Survivors of Lack
+
+topics:
+  # Area 1 — First Things
+  "1.1": { title: Reading and Writing, doc: 1kxwQTEmDztUF5i30tAcXrmrr7yBTpVaB-wLZoUc-gmo, doc_title: Free Nationwide Adult Literacy Resources }
+  "1.2": { title: Everyday Math, doc: 1m4PiVivx-XdXt1Yb1NxUKQO8edGkH52RmX13_3DnS3Q, doc_title: Adult Everyday Math Resources (Nationwide) }
+  "1.3": { title: Time and Schedules, doc: 1x8O53x3KmlFm54a4FI6TagG8OIQwvcGGApakESqJ-yI, doc_title: Time Management Resources Research }
+  "1.4": { title: Taking Care of Your Body Each Day, doc: 1Jx6949WMrmSX-ISjjjONfxRWntmhaY7h3gSsbezcLMQ, doc_title: Adult Basic Hygiene Resources }
+  "1.5": { title: Sleep, doc: 12Tals4xMOm6jUDeMd2zQX3CE2J2YBTal40dAKl3edL8, doc_title: Trauma-Informed Sleep Resources Research }
+  # Area 2 — Safety and Getting Started
+  "2.1": { title: Proof That You Exist, doc: 1o_cFFJ0N7hMeJ1kR0FxEZTs9RXAJt0mEdQ47m8kGZsQ, doc_title: Acquiring Core Identity Documents }
+  "2.2": { title: A Safe Place to Sleep Tonight, doc: 1lBn78l4aN3dE1NXBMVLnUuzqyHro5DVF5lp7R7-jAKg, doc_title: Emergency Shelter Resource Research }
+  "2.3": { title: Food Right Now, doc: 1yKaxaROTYe-__xi7XEy07J8X_JRkvCHFzSP5wpIA6fY, doc_title: National Emergency Food Resources }
+  "2.4": { title: A Phone and an Email Address, doc: 1j0vL7P_BFy6Jc-Zdl5xiYksPRU9-fsc7lylFmg8OmW8, doc_title: Safe Phone and Email Resources }
+  "2.5": { title: Getting Around, doc: 1PJ18bnbSy3lLE5aO5DVSNyFKnkDTpobxZK1YEb-UAck, doc_title: Nationwide Transportation Assistance Guide }
+  # Area 3 — Your Mind and Feelings
+  "3.1": { title: Naming What Happened, doc: 1Nq4FjzMdpiC-w823DKF9oqhGrjnjil4bIp3AvZrzByA, doc_title: Trauma Resources and Education Nationwide }
+  "3.2": { title: Calming Your Body, doc: 1htwttK1a-ad3eR102TEevCUAkOCNIFErBdgk0zT9dlI, doc_title: Free Nervous System Regulation Tools }
+  "3.3": { title: Being Kind to Yourself, doc: 1c-eyYR6hpnpGciMtThUKhwWx1Llp6WUxQ7VyQDoVaVw, doc_title: Self-Compassion Resources Nationwide }
+  "3.4": { title: Boundaries and Saying No, doc: 1Qt9X7tSn2zowBGLin8byZS2e6CiV5shuWHINOnRYY04, doc_title: Nationwide Boundary Setting Resources }
+  "3.5": { title: Knowing Who You Are, doc: 1EEln9aDFr14i7eHaPdYFKxKlK_Lj5pgXqcau0mRWmAg, doc_title: Identity Resources for Sheltered Adults }
+  "3.6": { title: Finding Meaning Again, doc: 1RvP1x94QWIz7D-kRFdPcEbtRDEVmsi4Q9yUvHnIDTfY, doc_title: Religious Trauma Recovery Resources }
+  # Area 4 — Money
+  "4.1": { title: A Bank Account, doc: 1gf47CdMK3BZ0GJqeJT-EAtwPw9ZIVf5XjqZf1-QFNUw, doc_title: First Bank Account Resources }
+  "4.2": { title: A Budget, doc: 1BouTq1ZcX3_THLiwdvGqdAMLcRxFBjdqz2o5dOOK13s, doc_title: Beginner Budgeting Resources Guide }
+  "4.3": { title: Your Paycheck and Taxes, doc: 1f6oYY12mqcxPOdZpZnR5RH_CISDA66mKsDkh-UKl8_g, doc_title: Paychecks and Taxes Resource Guide }
+  "4.4": { title: Credit and Debt, doc: 10q6NWdcqS1UNrgqVU81gMc7NMF3pn7oUOhx_izetv7U, doc_title: Credit And Debt Resource Guide }
+  "4.5": { title: Saving and an Emergency Fund, doc: 1DfqkCNJbduNjzsN26GLPVsn7PzT6o-otMhPdugAe7Us, doc_title: Low-Income Savings Resource Research }
+  "4.6": { title: Growing Your Money, doc: 142p3Cqsa03ongQLnpQWsI2GwbKbjRCIr-9YD-c829lk, doc_title: Beginner Investing Resources Nationwide }
+  "4.7": { title: Money Traps to Avoid, doc: 1rLb7YoGVAuhPGfnpVMrtkJsGkwcG5xZT2QDBG0GAeaE, doc_title: Avoiding Predatory Financial Systems }
+  "4.8": { title: Shopping Smart, doc: 12l7eFh4HKWr_jhilqDc1AmB1Nw-bmgxNgdZzzVNEy-Y, doc_title: Smart Shopping Consumer Guide }
+  # Area 5 — A Home and Daily Life
+  "5.1":
+    title: Finding a Place to Rent
+    doc: 1Ag1Na-79AWfXfY9GRSguHQypP2V8dYn_X00_bLFiHMk          # First-Time Renter Resource Guide (2026-07-18, newer)
+    alt_docs:
+      - 1co5uHolsU36k0v9Yp3X5FhiWX1ovHA95ku7XyUOvYbg         # Nationwide First-Time Renter Resources (2026-07-10) — duplicate run; merge
+  "5.2": { title: Keeping a Clean, Safe Home, doc: 1JZq7D-5h9U-3YKNpjWxuNQUBe8Jv7S-nCS8q184T6Bc, doc_title: Household Safety And Cleaning Guide }
+  "5.3": { title: Cooking and Eating Well, doc: 1fMrP_nIoDJVWsg9tOty8wlJ0nnTVp7DMR2azFS5aYf4, doc_title: Budget Food And Nutrition Resources }
+  "5.4": { title: Laundry and Clothes, doc: 18uAMVmFANQ4xEEsr9N4Fvg6vmKOyfB5SMr1-m632HzQ, doc_title: Laundry and Clothing Care Resources }
+  "5.5": { title: Fixing Small Things, doc: 1RbLxEqeIa2Sh3abWhHtEngHnqR6IIqT1qCEroAFnQos, doc_title: Basic Home Repair Resource Research }
+  # Area 6 — Health and Your Body
+  "6.1": { title: Starting Your Medical Life, doc: 1PpXmqys8rZ0FrnRQVkuEpmcW8o2KYTiWXQeredn0mng, doc_title: Starting Healthcare From Zero }
+  "6.2": { title: Doctor, Dentist, and Eyes, doc: 1QhkMboarOX5Vu6D8i1lQeaCjhHzNfeEs9Mzi7uFqzUw, doc_title: Affordable Nationwide Healthcare Guide }
+  "6.3": { title: Is This an Emergency?, doc: 14DJO_n_jpgM6_U0TXjdgC7Mm3k0SuFc-FO9ZElgPpYU, doc_title: Medical Triage Resources Guide }
+  "6.4": { title: Medicine and Prescriptions, doc: 15OiEubI2TKbcoYnDoTssUqLuSTqy58I0zjkBD5vNshE, doc_title: Affordable Medicine And Prescriptions }
+  "6.5": { title: Health Insurance and Benefits, doc: 1JSiYpeTidoaCE2hEbvJE1yhcAzaQpXV_wGrcfppBnHU, doc_title: Health Benefits Resource Guide }
+  "6.6": { title: Sexual and Reproductive Health, doc: 1U91CK1RssstH7S84NE9_V_XYjOB-5nHyWmKeNg3IW5k, doc_title: Nationwide Reproductive Health Resources }
+  "6.7": { title: Alcohol, Drugs, and Other Risks, doc: 1_ZwuqP2POO5Gp8Bi2tsCySfMPZWoUexs4f_awHI7xiA, doc_title: Substance Education And Support Resources }
+  # Area 7 — Talking to People and the World
+  "7.1": { title: Phone Calls and Messages, doc: 1w6NF7kLPGx1o3qYCGRDS6PYV0c6VcB3qBtEhy3twPc4, doc_title: Communication Guide For Beginners }
+  "7.2": { title: Offices and Paperwork, doc: 1FzYTPdwR-KlDa-x0hRy3qTRXg_mDvHGH6rS_YcwkEg4, doc_title: Navigating Bureaucracy Resource Guide }
+  "7.3": { title: Making Friends, doc: 1M9KEr7wsxCcQy4ZlkxYfw58jrZXjPDnGjEk6eD8MYII, doc_title: Adult Friendship Building Resources }
+  "7.4": { title: Healthy Relationships and Red Flags, doc: 1zQu2HzvniIwLH7EncFqwKCvzzxhObth9vEkes5HXgjw, doc_title: Healthy Relationship Resources Guide }
+  "7.5": { title: Dating, Sex, and Consent, doc: 1SsuSFFetAZNHpZr-rNf4P2rKIv1O4_QZCVW_gV3stR0, doc_title: Dating and Consent Resources USA }
+  "7.6": { title: Everyday Culture, doc: 1dvTiEx35ht961LXKq9s0NiHvRygMWn_rzQ7-IimcYBg, doc_title: US Cultural Fluency Resource Guide }
+  # Area 8 — Learning and Work
+  "8.1": { title: Computer and Internet Basics, doc: 1URNpPhJ5fpiNRtvvFLwc90DFoRiTn9jqGZ9U6cEIhs4, doc_title: Digital Basics Resource Guide }
+  "8.2": { title: Staying Safe Online, doc: 1ZtMDHlqoAf7D7nEXBx0qbY3rZdjIe8J2fXF-80LnJxg, doc_title: Online Safety Resource Guide }
+  "8.3": { title: Your GED or Diploma, doc: 1ssjbXHR4lKwU9--kMpz1USy_ILz2eUGHDPRLYfcBBOg, doc_title: Adult High School Equivalency Guide }
+  "8.4": { title: Going to College, doc: 1hPnHmmT2fqs6nVBtifMXTsstBRW-iHeqNLaUx1edQng, doc_title: Independent Adult College Access }
+  "8.5": { title: Finding a Job, doc: 1KMSE52Z2hDMSl7xMOlQu_rllmqHBOKEJBS81i5vdoqw, doc_title: Nationwide Job Search Resources }
+  "8.6": { title: Doing Well at Work, doc: 1W_rJc23JIGYU11EyLzGdK5FY-xgpwEFsRXxPRrSrVxs, doc_title: Workplace Skills and Rights Resources }
+  # Area 9 — Big Life Decisions
+  "9.1": { title: Knowing Your Rights, doc: 1Q4QASeeGZ3fitPIn20PRdZJX_YHr0jVFfjKak8MTiO8, doc_title: Nationwide Free Legal Aid Resources }
+  "9.2": { title: Leaving Family Safely, doc: 16t10VZtKWKJ6-RXWudWq1XzH9vfB6gflwVV6GuThNP8, doc_title: Family Separation Safety Resources }
+  "9.3": { title: Staying Safe from People Who Prey on You, doc: 1lcl-QlGGox3-ZlB3x5ibFZodFMg_5RYmRsxoZ4PrP0g, doc_title: Anti-Exploitation Resources Guide }
+  "9.4": { title: Buying and Running a Car, doc: 1APP0rVSw2yojcPcHvYKJWTNr-sogtYsBpyc_YgY9JWI, doc_title: Car Ownership Resource Guide }
+  "9.5": { title: Having Kids — or Not, doc: 148kq-XL4fhVeUHHvjF7Y_Sj7ZztyRnucf49M64oq174, doc_title: Family Planning And Parenting Resources }
+  "9.6": { title: Aging, Death, and Wills, doc: 1OTt7x22R1UQfHi0oRrl87BpLRzC3URINhRQH4Dg-evU, doc_title: Aging And End-Of-Life Resources }
+  # Area 10 — Fun, Rest, and Being You
+  "10.1": { title: Finding What You Enjoy, doc: 1ilPkh1SifmnRmzPAHO7et7Gk54_1mPtoKxYxtXDhBiA, doc_title: Adult Hobby Discovery Resources }
+  "10.2": { title: Resting Without Guilt, doc: 1GjmQsY-wpVAIofEq-3Eof4dCGi6HjfXaWz_PCSK793M, doc_title: Trauma-Informed Rest Resources }
+  "10.3": { title: Swimming and Water Safety, doc: 1OIq4M-D25h02VCevCb_vkmiR_ZmI9Kfg_lYzWfVrShI, doc_title: Adult Swim Lessons Research }
+  "10.4": { title: Protecting Yourself, doc: 1Ot72m6gGyhoZz9hNj1ZrvGKJSp9VZf1DlkWNO5pj3Bo, doc_title: First Aid and Self-Defense }
+
+# Follow-up Gemini Deep Research runs (queue: sources/review/gemini-queue.md).
+# These are research notes, not reader copy. Verified details live in sources/resources/<topic>.yml.
+follow_ups:
+  - { queue: 7,  topic: "2.1", doc: 1_tn3sJ7dLYVxSY3kAo8x26xMz4wW2WW1qKlabiFbDY8, doc_title: "Anytime Book 2.1 – Delayed Birth Registration for Adults (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }
+  - { queue: 9,  topic: "2.2", doc: 1QQAdWbG_ZM4WohmWf7noI_2IzHrT0V0z5i35PHuKjMM, doc_title: "Anytime Book 2.2 – Shelters and Housing for People Leaving High-Control Groups (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }
+  - { queue: 49, topic: "9.2", doc: 1Bsci-LMNubtbl2oQ0fNoH0TNYE7N-bzbbDw0f6A-Qow, doc_title: "Anytime Book 9.2 – Safe, Confidential Name Changes (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }

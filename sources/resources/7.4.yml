@@ -1,0 +1,112 @@
+topic: "7.4"
+resources:
+  - name: National Domestic Violence Hotline
+    url: https://www.thehotline.org/
+    phone: "1-800-799-7233"
+    text: "88788"
+    scope: national
+    eligibility: "Anyone experiencing or worried about abuse, or helping someone"
+    cost: free
+    prereqs: []
+    source_url: https://www.thehotline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "1.800.799.SAFE (7233); text START to 88788; live chat. Free, confidential, 24/7. Site warns of longer waits due to high demand, and offers an AI chat ('Ruth') when a live advocate isn't available — page tells readers they can ask for a live person."
+  - name: love is respect
+    url: https://www.loveisrespect.org/
+    phone: "1-866-331-9474"
+    text: "22522"
+    scope: national
+    eligibility: "Teens, young adults, and their loved ones in the US"
+    cost: free
+    prereqs: []
+    source_url: https://www.loveisrespect.org/get-relationship-help-24-7-365/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Text LOVEIS to 22522; chat; 24/7. Official page does not give an age cutoff (Gemini said 13-26)."
+  - name: StrongHearts Native Helpline
+    url: https://strongheartshelpline.org/
+    phone: "1-844-762-8483"
+    text: "1-844-762-8483"
+    scope: national
+    eligibility: "Native Americans and Alaska Natives facing domestic or sexual violence"
+    cost: free
+    prereqs: []
+    source_url: https://strongheartshelpline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "1-844-7NATIVE. 24/7, confidential, anonymous. Text START to 1-844-762-8483; chat icon on site."
+  - name: The Deaf Hotline
+    url: https://www.thedeafhotline.org/
+    phone: "855-812-1001"
+    scope: national
+    eligibility: "Deaf, DeafBlind, and hard of hearing people"
+    cost: free
+    prereqs: [videophone or email]
+    source_url: https://www.thehotline.org/resources/deaf-deafblind-hard-of-hearing-services/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "Videophone 855.812.1001; IM: DeafHotline; email nationaldeafhotline@adwas.org. Deaf advocates 24/7 per The Hotline partner page."
+  - name: One Love Foundation — 10 Signs
+    url: https://www.joinonelove.org/signs-unhealthy-relationship/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.joinonelove.org/signs-unhealthy-relationship/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Ten unhealthy signs: intensity, possessiveness, manipulation, isolation, sabotage, belittling, guilting, volatility, deflecting responsibility, betrayal. Companion healthy-signs page at joinonelove.org/signs-healthy-relationship/ (not separately opened)."
+  - name: DomesticShelters.org
+    url: https://www.domesticshelters.org/
+    scope: national
+    serves_where: "US and Canada"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://www.domesticshelters.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Searchable directory of DV programs and shelters by ZIP or 'near me'; resource library. Events dated Oct 2026 on site."
+  - name: International Cultic Studies Association (ICSA) online library
+    url: https://library.internationalculticstudies.org/
+    scope: national
+    serves_where: "International; English-language"
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://internationalculticstudies.org/resources-for-survivors-families-friends/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Free library (5,000+ docs per ICSA search snippet), survivor stories, checklists. ICSA says it does not provide direct services (no counseling, legal, housing, money). Membership $100/yr optional — not needed to read."
+dropped:
+  - name: "Why Does He Do That? (Lundy Bancroft) — 'free PDFs widely and legally available'"
+    reason: "Gemini claimed free legal PDFs are on the Internet Archive; legality not verifiable and likely wrong (in-copyright book). Mention the book by name only; suggest library copy. See review."
+    source_url: https://archive.org/
+    checked_on: 2026-10-04
+  - name: Power and Control Wheel
+    reason: "A framework, not a service. Mentioned in review as optional page content; not linked because the canonical source (Domestic Abuse Intervention Programs, Duluth) was not opened."
+    source_url: https://www.theduluthmodel.org/wheels/
+    checked_on: 2026-10-04
+  - name: SAMHSA National Helpline and FindTreatment.gov
+    reason: "Substance use / mental health treatment; belongs to Area 3 and 6.7. Not re-verified here."
+    source_url: https://www.samhsa.gov/find-help/helplines/national-helpline
+    checked_on: 2026-10-04
+  - name: CDC NISVS statistics table
+    reason: "Statistics are out of the book's style (no stats). Not used."
+    source_url: https://www.cdc.gov/nisvs/
+    checked_on: 2026-10-04

@@ -1,0 +1,105 @@
+topic: "3.2"
+resources:
+  - name: PTSD Coach (app) and PTSD Coach Online
+    url: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
+    scope: national
+    eligibility: "Anyone coping with stress or trauma; no military service or diagnosis needed"
+    cost: free
+    prereqs: [smartphone or computer]
+    source_url: https://www.ptsd.va.gov/appvid/mobile/ptsdcoach_app.asp
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "VA National Center for PTSD. iOS/Android. Web version https://www.ptsd.va.gov/apps/ptsdcoachonline/ (no login). Not a replacement for care."
+  - name: iChill (app)
+    url: https://www.traumaresourceinstitute.com/ichill
+    scope: national
+    eligibility: "Children, teens, adults"
+    cost: free
+    prereqs: [smartphone or internet]
+    source_url: https://www.traumaresourceinstitute.com/ichill
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Trauma Resource Institute; Community Resiliency Model skills; English, Arabic, Spanish, Hebrew, Ukrainian. ichillapp.com did not respond to a scripted check, so the page links the TRI page."
+  - name: Virtual Hope Box (app)
+    url: https://mobile.health.mil/Apps/Native-Apps/Virtual-Hope-Box
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [smartphone]
+    source_url: https://mobile.health.mil/Apps/Native-Apps/Virtual-Hope-Box
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Defense Health Agency. v2.1.5 updated 04/21/2026. iOS listing is named 'Virtual Hope Box-new'."
+  - name: UCLA Mindful free guided meditations
+    url: https://www.uclahealth.org/programs/marc/free-guided-meditations/guided-meditations
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet or app]
+    source_url: https://www.uclahealth.org/programs/marc/free-guided-meditations/guided-meditations
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "No login. About 20 languages incl. Spanish, Arabic, Mandarin, ASL, Mixtec. 3-minute body scan and 5-minute breathing tracks."
+  - name: Healthy Minds Program app (by Humin)
+    url: https://humin.org/
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [smartphone, "may ask for an account"]
+    source_url: https://www.humin.org/about
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Nonprofit (Healthy Minds Innovations rebranded to Humin in 2026). Official page does not say whether an account is required; Gemini says email is needed, so the page hedges."
+  - name: Therapy in a Nutshell (YouTube)
+    url: https://www.youtube.com/@TherapyinaNutshell
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: [internet]
+    source_url: https://therapyinanutshell.com/about/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: low
+    on_page: true
+    notes: "Emma McAdam, LMFT licensed in Utah. Free YouTube videos; paid courses also sold. YouTube shows ads. Creator endorsement flagged for Sharon."
+  - name: 988 Suicide & Crisis Lifeline
+    url: https://988lifeline.org/
+    phone: "988"
+    text: "988"
+    scope: national
+    eligibility: "Anyone"
+    cost: free
+    prereqs: []
+    source_url: https://988lifeline.org/
+    verified_on: 2026-10-04
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "24/7 call, text, chat."
+dropped:
+  - name: Breathe2Relax
+    reason: "Still listed on mobile.health.mil; left off only to keep the app list short (overlaps PTSD Coach and Virtual Hope Box). Not a verification failure."
+    source_url: https://mobile.health.mil/Apps/Native-Apps/Virtual-Hope-Box
+    checked_on: 2026-10-04
+  - name: Johns Hopkins Somatic Self-Care videos
+    reason: "Hosted under Johns Hopkins' employee Office of Well-Being; did not confirm it is meant for the public. Revisit."
+    source_url: https://www.hopkinsmedicine.org/office-of-well-being/connection-support/somatic-self-care
+    checked_on: 2026-10-04
+  - name: Library card workarounds (Philadelphia, California Libby, Alabama examples)
+    reason: "State-by-state examples sourced from a blog and Reddit; unverified and out of scope for this Topic. Library access belongs in Areas 1/8."
+    source_url: https://www.prettyopinionated.com/2021/04/free-library-card-online-states/
+    checked_on: 2026-10-04
+  - name: "Cyclic sighing 'most effective' claim"
+    reason: "Gemini cited a clinic blog. Dropped the claim; the page keeps a plain long-exhale exercise."
+    source_url: https://www.yourtownhealth.com/2026/04/21/stress-awareness-month-the-2026-guide-to-nervous-system-regulation/
+    checked_on: 2026-10-04
