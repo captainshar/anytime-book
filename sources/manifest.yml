@@ -86,3 +86,10 @@ topics:
   "10.2": { title: Resting Without Guilt, doc: 1GjmQsY-wpVAIofEq-3Eof4dCGi6HjfXaWz_PCSK793M, doc_title: Trauma-Informed Rest Resources }
   "10.3": { title: Swimming and Water Safety, doc: 1OIq4M-D25h02VCevCb_vkmiR_ZmI9Kfg_lYzWfVrShI, doc_title: Adult Swim Lessons Research }
   "10.4": { title: Protecting Yourself, doc: 1Ot72m6gGyhoZz9hNj1ZrvGKJSp9VZf1DlkWNO5pj3Bo, doc_title: First Aid and Self-Defense }
+
+# Follow-up Gemini Deep Research runs (queue: sources/review/gemini-queue.md).
+# These are research notes, not reader copy. Verified details live in sources/resources/<topic>.yml.
+follow_ups:
+  - { queue: 7,  topic: "2.1", doc: 1_tn3sJ7dLYVxSY3kAo8x26xMz4wW2WW1qKlabiFbDY8, doc_title: "Anytime Book 2.1 – Delayed Birth Registration for Adults (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }
+  - { queue: 9,  topic: "2.2", doc: 1QQAdWbG_ZM4WohmWf7noI_2IzHrT0V0z5i35PHuKjMM, doc_title: "Anytime Book 2.2 – Shelters and Housing for People Leaving High-Control Groups (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }
+  - { queue: 49, topic: "9.2", doc: 1Bsci-LMNubtbl2oQ0fNoH0TNYE7N-bzbbDw0f6A-Qow, doc_title: "Anytime Book 9.2 – Safe, Confidential Name Changes (follow-up)", saved: 2026-10-05, verified: 2026-10-05 }

@@ -3,7 +3,7 @@ title: "A Safe Place to Sleep Tonight"
 description: "Emergency shelter and safe housing when you have nowhere to go."
 topic: "2.2"
 status: draft
-last_verified: 2026-10-04
+last_verified: 2026-10-05
 sidebar:
   order: 2
   label: "2.2 A Safe Place to Sleep Tonight"
@@ -118,6 +118,22 @@ A Utah nonprofit for people leaving polygamous groups. They help with basic need
 - **Who can use it:** People from a polygamous culture. **Based in Utah.**
 - **How to start:** Call [801-548-3492](tel:18015483492), or email help@holdingouthelp.org.
 - **Good to know:** Phones are answered Monday to Thursday, 9 a.m. to 4 p.m. Mountain time. This is not a 24/7 line. At other times, call 211 or the National Domestic Violence Hotline.
+
+**[Cherish Families](https://www.cherishfamilies.org/)**
+A nonprofit for people and families from polygamous communities. They help with basic needs and housing, crisis support, and counseling.
+
+- **Cost:** Not listed on their site. Ask when you call.
+- **Who can use it:** People from polygamous backgrounds. **Offices in Alpine, Utah, and Colorado City, Arizona.**
+- **How to start:** Call [928-875-0969](tel:19288750969).
+- **Good to know:** Phones are answered Monday to Friday, 9 a.m. to 5 p.m. This is not a 24/7 line.
+
+**[Footsteps](https://www.footstepsorg.org/)**
+Support for adults leaving ultra-Orthodox Jewish communities. They offer peer support, small grants, and help with school and work.
+
+- **Cost:** Free to join. Almost everything they offer is free.
+- **Who can use it:** People 18 and older from ultra-Orthodox communities.
+- **How to start:** Call [1-877-783-7755](tel:18777837755) (877-STEPS-55).
+- **Good to know:** Based in New York City, with many programs online for people anywhere in the US. They are not a shelter. For a bed tonight, call 211 too.
 
 ## If you only do one thing first
 

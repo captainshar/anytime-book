@@ -136,6 +136,49 @@ resources:
     risk: medium
     on_page: true
     notes: "Services listed: basic needs, case management, therapy, life skills, housing assistance, host homes, referrals. Email help@holdingouthelp.org. Known gap from prior review; not in Gemini doc. Cost not on site — flagged."
+  - name: Cherish Families
+    url: https://www.cherishfamilies.org/
+    phone: "928-875-0969"
+    hours: "Mon-Fri 9am-5pm"
+    scope: regional
+    serves_where: "Utah and Arizona (offices in Alpine, UT and Colorado City, AZ)"
+    eligibility: "Individuals and families from polygamous backgrounds"
+    cost: "Not stated on site"
+    prereqs: []
+    source_url: https://www.cherishfamilies.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "From the 2.2 follow-up Gemini run. Homepage lists Crisis & Victim Support, Counseling & Emotional Wellness, Basic Needs & Housing, Family & Peer Support, legal referrals. (c) 2026. Gemini said 'Free'; the site does not say so, so the page says to ask. Gemini said it is staffed largely by people from plural backgrounds (news source only); not on the page."
+  - name: Footsteps
+    url: https://www.footstepsorg.org/
+    phone: "1-877-783-7755"
+    scope: regional
+    serves_where: "New York City area in person; many programs available nationwide online"
+    eligibility: "Adults 18+ who are leaving or have left ultra-Orthodox Jewish communities"
+    cost: free
+    prereqs: []
+    source_url: https://www.footstepsorg.org/about-us/frequently-asked-questions/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Same record as 9.2 (keep name and phone identical for CI). Homepage lists microgrants, scholarships, peer support, career/education help; no housing program on its own site. A Nov 2024 JTA article describes one-time $1,500-2,000 NYC housing stipends for members; not on Footsteps' site, so the page does not promise housing help."
+  - name: Mission to Amish People (New Beginnings Homestead)
+    url: https://mapministry.org/
+    phone: "419-962-1515"
+    scope: local
+    serves_where: "Greenwich, Ohio"
+    eligibility: "Homestead: young women leaving the Amish; ministry serves former Amish generally"
+    cost: "Not stated on site"
+    prereqs: []
+    source_url: https://mapministry.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: false
+    notes: "Real housing for ex-Amish women, but the site says it was 'founded in 2000 with the purpose of evangelizing and discipling Amish and Former Amish.' Held off the page pending Sharon's call (see review file). Second number on site: (330) 601-2961."
 dropped:
   - name: "HUD Resource Locator (resources.hud.gov)"
     reason: "Covered by the USA.gov emergency housing page, which links HUD's shelter lists; kept the list short."
@@ -165,3 +208,11 @@ dropped:
     reason: "Not on the official site; texting goes to 1-800-786-2929."
     source_url: https://www.1800runaway.org/youth-teens/get-help
     checked_on: 2026-10-04
+  - name: The Vashti Initiative
+    reason: "Gemini (2.2 follow-up) called it 'the first national hotline' for religious abuse that helps with housing. Its own site lists no hotline, phone, or housing service: only a contact form. Re-check if they add services."
+    source_url: https://www.vashtiinitiative.org/contact
+    checked_on: 2026-10-05
+  - name: "Salvation Army domestic violence safe houses"
+    reason: "Gemini (2.2 follow-up) listed them. Christian, local, and policies vary by site; 211 and the DV Hotline already route to them where they fit. Not verified."
+    source_url: https://www.salvationarmyusa.org/domestic-violence/
+    checked_on: 2026-10-05

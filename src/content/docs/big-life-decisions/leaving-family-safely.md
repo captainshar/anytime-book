@@ -3,7 +3,7 @@ title: "Leaving Family Safely"
 description: "Stepping away from a harmful family — going no-contact, changing your name, keeping your address private, and protective orders."
 topic: "9.2"
 status: draft
-last_verified: 2026-10-04
+last_verified: 2026-10-05
 sidebar:
   order: 2
   label: "9.2 Leaving Family Safely"
@@ -48,6 +48,7 @@ Other free, confidential lines:
 - **StrongHearts Native Helpline**, for Native American and Alaska Native people: call or text [1-844-762-8483](tel:18447628483), 24/7.
 - **RAINN National Sexual Assault Hotline**: call [1-800-656-4673](tel:18006564673) or text HOPE to 64673, 24/7.
 - **988 Suicide & Crisis Lifeline**: call or text 988 if you feel hopeless or think about ending your life, 24/7.
+- **[VictimConnect Resource Center](https://victimconnect.org/)**, for victims of any crime, including stalking and abuse: call or text [1-855-484-2846](tel:18554842846), 24/7. They help you find local victim services and learn your rights.
 
 ### Leaving a high-control religion or group
 
@@ -79,7 +80,7 @@ Plain-language legal information by state, on protective orders, custody, and mo
 - **How to start:** Pick your state under "Know the Laws." To ask your own question, use the [email hotline](https://hotline.womenslaw.org/).
 - **Good to know:** An attorney answers or reviews each email, usually in 1 to 5 business days. They give legal information, not legal advice, and they can't call you.
 
-**Changing your name.** A name change needs a court order. Many states let you ask the court to waive (skip) the fee if you can't pay. Many also let you keep the case private or skip printing your name in the newspaper if you are in danger. Find your state's free forms and rules on [LawHelp.org](https://www.lawhelp.org/). Then update your name with Social Security and the DMV ([USAGov name change guide](https://www.usa.gov/name-change)).
+**Changing your name.** A name change needs a court order. Many states let you ask the court to waive (skip) the fee if you can't pay. Many also let you keep the case private or skip printing your name in the newspaper if you are in danger. Find your state's free forms and rules on [LawHelp.org](https://www.lawhelp.org/). In some states, [LawHelp Interactive](https://lawhelpinteractive.org/) fills out the forms for you for free after you answer questions. Never pay a website for a "name change kit." Ask a legal aid lawyer or advocate to help you ask the judge to keep your case private. Then update your name with Social Security and the DMV ([USAGov name change guide](https://www.usa.gov/name-change)).
 
 **[Free immigration legal help](https://www.justice.gov/eoir/list-pro-bono-legal-service-providers)**
 If a family member controls your immigration papers or threatens to have you deported, there may be special protections for you. This official list from the immigration courts shows groups that give free immigration legal help.

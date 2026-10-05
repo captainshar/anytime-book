@@ -254,6 +254,32 @@ resources:
     risk: high
     on_page: true
     notes: "Linked from the official 'How to Report' page (link found in browser; '?rt=795' tracking parameter dropped). Used instead of a state table."
+  - name: VictimConnect Resource Center
+    url: https://victimconnect.org/
+    phone: "1-855-484-2846"
+    text: "1-855-484-2846"
+    scope: national
+    eligibility: "Victims of any crime in the US"
+    cost: free
+    prereqs: []
+    source_url: https://victimconnect.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: high
+    on_page: true
+    notes: "From the 9.2 name-change follow-up. Homepage: 24/7, call or text 1-855-4VICTIM, free and confidential, program of the National Center for Victims of Crime, (c) 2026. Same record as 9.3; keep name identical for CI."
+  - name: LawHelp Interactive
+    url: https://lawhelpinteractive.org/
+    scope: national
+    eligibility: "Anyone; which forms exist depends on the state"
+    cost: free
+    prereqs: [internet]
+    source_url: https://lawhelpinteractive.org/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "From the 9.2 follow-up. 'helps you fill out legal documents for free'; run by Scale Justice with LSC and partners; forms are state-specific via partner sites. Page says 'In some states' because name-change interviews are not offered everywhere (not checked state by state)."
 dropped:
   - name: Gemini state ACP phone table
     reason: "About 16 of 38 numbers didn't match the Missouri SOS directory; RI listed with NJ's number; AR and SC wrongly listed as having no program. Replaced with a link to the maintained directory."
@@ -287,3 +313,11 @@ dropped:
     reason: "Coordinator asked to note CRHE's advocacy. responsiblehomeschooling.org returned 404 on every URL tried on 2026-10-04 (root, www, /about/). Could not verify; not published."
     source_url: https://responsiblehomeschooling.org/
     checked_on: 2026-10-04
+  - name: "Gemini 9.2 follow-up: 'most states' require fingerprints/background check for adult name changes"
+    reason: "Not verified; varies by state. Also unverified: fingerprint fee $20-50, 'wait 48 hours after SSA before DMV', and 'courts will generally grant the fee waiver immediately' if on SNAP/Medicaid. Kept off the page."
+    source_url: https://www.lawhelp.org/
+    checked_on: 2026-10-05
+  - name: "Gemini 9.2 follow-up: passport name-change forms (DS-5504 free within 1 year; DS-82 about $130)"
+    reason: "Could not open travel.state.gov (bot check). Left off the page; the USAGov name change guide links the State Department steps."
+    source_url: https://travel.state.gov/en/passports/renew-replace/change-correct-passport.html
+    checked_on: 2026-10-05

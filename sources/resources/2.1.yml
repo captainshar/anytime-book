@@ -78,6 +78,20 @@ resources:
     risk: medium
     on_page: true
     notes: "Article dated Aug 4, 2026. Usually one facility per Post Office; use Find USPS Locations filtered for General Delivery and call to confirm. Address format NAME / GENERAL DELIVERY / CITY STATE ZIP. Held up to 30 days. 'Postmasters may restrict the use of General Delivery if a customer cannot present suitable identification.' Gemini's '-9999 ZIP' detail is not on the USPS page; page says ask the facility for the ZIP."
+  - name: "California Delayed Registration of Birth (CDPH VS 85) — reference only"
+    url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    phone: "916-445-2684"
+    scope: state
+    serves_where: "Births in California"
+    eligibility: "Adults 18+ file for themselves"
+    cost: "$26 registration incl. one certified copy (pamphlet effective Jan 2022)"
+    prereqs: [documentary evidence, money or fee waiver]
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: false
+    notes: "Used only to check the page's general steps (no state tables per STYLE.md). Pamphlet: statewide search 'recommended' (not required); evidence must show date AND place of birth, be original or certified copy, and be made 5+ years before applying; up to 2 witnesses who were at least 5 years old at the birth; 0 witnesses = 2 documents (one showing parentage), 2 witnesses or the birth attendant = 1 document; accepted evidence includes hospital, school, census, military, voter, baptismal/church records, Numident, newspaper birth notices; supporting documents are NOT returned. Court order route: separate pamphlet (rev. 01/2026), 'Order Establishing Facts of Event'. Customer service AmendVR@cdph.ca.gov."
 dropped:
   - name: Homeless ID Project
     reason: "Gemini called it national ('all 50 states'); its own site says it serves the Phoenix and Tucson, Arizona areas only."
@@ -99,3 +113,19 @@ dropped:
     reason: "DC-only mail/ID example from a news article; not verified on the org's own site and too local."
     source_url: https://streetsensemedia.org/article/how-to-get-an-id-if-youre-experiencing-homelessness/
     checked_on: 2026-10-04
+  - name: "Gemini 2.1 follow-up: 'Without a Letter of No Record, a state will refuse to open a delayed registration case'"
+    reason: "Overstated. California only 'recommends' a statewide search. Page keeps the no-record letter as a helpful step, not a rule."
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    checked_on: 2026-10-05
+  - name: "Gemini 2.1 follow-up: 'never mail originals; states almost always accept notarized photocopies'"
+    reason: "Contradicted. California requires originals or certified copies and does not return them; SSA rejects notarized copies. Page now says make copies first and that some states keep what you send."
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    checked_on: 2026-10-05
+  - name: "Gemini 2.1 follow-up: state fee-waiver table (CA, CT, IN, MN, PA, TX) and '4-12 weeks' processing"
+    reason: "No state tables per STYLE.md. SchoolHouse Connection (June 2026) shows most birth-certificate fee waivers are for homeless youth only; CA, IL, NV, NM, WA, MD also cover homeless adults. Page says 'most of those rules are for young people.' The 4-12 week figure had no official source."
+    source_url: https://schoolhouseconnection.org/article/state-laws-on-vital-records
+    checked_on: 2026-10-05
+  - name: "Gemini 2.1 follow-up: 'many public libraries have a free notary'; law school clinics as a named resource"
+    reason: "Library notaries vary and were not checked. Law school clinics are reachable through LawHelp.org, already on the page. Gemini's main citations for the process were Reddit and a passport-service blog."
+    source_url: https://www.lawhelp.org/
+    checked_on: 2026-10-05

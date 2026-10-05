@@ -78,6 +78,7 @@ Topic: Free ways for an adult to work on tasks alongside other people ("body dou
 ## 6. Getting a state ID when you have never had an SSN (2.1)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/418eef863629be2a
+- Stalled: still on "Starting/Researching" on 2026-10-05, a day after starting. Needs a fresh run.
 - [ ] Result saved to Drive
 
 ```text
@@ -87,7 +88,7 @@ Topic: The "no SSN, no ID" loop for US-born adults who were never issued a Socia
 ## 7. Delayed birth registration for adults (2.1)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/d83d53d4dcdff02b
-- [ ] Result saved to Drive
+- [x] Result saved to Drive 2026-10-05; verified into sources/resources (see manifest follow_ups)
 
 ```text
 Topic: Delayed registration of birth for US-born adults whose birth was never recorded. From official state vital records pages and the CDC/NCHS only, explain: the usual steps (asking for a "no record" letter, the delayed registration application, what evidence states accept, rules for sworn statements from older relatives or witnesses), how long it takes, typical fees and fee waivers, and when a court order is needed. Name free legal help that does this nationwide (legal aid, law school clinics). Describe patterns across states rather than a state-by-state table. Flag paid "document service" companies and scams.
@@ -105,7 +106,7 @@ Topic: SNAP (food stamps) eligibility for noncitizens in 2026, after the One Big
 ## 9. Shelters and housing for people leaving high-control groups (2.2)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/c41729eae9f2bdc2
-- [ ] Result saved to Drive
+- [x] Result saved to Drive 2026-10-05; verified into sources/resources (see manifest follow_ups)
 
 ```text
 Topic: Emergency and transitional housing for adults leaving cults, high-control religious groups, or closed communities (for example, polygamous groups, closed Anabaptist communities, or controlling family groups). Find programs that actually provide beds, host homes, or transitional housing. These are often regional, like Holding Out HELP in Utah. For each, give the area served, eligibility, cost, how to contact, and whether it is faith-based or secular. Also find whether domestic violence shelters accept adults fleeing abuse by parents or a group rather than a partner, and cite official statements from national DV organizations. Only include programs active in 2026.
@@ -168,6 +169,7 @@ Topic: Free, gentle, body-based calming videos or audio from universities, hospi
 ## 16. Parents who misused an adult child's identity (4.3 / 4.4)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/0c27ca27f7f22104
+- First run failed ("Something went wrong"); restarted in a new chat 2026-10-05: https://gemini.google.com/app/34e568e6bcadff01
 - [ ] Result saved to Drive
 
 ```text
@@ -267,6 +269,7 @@ Topic: Free nurse advice lines in the United States. Find which nurse advice lin
 ## 27. Medicaid work rules: how each state takes reports, and help with appeals (6.5)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/0c96babb04f33025
+- Stalled: still on "Starting/Researching" on 2026-10-05, a day after starting. Needs a fresh run.
 - [ ] Result saved to Drive
 
 ```text
@@ -359,6 +362,7 @@ Topic: Free, plain-language ways for adults who were cut off from mainstream med
 ## 37. Homeschool records and transcripts for estranged adults (8.3 / 8.4)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/74e2385bf33a28d6
+- Stalled: still on "Starting/Researching" on 2026-10-05, a day after starting. Needs a fresh run.
 - [ ] Result saved to Drive
 
 ```text
@@ -413,6 +417,7 @@ Topic: Catching up on mainstream science, history, and health after a biased or 
 ## 43. Police welfare checks and missing-adult reports (9.2)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/7bf9d250ba55920a
+- Stalled: still on "Starting/Researching" on 2026-10-05, a day after starting. Needs a fresh run.
 - [ ] Result saved to Drive
 
 ```text
@@ -467,7 +472,7 @@ Topic: The practical steps after a death, for someone with no family help and li
 ## 49. Safe, confidential name changes (9.2)
 
 - [x] Started in Gemini 2026-10-04: https://gemini.google.com/app/3c8ee1a463613e92
-- [ ] Result saved to Drive
+- [x] Result saved to Drive 2026-10-05; verified into sources/resources (see manifest follow_ups)
 
 ```text
 Topic: Changing your legal name when you are hiding from an abusive family. Find, for the US as a whole and with an official state finder: court fee waivers for name changes; states that let survivors seal the record or skip newspaper publication, and how to ask; fingerprint or background-check steps; how to update Social Security, passport, and state ID afterward; and free legal help (legal aid, trans legal services such as Advocates for Trans Equality or state groups, with current program pages). Warn about paid name-change websites.

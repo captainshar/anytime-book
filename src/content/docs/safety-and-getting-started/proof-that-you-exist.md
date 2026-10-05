@@ -3,7 +3,7 @@ title: "Proof That You Exist"
 description: "The papers that show who you are — a birth certificate, a Social Security number, and a photo ID."
 topic: "2.1"
 status: draft
-last_verified: 2026-10-04
+last_verified: 2026-10-05
 sidebar:
   order: 1
   label: "2.1 Proof That You Exist"
@@ -84,10 +84,11 @@ This happens more than people think. There is a way through it:
 1. Ask the birth state's vital records office for your birth certificate anyway.
 2. If they have no record, ask them for a letter that says so. This is often called a "no record" letter. Keep it. It proves you looked.
 3. Ask that office about a **delayed birth registration**. This means making a birth record now, years later. Each state has its own form and rules.
-4. You will need papers that show when and where you were born. Old records help most, like early doctor or school records. Many states also take a signed statement from someone older who knew about your birth.
-5. If the state says no, a judge can order a birth record. Free legal aid can help with this (see LawHelp.org above).
+4. You will need papers that show when and where you were born. Old records help most, like early doctor, school, or church records. Some states only take papers that are at least 5 years old. Many states also take a signed statement from someone older who knew about your birth. In some states, that person must have been at least 5 years old when you were born.
+5. Make copies of everything before you send it. Some states keep the papers you send and do not give them back.
+6. If the state says no, a judge can order a birth record. Free legal aid can help with this (see LawHelp.org above).
 
-This can take months. It is still worth starting.
+This can take months. It is still worth starting. There is a fee, but some states waive it for people who are homeless. Most of those rules are for young people. Ask the office, or ask VoteRiders to help pay.
 
 ### Your Social Security number
 
@@ -117,5 +118,5 @@ Call or text VoteRiders at [866-432-8683](tel:18664328683). Tell them what you h
 - **Lookalike websites.** Many websites look official but charge extra to "help" you order a birth certificate or Social Security card. Find your state's office through the CDC list above. Social Security's real site ends in **ssa.gov**.
 - **Paying for a Social Security card.** A Social Security number and card are always free from SSA.
 - **Paying a company to "create" your identity.** No private company can make you a birth certificate. Only your birth state or a court can. If you need a court order, ask free legal aid.
-- **Giving away your only copies.** Offices take originals. Ask for them back when you're done. Keep your papers somewhere safe, away from anyone who has taken them before.
+- **Giving away your only copies.** Offices often want originals or certified copies, and some keep them. Make copies first, and ask for originals back when you can. Keep your papers somewhere safe, away from anyone who has taken them before.
 - **Leaving when you hear "REAL ID."** If the DMV says you don't have enough papers for a REAL ID, ask about a standard ID instead.
