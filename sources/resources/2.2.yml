@@ -178,8 +178,7 @@ resources:
     verified_by: claude
     risk: medium
     on_page: false
-    notes: "Left out by Sharon on 2026-10-05: its stated purpose is evangelizing Amish and former Amish people. Do not re-add."
-    notes: "Real housing for ex-Amish women, but the site says it was 'founded in 2000 with the purpose of evangelizing and discipling Amish and Former Amish.' Held off the page pending Sharon's call (see review file). Second number on site: (330) 601-2961."
+    notes: "Left out by Sharon on 2026-10-05: the site says it was 'founded in 2000 with the purpose of evangelizing and discipling Amish and Former Amish.' Do not re-add. Second number on site: (330) 601-2961."
 dropped:
   - name: "HUD Resource Locator (resources.hud.gov)"
     reason: "Covered by the USA.gov emergency housing page, which links HUD's shelter lists; kept the list short."
