@@ -1,12 +1,8 @@
 // Cloudflare Workers config: serve the static Astro build from dist/.
-// The Cloudflare project has no build command set, so Wrangler runs the
-// build itself before every deploy or preview.
+// Cloudflare's build settings run `npm run build` before deploying.
 {
 	"name": "anytime-book",
 	"compatibility_date": "2026-10-01",
-	"build": {
-		"command": "npm run build"
-	},
 	"assets": {
 		"directory": "./dist",
 		"not_found_handling": "404-page"
