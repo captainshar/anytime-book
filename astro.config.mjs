@@ -24,7 +24,7 @@ export default defineConfig({
 	integrations: [
 		starlight({
 			title: 'The Anytime Book',
-			description: 'A free map for joining the world — at any age, from any starting point.',
+			description: 'A free map for joining the world — at any age, from any starting point. United States Edition.',
 			social: [
 				{ icon: 'github', label: 'GitHub', href: 'https://github.com/captainshar/anytime-book' },
 			],
@@ -34,6 +34,7 @@ export default defineConfig({
 			lastUpdated: true,
 			sidebar: [
 				{ label: 'How to use this book', slug: 'how-to-use' },
+				{ label: 'How this book was made', slug: 'how-this-book-was-made' },
 				...areas.map((label, i) => ({
 					label: `${i + 1}. ${label}`,
 					collapsed: true,

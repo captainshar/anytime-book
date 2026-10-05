@@ -40,6 +40,7 @@ A short, kind paragraph naming one step.
 - Phone numbers: write as `1-800-799-7233` and also as a link `[1-800-799-7233](tel:18007997233)`. Text numbers: "Text START to 88788".
 - 3–10 resources per Topic. Prefer national, free, official, or long-running nonprofits. For things that are state- or county-run, link to an official **finder** and say how to find the local version. Never publish state-by-state phone tables.
 - Never call a local or single-state program national. If a strong program is regional (for example, Holding Out HELP in Utah), you can include it, but say where it serves.
+- **Religious and faith-based resources are welcome.** Sometimes they are the only help nearby, and many shelters are religious. Include them when they verify, and say so plainly in **Good to know**: name the faith, quote any religious mission from their own site, and state any religious requirement (services, prayer, Bible study). If the site doesn't say whether there are requirements, tell readers to ask. Never drop a resource only because it is religious.
 - Page frontmatter: set `status: draft` (Sharon promotes to `verified`) and `last_verified: <today's date>`.
 - Plain Markdown and Starlight asides only (`:::note`, `:::caution`, `:::tip`). The epub build converts asides; don't use MDX components.
 

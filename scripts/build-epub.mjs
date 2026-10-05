@@ -58,6 +58,7 @@ const addPage = (page, level) =>
 	parts.push(`${'#'.repeat(level)} ${page.title}\n\n${demote(page.body, level)}`);
 
 addPage(parse(join(DOCS, 'how-to-use.md')), 1);
+addPage(parse(join(DOCS, 'how-this-book-was-made.md')), 1);
 
 for (const dir of AREA_DIRS) {
 	const area = parse(join(DOCS, dir, 'index.md'));
@@ -85,7 +86,7 @@ const args = [
 	'--toc',
 	'--toc-depth=2',
 	'--split-level=1',
-	`--metadata=title:The Anytime Book`,
+	`--metadata=title:The Anytime Book, United States Edition`,
 	`--metadata=subtitle:A map for joining the world — at any age, from any starting point.`,
 	`--metadata=lang:en-US`,
 	`--metadata=date:${new Date().toISOString().slice(0, 10)}`,

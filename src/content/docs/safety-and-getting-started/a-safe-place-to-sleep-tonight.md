@@ -49,6 +49,18 @@ The government's own page of ways to find shelter, by state.
 - **How to start:** Open the page and follow the links for your state.
 - **Good to know:** You need internet. A library computer works.
 
+:::note[Shelters run by religious groups]
+Many shelters are run by churches or other religious groups. Sometimes they are the only shelter nearby. Some ask guests to go to a service or follow religious rules. Many do not. You can ask before you go: "Do I have to go to services or prayers to stay here?" If the answer doesn't work for you, ask 211 for another place.
+:::
+
+**[The Salvation Army](https://www.salvationarmyusa.org/homelessness/emergency-shelters/)**
+Runs emergency shelters in many towns, with meals, case management, and help finding housing.
+
+- **Cost:** Free
+- **Who can use it:** People who need a place to stay. Each shelter sets its own rules.
+- **How to start:** Use the "Find Help Near You" search on their website, or ask 211.
+- **Good to know:** **Religious group.** The Salvation Army calls itself "an evangelical part of the universal Christian Church." It says it serves people of any religion. Shelters ask guests to stay sober and not bring alcohol, drugs, or weapons. Rules differ by shelter, so ask what is expected.
+
 ### If someone is hurting you or controlling you
 
 **[National Domestic Violence Hotline](https://www.thehotline.org/)**
@@ -99,7 +111,7 @@ Shelters for young adults, with meals, showers, and help with next steps.
 - **Cost:** Free
 - **Who can use it:** Ages 18 to 24. Only in some cities, including New York, Philadelphia, Los Angeles, Atlanta, Chicago, Houston, Detroit, New Orleans, Washington DC, and others. Check the list on their site.
 - **How to start:** Find the closest shelter on their list and walk in, day or night. No referral needed.
-- **Good to know:** Shelters are open 24/7. Their main phone, [1-800-388-3888](tel:18003883888), answers weekdays 8:30 a.m. to 5 p.m. Eastern.
+- **Good to know:** Shelters are open 24/7. Their main phone, [1-800-388-3888](tel:18003883888), answers weekdays 8:30 a.m. to 5 p.m. Eastern. **Faith-based.** Covenant House says it is "inspired by faith." It says it welcomes all youth "without judgment or conditions."
 
 ### More help for certain groups
 
@@ -134,6 +146,14 @@ Support for adults leaving ultra-Orthodox Jewish communities. They offer peer su
 - **Who can use it:** People 18 and older from ultra-Orthodox communities.
 - **How to start:** Call [1-877-783-7755](tel:18777837755) (877-STEPS-55).
 - **Good to know:** Based in New York City, with many programs online for people anywhere in the US. They are not a shelter. For a bed tonight, call 211 too.
+
+**[Mission to Amish People: New Beginnings Homestead](https://mapministry.org/)**
+A home for young women who are leaving the Amish, with guidance and help getting started on their own.
+
+- **Cost:** Not listed on their site. Ask when you call.
+- **Who can use it:** Young women leaving Amish communities. **Based in Greenwich, Ohio.**
+- **How to start:** Call [419-962-1515](tel:14199621515), or email map@mapministry.org.
+- **Good to know:** **Religious mission.** This is a Christian ministry. Its website says it was started "with the purpose of evangelizing and discipling Amish and Former Amish." The site does not say whether residents must take part in religious activities, so ask before you go.
 
 ## If you only do one thing first
 

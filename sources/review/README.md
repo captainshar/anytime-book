@@ -32,7 +32,7 @@ All 58 Topic pages are now `status: draft`. Each resource on them was checked on
 ## 2. Your calls (values, tone, inclusion)
 
 - **988 "Press 3" for LGBTQ+ youth** was restored around Oct 1, 2026, without The Trevor Project. Decide how to present it (3.5).
-- **Faith:** 3.6 is mostly secular, with nothing yet for people who leave a group but keep their faith. Also decide on the faith-based picks: Thrivent (dropped from 4.x), Laundry Love church hosts (5.4), ACA's "Higher Power" wording and Tara Brach (3.x), and *Rest Is Resistance* (10.2).
+- **Faith (decided 2026-10-05):** include religious and faith-based resources, with a clear note of any religious mission or requirement (rule in `sources/STYLE.md`). Applied to 2.2. Still to revisit under this rule: Thrivent Money Canvas (4.5, dropped partly as faith-based) and any faith-based picks the agents left off for values reasons. 3.6 still has nothing for people who leave a group but keep their faith (Gemini prompt #11).
 - **Reproductive health:** whether to list abortion resources given state bans, the crisis-pregnancy-center warning, and Scarleteen (6.6, 9.5). Also whether to name harmful parenting books (9.5).
 - **"Catching up on science and history"** note mentioning evolution (8.3), and the candidate Topic "Correcting what you were taught."
 - **Cover stories:** keep or drop any mention of the "reading glasses" script (1.1).

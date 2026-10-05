@@ -1,4 +1,4 @@
-# The Anytime Book
+# The Anytime Book, United States Edition
 
 *A map for joining the world — at any age, from any starting point.*
 

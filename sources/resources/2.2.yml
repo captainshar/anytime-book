@@ -107,7 +107,7 @@ resources:
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "Gemini said ages 16-24; site says 18-24. No referral needed. 1-800 number is the general/Donor Care line, not a crisis line (per contact page)."
+    notes: "Faith-based: About page says 'Inspired by faith' and 'We welcome all youth without judgment or conditions.' (checked 2026-10-05). Gemini said ages 16-24; site says 18-24. No referral needed. 1-800 number is the general/Donor Care line, not a crisis line (per contact page)."
   - name: National Call Center for Homeless Veterans
     url: https://www.va.gov/homeless/nationalcallcenter.asp
     phone: "1-877-424-3838"
@@ -177,8 +177,20 @@ resources:
     verified_on: 2026-10-05
     verified_by: claude
     risk: medium
-    on_page: false
-    notes: "Left out by Sharon on 2026-10-05: the site says it was 'founded in 2000 with the purpose of evangelizing and discipling Amish and Former Amish.' Do not re-add. Second number on site: (330) 601-2961."
+    on_page: true
+    notes: "Christian ministry; site says it was 'founded in 2000 with the purpose of evangelizing and discipling Amish and Former Amish.' Sharon (2026-10-05): include religious resources with a clear note of any religious mission or requirements. Site does not state whether residents must join religious activities; page tells readers to ask. Second number on site: (330) 601-2961."
+  - name: The Salvation Army
+    url: https://www.salvationarmyusa.org/homelessness/emergency-shelters/
+    scope: national
+    eligibility: "People who need shelter; each location sets its own rules"
+    cost: free
+    prereqs: [sobriety at most shelters]
+    source_url: https://www.salvationarmyusa.org/homelessness/emergency-shelters/
+    verified_on: 2026-10-05
+    verified_by: claude
+    risk: medium
+    on_page: true
+    notes: "Religious: 'an evangelical part of the universal Christian Church.' States it serves people 'without unlawful discrimination' including on religion. Page does not say whether religious participation is required; page tells readers to ask. Added under Sharon's 2026-10-05 policy to include religious shelters with a clear note."
 dropped:
   - name: "HUD Resource Locator (resources.hud.gov)"
     reason: "Covered by the USA.gov emergency housing page, which links HUD's shelter lists; kept the list short."
@@ -211,8 +223,4 @@ dropped:
   - name: The Vashti Initiative
     reason: "Gemini (2.2 follow-up) called it 'the first national hotline' for religious abuse that helps with housing. Its own site lists no hotline, phone, or housing service: only a contact form. Re-check if they add services."
     source_url: https://www.vashtiinitiative.org/contact
-    checked_on: 2026-10-05
-  - name: "Salvation Army domestic violence safe houses"
-    reason: "Gemini (2.2 follow-up) listed them. Christian, local, and policies vary by site; 211 and the DV Hotline already route to them where they fit. Not verified."
-    source_url: https://www.salvationarmyusa.org/domestic-violence/
     checked_on: 2026-10-05

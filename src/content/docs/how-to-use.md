@@ -19,4 +19,6 @@ A few promises:
 - **You don’t need money, an ID, or a family to begin.** A few of the very first Topics help you get those things.
 - **Going slow is fine.** One small step still counts.
 
+This is the **United States Edition**. The help listed is for people in the US. To learn why, and how AI helped make this book, see [How this book was made](/how-this-book-was-made/).
+
 When you’re ready, pick an Area.
