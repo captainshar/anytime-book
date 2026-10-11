@@ -22,3 +22,6 @@ pnpm-debug.log*
 
 # epub build output
 dist-epub/
+
+# fact-check source snapshots
+.cache/

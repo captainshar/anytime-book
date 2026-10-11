@@ -33,6 +33,11 @@ jobs:
           node scripts/check-resources.mjs ${{ github.event_name == 'schedule' && '--strict' || '' }} 2>&1 | tee records-report.txt
           exit ${PIPESTATUS[0]}
 
+      # Fails if a phone link dials a different number than it shows. Numbers and
+      # links with no verification record are warnings (see /fact-check).
+      - name: Check pages against their records
+        run: node scripts/check-facts.mjs
+
       # Check the built site, not the sources: it resolves internal links, and
       # it skips the dead URLs that sources/resources/*.yml keeps under `dropped:`.
       - run: npm run build
