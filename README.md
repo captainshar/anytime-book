@@ -1,6 +1,6 @@
 # The Anytime Book, United States Edition
 
-*A map for joining the world — at any age, from any starting point.*
+*A free map to everyday adult life — at any time, from any starting point.*
 
 A free, plain-language guide for adults entering mainstream life from hard starting points: neglect, isolation, educational neglect, high-control groups, or a very different culture. Published at **[anytimebook.org](https://anytimebook.org)** and as a free downloadable epub.
 
