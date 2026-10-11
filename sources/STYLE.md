@@ -1,25 +1,201 @@
-# Writing and verification guide for Topic pages
+# The Anytime Book style guide
 
-Every Topic page is written for one reader: an adult with little money, maybe no ID, no family support, and little exposure to the topic. They may have been told the outside world is dangerous. Some read below a high-school level.
+How we write, structure, and verify every page. The `/tighten` skill (`.claude/skills/tighten/`) applies Parts 1–3 to existing pages.
 
-## Voice
+- [Part 1: Voice](#part-1-voice): who we're talking to and how we sound
+- [Part 2: Structure](#part-2-structure): how pages are built so people can find what they need
+- [Part 3: Mechanics](#part-3-mechanics): words, numbers, formatting
+- [Part 4: Resource entries](#part-4-resource-entries): the "Where to get help" format
+- [Part 5: Verification](#part-5-verification): checking every resource
+- [Part 6: Things that need a human](#part-6-things-that-need-a-human)
 
-- Plain words. Aim for a 6th–8th grade reading level. Short sentences (under 20 words). Short paragraphs (1–3 sentences).
-- Talk to the reader as "you". Warm, calm, never condescending, never alarming.
-- No jargon. If a term is needed (like "SNAP" or "FAFSA"), say what it means the first time.
-- No shame, no "should". Offer, don't order: "You can…", "Many people start by…".
-- Don't explain policy history or cite statistics. Say what to do.
-- Be honest about hard parts (waits, paperwork, ID needs) without making them sound impossible.
+---
 
-## Page layout
+## Part 1: Voice
 
-Keep the existing frontmatter and the "What it is / Why it helps you / Good to have first / This opens up" sections as they are. Replace the "Coming soon" note under **Where to get help** with:
+### The reader
+
+Every page is for one reader: an adult with little money, maybe no ID, no family support, and little exposure to the topic. They may have been told the outside world is dangerous. Some read below a high-school level.
+
+**This reader is not a child, and not fragile.** They have survived things most people haven't. They are often sharp, wary, and good at noticing when they're being handled. Write for someone smart who missed some information, not for someone who can't handle it.
+
+### The voice in one line
+
+**Compassionate, no-BS.** We take the reader's experience seriously, explain what's going on and why, and tell them the truth, including the inconvenient parts. Think of a good therapist or social worker talking to you as a peer: warm, direct, a little dry, never syrupy.
+
+Dr. Glenn Patrick Doyle's writing on trauma recovery is the model. What to borrow:
+
+| Do this | Not this |
+| --- | --- |
+| **Explain why.** Name the mechanism: why the old rule made sense, why the new skill works. Understanding beats permission. | Tell the reader how to feel, or just hand them a rule. |
+| **Validate, then move.** One line acknowledging what's hard, then straight to what to do. | Pile up reassurance before getting to the point. |
+| **Treat the reader as in charge.** They decide. We lay out options and tradeoffs. | Steer them toward the "right" choice, or praise them for choosing it. |
+| **Be honest about effort.** Some things take months. Some offices are rude. Say so. | Promise that it will be easy, fast, or that people will be kind. |
+| **Use short, plain, confident sentences.** | Hedge everything, or gush. |
+
+### Plain is not the same as simple-minded
+
+We aim for a 6th–8th grade reading level. That's about **sentence and word difficulty**, not idea difficulty. Adult ideas, plain words.
+
+- Short sentences, mostly under 20 words. But vary the rhythm. A page made only of 6-word sentences sounds like a children's book, and that reads as talking down.
+- Short paragraphs: 1–3 sentences.
+- Talk to the reader as "you."
+- No jargon. If a term is needed (like "SNAP" or "FAFSA"), say what it means the first time. Then use it normally. Learning the real word is part of the point: it's what the office will say.
+- Explain unfamiliar things matter-of-factly. Don't signal that the reader *should* have known, and don't signal that it's remarkable they didn't.
+
+### Nonjudgmental
+
+- **No "should," "must," or "need to"** when describing the reader's choices. Use "You can…", "Many people start by…", "If you want X, do Y." ("Must" is fine for real rules: "You must be 18 to apply.")
+- **No fault-finding words:** "failed to," "neglected to," "bad with money," "irresponsible," "admit."
+- **Describe people by situation, not label:** "people leaving a high-control group," not "cult victims." "People who were homeschooled," not "homeschoolers" when it carries baggage.
+- **No "everyone knows," "of course," "obviously," "basic," or "simple."** If it were obvious, they wouldn't be reading.
+- Values are the reader's. Faith, family, sex, drugs, money: we give facts and safety information, not verdicts.
+
+### Not patronizing
+
+These are the patterns that make kind writing feel like talking down. Cut them.
+
+| Pattern | Example | Fix |
+| --- | --- | --- |
+| **Stacked reassurance** (more than one in a row) | "This is a map, not a test. You can't fall behind, and you can't fail it. There is no grade at the end." | Say it once: "This is a map, not a course. Use the parts you need." |
+| **Telling the reader what they feel** | "Having a name for it is a huge relief." | Say what it does: "A name makes it easier to find others who've been through it, and help that fits." |
+| **Cheerleading** | "So can you." "You've got this!" "One small step still counts." | Cut it, or replace it with a fact: "Most adults who learn to read later in life do it in a few months of regular practice." (only if verified) |
+| **Granting permission** ("It's okay to…") | "It's okay if your voice shakes." | State the norm: "Lots of people's voices shake on calls. The person on the other end won't care." Use "It's okay to…" at most once per page. |
+| **Promises we can't keep** | "They won't judge you." | Say what they're for: "Judging you isn't their job. Helping you make a plan is." Or: "If someone is rude, you can ask for someone else." |
+| **"Just" and "simply"** | "Just call 211." | "Call 211." "Just" implies it's easy. Sometimes it isn't. |
+| **Diminishing the reader's experience** | "Don't worry about it." | Name it: "This part is stressful. Here's how to make it shorter." |
+| **Exclamation points** | "You did it!" | None. Calm sentences carry more weight. |
+| **Sentimental closers** | "You're welcome here. Come back whenever you need the map." | End on the next action or a real fact. |
+
+### Honest, without alarm
+
+- Name hard parts plainly: waits, paperwork, ID requirements, rude staff, scams. Then say what to do about them.
+- Don't catastrophize, and don't soften danger. "This can get you hurt" is fine when it's true.
+- Don't explain policy history or cite statistics unless a number changes what the reader does.
+
+---
+
+## Part 2: Structure
+
+Borrow the good parts of technical documentation: the reader should always know **where they are, whether this page is for them, what to do first, and what happens next.** Don't borrow the coldness: no "the user," no passive voice, no section numbers in prose.
+
+### Principles
+
+1. **Lead with the answer.** The most useful action goes near the top, not after ten resources.
+2. **Conditions first.** "If someone is hurting you, text START to 88788." The reader scans for their situation, so put it at the front of the sentence or heading.
+3. **One idea per paragraph. One action per step.**
+4. **Numbered lists for order. Bullets for options.** If the reader has to do things in sequence, number them. If they're choosing, use bullets.
+5. **Headings say what you'll do or find there.** "Find a bed near you," not "Shelter resources." Front-load the key word.
+6. **Say what you'll need before you start.** ID, money, internet, an address, time.
+7. **Say what happens next.** "They'll mail a card in about 2 weeks." People who've been burned by systems need to know what normal looks like.
+8. **Say what to do if it doesn't work.** "If 211 doesn't connect, use the website to find your local line."
+9. **Link every cross-reference.** If we mention another Topic, it's a link.
+10. **Give the words to say.** Scripts are the example input of this book. Use them anywhere a reader has to talk to an office, a doctor, a landlord, or a stranger.
+
+### Topic page anatomy
+
+Keep the frontmatter as it is. Sections, in order:
 
 ```markdown
+## What it is
+
+One or two plain sentences. What this Topic covers.
+
+## Why it helps you
+
+What changes in the reader's life, in concrete terms. Outcomes, not
+promised feelings. ("You'll know where your money goes each month."
+not "You'll feel more in control.")
+
+## Good to have first
+
+Links to Topics that make this one easier. Omit the section if none.
+
+:::tip[Start here]
+The single most useful first step, in 1–3 sentences, with the script if
+there is one. (This replaces "If you only do one thing first" at the bottom.)
+:::
+
+## How it works
+
+Optional. For Topics that are a skill (budgeting, cooking, a phone call),
+not just a set of services. 3–7 numbered steps, each starting with a verb.
+Keep it general and true anywhere in the US. Flag specifics for verification.
+
 ## Where to get help
 
-### <Group name, e.g. "Find a bed tonight">
+Grouped under task-shaped ### headings. See Part 4.
 
+## Watch out for
+
+Bulleted traps. See below.
+
+## This opens up
+
+Links to the Topics this one makes easier. Topic links only, no vague
+outcomes like "Peace of mind."
+```
+
+**Watch out for** items follow one pattern: **bold trap name.** How to spot it. What to do instead.
+
+### Asides: use them consistently
+
+Each aside type means one thing. Don't use them for decoration.
+
+| Aside | Means | Example |
+| --- | --- | --- |
+| `:::caution` | Risk of real harm, or a crisis line. | "If you are in danger right now, call 911." |
+| `:::tip` | The fastest or easiest path. Used for **Start here**. | "Start here: Dial 2-1-1…" |
+| `:::note` | Context that changes how to use the section. | Religious shelters and what to ask. |
+
+At most one `:::caution` at the top of a page, plus any that are truly needed inline. Too many warnings and people stop reading them.
+
+### Front-of-book pages
+
+The home page, "How to use this book," and Area intros work like documentation landing pages. Each one answers, in this order:
+
+1. **What is this?** One sentence.
+2. **Who is it for?** Specific. Name the starting points.
+3. **What's in it?** The shape of the content.
+4. **Where do I start?** A short "If X, go to Y" list.
+5. **What is it not?** Limits: not legal or medical advice, not a crisis line, US only.
+
+Area intros (`index.md` in each Area folder): 2–4 sentences on what the Area covers and why it matters, then the Topics are listed by the sidebar. No pep talk.
+
+---
+
+## Part 3: Mechanics
+
+- **Capitalize** Area and Topic when they mean parts of this book.
+- **Phone numbers:** write as `1-800-799-7233` and link `[1-800-799-7233](tel:18007997233)`. Vanity letters in parentheses after: `(1-800-799-SAFE)`. Text numbers: "Text START to 88788." 911 and 211 can be written `9-1-1` / `2-1-1` when telling someone to dial.
+- **Times:** "9 a.m. to 5 p.m. Eastern." "Open 24/7."
+- **Money:** "$10 a month." "Free." Not "free of charge" or "no cost to you."
+- **Bold** for lead-ins in lists and for one key phrase per paragraph at most. Not for emphasis in running sentences.
+- **Italics** for book titles and the rare word that needs stress.
+- **Em dashes:** sparingly. A period is usually clearer.
+- **Contractions:** common ones, yes (don't, can't, you're, it's, won't). "You don't need ID" sounds like a person; "You do not need ID" sounds like a form. Skip rarer ones (you'd, they'll, shouldn't've) that are hard for readers still learning English. Use the uncontracted "do not" for a hard safety line, where missing the "n't" would flip the meaning.
+- **Plain Markdown and Starlight asides only** (`:::note`, `:::caution`, `:::tip`). The epub build converts asides; don't use MDX components in Topic pages.
+
+### Word swaps
+
+| Instead of | Write |
+| --- | --- |
+| utilize, assist, obtain, individuals | use, help, get, people |
+| in order to | to |
+| eligible for | can get |
+| it is important to | (cut it; say the thing) |
+| just, simply, easily | (cut) |
+| don't worry | (name the worry and address it) |
+| victim | person who was hurt / survivor (if they'd use it) |
+| should | can / many people / if you want |
+
+---
+
+## Part 4: Resource entries
+
+Under **Where to get help**, group resources under task-shaped `###` headings ("Find a bed near you", "If someone is hurting you"). Each resource:
+
+```markdown
 **[Resource name](https://official-url)**
 One or two plain sentences on what it does.
 
@@ -27,24 +203,19 @@ One or two plain sentences on what it does.
 - **Who can use it:** …
 - **How to start:** the first concrete step (call, text, click, what to say).
 - **Good to know:** ID, money, address, or internet needed; hours if limited.
-
-## If you only do one thing first
-
-A short, kind paragraph naming one step.
-
-## Watch out for
-
-- **Trap name.** One or two sentences on how to spot it and what to do instead.
 ```
 
-- Phone numbers: write as `1-800-799-7233` and also as a link `[1-800-799-7233](tel:18007997233)`. Text numbers: "Text START to 88788".
 - 3–10 resources per Topic. Prefer national, free, official, or long-running nonprofits. For things that are state- or county-run, link to an official **finder** and say how to find the local version. Never publish state-by-state phone tables.
 - Never call a local or single-state program national. If a strong program is regional (for example, Holding Out HELP in Utah), you can include it, but say where it serves.
 - **Religious and faith-based resources are welcome.** Sometimes they are the only help nearby, and many shelters are religious. Include them when they verify, and say so plainly in **Good to know**: name the faith, quote any religious mission from their own site, and state any religious requirement (services, prayer, Bible study). If the site doesn't say whether there are requirements, tell readers to ask. Never drop a resource only because it is religious.
+- **Don't vouch for people's behavior.** Say what a service is for and what it offers. Don't promise staff will be kind or nonjudgmental.
 - Page frontmatter: set `status: draft` (Sharon promotes to `verified`) and `last_verified: <today's date>`.
-- Plain Markdown and Starlight asides only (`:::note`, `:::caution`, `:::tip`). The epub build converts asides; don't use MDX components.
 
-## Verification rules (every resource)
+---
+
+## Part 5: Verification
+
+Every resource:
 
 1. Open the organization's **own** page (.gov or the org's domain). A directory, blog, Reddit, or Gemini's citation does not count.
 2. Confirm it is operating now (2025–26 content, working contact).
@@ -56,7 +227,11 @@ A short, kind paragraph naming one step.
 
 Record each resource in `sources/resources/<topic>.yml` (see `sources/resources/SCHEMA.md`).
 
-## Things that need a human
+**Editing for style never changes facts.** URLs, phone numbers, hours, costs, eligibility, and quoted text stay exactly as verified. If a fact looks wrong while you're editing, flag it; don't fix it in passing.
+
+---
+
+## Part 6: Things that need a human
 
 Do not guess on these. Write them up in `sources/review/<area-slug>.md` instead:
 
