@@ -41,6 +41,8 @@ Checkable means a reader could act on it and be hurt if it's false: a phone numb
 
 Not checkable (`not-checkable`, low risk, one line each, or skip entirely if it's plainly encouragement): "Take what helps.", "This can take months. It is still worth starting." Only the opinion part is uncheckable: "This can take months" is checkable; "it is still worth starting" is not.
 
+**Skip** statements no reader could act on wrongly: definitions ("'Vital records' means papers like birth certificates"), descriptions of a link the reader is about to click ("A website that helps you find legal aid"), and plain background ("Each state's DMV gives ID cards"). A typical page has 30–60 claims. If you have more than 70, you are splitting too finely or logging background.
+
 Also add one `active` claim per resource on the page: `text` is the resource's name as it appears on the page.
 
 Set `risk`:
@@ -54,7 +56,8 @@ For each claim:
 
 1. Pick the best acceptable source. Start from the resource record's `source_url` if one fits. Otherwise search for the official page (search, then open the official result, not the snippet).
 2. Save it: `node scripts/fetch-source.mjs <url>`.
-   - If it says **BLOCKED** or **PDF**, or warns about very little text: set `verdict: blocked`, put the URL in `source_url`, and move on. Someone with a browser will handle it.
+   - PDFs are handled: the script extracts their text.
+   - If it says **BLOCKED**, or warns about very little text: first look for the same information on another official page (many sites have a plain-HTML version or an FAQ). If there isn't one, set `verdict: blocked`, put the URL in `source_url`, and move on. Someone with a browser will handle it.
    - If it says **404**: the page moved or the program may be gone. Search for its new location. If none, `needs-human` with a note.
 3. Search the saved file (Grep on the path it printed) for the key words, and read around the hits.
 4. Decide:
@@ -63,6 +66,16 @@ For each claim:
    - Two acceptable sources disagree → `conflicting`, both quoted (second under `more`).
    - Nothing acceptable says it → `unsupported`, `note` lists the sources you tried.
    - Legal or safety advice (what to do around police, abusers, courts, immigration, overdoses), or a judgment call → `needs-human`. Still add a source and quote if you found one.
+
+### Before you mark `unsupported` or `corrected`
+
+These are the two verdicts most often wrong. In the pilot, 3 of 7 corrections were mistakes, and most "unsupported" claims had a source one click away.
+
+- **"This page doesn't say it" is not a contradiction.** It means keep looking. Use `corrected` only when a source **says something different**, and quote that sentence.
+- **Look in at least three places before `unsupported`:** (1) the record's `source_url`, (2) a deeper page on the same official site: the FAQ, eligibility, "how to apply," "about," or the agency's detailed rules (for SSA, the POMS manual at secure.ssa.gov/poms.nsf), and (3) a web search for an official source. List all three in `note`.
+- **Before correcting, find the most specific source.** A general "how to apply" page leaves out details that the agency's full rules include. For example, the SSA application page lists four identity documents; its POMS manual lists more, including certified medical records.
+- **If the claim is about what a linked page shows, open that page.** "It shows how to order and what the state asks for" can only be confirmed by opening at least one state's page.
+- **Don't correct wording that is true for the reader.** "One post office in your town" is fine when the rule says "normally one facility." Correct only when a reader who acted on the page would be misled.
 
 ### How strict to be
 

@@ -5,7 +5,10 @@
 //   node scripts/fetch-source.mjs --path <url>          print where the text for <url> is (or would be) saved
 // Text goes to .cache/sources/<hash>.txt (gitignored). Read or search that file; quote from it exactly.
 // Exit codes: 0 saved, 1 bad usage or network error, 2 the site refused (use a browser, then --save).
-import { mkdirSync, writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { mkdirSync, writeFileSync, readFileSync, existsSync, rmSync } from 'node:fs';
+import { spawnSync } from 'node:child_process';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { CACHE_DIR, cachePath, htmlToText } from './lib/source-text.mjs';
 
 const args = process.argv.slice(2);
@@ -59,9 +62,19 @@ try {
 	}
 	if (res.url !== url) console.log(`Redirected to ${res.url}`);
 	const type = res.headers.get('content-type') ?? '';
-	if (type.includes('pdf')) {
-		console.error(`PDF: ${url} is a PDF. Read it with a PDF tool, then pipe the text to --save.`);
-		process.exit(2);
+	if (type.includes('pdf') || /\.pdf$/i.test(new URL(res.url).pathname)) {
+		// pdftotext ships with Git for Windows and poppler-utils.
+		// The Windows build can't read a PDF from stdin, so go through a temp file.
+		const tmp = join(tmpdir(), `fetch-source-${process.pid}.pdf`);
+		writeFileSync(tmp, Buffer.from(await res.arrayBuffer()));
+		const text = spawnSync('pdftotext', ['-layout', tmp, '-'], { maxBuffer: 64 * 1024 * 1024 });
+		rmSync(tmp, { force: true });
+		if (text.status !== 0) {
+			console.error(`PDF: ${url} is a PDF and pdftotext is not available. Read it with a PDF tool, then pipe the text to --save.`);
+			process.exit(2);
+		}
+		save(text.stdout.toString('utf8'), `fetched PDF, HTTP ${res.status}`);
+		process.exit(0);
 	}
 	const body = await res.text();
 	save(type.includes('html') || /^\s*</.test(body) ? htmlToText(body) : body, `fetched, HTTP ${res.status}`);
