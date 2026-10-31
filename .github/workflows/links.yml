@@ -75,6 +75,18 @@ jobs:
         continue-on-error: true
         run: node scripts/recheck-links.mjs lychee.json lychee-report.md
 
+      # The report is useful on every run, not only when an issue is opened.
+      - name: Publish the recheck report
+        if: steps.recheck.outcome != 'skipped'
+        run: cat lychee-report.md >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        if: steps.recheck.outcome != 'skipped'
+        with:
+          name: link-recheck
+          path: |
+            lychee-report.md
+            lychee.json
+
       - name: Open an issue on the weekly run
         if: github.event_name == 'schedule' && (steps.recheck.outcome == 'failure' || steps.records.outcome == 'failure')
         env:
