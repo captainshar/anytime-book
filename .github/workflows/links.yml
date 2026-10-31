@@ -44,7 +44,7 @@ jobs:
 
       - name: Check links
         id: lychee
-        uses: lycheeverse/lychee-action@v2
+        uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2.9.0
         with:
           # Many .gov sites answer 404 to bot user agents, so send a browser one.
           args: >-
@@ -57,11 +57,26 @@ jobs:
             --accept 200..=299,403,429
             --timeout 30
             'dist/**/*.html'
-          output: lychee-report.md
+          format: json
+          output: lychee.json
           fail: false
 
+      # lychee can't tell a dead page from a site that refuses automated clients
+      # (consumer.ftc.gov answers 404 to it, whatever the user agent). Load every
+      # failure in headless Chromium: real failures open the issue, sites that block
+      # automation go on a check-by-hand list, and pages that load are dropped.
+      - name: Install Chromium for the recheck
+        if: steps.lychee.outputs.exit_code != 0
+        run: npx playwright install --with-deps chromium
+
+      - name: Recheck failed links in a browser
+        id: recheck
+        if: steps.lychee.outputs.exit_code != 0
+        continue-on-error: true
+        run: node scripts/recheck-links.mjs lychee.json lychee-report.md
+
       - name: Open an issue on the weekly run
-        if: github.event_name == 'schedule' && (steps.lychee.outputs.exit_code != 0 || steps.records.outcome == 'failure')
+        if: github.event_name == 'schedule' && (steps.recheck.outcome == 'failure' || steps.records.outcome == 'failure')
         env:
           GH_TOKEN: ${{ github.token }}
         run: |
@@ -74,7 +89,7 @@ jobs:
             echo '```'
             echo
             echo "## Links"
-            cat lychee-report.md
+            cat lychee-report.md 2>/dev/null || echo "No link failures."
           } > issue.md
           gh issue create --title "Resource check $(date +%F)" --body-file issue.md
 
@@ -82,9 +97,9 @@ jobs:
       # people's sites time out at random, and the weekly run files an issue.
       # Bad resource records still fail the check.
       - name: Report link problems on the PR
-        if: github.event_name == 'pull_request' && steps.lychee.outputs.exit_code != 0
+        if: github.event_name == 'pull_request' && steps.recheck.outcome == 'failure'
         run: |
-          echo "::warning title=Link check::Some links failed. See the job summary; recheck them by hand before promoting a page to verified."
+          echo "::warning title=Link check::Some links still fail in a browser. See the job summary; recheck them by hand before promoting a page to verified."
           cat lychee-report.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Fail the PR check on bad resource records
