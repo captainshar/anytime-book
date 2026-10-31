@@ -10,6 +10,7 @@
     "epub": "node scripts/build-epub.mjs",
     "check:resources": "node scripts/check-resources.mjs",
     "check:style": "node scripts/check-style.mjs",
+    "check:facts": "node scripts/check-facts.mjs",
     "astro": "astro"
   },
   "dependencies": {

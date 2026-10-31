@@ -1,0 +1,944 @@
+topic: "2.1"
+page: src/content/docs/safety-and-getting-started/proof-that-you-exist.md
+claims:
+  - id: c01
+    section: "Where to get help"
+    text: "Most people go in this order: a safe mailing address, then a birth certificate, then a Social Security number, then a state ID."
+    kind: general
+    risk: medium
+    verdict: needs-human
+    note: "Judgment about sequence. No source checked sets this order. SSA's ID rules (ss5doc) do not require a state ID before a Social Security number. Reviewer should decide whether this is advice or a claim."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c02
+    section: "First, a safe place to get mail"
+    text: "Many shelters, drop-in centers, legal aid offices, and some churches will hold mail for people they help."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "Looked at: USPS DMM 508 (General Delivery rules only), SSA request page, VoteRiders and I Am Here pages. None say shelters or churches hold mail. No web search done for this sentence."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c03
+    section: "First, a safe place to get mail"
+    text: "You can find these places by dialing 2-1-1"
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.211.org/
+    quote: "Call 211 for Essential Community Services"
+    note: "United Way 211's own site. Confirms the 2-1-1 line gives community services; it does not list shelters that hold mail."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c04
+    section: "First, a safe place to get mail"
+    text: "General Delivery at the Post Office"
+    kind: active
+    risk: medium
+    verdict: confirmed
+    source_url: https://pe.usps.com/text/dmm300/Notice123.htm
+    quote: "Effective October 04, 2026"
+    note: "Evidence USPS is operating now (current price list). The USPS FAQ page (faq.usps.com) is blocked to the fetcher and returned no text, so the General Delivery rules come from DMM 508, which has no date stamp in the saved copy."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c05
+    section: "First, a safe place to get mail"
+    text: "The Post Office can hold mail for you at one post office in your town."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://pe.usps.com/text/dmm300/508.htm
+    quote: "General delivery is normally available at only one facility under the administration of a Post Office with multiple facilities."
+    more:
+      - source_url: https://about.usps.com/news/national-releases/2012/pr12_125.htm
+        quote: "at a designated Postal identified location in your current community"
+    note: "USPS says one designated facility, in the current community. 'Your town' is close enough for the reader."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c06
+    section: "First, a safe place to get mail"
+    text: "Cost: Free"
+    kind: resource
+    risk: low
+    verdict: confirmed
+    note: "Reviewer read the USPS FAQ in a browser (the script gets a JavaScript shell) and saved it with --save. Article dated Aug 4, 2026."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    source_url: https://faq.usps.com/s/article/What-is-General-Delivery
+    quote: General Delivery is a free service when and where it is authorized.
+    review: "changed: unsupported -> confirmed"
+
+  - id: c07
+    section: "First, a safe place to get mail"
+    text: "People without a permanent address"
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://pe.usps.com/text/dmm300/508.htm
+    quote: "For transients and customers not permanently located."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c08
+    section: "First, a safe place to get mail"
+    text: "Mail goes to: your name, then GENERAL DELIVERY, then the city, state, and ZIP code they give you."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://about.usps.com/news/national-releases/2012/pr12_125.htm
+    quote: "JOHN DOE GENERAL DELIVERY ANYTOWN, NY 12345-9999"
+    more:
+      - source_url: https://about.usps.com/news/national-releases/2012/pr12_125.htm
+        quote: "You can also obtain the proper General Delivery address information at any Post Office"
+    note: "Format is from a 2012 USPS release example. The ZIP is the holding post office's ZIP with +4 9999. Page says to get the ZIP from the post office; the release says the same."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c09
+    section: "First, a safe place to get mail"
+    text: "Mail is held for up to 30 days."
+    kind: number
+    risk: medium
+    verdict: confirmed
+    source_url: https://pe.usps.com/text/dmm300/508.htm
+    quote: "Each general delivery mailpiece is held for no more than 30 days"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c10
+    section: "First, a safe place to get mail"
+    text: "The post office can turn you away if you can't show ID."
+    kind: rule
+    risk: high
+    verdict: confirmed
+    source_url: https://pe.usps.com/text/dmm300/508.htm
+    quote: "To a customer who is unable to present suitable identification."
+    note: "DMM 6.2: a postmaster 'may refuse or restrict' general delivery for this reason."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c11
+    section: "First, a safe place to get mail"
+    text: "For your very first papers, a shelter or helper's address is usually safer."
+    kind: safety
+    risk: high
+    verdict: needs-human
+    note: "Safety judgment about where a person without papers should receive mail. No source checked. Needs a human reviewer."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c12
+    section: "Get a person to help you"
+    text: "VoteRiders Helpline"
+    kind: active
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "2026-2028 Strategic Plan"
+    more:
+      - source_url: https://www.voteriders.org/freehelp/
+        quote: "VoteRiders is a 501(c)(3) nonpartisan nonprofit organization"
+    note: "Helpline page is live with a 2026-2028 strategic plan link. Footer copyright is 2025 (weak but acceptable)."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c13
+    section: "Get a person to help you"
+    text: "A nonprofit that helps people get a state ID."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "We can help you get:"
+    more:
+      - source_url: https://www.voteriders.org/freehelp/
+        quote: "VoteRiders is a 501(c)(3) nonpartisan nonprofit organization"
+    note: "The list under 'We can help you get:' includes 'Your ID'. Footer says 501(c)(3) nonprofit."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c14
+    section: "Get a person to help you"
+    text: "They figure out which papers you need."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "Figure out what documents you need to get your ID"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c15
+    section: "Get a person to help you"
+    text: "They can order and pay for papers like a birth certificate,"
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "Request and pay for those documents"
+    note: "Birth certificate is one of the examples the page gives under 'Documents that show who you are'."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c16
+    section: "Get a person to help you"
+    text: "Cost: Free. They pay the fees."
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "All our services are free of charge"
+    more:
+      - source_url: https://www.voteriders.org/freehelp/
+        quote: "Set up appointments and cover costs"
+    note: "'They pay the fees' is supported by 'cover costs' and 'Request and pay for those documents'."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c17
+    section: "Get a person to help you"
+    text: "They help people who need an ID to vote. That means US citizens who are (or soon will be) old enough to vote."
+    kind: resource
+    risk: medium
+    verdict: unsupported
+    note: "Helpline page says it helps people who need an ID to vote, but gives no citizenship or age rule. Also checked: voteriders.org homepage (no eligibility statement); /about-us/ returns 404. The eligibility wording comes from the resource record, which says it is from the mission statement, not a source."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c18
+    section: "Get a person to help you"
+    text: "Call or text [866-432-8683]."
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://www.voteriders.org/freehelp/
+    quote: "Call or Text 866-432-8683"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c19
+    section: "Get a person to help you"
+    text: "No ID or money needed to ask for help."
+    kind: resource
+    risk: medium
+    verdict: unsupported
+    note: "Money part is supported by 'All our services are free of charge' (see Cost claim). ID part: the helpline page says nothing about ID. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c20
+    section: "Get a person to help you"
+    text: "I Am Here: Vital Document Legal Hotline"
+    kind: active
+    risk: medium
+    verdict: confirmed
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "Please note that the hotline has changed its hours to open earlier, beginning May 6, 2026."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c21
+    section: "Get a person to help you"
+    text: "A free hotline for young people."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "is a free, dedicated legal hotline for youth experiencing homelessness"
+    more:
+      - source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+        quote: "Any young person is welcome to call and ask questions about how to get vital documents."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c22
+    section: "Get a person to help you"
+    text: "They explain the rules in your state for getting a birth certificate, ID, or Social Security card."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "Callers will receive state-specific legal information on obtaining vital documents."
+    more:
+      - source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+        quote: "It’s here to help get vital documents like IDs, birth certificates, and Social Security cards"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c23
+    section: "Get a person to help you"
+    text: "Young people, especially those without a stable home. Call to ask if you qualify."
+    kind: resource
+    risk: high
+    verdict: corrected
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "Any young person is welcome to call and ask questions about how to get vital documents."
+    fix: "Any young person can call and ask questions. Young people without a stable home are encouraged to call."
+    more:
+      - source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+        quote: "Youth experiencing homelessness are encouraged"
+    note: "Page implies a young person might not qualify, so they may not call. The hotline says any young person is welcome to call."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c24
+    section: "Get a person to help you"
+    text: "Call or text [1-888-870-3627] (1-888-870-DOCS)."
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "1-888-870-DOCS (1-888-870-3627)"
+    more:
+      - source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+        quote: "Yes! The operators will respond through text."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c25
+    section: "Get a person to help you"
+    text: "Open Wednesdays only, 9 a.m. to 5 p.m. Eastern (6 a.m. to 2 p.m. Pacific)."
+    kind: number
+    risk: high
+    verdict: confirmed
+    source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+    quote: "Available Every Wednesday"
+    more:
+      - source_url: https://nn4youth.org/programs/vital-document-legal-hotline-for-youth/
+        quote: "6 AM - 2 PM Pacific"
+    note: "Page hours match. Start time moved to 9 AM ET / 6 AM PT from May 6, 2026."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c26
+    section: "Get a person to help you"
+    text: "LawHelp.org"
+    kind: active
+    risk: low
+    verdict: confirmed
+    source_url: https://www.lawhelp.org/
+    quote: "© 2001 - 2026, Scale Justice, All Rights Reserved."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c27
+    section: "Get a person to help you"
+    text: "Cost: Free to use. Legal aid is free if you qualify."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid
+    quote: "provide free legal assistance to low-income individuals and families"
+    more:
+      - source_url: https://www.lawhelp.org/
+        quote: "are always free to use"
+    note: "'Free to use' is the LawHelp site (Pro Bono Net). 'Free if you qualify' is LSC's low-income rule."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c28
+    section: "Get a person to help you"
+    text: "Some help with birth certificates and ID problems, including going to court."
+    kind: resource
+    risk: medium
+    verdict: unsupported
+    note: "LawHelp home page does not list birth-certificate or ID help. LSC page describes free help for low-income people in general. Not verified for this topic."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c29
+    section: "Your birth certificate"
+    text: "A government list of the office in each state that keeps birth records."
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.cdc.gov/nchs/w2w/index.htm
+    quote: "The links below are provided for those users who want direct access to individual state and territory information."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c30
+    section: "Your birth certificate"
+    text: "Each state charges its own fee for a copy."
+    kind: general
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdc.gov/nchs/w2w/california.htm
+    quote: "Cost of copy: $29.00"
+    more:
+      - source_url: https://www.cdc.gov/nchs/w2w/north_carolina.htm
+        quote: "Cost of first copy: $24.00"
+    note: "All 50 state pages plus DC on the CDC list show a fee (cost of copy, search fee, or similar), checked by keyword."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c31
+    section: "Your birth certificate"
+    text: "Who can use it: Anyone"
+    kind: resource
+    risk: medium
+    verdict: corrected
+    source_url: https://www.cdc.gov/nchs/w2w/new_jersey.htm
+    quote: "A State or local Registrar may issue a certified copy of a vital record only to persons who establish themselves as the subject of the vital record"
+    fix: "Anyone can use this list to find the office. Each state decides who can order a copy."
+    note: "The list is open to anyone, but copies are restricted. New Jersey limits who can order a certified copy, and other states set their own rules."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c32
+    section: "Your birth certificate"
+    text: "It shows how to order and what the state asks for."
+    kind: procedure
+    risk: medium
+    verdict: corrected
+    source_url: https://www.cdc.gov/nchs/w2w/ohio.htm
+    quote: "Information on how to obtain certified copies is also available via the Ohio Department of Health, Vital Records website"
+    note: "Worker checked only California, which happens to state a requirement. Ohio's page shows the fee, address, payment, and a link, not the ID rules. Calibration audit (sources/review/calibration-2026-10.md) found the same."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    fix: It shows the fee, where to send your request, and a link to the state's own site, which lists what they ask for.
+    review: "changed: confirmed -> corrected"
+
+  - id: c33
+    section: "Your birth certificate"
+    text: "Most states ask for ID to order a copy."
+    kind: general
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdc.gov/nchs/w2w/idaho.htm
+    quote: "Applicants must provide a government-issued photo identification with signature."
+    more:
+      - source_url: https://www.cdc.gov/nchs/w2w/georgia.htm
+        quote: "The requestor must provide a photocopy of a valid government-issued photo ID."
+    note: "Keyword count across the 50 state pages plus DC on the CDC list: about 36 of 51 mention photo ID or identification for ordering. Majority holds. Count is by keyword, not read one by one."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c34
+    section: "Your birth certificate"
+    text: "Some states let a helper, like a case manager or lawyer, order it for you."
+    kind: procedure
+    risk: medium
+    verdict: unsupported
+    note: "Checked CDC state pages for helper, attorney, and agency wording. Only New Jersey lists a 'legal representative' among who may order. No case-manager rule found. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c35
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Most of those rules are for young people."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "Only source found is SchoolHouse Connection (advocacy group, not an acceptable source). No official source checked. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c36
+    section: "If you were born at home and no one ever registered your birth"
+    text: "If they have no record, ask them for a letter that says so."
+    kind: procedure
+    risk: medium
+    verdict: unsupported
+    note: "Looked at: California delayed-registration pamphlet (it recommends a statewide search; no 'no record' letter found) and the CDC California page. Not verified for other states."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c37
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Ask that office about a delayed birth registration."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    quote: "The delayed registration of birth process is used to register California births that were not registered within the first year of birth."
+    note: "Process confirmed for California. Other states not checked."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c38
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Some states only take papers that are at least 5 years old."
+    kind: rule
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    quote: "established at least five years prior to application"
+    note: "California is one state. 'Some states' is satisfied."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c39
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Many states also take a signed statement from someone older who knew about your birth."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "California allows up to two people with knowledge of the birth to sign, each 5+ years old at the birth. That is one state. 'Many states' not verified with a multi-state source."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c40
+    section: "If you were born at home and no one ever registered your birth"
+    text: "In some states, that person must have been at least 5 years old when you were born."
+    kind: rule
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    quote: "Must have been at least 5 years old when the birth being established"
+    note: "California is one state. 'Some states' is satisfied."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c41
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Some states keep the papers you send and do not give them back."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    quote: "Any supporting documents submitted, including sworn statements, will not be returned"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c42
+    section: "If you were born at home and no one ever registered your birth"
+    text: "If the state says no, a judge can order a birth record."
+    kind: rule
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.cdph.ca.gov/Programs/CHSI/CDPH%20Document%20Library/Delayed_Registration_of_Birth_Pamphlet_ADA.pdf
+    quote: "required to obtain a court order"
+    note: "Shown for California only (court-order route). Other states not checked."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c43
+    section: "If you were born at home and no one ever registered your birth"
+    text: "Free legal aid can help with this"
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.lsc.gov/about-lsc/what-legal-aid
+    quote: "provide free legal assistance to low-income individuals and families"
+    note: "LSC describes free help for low-income people in general. It does not mention birth records specifically."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c44
+    section: "If you were born at home and no one ever registered your birth"
+    text: "This can take months."
+    kind: number
+    risk: medium
+    verdict: unsupported
+    note: "California pamphlet gives no processing time. No official timeline found."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c45
+    section: "If you were born at home and no one ever registered your birth"
+    text: "There is a fee, but some states waive it for people who are homeless."
+    kind: rule
+    risk: medium
+    verdict: unsupported
+    note: "California pamphlet lists a $26 registration fee and no homeless waiver. Not verified for other states."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c46
+    section: "Your Social Security number"
+    text: "Social Security: Get a number for the first time"
+    kind: active
+    risk: medium
+    verdict: confirmed
+    source_url: https://secure.ssa.gov/poms.nsf/lnx/0110210420
+    quote: "Effective Dates: 07/31/2026 - Present"
+    note: "The request page itself has no date. SSA's own POMS manual (RM 10210.420) is dated 07/31/2026 and is used as evidence the agency's rules are current."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c47
+    section: "Your Social Security number"
+    text: "The Social Security Administration (SSA) gives Social Security numbers."
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "Request a Social Security number"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c48
+    section: "Your Social Security number"
+    text: "You need one for most jobs and benefits."
+    kind: general
+    risk: medium
+    verdict: corrected
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "You may need your Social Security number to:"
+    fix: "You may need one to start a job or to claim government benefits."
+    note: "SSA lists uses: file taxes, start a job, open a bank account, apply for a loan, get a passport, claim government benefits. It does not say 'most jobs'."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c49
+    section: "Your Social Security number"
+    text: "Cost: Free."
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "Request a number for free if you do not have one."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c50
+    section: "Your Social Security number"
+    text: "All US citizens can ask for a number."
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "All U.S. citizens can request a Social Security number."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c51
+    section: "Your Social Security number"
+    text: "You can start online, then bring your papers to a Social Security office."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "you can apply online, then go to a local Social Security office to provide your documentation"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c52
+    section: "Your Social Security number"
+    text: "Or call [1-800-772-1213] to make an appointment."
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "Call 1-800-772-1213"
+    note: "Number is SSA's; the 'Call' line appears under the 'Schedule an in-office appointment' option on the same SSA form-instructions page."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c53
+    section: "Your Social Security number"
+    text: "Adults getting a number for the first time must go in person for an interview."
+    kind: procedure
+    risk: high
+    verdict: confirmed
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "Anyone age 12 or older requesting an original Social Security number (SSN) must appear in person for an interview."
+    note: "Rule covers anyone age 12 or older, which includes adults."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c54
+    section: "Your Social Security number"
+    text: "Bring your birth certificate."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "You must present your birth certificate. If one exists, you must submit it."
+    note: "SSA requires it only if one exists. Born-at-home alternatives are covered elsewhere on the page."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c55
+    section: "Your Social Security number"
+    text: "They take originals only, not photocopies."
+    kind: procedure
+    risk: medium
+    verdict: corrected
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "You must present original documents or copies certified by the agency that issued them."
+    fix: "They take originals or certified copies, not photocopies."
+    more:
+      - source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+        quote: "We cannot accept photocopies or notarized copies."
+    note: "SSA accepts certified copies as well as originals. The page's 'originals only' is stricter than SSA's rule."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c56
+    section: "Your Social Security number"
+    text: "They will ask questions to make sure you never had a number before, like which schools you went to."
+    kind: procedure
+    risk: low
+    verdict: corrected
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "We will ask for evidence to show you do not have an SSN."
+    more:
+      - source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+        quote: "we may ask you for information about the schools you attended"
+    fix: "They will ask for evidence that you never had a number before. They may ask which schools you went to."
+    note: "SSA says it 'will ask for evidence' but only 'may' ask about schools. The page states the school question as certain."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c57
+    section: "Your Social Security number"
+    text: "If you don't have one, a current school ID, work ID, health insurance card, or a certified medical record with your name and birth date may work."
+    kind: procedure
+    risk: medium
+    verdict: confirmed
+    source_url: https://secure.ssa.gov/poms.nsf/lnx/0110210420
+    quote: "Certified copy of medical record (clinic, doctor, or hospital)"
+    more:
+      - source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+        quote: "Health insurance card (not a Medicare card)"
+    note: "POMS adult list includes certified medical record with name and DOB, and school ID for the current school year. SSA form page lists employee ID, school ID, and health insurance card."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c58
+    section: "Your Social Security number"
+    text: "The card comes by mail in about 5 to 10 business days."
+    kind: number
+    risk: low
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "by mail in 5 to 10 business days"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c59
+    section: "Your state ID"
+    text: "You do not need a driver's license."
+    kind: rule
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.ssa.gov/ssnumber/ss5doc.htm
+    quote: "State-issued non-driver identification card"
+    note: "SSA accepts a state non-driver ID card as proof of identity. DMV rules not checked."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c60
+    section: "Your state ID"
+    text: "A REAL ID needs more papers."
+    kind: rule
+    risk: medium
+    verdict: confirmed
+    note: "DHS sets a federal minimum document list for REAL ID. Standard IDs are set by each state and usually ask for less; that comparison is not stated by DHS."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    source_url: https://www.dhs.gov/real-id/real-id-faqs
+    quote: "At a minimum, you must provide documentation showing: 1) Full Legal Name; 2) Date of Birth; 3) Social Security Number; 4) Two Proofs of Address of Principal Residence; and 5) Lawful Status."
+    review: "changed: unsupported -> confirmed"
+
+  - id: c61
+    section: "Your state ID"
+    text: "A standard ID is enough for most jobs, banks, and housing."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "TSA/DHS page covers domestic flights and federal facilities only. Says nothing about jobs, banks, or housing. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c62
+    section: "Your state ID"
+    text: "It can’t be used alone to fly."
+    kind: rule
+    risk: high
+    verdict: confirmed
+    source_url: https://www.dhs.gov/real-id
+    quote: "if you want to board domestic flights or visit federal facilities, you must have a REAL ID or another acceptable form of identification"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c63
+    section: "Your state ID"
+    text: "Many states have a free or low-cost ID for people who are homeless or have low income."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "No official multi-state source found. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c64
+    section: "Your state ID"
+    text: "If you don't have bills in your name, many states accept a letter from a shelter or service agency to prove where you live."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "No official multi-state source found. Resource record says this is set by each state DMV. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c65
+    section: "Watch out for"
+    text: "Many websites look official but charge extra to \"help\" you order a birth certificate or Social Security card."
+    kind: general
+    risk: medium
+    verdict: unsupported
+    note: "SSA scam page warns about fake websites (https://www.ssa.gov/scam/) but does not say they charge extra. Not verified."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c66
+    section: "Watch out for"
+    text: "Social Security's real site ends in ssa.gov."
+    kind: general
+    risk: high
+    verdict: confirmed
+    source_url: https://www.ssa.gov/number-card/request-number-first-time
+    quote: "SSA.gov"
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
+
+  - id: c67
+    section: "Watch out for"
+    text: "No private company can make you a birth certificate. Only your birth state or a court can."
+    kind: rule
+    risk: high
+    verdict: needs-human
+    source_url: https://www.cdc.gov/nchs/w2w/index.htm
+    quote: "The federal government does not distribute certificates, files, or indexes with identifying information for vital records."
+    note: "CDC confirms the federal government does not issue these. The 'only your birth state or a court' part is supported by the CA pamphlet's court-order route for one state. Whether the 'no private company' claim holds needs a human check."
+    checked_on: 2026-10-10
+    checked_by: haiku
+    reviewed_by: claude
+    review: agreed
