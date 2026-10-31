@@ -12,8 +12,10 @@ export const collections = {
 				topic: z.string().optional(),
 				// Editorial state: outline → draft → verified.
 				status: z.enum(['outline', 'draft', 'verified']).optional(),
-				// Date the resources on this page were last checked (YYYY-MM-DD).
+				// Date the facts and resources on this page were last checked (YYYY-MM-DD).
 				last_verified: z.coerce.date().optional(),
+				// Date a person last read the whole page (YYYY-MM-DD). Set by `npm run review -- --done`.
+				human_reviewed: z.coerce.date().optional(),
 			}),
 		}),
 	}),

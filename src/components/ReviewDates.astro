@@ -1,0 +1,49 @@
+---
+// Replaces Starlight's LastUpdated in the page footer. Shows when the facts on this page were
+// last checked (`last_verified` in frontmatter) and when a person last read it (`human_reviewed`),
+// then Starlight's usual "Last updated" from git.
+import LastUpdated from '@astrojs/starlight/components/LastUpdated.astro';
+
+const { entry, lang } = Astro.locals.starlightRoute;
+const checked: Date | undefined = entry.data.last_verified;
+const read: Date | undefined = entry.data.human_reviewed;
+const show = (d: Date) => d.toLocaleDateString(lang, { dateStyle: 'medium', timeZone: 'UTC' });
+---
+
+<div class="dates">
+	{
+		(checked || read) && (
+			<p class="review">
+				{checked && (
+					<span class="part">
+						<a href="/how-this-book-was-made/#how-i-used-ai-to-make-this-book">Facts checked</a>{' '}
+						<time datetime={checked.toISOString()}>{show(checked)}</time>
+					</span>
+				)}
+				{checked && read && ' · '}
+				{read && (
+					<span class="part">
+						Read by a person <time datetime={read.toISOString()}>{show(read)}</time>
+					</span>
+				)}
+			</p>
+		)
+	}
+	<LastUpdated />
+</div>
+
+<style>
+	.dates {
+		display: flex;
+		flex-direction: column;
+		gap: 0.25rem;
+		text-align: end;
+	}
+	.review a {
+		color: inherit;
+	}
+	/* Wrap between the two halves on narrow screens, never inside a date. */
+	.part {
+		white-space: nowrap;
+	}
+</style>

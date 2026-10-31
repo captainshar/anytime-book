@@ -11,6 +11,7 @@
     "check:resources": "node scripts/check-resources.mjs",
     "check:style": "node scripts/check-style.mjs",
     "check:facts": "node scripts/check-facts.mjs",
+    "review": "node scripts/review-next.mjs",
     "astro": "astro"
   },
   "dependencies": {
