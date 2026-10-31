@@ -33,7 +33,7 @@ const giveUp = (/** @type {string} */ why) => {
 // url -> { pages: Set<string>, lychee: string }
 const failed = new Map();
 const stats = JSON.parse(readFileSync(input, 'utf8'));
-for (const [page, entries] of Object.entries(stats.fail_map ?? {})) {
+for (const [page, entries] of Object.entries(stats.error_map ?? stats.fail_map ?? {})) {
 	for (const e of entries ?? []) {
 		const url = e.url ?? e.uri;
 		if (!url) continue;
