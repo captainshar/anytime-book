@@ -17,6 +17,8 @@ All 58 Topic pages are now `status: draft`. Each resource on them was checked on
 
 ## 1. Needs an outside expert before publishing
 
+How to find these people, the email to send, and a question sheet for each role: [expert-outreach.md](expert-outreach.md).
+
 | Who | What | Topics |
 | --- | --- | --- |
 | DV advocate | Whole page. All escape tactics (false trails, burner phones, go-bags) were left out on purpose. Check welfare-check wording, the address-confidentiality explanation, and "you can call the Hotline about family abuse." | 9.2 |
