@@ -9,9 +9,27 @@ A free, plain-language guide for adults entering mainstream life from hard start
 | Path | What's there |
 | --- | --- |
 | `src/content/docs/` | The book. One Markdown page per Topic, one folder per Area. |
+| `sources/EDITORIAL.md` | The editorial method: how a Topic is briefed, researched, vetted, built, and reader-tested. |
+| `sources/STYLE.md` | The style guide: voice, page anatomy, resource format, verification. |
+| `sources/briefs/` | One brief per Topic: who the page is for and the questions it has to answer. |
+| `sources/resources/` | One record per Topic: every resource, when it was verified, and how well it fits the reader. |
+| `sources/claims/` | Fact-check logs: each checkable sentence with a word-for-word quote from its source. |
+| `sources/review/` | What still needs a person: expert reviews, values calls, leads to verify. |
 | `sources/outline.md` | The original outline the pages were scaffolded from. |
 | `sources/manifest.yml` | Map of each Topic to its Gemini Deep Research doc in Google Drive. |
+| `scripts/check-*.mjs` | Checkers for briefs and page shape (`editorial`), resource records (`resources`), facts (`facts`), and voice (`style`). |
 | `scripts/build-epub.mjs` | Builds the epub from the same pages, using Pandoc. |
+
+### How a page gets made
+
+Each Topic goes through four passes, in this order. The first three are Claude Code skills in `.claude/skills/`.
+
+| Pass | Asks | Skill | Check |
+| --- | --- | --- | --- |
+| Develop | Is it the right page for the reader? | `/develop` | `npm run check:editorial -- --status` |
+| Fact-check | Is every sentence true? | `/fact-check` | `npm run check:facts` |
+| Tighten | Does it sound right? | `/tighten` | `npm run check:style` |
+| Approve | Should it ship? | Sharon | `status: verified` |
 | `epub/` | Epub stylesheet (add `cover.png` here for a cover). |
 
 ### Topic page frontmatter

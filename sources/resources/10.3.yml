@@ -5,13 +5,23 @@ resources:
     scope: national
     eligibility: "Anyone; financial assistance varies by local Y"
     cost: "set by each local Y; financial assistance at many Ys"
-    prereqs: [proof of income may be asked for financial assistance]
+    prereqs: [ proof of income may be asked for financial assistance ]
     source_url: https://www.ymca.org/what-we-do/healthy-living/water-safety
     verified_on: 2026-10-04
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "ymca.org confirms lessons for kids and adults; tells people to ask their local Y about financial assistance/scholarships. The 'inability to pay will never prohibit' line on ymca.org is about children - not promised for adults on the page. Gemini's '50-75% off' and photo-ID-to-enter claims are branch-specific; not used."
+    notes: "ymca.org confirms lessons for kids and adults; tells people to ask their local Y about financial assistance/scholarships. The 'inability to pay will never prohibit' line on ymca.org is about children - not promised for adults on the page. Gemini's '50-75% off' and photo-ID-to-enter claims are branch-specific; not used. 2026-11-12: ymca.org refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it."
+    job: [ q3 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 2
+      fits_reader: 1
+      actionable: null
+      note: The most widespread pool finder, and financial help is common. Proof of income may be asked for.
   - name: American Red Cross Adult Swim Lessons
     url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
     scope: national
@@ -19,11 +29,21 @@ resources:
     cost: "set by the local pool"
     prereqs: []
     source_url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: low
     on_page: true
-    notes: "Three adult levels; taught by certified WSIs. Finder: redcross.org/take-a-class/swimming/learn-to-swim-providers (map). Free Red Cross Swim app (sponsored by ZAC Foundation) mentioned on same page - it is mainly kid/family focused."
+    notes: "Three adult levels; taught by certified WSIs. Finder: redcross.org/take-a-class/swimming/learn-to-swim-providers (map). Free Red Cross Swim app (sponsored by ZAC Foundation) mentioned on same page - it is mainly kid/family focused. 2026-11-12: Re-read. \"learn-at-your-own-pace\"; \"mastering one set of skills before moving on to the next\"; level 1 \"Learning the Basics\". Providers map URL live. The Red Cross Swim app is aimed at kids and families, so the page no longer mentions it."
+    job: [ q4, q3, q8 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 1
+      note: Best official description of what an adult lesson is. The provider finder is a map that takes some hunting.
   - name: U.S. Masters Swimming - Adult Learn to Swim
     url: https://www.usms.org/alts-central/learn-to-swim
     scope: national
@@ -31,11 +51,21 @@ resources:
     cost: "set by each instructor/club"
     prereqs: []
     source_url: https://www.usms.org/alts-central/learn-to-swim
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: low
     on_page: true
-    notes: "'Find an Instructor' -> usms.org/alts/altsinstrsearch.php. Gemini's '$60 a month' not on official page; not used."
+    notes: "'Find an Instructor' -> usms.org/alts/altsinstrsearch.php. Gemini's '$60 a month' not on official page; not used. 2026-11-12: Re-read; (c) 2026; \"Find an Instructor\" present. \"About one-third of adults in the United States can't safely swim the length of a pool.\" A second USMS page attributes the figure to CDC; cdc.gov refuses scripts, so the page attributes it to USMS. The page no longer says instructors are trained for fear of water: USMS names fearful adults but does not say that."
+    job: [ q6, q3, q1 ]
+    role: backup
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: Names this reader directly (never had the chance; a frightening experience). Backup finder for when the Y and city pool have nothing.
   - name: Sea Tow Foundation Life Jacket Loaner Program
     url: https://www.boatingsafety.com/page/life-jacket-loaner-program
     scope: national
@@ -47,7 +77,17 @@ resources:
     verified_by: claude
     risk: low
     on_page: true
-    notes: "1,500+ stations at boat ramps, marinas, parks; funded since 2008 via Sport Fish Restoration & Boating Trust Fund administered by USCG. 2026 grant cycle text confirms active. 'See the map here' link goes to a Maptive map. Gemini's 'all 50 states' not stated on page."
+    notes: "1,500+ stations at boat ramps, marinas, parks; funded since 2008 via Sport Fish Restoration & Boating Trust Fund administered by USCG. 2026 grant cycle text confirms active. 'See the map here' link goes to a Maptive map. Gemini's 'all 50 states' not stated on page. 2026-11-12: boatingsafety.com refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it."
+    job: [ q2 ]
+    role: deeper
+    fit:
+      reach: 1
+      barriers: 2
+      readable: null
+      trust: 1
+      fits_reader: 2
+      actionable: null
+      note: Free and needs nothing, but only where a station exists.
   - name: "National Weather Service - Surviving a Rip Current"
     url: https://www.weather.gov/safety/ripcurrent-surviving
     scope: national
@@ -55,11 +95,65 @@ resources:
     cost: free
     prereqs: []
     source_url: https://www.weather.gov/safety/ripcurrent-surviving
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: high
     on_page: true
-    notes: "Steps on page summarized: relax; don't swim straight to shore; swim along the shoreline until free; if you can't, face shore and call/wave for help. Not in Gemini doc; added."
+    notes: "Steps on page summarized: relax; don't swim straight to shore; swim along the shoreline until free; if you can't, face shore and call/wave for help. Not in Gemini doc; added. 2026-11-12: Re-read word by word. The old page summary left out three things, now restored: \"Relax. Rip currents don't pull you under.\"; \"When free from the pull of the current, swim at an angle away from the current toward shore.\"; the lifeguard and never-alone lines."
+    job: [ q5 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 2
+      readable: 2
+      trust: 2
+      fits_reader: 1
+      actionable: 2
+      note: Short official list. The steps are now on the page itself, complete; this is the source link.
+  - name: American Red Cross - Water Safety
+    url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    scope: national
+    eligibility: Anyone
+    cost: free
+    prereqs: [ internet ]
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    risk: high
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 2
+      readable: 1
+      trust: 2
+      fits_reader: 1
+      actionable: 1
+      note: The source for the page's safety rules. Long and written for families, so the page teaches the rules itself and links this for the free caregiver course.
+    notes: "Source for water competency (five skills), life jackets, lifeguards, \"Swim sober\", signs of drowning. Also used: beach-safety.html, lake-river-safety.html, summer-safety.html (\"Reach or throw, don't go!\"), and two undated Red Cross PDFs (LifeJackets.pdf, WouldYouKnowWhattodo.pdf). Quotes are in sources/claims/10.3.yml."
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q2, q5, q8 ]
+  - name: U.S. Masters Swimming - "My First Swim Lesson Surprises and Success" (Jerry McCormick)
+    url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+    scope: national
+    eligibility: Anyone
+    cost: free
+    source_url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+    verified_on: 2026-11-12
+    verified_by: claude
+    risk: low
+    on_page: true
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 1
+      note: "A peer voice: a 47-year-old with a lifelong fear of water describes his first lesson, including his worry about being seen in a swimsuit. One person's account from 2016, so the page presents it as that. Added after the reader test showed \"what happens at a lesson\" was thin."
+    notes: Dated January 25, 2016, on usms.org ((c) 2026). Chest-deep water, sculling, breathing exercises, face in "First the chin, then mouth", instructor "helped me to put on a swim cap and goggles".
+    prereqs: [ internet ]
+    job: [ q4, q6 ]
 dropped:
   - name: Diversity in Aquatics
     reason: "Live, but its free courses are Red Cross 'Water Safety for Parents and Caregivers' (kid-focused); nonprofit status not stated on page. Low fit for adult learners."
@@ -77,3 +171,7 @@ dropped:
     reason: "Gemini paperwork table; branch requirements vary and IRS process not checked. Left off; the page just says 'ask what else they accept'."
     source_url: https://www.irs.gov/
     checked_on: 2026-10-04
+  - name: USMS Adult Learn-to-Swim Grants "Find a Program"
+    reason: "Not opened on this pass. Could be the closest thing to a finder for grant-funded (cheaper) adult lessons. Lead: a person should open it."
+    source_url: https://www.usms.org/alts-central/alts-grants
+    checked_on: 2026-11-12

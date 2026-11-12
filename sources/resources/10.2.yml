@@ -6,98 +6,148 @@ resources:
     serves_where: "Online"
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://www.pete-walker.com/fourFs_TraumaTypologyComplexPTSD.htm
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
     notes: "Static site, no visible date; still live. Page promotes his books and therapy practice."
+    job: [ q1 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 1
+      fits_reader: 1
+      actionable: null
+      note: "The one resource that explains, for this reader, why stopping feels dangerous. Long, uses therapy terms, undated personal site that sells books; the page says so. Not re-read: host not reachable."
   - name: "Mental Health America - Burnout: signs, causes, and how to recover"
     url: https://mhanational.org/resources/burnout-signs-causes-recover/
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: low
     on_page: true
-    notes: "Covers micro-boundaries and burnout vs depression. Site shows 2026 conference banner (active)."
+    notes: "Covers micro-boundaries and burnout vs depression. Site shows 2026 conference banner (active). 2026-11-12: Re-read. \"Burnout is usually tied to specific roles or responsibilities and can improve with rest or reduced demands.\" \"Depression affects all areas of life and doesn't go away just by taking a break.\" Small-moments list quoted in the claims log."
+    job: [ q3, q5, q4 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: Short lists of small steps by situation (work, parents, caregivers, students), secular, printable. Does not tell readers to see a doctor, so the page pairs it with MedlinePlus.
   - name: Self-Compassion Break (Self-Compassion.org, Dr. Kristin Neff)
     url: https://self-compassion.org/exercises/exercise-2-self-compassion-break/
     scope: national
     serves_where: "Online"
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://self-compassion.org/exercises/exercise-2-self-compassion-break/
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
-    on_page: true
-    notes: "Listed under 'Free Practice Resources'. Site also sells books and courses."
+    on_page: false
+    notes: "Listed under 'Free Practice Resources'. Site also sells books and courses. OFF PAGE 2026-11-12 (develop pass): The harsh inner voice is Topic 3.3's job, and 3.3 already links the same exercise from UC Berkeley. This page now links 3.3. Site re-read 2026-11-12: exercise page live, (c) 2026, no religious wording on the landing page, sells memberships and courses beside the free exercise."
   - name: Libby (OverDrive library app)
     url: https://libbyapp.com/
     scope: national
     eligibility: "Anyone with a library card; instant digital card by phone number at some US libraries"
     cost: free
-    prereqs: [smartphone or computer, library card or phone number]
+    prereqs: [ smartphone or computer, library card or phone number ]
     source_url: https://help.libbyapp.com/en-us/6125.htm
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
     notes: "Help page: 'I Would Like A Card' then 'Use My Phone Number'. Loans auto-return, no late fees (help.libbyapp.com/en-us/6103.htm)."
+    job: [ q6 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 2
+      fits_reader: 2
+      actionable: null
+      note: "How a reader with no money gets the two books; a phone number can stand in for a library card at many libraries. Now one paragraph, not a card. Not re-read: host not reachable."
   - name: "Rest Is Resistance (Tricia Hersey) - publisher page"
     url: https://www.hachettebookgroup.com/titles/tricia-hersey/rest-is-resistance/9780316365536/
     scope: national
     eligibility: "Anyone (borrow from library)"
     cost: "free from library"
-    prereqs: [library card]
+    prereqs: [ library card ]
     source_url: https://www.hachettebookgroup.com/titles/tricia-hersey/rest-is-resistance/9780316365536/
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
     notes: "Little, Brown Spark, 2022. Used instead of The Nap Ministry blog (last post Nov 2024). Author is a theologian; spiritual and racial-justice framing - see review file."
+    job: [ q1 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 1
+      fits_reader: 1
+      actionable: null
+      note: Spiritual language from a theologian author; the page says so plainly so wary readers can skip it. Sharon still to decide whether it stays (review file).
   - name: "Laziness Does Not Exist (Devon Price) - publisher page"
     url: https://www.simonandschuster.com/books/Laziness-Does-Not-Exist/Devon-Price/9781982140113
     scope: national
     eligibility: "Anyone (borrow from library)"
     cost: "free from library"
-    prereqs: [library card]
+    prereqs: [ library card ]
     source_url: https://www.simonandschuster.com/books/Laziness-Does-Not-Exist/Devon-Price/9781982140113
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
     notes: "Atria/Simon & Schuster. Page avoids pronouns for the author (Gemini used 'his'; publisher text uses 'they')."
+    job: [ q6 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 1
+      fits_reader: 2
+      actionable: null
+      note: The only secular reframing of "lazy" in the set. A trade book; free only through a library.
   - name: Mental Health America screening tools
     url: https://screening.mhanational.org/
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://screening.mhanational.org/
     verified_on: 2026-10-04
     verified_by: claude
     risk: medium
-    on_page: true
-    notes: "Page says 'free, quick, confidential'. Includes a PTSD test. Login appears optional. 'Anonymous' (Gemini's claim) NOT confirmed - page text says no account needed, not 'anonymous'."
+    on_page: false
+    notes: "Page says 'free, quick, confidential'. Includes a PTSD test. Login appears optional. 'Anonymous' (Gemini's claim) NOT confirmed - page text says no account needed, not 'anonymous'. OFF PAGE 2026-11-12 (develop pass): Screening is not one of this Topic's reader questions; the page's answer to \"is it more than tired\" is to see a provider. Host not reachable on this pass; MHA's own burnout page now points to mhascreening.org, so check which URL is current before using this anywhere."
   - name: Insomnia Coach (VA app)
     url: https://mobile.va.gov/app/insomnia-coach
     scope: national
     eligibility: "Everyone, including veterans and service members"
     cost: free
-    prereqs: [smartphone]
+    prereqs: [ smartphone ]
     source_url: https://mobile.va.gov/app/insomnia-coach
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
-    on_page: true
-    notes: "Not in Gemini doc; added for 'Sleep'. Free confirmed on Apple App Store (developer US Dept of Veterans Affairs, v1.3.4, June 11 2025). Do not swap in CBT-i Coach: VA says it is for use with a provider."
+    on_page: false
+    notes: "Not in Gemini doc; added for 'Sleep'. Free confirmed on Apple App Store (developer US Dept of Veterans Affairs, v1.3.4, June 11 2025). Do not swap in CBT-i Coach: VA says it is for use with a provider. OFF PAGE 2026-11-12 (develop pass): Sleep is Topic 1.5's job and 1.5 already lists this app. VA page re-read 2026-11-12: says the app \"was created for everyone, including Veterans and Service members\"; lists more cautions than the old page did (restless leg syndrome, night terrors, shift work)."
   - name: 988 Suicide & Crisis Lifeline
     url: https://988lifeline.org/
     phone: "988"
@@ -112,6 +162,38 @@ resources:
     risk: high
     on_page: true
     notes: "24/7/365, free, confidential. Call or text 988; chat at chat.988lifeline.org; Spanish text/chat. Gemini said 'text HOME to 988' - wrong (HOME is the Crisis Text Line keyword for 741741). Just text 988."
+    job: [ q4, q7 ]
+    role: backup
+    fit:
+      reach: 2
+      barriers: 2
+      readable: null
+      trust: 2
+      fits_reader: 2
+      actionable: null
+      note: "Now a one-line caution, not a card: crisis support is other Topics' job. Call or text 988 confirmed on MHA's burnout page 2026-11-12; 988lifeline.org itself not reachable on this pass."
+  - name: MedlinePlus - Fatigue
+    url: https://medlineplus.gov/fatigue.html
+    scope: national
+    eligibility: Anyone
+    cost: free
+    prereqs: [ internet ]
+    source_url: https://medlineplus.gov/ency/article/003088.htm
+    risk: medium
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 1
+      trust: 2
+      fits_reader: 2
+      actionable: 1
+      note: 'The official answer to "is this more than tired": weeks of fatigue means contact a provider. List-heavy, and the when-to-call list is one click away on the encyclopedia page, which the entry links directly.'
+    notes: 'National Library of Medicine. Topic page: "If you have been feeling tired for weeks, contact your health care provider." Encyclopedia article (reviewed 5/19/2025): "When fatigue is not relieved by enough sleep, good nutrition, or a low-stress environment, it should be evaluated by your health care provider."'
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q4 ]
 dropped:
   - name: The Nap Ministry blog
     reason: "Blog live but last post November 2024, so not current. Replaced with the founder's book via the library."
@@ -137,3 +219,7 @@ dropped:
     reason: "Both live, but out of scope for a rest page and covered in other Areas. 988 kept as the one crisis line."
     source_url: https://www.211.org/
     checked_on: 2026-10-04
+  - name: MHA meditation page
+    reason: Has the one official caution found ("Meditation can be difficult for people with anxiety or stress") but promotes Transcendental Meditation by name. Used as a source for the caution only; not linked.
+    source_url: https://mhanational.org/resources/meditation/
+    checked_on: 2026-11-12

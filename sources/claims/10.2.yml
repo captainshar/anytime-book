@@ -1,0 +1,197 @@
+# Written during the develop pass on 2026-11-12. It covers the page's new teaching text (safety, health,
+# and number sentences), each with a quote from a source read that day. It is not yet a full
+# /fact-check of the page: resource entries and everyday sentences are still to be logged.
+topic: "10.2"
+page: src/content/docs/fun-rest-and-being-you/resting-without-guilt.md
+claims:
+  - id: c01
+    section: Tired, burned out, or something for a doctor
+    text: It says to contact a health care provider if you've felt tired for weeks.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/fatigue.html
+    quote: If you have been feeling tired for weeks, contact your health care provider.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c02
+    section: Tired, burned out, or something for a doctor
+    text: The same goes for tiredness that doesn't lift with enough sleep, food, and less stress.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/003088.htm
+    quote: When fatigue is not relieved by enough sleep, good nutrition, or a low-stress environment, it should be evaluated by your health care provider.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c03
+    section: Tired, burned out, or something for a doctor
+    text: Lasting tiredness can come from things a provider can test for.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/fatigue.html
+    quote: Anemia
+    more:
+      - source_url: https://medlineplus.gov/fatigue.html
+        quote: thyroid diseases
+      - source_url: https://medlineplus.gov/fatigue.html
+        quote: Sleep apnea and other sleep disorders
+      - source_url: https://medlineplus.gov/fatigue.html
+        quote: Mental disorders such as depression and anxiety
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c04
+    section: Tired, burned out, or something for a doctor
+    text: burnout is usually tied to one role, like a job or caring for someone
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    quote: Burnout is usually tied to specific roles or responsibilities and can improve with rest or reduced demands.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c05
+    section: Tired, burned out, or something for a doctor
+    text: affects all of life and doesn't lift after a break
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    quote: Depression affects all areas of life and doesn’t go away just by taking a break.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c06
+    section: Tired, burned out, or something for a doctor
+    text: The two look alike, and you may not be able to tell them apart on your own.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    quote: Many of the signs of burnout are similar to signs of depression, but they aren’t quite the same.
+    note: MHA says they are similar; "you may not be able to tell them apart" is the editor's caution, chosen because MHA lists "constant exhaustion, no matter how much you rest" under burnout while MedlinePlus says to have that evaluated.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c07
+    section: Tired, burned out, or something for a doctor
+    text: feeling sad or depressed
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/003088.htm
+    quote: Feel sad or depressed
+    note: From the MedlinePlus list "Contact your provider for an appointment if you have any of the following".
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c08
+    section: Why stopping feels wrong
+    text: A habit like this usually loosens with practice.
+    kind: health
+    risk: medium
+    verdict: unsupported
+    note: Editor's explanation; no official source read on this pass says guilt about resting fades with practice. Pete Walker's article (linked as further reading) is the origin of the framing and could not be re-read. Worth a trauma-informed reviewer's read.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c09
+    section: If relaxing makes you feel worse
+    text: For some people, sitting still with nothing to do makes things louder.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/meditation/
+    quote: Meditation can be difficult for people with anxiety or stress.
+    note: The only official statement found, and it is about meditation and anxiety, not trauma. NCCIH (nccih.nih.gov) likely has a fuller caution; it was not reachable. The Sleep page (1.5) gives the same advice.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c10
+    section: If you have no time
+    text: Sit quietly for a minute or two before you get out of the car or off the bus.
+    kind: general
+    risk: low
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    quote: Sit quietly for a minute or two before getting out of the car.
+    more:
+      - source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+        quote: Unclench your jaw and relax your shoulders.
+      - source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+        quote: 15 minutes of quiet time to eat before answering emails
+      - source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+        quote: even 15 minutes can help
+    note: "\"Or off the bus\" is the editor's addition for readers without a car."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c11
+    section: Watch out for
+    text: Tiredness is a symptom, not a disease, so no supplement cures it.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/fatigue.html
+    quote: Fatigue itself is not a disease; it's a symptom.
+    note: The source supports "a symptom, not a disease." "No supplement cures it" is the editor's conclusion.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c12
+    section: Start here
+    text: It's free and open any time.
+    kind: resource
+    risk: high
+    verdict: confirmed
+    source_url: https://mhanational.org/resources/burnout-signs-causes-recover/
+    quote: 24/7 help is available. Call or text 988
+    note: Confirmed on MHA's page; 988lifeline.org was not reachable on this pass (last verified 2026-10-04).
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c13
+    section: Tired, burned out, or something for a doctor
+    text: anemia (your blood isn't carrying enough oxygen)
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/anemia.html
+    quote: If you have anemia, your blood does not carry enough oxygen to the rest of your body.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c14
+    section: Tired, burned out, or something for a doctor
+    text: sleep apnea (your breathing stops or gets shallow while you sleep)
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/sleepapnea.html
+    quote: Sleep apnea is a common disorder that causes your breathing to stop or get very shallow.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c15
+    section: Tired, burned out, or something for a doctor
+    text: a fever, regular sweats, or weight loss you can't explain
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/003088.htm
+    quote: Unexplained weakness or fatigue, especially if you also have a fever, unintentional weight loss, or regular sweats
+    more:
+      - source_url: https://medlineplus.gov/ency/article/003088.htm
+        quote: Wake up and fall back to sleep many times during the night
+      - source_url: https://medlineplus.gov/ency/article/003088.htm
+        quote: Frequent headaches
+    note: The list on the page is a shortened version of the MedlinePlus list "Contact your provider for an appointment if you have any of the following"; the entry links the full list.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c16
+    section: Tired, burned out, or something for a doctor
+    text: Get help right away if you have confusion or dizziness, blurred vision, or thoughts of harming yourself.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/003088.htm
+    quote: Confusion or dizziness
+    more:
+      - source_url: https://medlineplus.gov/ency/article/003088.htm
+        quote: Blurred vision
+      - source_url: https://medlineplus.gov/ency/article/003088.htm
+        quote: Thoughts of harming yourself or of suicide
+    note: 'From the MedlinePlus list "Contact your provider right away". Two items from that list are not on the page: "Little or no urine output" and "Recent swelling and weight gain".'
+    checked_on: 2026-11-12
+    checked_by: claude

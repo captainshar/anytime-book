@@ -1,0 +1,95 @@
+topic: "10.4"
+page: src/content/docs/fun-rest-and-being-you/protecting-yourself.md
+type: skill
+also: service
+stage: built
+reader: >
+  Someone got hurt in front of them and they didn't know what to do. Or they live
+  alone for the first time and want to feel less helpless. Or someone has hurt them
+  before and they want to be able to stop it next time.
+outcome: >
+  They know the first three things to do when someone is badly hurt, have the two
+  numbers saved, know what to keep at home, and know what a good self-defense class
+  teaches and how to tell a good one from a bad one.
+start_here: >
+  Save two numbers in your phone or on paper now: 911, and Poison Help at
+  1-800-222-1222. Then read the check, call, care steps once.
+constraints: [no money, no smartphone, fear of police, was taught not to call outsiders or use doctors, freezing under threat]
+harms:
+  - "Medical instructions: a wrong step can hurt someone. Tier 1 sources only (Red Cross, AHA, MedlinePlus, Poison Help)."
+  - "A person living with someone who hurts them is not helped by 'fight back' advice. That is safety planning. Send them to the hotline and 9.2."
+  - "Weapons and pepper spray: laws differ by state. No advice here; needs a human."
+  - "Self-defense marketing that works by frightening people."
+not_here:
+  - what: "Deciding between 911, urgent care, and waiting"
+    topic: "6.3"
+  - what: "Someone who is hurting or controlling you now"
+    topic: "9.2"
+  - what: "Spotting people who prey on you"
+    topic: "9.3"
+  - what: "Saying no and being heard"
+    topic: "3.4"
+  - what: "Freezing, panic, and a body on alert"
+    topic: "3.2"
+questions:
+  - id: q1
+    ask: "What do I do if someone is badly hurt or collapses in front of me?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "If someone is badly hurt: check, call, care"
+  - id: q2
+    ask: "What happens when I call 911? What do I say?"
+    priority: must
+    from: editor
+    was: missing
+    answered_in: "What to say when you call 911"
+  - id: q3
+    ask: "What should I learn first, and where can I learn it for free?"
+    priority: must
+    from: outline
+    was: partly
+    answered_in: "Learn first aid for free"
+  - id: q4
+    ask: "What do I keep at home for small injuries?"
+    priority: should
+    from: editor
+    was: partly
+    answered_in: "What to keep at home"
+  - id: q5
+    ask: "A job wants a CPR card. Which class do I take?"
+    priority: should
+    from: outline
+    was: answered
+    answered_in: "Get a CPR and first aid card for a job"
+  - id: q6
+    ask: "How do I protect myself from a person? What does a self-defense class teach?"
+    priority: must
+    from: outline
+    was: partly
+    answered_in: "What self-defense is"
+  - id: q7
+    ask: "How do I tell a good self-defense class from a bad one?"
+    priority: must
+    from: editor
+    was: answered
+    answered_in: ["What self-defense is", "Watch out for"]
+  - id: q8
+    ask: "I froze when something happened. Does that mean I can't protect myself?"
+    priority: should
+    from: editor
+    was: missing
+    answered_in: "If you froze when something happened"
+  - id: q9
+    ask: "Are there classes for men, or ones not run by police?"
+    priority: should
+    from: lived
+    was: partly
+    answered_in: "Find a self-defense class"
+audit: >
+  Good resources, in a list. A reader who needs to know what to do when someone
+  collapses has to open five links to find out; the page itself never says. Nothing
+  on what calling 911 is like, which matters for readers raised to distrust outsiders.
+  The self-defense half says where to find a class and what to avoid, not what
+  self-defense is. First aid and self-defense are two different jobs sharing a page
+  (flag for Sharon: first aid may belong in Area 6).

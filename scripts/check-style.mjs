@@ -77,6 +77,9 @@ for (const file of targets) {
 		}
 
 		if (raw === '## If you only do one thing first') add(n, 'structure', 'move this into a :::tip[Start here] near the top (Part 2)', raw);
+		// One flag per page, not one per heading: the fix is a single restructure.
+		if (raw === '## What it is') add(n, 'structure', 'old page anatomy: merge "What it is" and "Why it helps you" into a lead with no heading (Part 2; /develop or /tighten)', raw);
+		if (raw.startsWith('**Good to have first:**') && !raw.includes('](')) add(n, 'structure', '"Good to have first" should list linked Topics', raw);
 		if (section === 'This opens up' && raw.trim() && !raw.startsWith('#') && !raw.includes(']('))
 			add(n, 'structure', '"This opens up" should list linked Topics', raw);
 		if (section === 'Good to have first' && raw.trim() && !raw.startsWith('#') && !raw.includes(']('))

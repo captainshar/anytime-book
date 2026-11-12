@@ -5,49 +5,89 @@ resources:
     scope: national
     eligibility: "Anyone with an iOS or Android device"
     cost: free
-    prereqs: [smartphone]
+    prereqs: [ smartphone ]
     source_url: https://www.redcross.org/about-us/news-and-events/news/2026/red-cross-first-aid-app-helps-save-child-after-snake-bite.html
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "Red Cross June 24 2026 news: free; step-by-step guidance; audible hands-free steps; hospital locator; download by searching 'American Red Cross' or redcross.org/apps. Offline/preloaded claim (Gemini, from App Store) NOT verified on Red Cross page - not used. 'Text GETFIRST to 90999' seen only in search snippet - not used."
+    notes: "Red Cross June 24 2026 news: free; step-by-step guidance; audible hands-free steps; hospital locator; download by searching 'American Red Cross' or redcross.org/apps. Offline/preloaded claim (Gemini, from App Store) NOT verified on Red Cross page - not used. 'Text GETFIRST to 90999' seen only in search snippet - not used. 2026-11-12: Re-read apps page and 2026 news story. The page calls it \"First Aid App\"; \"Select English or Spanish language with an in-app toggle.\" Offline use still not stated by Red Cross; not claimed."
+    job: [ q3, q1 ]
+    role: backup
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: Reads steps aloud during an emergency. Needs a smartphone, so it backs up the printable pages.
   - name: MedlinePlus First Aid
     url: https://medlineplus.gov/firstaid.html
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://medlineplus.gov/firstaid.html
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: low
     on_page: true
-    notes: "NLM/NIH. First aid kit page: medlineplus.gov/ency/article/001958.htm (live)."
+    notes: "NLM/NIH. First aid kit page: medlineplus.gov/ency/article/001958.htm (live). 2026-11-12: Re-read. Kit list quoted on the page; \"You can get most of them at a pharmacy or supermarket\" (ency 001958). The old page's \"dollar store\" line was not in the source and is gone."
+    job: [ q4, q1 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 1
+      note: Source for the page's bleeding, CPR, and kit text. A topic index that takes some hunting, so it is a link, not a card.
   - name: American Heart Association Hands-Only CPR
     url: https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://cpr.heart.org/en/cpr-courses-and-kits/hands-only-cpr
     verified_on: 2026-10-04
     verified_by: claude
     risk: high
     on_page: true
-    notes: "Page image text: 'Two Steps to save a life. First, call 9 1 1. Second, push hard and fast.' Videos 1:00-1:34, English/Spanish/Mandarin. 30+ kiosks (Gemini implied many airports). 'Adult or teen' wording is standard AHA but not seen in page text - Sharon check."
+    notes: "Page image text: 'Two Steps to save a life. First, call 9 1 1. Second, push hard and fast.' Videos 1:00-1:34, English/Spanish/Mandarin. 30+ kiosks (Gemini implied many airports). 'Adult or teen' wording is standard AHA but not seen in page text - Sharon check. 2026-11-12: cpr.heart.org refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it. The page no longer says \"adult or teen\": that wording has never been seen on the AHA page. The Red Cross printable page now carries the steps."
+    job: [ q1, q3 ]
+    role: backup
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 2
+      fits_reader: 2
+      actionable: null
+      note: "Short videos, in three languages: the option for readers who would rather watch than read."
   - name: ACS Stop the Bleed Interactive Course
     url: https://www.stopthebleed.org/get-trained/online-course/
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://www.stopthebleed.org/get-trained/online-course/
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "'Free to all students and can be taken multiple times.' Certificate requires an in-person Skills-Only course (fees vary). Gemini's 'backed by Department of Defense' not used."
+    notes: "'Free to all students and can be taken multiple times.' Certificate requires an in-person Skills-Only course (fees vary). Gemini's 'backed by Department of Defense' not used. 2026-11-12: Re-read course page and FAQ. \"Typically, there is no charge for most ACS Stop the Bleed courses.\" \"Most ACS Stop the Bleed courses last no longer than 90 minutes.\" \"contact your local hospital and ask for one to be held in your local community.\""
+    job: [ q1, q3 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: Free, repeatable, from the surgeons' own body. In-person classes are usually free and need no ID.
   - name: Poison Help
     url: https://poisonhelp.hrsa.gov/
     phone: "1-800-222-1222"
@@ -60,43 +100,127 @@ resources:
     verified_by: claude
     risk: high
     on_page: true
-    notes: "HRSA page: 24/7, 100+ languages. No-cost confirmed at poisoncenters.org (America's Poison Centers, 53 centers). Not in Gemini doc; added."
+    notes: "HRSA page: 24/7, 100+ languages. No-cost confirmed at poisoncenters.org (America's Poison Centers, 53 centers). Not in Gemini doc; added. 2026-11-12: poisonhelp.hrsa.gov refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it. The number, \"free and confidential\", and \"24 hours a day, 7 days a week\" were confirmed on MedlinePlus (ency 002804) on 2026-11-12. \"More than 100 languages\" rests on the 2026-10-04 check."
+    job: [ q1 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 2
+      readable: null
+      trust: 2
+      fits_reader: 2
+      actionable: null
+      note: A phone call, free, any hour, no ID. The lowest-barrier resource on the page.
   - name: American Red Cross First Aid/CPR/AED classes
     url: https://www.redcross.org/take-a-class/first-aid
     scope: national
     eligibility: "Anyone"
     cost: "$37 online-only adult course; in-person varies by location"
-    prereqs: [payment]
+    prereqs: [ payment ]
     source_url: https://www.redcross.org/take-a-class/classes/adult-first-aid%2Fcpr%2Faed-online/a6RVx000000Xi3t.html
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "Online-only course page: $37.00, 'does not meet OSHA requirements for workplace certification'; recommends instructor-led or blended. Gemini's '$30-$100+' range not used. ID-at-class requirement not verified - not stated on page."
+    notes: "Online-only course page: $37.00, 'does not meet OSHA requirements for workplace certification'; recommends instructor-led or blended. Gemini's '$30-$100+' range not used. ID-at-class requirement not verified - not stated on page. 2026-11-12: Re-read. $37.00 online-only and \"does not meet OSHA requirements for workplace certification\" both still on the class page. Format names are \"Classroom Only\" and \"Blended Learning\"; page updated. \"Many employers pay\" had no source; the page now tells readers to ask."
+    job: [ q5 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 0
+      readable: 2
+      trust: 2
+      fits_reader: 1
+      actionable: 2
+      note: Costs money, which is why it is only for readers whose job needs the card.
   - name: R.A.D. Systems student program locator
     url: https://www.rad-systems.com/program_locator_student.html
     scope: national
     eligibility: "Varies by course (women, men, seniors, children)"
-    cost: "set by each host"
+    cost: "not stated on the site; set by each host"
     prereqs: []
     source_url: https://www.rad-systems.com/about_us.html
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "Since 1989; 11,000+ instructors; colleges and municipal law enforcement; 'free lifetime return and practice policy'. Site footer (c) 2024 - not updated recently, but locator live. Gemini phone 1-888-472-3543 not found on site - not used."
+    notes: "Since 1989; 11,000+ instructors; colleges and municipal law enforcement; 'free lifetime return and practice policy'. Site footer (c) 2024 - not updated recently, but locator live. Gemini phone 1-888-472-3543 not found on site - not used. 2026-11-12: Re-read locator, about_us, rad_men, rad_basic. \"minimum nine (9) hour program\" (men); basic course \"suitable for women of all ages and abilities\"; instructors \"teach at various colleges, universities, and municipal law enforcement agencies as well as various other community organizations\". No cost anywhere on the site: the old \"free or low-cost\" line is gone. Locator page lists (225) 791-4430 for help finding a program; not put on the book page."
+    job: [ q9, q6 ]
+    role: backup
+    fit:
+      reach: 1
+      barriers: 1
+      readable: 1
+      trust: 1
+      fits_reader: 1
+      actionable: 1
+      note: The only verified route to a men's class. Locator is a partial list, the site states no prices, and hosts include police departments; the page says all three.
   - name: NWMAF Empowerment Self-Defense certified instructors
     url: https://nwmaf.org/empowerment/search-nwmaf-certified-instructors/
     scope: national
     eligibility: "Mainly women, LGBTQIA+ and non-binary people"
     cost: "set by each instructor"
-    prereqs: [internet or phone to contact instructor]
+    prereqs: [ internet or phone to contact instructor ]
     source_url: https://nwmaf.org/empowerment/
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "National Women's Martial Arts Federation; (c) 2026. ESD page: trauma-aware teaching, rejects victim-blaming. Replaces Gemini's esdglobalselfdefense.org (dead)."
+    notes: "National Women's Martial Arts Federation; (c) 2026. ESD page: trauma-aware teaching, rejects victim-blaming. Replaces Gemini's esdglobalselfdefense.org (dead). 2026-11-12: Re-read /empowerment/, the instructor directory, /about/. Quotes used on the page are in sources/claims/10.4.yml. The page now says \"NWMAF says its teachers...\" instead of promising how teachers behave."
+    job: [ q6, q7, q8 ]
+    role: primary
+    fit:
+      reach: 1
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 1
+      actionable: 1
+      note: The clearest statement of what self-defense is and what a good class does, which the page now teaches directly. The instructor list is short and mainly serves women and LGBTQ+ people.
+  - name: American Red Cross - First aid steps (printable)
+    url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    scope: national
+    eligibility: Anyone
+    cost: free
+    prereqs: [ internet ]
+    source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    risk: high
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: "Check, call, care on one printable page: the no-smartphone way to have the steps on hand."
+    notes: Source for the page's check/call/care steps. The page advertises paid classes and supplies around the free steps.
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q1, q3 ]
+  - name: American Red Cross - Hands-Only CPR
+    url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    scope: national
+    eligibility: Anyone
+    cost: free
+    prereqs: [ internet ]
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    risk: high
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 2
+      actionable: 2
+      note: Printable steps a reader can keep, from a standards body. Carries the CPR job now that the AHA page cannot be re-read by script.
+    notes: Heading "Hands-Only CPR for Adults". "Push hard and fast (at least 2 inches; 100 to 120 compressions per minute)". "If you are not trained in full CPR".
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q1, q3 ]
 dropped:
   - name: ESD Global (esdglobalselfdefense.org)
     reason: "Domain shows a Wix 'ConnectYourDomain' error; /whatisesd returns 404. Not operating."
@@ -114,3 +238,11 @@ dropped:
     reason: "Local only, no national finder; folded into NWMAF 'Good to know'."
     source_url: https://www.ywca.org/
     checked_on: 2026-10-04
+  - name: Red Cross first aid kit page
+    reason: "Gone: /take-a-class/first-aid/first-aid-kit returned HTTP 410. MedlinePlus carries the kit list."
+    source_url: https://www.redcross.org/take-a-class/first-aid
+    checked_on: 2026-11-12
+  - name: IMPACT self-defense chapters
+    reason: No national site or finder; independent local chapters on unreachable hosts. Lead for an all-gender option (review file).
+    source_url: https://nwmaf.org/empowerment/
+    checked_on: 2026-11-12

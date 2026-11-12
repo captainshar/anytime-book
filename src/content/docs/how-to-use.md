@@ -8,18 +8,20 @@ The book has 10 **Areas**, like Money or Health and Your Body. Each Area has a h
 
 Read in any order. Some Topics list others that are "good to have first," but those are suggestions, not requirements.
 
-## What’s on every Topic page
+## What’s on a Topic page
 
-Every Topic page has the same parts, in the same order, so you can skip to the one you need.
+Topic pages are built the same way, so you can skip to the part you need.
 
-- **What it is:** one or two sentences on what the Topic covers.
-- **Why it helps you:** what changes in your life once you have it.
-- **Good to have first:** other Topics that make this one easier.
+- **The opening:** a few sentences on what the Topic is and what changes once you have it.
 - **Start here:** the one step to take first.
-- **How it works:** the steps, on Topics that are a skill you do yourself, like budgeting or cooking.
+- **What’s going on:** on Topics about your mind and feelings, why this is hard and how it works.
+- **How it works:** on Topics that are a skill you do yourself, the steps.
+- **Things to try:** small things you can do on your own, for free.
 - **Where to get help:** free and low-cost services. Each one lists the cost, who can use it, how to start, and what to know before you go.
 - **Watch out for:** scams and traps, how to spot them, and what to do instead.
 - **This opens up:** Topics that get easier once you have this one.
+
+Not every page has every part. A page about finding a shelter is mostly **Where to get help**. A page about rest is mostly **What’s going on** and **Things to try**.
 
 ## Things that are true across the book
 

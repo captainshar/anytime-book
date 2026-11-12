@@ -1,0 +1,403 @@
+# Written during the develop pass on 2026-11-12. It covers the page's new teaching text (safety, health,
+# and number sentences), each with a quote from a source read that day. It is not yet a full
+# /fact-check of the page: resource entries and everyday sentences are still to be logged.
+topic: "10.3"
+page: src/content/docs/fun-rest-and-being-you/swimming-and-water-safety.md
+claims:
+  - id: c01
+    section: Lead
+    text: about one-third of US adults can't safely swim the length of a pool
+    kind: number
+    risk: low
+    verdict: confirmed
+    source_url: https://www.usms.org/alts-central/learn-to-swim
+    quote: About one-third of adults in the United States can’t safely swim the length of a pool.
+    note: USMS states this itself; another USMS page attributes it to CDC, which could not be read (cdc.gov refuses scripts). The page attributes the figure to USMS.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c02
+    section: Stay safe before you can swim
+    text: wear one whenever you're in, on, or around water, even if a lifeguard is there
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/LifeJackets.pdf
+    quote: Children and inexperienced swimmers should wear life jackets whenever in, on and around
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Children, inexperienced swimmers, and all boaters should wear U.S. Coast Guard-approved life jackets.
+    note: The Red Cross PDF is undated; the dated html page says the same in fewer words.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c03
+    section: Stay safe before you can swim
+    text: On a boat, everyone wears one, however well they swim.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Always wear a life jacket while boating, regardless of swimming skill.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c04
+    section: Stay safe before you can swim
+    text: Look for a stamp that says it is U.S. Coast Guard approved.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/LifeJackets.pdf
+    quote: Make sure it is U.S. Coast Guard approved. Look for the stamp on the life jacket.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c05
+    section: Stay safe before you can swim
+    text: Check the label for the weight it's made for.
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/LifeJackets.pdf
+    quote: Check the label on the life jacket for weight limits.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c06
+    section: Stay safe before you can swim
+    text: Don't use one with torn fabric or loose straps.
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/LifeJackets.pdf
+    quote: Discard any life jacket with torn fabric or loose straps.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c07
+    section: Stay safe before you can swim
+    text: Go where there is a lifeguard, and never swim alone.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Never swim alone; swim with lifeguards and/or water watchers present.
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Always swim in a lifeguarded area.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c08
+    section: Stay safe before you can swim
+    text: Don't drink alcohol before or while you're in the water.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Swim sober.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c09
+    section: Stay safe before you can swim
+    text: Water wings, swim rings, and inflatable toys are not a substitute for a life jacket.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/LifeJackets.pdf
+    quote: Water wings, swim rings, inflatable toys and other items designed for water recreation are not substitutes
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c10
+    section: Stay safe before you can swim
+    text: The Red Cross warns about drop-offs where the water gets deep without warning, fast currents even in shallow water, and sudden changes in water temperature.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/lake-river-safety.html
+    quote: Drop-offs that can unexpectedly change water depth.
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/lake-river-safety.html
+        quote: Fast-moving currents, waves and rapids, even in shallow water.
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/lake-river-safety.html
+        quote: Unexpected changes in air or water temperature.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c11
+    section: What an adult lesson is like
+    text: You master one set of skills before moving to the next, and a certified instructor teaches the class.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
+    quote: mastering one set of skills before moving on to the next
+    more:
+      - source_url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
+        quote: Learning the Basics
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c12
+    section: What an adult lesson is like
+    text: Most people bring a swimsuit and a towel.
+    kind: general
+    risk: low
+    verdict: unsupported
+    note: Everyday statement. No official page read says what to bring to an adult lesson; the page tells the reader to ask the pool.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c13
+    section: How you'll know you can swim
+    text: Get into water that's over your head and come back to the surface.
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Enter water that’s over your head, then return to the surface.
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Float or tread water for at least 1 minute.
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Turn over and turn around in the water.
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Swim at least 25 yards.
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Exit the water.
+    note: 'One claim for all five skills. "(about 23 meters)" is arithmetic: 25 yards = 22.86 m.'
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c14
+    section: If someone is in trouble in the water
+    text: Drowning is usually fast and quiet.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/summer-safety.html
+    quote: Drowning behavior is typically fast and silent.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c15
+    section: If someone is in trouble in the water
+    text: is not moving forward
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Are not making forward progress in the water.
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+        quote: Are vertical in the water but unable to move or tread water.
+    note: 'The third sign ("face down and still") is the same Red Cross list: "motionless and face down in the water."'
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c16
+    section: If someone is in trouble in the water
+    text: Shout for a lifeguard. If there isn't one, have someone call 911.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/beach-safety.html
+    quote: If someone is in trouble in the water, get help from a lifeguard.
+    more:
+      - source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/beach-safety.html
+        quote: If a lifeguard is not available, have someone call 9-1-1.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c17
+    section: If someone is in trouble in the water
+    text: Reach or throw. Don't go.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/summer-safety.html
+    quote: Reach or throw, don't go!
+    more:
+      - source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/WouldYouKnowWhattodo.pdf
+        quote: Reach or throw, don’t go.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c18
+    section: If someone is in trouble in the water
+    text: Hold out something long, like a pole or a broom.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/atg/PDF_s/Preparedness___Disaster_Recovery/Disaster_Preparedness/Water_Safety/WouldYouKnowWhattodo.pdf
+    quote: Have reaching and throwing equipment on hand, such as ring buoys or reaching poles, or even a water jug
+    note: The PDF line continues "tied to a rope or a broom."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c19
+    section: If someone is in trouble in the water
+    text: "Or throw something that floats: a life jacket, a cooler, a ball."
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety/beach-safety.html
+    quote: Throw the victim something that floats – such as a lifejacket, cooler or inflatable ball
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c20
+    section: If someone is in trouble in the water
+    text: If you go in, you could need rescuing too.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/summer-safety.html
+    quote: Don't go in or you could become a victim yourself.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c21
+    section: If a rip current pulls you
+    text: A rip current is a channel of water flowing away from the beach.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: Rip currents are channelized currents of water flowing away from shore at surf beaches.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c22
+    section: If a rip current pulls you
+    text: They happen at ocean beaches and on the Great Lakes.
+    kind: general
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: can be found on most surf beaches, including the Great Lakes
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c23
+    section: If a rip current pulls you
+    text: It doesn't pull you under.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: Relax. Rip currents don't pull you under.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c24
+    section: If a rip current pulls you
+    text: Don't swim straight toward shore.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: Do NOT try to swim directly into to shore.
+    note: The typo "into to" is the Weather Service's.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c25
+    section: If a rip current pulls you
+    text: Swim along the shoreline until you're out of the pull. Then swim at an angle, away from the current, toward shore.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: Swim along the shoreline until you escape the current's pull. When free from the pull of the current, swim at an angle away from the current toward shore.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c26
+    section: If a rip current pulls you
+    text: If you can't reach shore, relax, face the shore, and call or wave for help.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: If you feel you can't reach shore, relax, face the shore, and call or wave for help.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c27
+    section: If a rip current pulls you
+    text: The Weather Service also says to swim only at beaches with lifeguards if you can, and never alone.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: If at all possible, only swim at beaches with lifeguards.
+    more:
+      - source_url: https://www.weather.gov/safety/ripcurrent-surviving
+        quote: never swim alone
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c28
+    section: If a rip current pulls you
+    text: If in doubt, don't go out.
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.weather.gov/safety/ripcurrent-surviving
+    quote: If in doubt, don't go out!
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c29
+    section: Find adult swim lessons
+    text: Learn-to-Swim Providers map
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/swimming/learn-to-swim-providers
+    quote: To find your local Learn-to-Swim provider please select an aquatic facility from the map below.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c30
+    section: Find adult swim lessons
+    text: Its page speaks to adults who never had the chance to learn, and to adults who had a frightening experience in water.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.usms.org/alts-central/learn-to-swim
+    quote: Did you have a negative or frightening experience in the water when you were younger that prevented you from wanting to try again?
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c31
+    section: Stay safe in lakes, rivers, and the ocean
+    text: that page has a free online course called "Water Safety for Parents & Caregivers."
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html
+    quote: Our FREE online course helps parents and caregivers learn the basics of water safety.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c32
+    section: Watch out for
+    text: A person in trouble in the water can pull you under.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/local/pennsylvania/southeastern-pennsylvania/about-us/news-and-events/news/water-competency.html
+    quote: Never jump in after a drowning person, as panic can cause them to pull you under.
+    note: A local Red Cross chapter page; the national pages say "you could become a victim yourself."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c33
+    section: Watch out for
+    text: A class that forces your face under, or moves you to deep water before you agree, is the wrong class.
+    kind: safety
+    risk: medium
+    verdict: needs-human
+    note: Editor's advice, not from a source. Worth a swim instructor's or reviewer's read.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c34
+    section: What an adult lesson is like
+    text: He stood chest-deep and practiced moving water with his hands.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+    quote: I was chest deep in the water, and I was OK.
+    more:
+      - source_url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+        quote: First the chin, then mouth, and before I knew it, my whole head was under water.
+      - source_url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+        quote: At age 47, it was the first time in my life I had put my whole body under water.
+      - source_url: https://www.usms.org/fitness-and-training/articles-and-videos/articles/my-first-swim-lesson-surprises-and-success
+        quote: the goggles are a huge help
+    note: One learner's account from 2016, presented on the page as one person's experience.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c35
+    section: How you'll know you can swim
+    text: Treading water means staying upright with your head above water by moving your arms and legs.
+    kind: general
+    risk: low
+    verdict: unsupported
+    note: Plain-word definition written by the editor; not quoted from a source.
+    checked_on: 2026-11-12
+    checked_by: claude

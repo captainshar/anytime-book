@@ -1,42 +1,84 @@
 # Review: Area 10 — Fun, Rest, and Being You
 
-Drafted 2026-10-04 by Claude. All four Topic pages are now `status: draft`. Verification records are in `sources/resources/10.1.yml` through `10.4.yml`.
+Area 10 was the first Area through the editorial method (`sources/EDITORIAL.md`, `/develop`), on 2026-11-12. All four Topics are rebuilt and still `status: draft`. Briefs are in `sources/briefs/10.*.yml`, vetting in `sources/resources/10.*.yml`, and the quotes behind the new teaching text in `sources/claims/10.2.yml`, `10.3.yml`, and `10.4.yml`.
+
+The original drafting notes from 2026-10-04 are folded in below where they still apply.
+
+## What changed
+
+| Topic | Before | Now |
+| --- | --- | --- |
+| 10.1 Finding What You Enjoy | Six places to find activities, two of them gardening. Nothing on how to find out what you like. | Teaches the method (try, notice, repeat, quit freely), why fun can feel wrong, and a menu of free things to try. Six resources: one new (MHA hobbies page), one new backup (national parks), two gardening resources off the page. |
+| 10.2 Resting Without Guilt | Nine resource cards and two books. The one practice was at the bottom. | Teaches why stopping feels wrong, what counts as rest, what to do if stillness feels worse, and when tiredness needs a provider. Two primary resources (MedlinePlus Fatigue, MHA Burnout), further reading, and 988 as one line. The sleep app, screening quizzes, and self-compassion exercise now live only on the Topics that own them. |
+| 10.3 Swimming and Water Safety | Good finders. Safety advice sat in "Watch out for" and inside one resource. | Safety rules, signs of drowning, reach-or-throw, and the full rip current steps are on the page, each with a Red Cross or Weather Service quote. Adds what a lesson is like and the questions to ask a pool. |
+| 10.4 Protecting Yourself | Ten links. A reader had to open five to learn what to do when someone collapses. | Check, call, care; Hands-Only CPR; bleeding; poison; what not to do; a basic kit; what self-defense is and what a good class does. Two new printable Red Cross pages. |
 
 ## Sharon should check
 
-### 10.1 Finding What You Enjoy
+### The briefs (two minutes each)
 
-- **Museums for All needs SNAP and a photo ID.** I added it because it isn't in the Gemini doc and it's a strong free option. Readers with no ID or no SNAP can't use it. Should it stay, or move lower on the page?
-- **The library card wording.** The page says "many libraries" have options for people without ID or address (for example, a shelter address). That's true in general, but I couldn't confirm it nationally. Each library sets its own rules.
-- **Master Gardener.** The training fee and the volunteer-hour commitment may not suit a reader with no money or time. I kept it because it's a social, structured way in. You may want to cut it.
-- **Instructables was dropped** only because I couldn't load its own page. It's a well-known, free, Autodesk-owned site. If you can open it in a normal browser and confirm that it's free with no account needed, it would be worth adding back.
+Every reader question in the four briefs is marked `from: editor` except two marked `lived` that came from this file. Nobody has checked them against a real reader. Read `sources/briefs/10.*.yml` and change what's wrong: a wrong `must` question means a wrong page.
 
-### 10.2 Resting Without Guilt
+### Values and structure calls
 
-- **Rest Is Resistance (Tricia Hersey).** The author is a theologian, and the book uses spiritual language ("divinity", "sacred") along with racial-justice and anti-capitalist framing. Some readers leaving high-control religion will find this healing. Others may find it triggering. Please decide whether to keep it, add a short note about it, or swap it out.
-- **The Nap Ministry blog was dropped** because its last post was November 2024. I listed the book instead.
-- **Pete Walker's site** has no dates and promotes his books and therapy practice. The 4Fs article is widely used, but the site looks old.
-- **Self-Compassion.org (Kristin Neff)** draws on Buddhist mindfulness. The page doesn't mention this. Is it neutral enough for readers who are wary of anything that feels religious?
-- **MHA screening "no account needed."** The site says "free, quick, confidential" and has a login that looks optional. Gemini called it "anonymous", which I could not confirm. Please check the privacy policy before we say more.
-- **Insomnia Coach (VA)** was added for the "Sleep" outcome. The 1.5 Sleep Topic may already list it, so check for duplicates.
-- **Gemini error, fixed:** Gemini said "text HOME to 988." The page says "call or text 988." HOME is the keyword for Crisis Text Line (741741).
+- **Rest Is Resistance (10.2)** is still on the page, now with a plain note that the author is a theologian and the book uses spiritual language. The research pass recommended cutting it for readers wary of anything spiritual. Your call from October is still open.
+- **Pete Walker's 4Fs article (10.2)** stays as further reading with an honest note (long, therapy terms, sells books). It is the origin of the page's explanation of why stopping feels dangerous, and it could not be re-read on this pass.
+- **10.4 is two Topics on one page.** First aid may belong in Area 6 beside "Is This an Emergency?", leaving 10.4 for self-defense. The page now has two clear halves, but the split is worth deciding.
+- **Museums for All (10.1)** is now a backup, below the library and parks, with the site's real terms ($5 or less, up to four people, EBT card plus photo ID).
+- **The MHA hobbies page (10.1)** suggests "community or church choirs" and ends with a mental health quiz link. The entry says both.
+- **Master Gardener and the Extension finder (10.1)** are off the page. The Extension finder page did not support the old page's sentences about free advice, canning, county offices, or classes. If Extension comes back on any page, those sentences need a source.
 
-### 10.3 Swimming and Water Safety
+### Needs a person in a browser
 
-- **The YMCA wording is careful on purpose.** ymca.org only promises that no *child* is turned away for inability to pay. For adults, financial help varies by branch. The page says "Many Ys offer financial help" and tells readers to ask.
-- **These safety lines come from general knowledge, not a page I checked today:** "Coast Guard approved" on life jackets; "throw something that floats, don't jump in"; "pool toys are not safety gear." They're standard Red Cross and Coast Guard messages. A quick check against redcross.org water safety or uscgboating.org would make them solid.
-- **Rip-current steps** are summarized from weather.gov. A wrong detail here could hurt someone, so please read them against the page.
-- **Modest swimwear and women-only swim hours** matter to many readers from religious backgrounds. I left them off because pool rules vary. They're part of the Gemini hand-off below.
+These official sites refuse scripts, so they were not re-read on this pass. Their details stand as verified on 2026-10-04. Open each one, check the page text against the record, and update `verified_on`.
 
-### 10.4 Protecting Yourself (safety-sensitive; please have a DV advocate glance at it)
+| Topic | Site | What to confirm |
+| --- | --- | --- |
+| 10.1 | careeronestop.org library finder | Still live; "city or ZIP code" search. |
+| 10.1 | open.edu (OpenLearn) | The two course names, "Introductory," free, no sign-up to read. |
+| 10.3 | ymca.org | "Find Your Y" by ZIP; adult lessons; financial assistance wording. |
+| 10.3 | boatingsafety.com (Sea Tow) | "More than 1,500 stations"; the "See the map here" link. |
+| 10.3 | cdc.gov | The source of "one-third of US adults can't safely swim the length of a pool." The page credits U.S. Masters Swimming, which states it. |
+| 10.4 | cpr.heart.org | Videos, languages, and whether AHA says who Hands-Only CPR is for. The old "adult or teen" wording is off the page. |
+| 10.4 | poisonhelp.hrsa.gov | "More than 100 languages." The number, free, and 24/7 were confirmed on MedlinePlus. |
 
-- **The self-defense section is kept general on purpose.** It covers what a good class looks like and when to walk out, with no tactics. A DV advocate or an ESD instructor should review the "Watch out for" list.
-- **R.A.D. is often taught by police or campus police.** Readers who fear police may not feel safe there. Its main course is for women only, and its site footer says © 2024. The locator works, but some listings may be out of date.
-- **NWMAF Empowerment Self-Defense** mainly serves women, LGBTQIA+, and non-binary people. Men from abusive backgrounds have fewer trauma-informed options. That gap is a Gemini hand-off.
-- **Red Cross pricing.** I confirmed the $37 online-only adult First Aid/CPR/AED course, which says it does **not** meet OSHA workplace rules. In-person prices vary, so I gave no range. Gemini's "$30–$100+" wasn't checked.
-- **Red Cross First Aid app "works offline."** Gemini's claim came from the App Store listing. Red Cross's own pages didn't say it, so I left it out.
-- **Hands-Only CPR is for an "adult or teen" who collapses.** This is AHA's standard message, but the page text I read showed only "call 911, push hard and fast." Please confirm.
-- **Poison Help** isn't in the Gemini doc. I added it as a core first aid number (24/7, free, 100+ languages).
+Not reachable from the cloud session at all (not on its allowed list): creativebug.com, pete-walker.com, libbyapp.com, the two book publishers, 988lifeline.org, consumer.ftc.gov. Same treatment.
+
+### Needs an expert
+
+- **DV advocate (10.4):** the note "If someone you live with or depend on is hurting you" and the "Watch out for" list. Already on the list in `README.md`.
+- **Clinician or CPR instructor (10.4):** the first aid steps are quoted from the Red Cross and MedlinePlus, but someone qualified should read the page whole. Also: "Babies and children need different steps, which a class teaches" has no quote behind it.
+- **A dispatcher, or a person reading 911.gov (10.4):** "What to say when you call 911" has no official source behind it. See the claims log, c06 and c07.
+- **Trauma-informed reviewer (10.2, 10.4):** "A habit like this usually loosens with practice," "If relaxing makes you feel worse," and "If you froze when something happened." The page states no mechanism it can't source, but these are the sentences most likely to land wrong.
+- **Lawyer (10.4):** Good Samaritan laws and pepper spray laws were left off on purpose. Readers will ask.
+
+### Found along the way, on other pages
+
+- **PTSD Coach (1.5 Sleep, 3.2 Calming Your Body):** both pages say anyone can use it. The VA page read on 2026-11-12 says "The PTSD Coach app was designed for Veterans experiencing symptoms of PTSD" and does not say anyone can. Check before those pages are promoted.
+- **Insomnia Coach (1.5):** the VA page lists more cautions than our pages do (restless leg syndrome, night terrors, shift work).
+- **MHA screening:** MHA's own pages now point to mhascreening.org, not screening.mhanational.org. 3.4 links the old host.
+
+## Leads to verify
+
+Found by search, not read on an official page. None of these is on a page.
+
+| Topic | Lead | Job it would do | What to check |
+| --- | --- | --- | --- |
+| 10.1 | A printable "pleasant activities" list from a university or health service (University of Michigan, NHS) | A longer menu of things to try | Date, plain wording, no sales |
+| 10.2 | VA Mindfulness Coach app | Free guided rest audio from a government source | The VA page says it is for "Veterans, Service members, and others" but states no cost and no account rule. Check an app store. It is framed as "mindfulness." |
+| 10.2 | NCCIH pages on relaxation and meditation safety (nccih.nih.gov) | A tier 1 source for "relaxing can feel worse for some people" | Whether it says so for trauma or anxiety, in words we can quote |
+| 10.2 | UCLA Mindful (already on 1.5) | Guided audio | Free, no account, how it frames itself |
+| 10.3 | USMS Adult Learn-to-Swim Grants, "Find a Program" | A finder for grant-funded adult lessons | Whether it lists programs and prices |
+| 10.3 | Local YMCA modest-swimwear guides | "Can I cover up?" | Each Y sets its own rules; nothing national found. The page gives the question to ask. |
+| 10.3 | State park and DNR life jacket loaner programs | Loaners beyond Sea Tow | No national finder found |
+| 10.4 | 911.gov | What happens on a 911 call and what to say | Quote it into the claims log |
+| 10.4 | IMPACT chapters; rape crisis center and YWCA workshops | An all-gender, trauma-informed self-defense class | No national site. R.A.D. for Men is the only verified men's class. |
+
+## Readers the pages still don't serve
+
+- **No internet, no phone, no transport.** The teaching text on each page is the answer; no offline resource exists for most of these jobs beyond the library and a city pool's front desk.
+- **A man, or anyone wary of police, who wants a trauma-informed self-defense class (10.4).** Nothing verified.
+- **Someone who needs modest swimwear or women-only swim times (10.3).** Only a script to ask with.
 
 ## Hand to Gemini
 

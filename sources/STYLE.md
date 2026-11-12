@@ -2,6 +2,8 @@
 
 How we write, structure, and verify every page. The `/tighten` skill (`.claude/skills/tighten/`) applies Parts 1–3 to existing pages.
 
+What goes on a page in the first place (who it's for, which questions it answers, which resources earn a spot) is decided by the editorial method in [`EDITORIAL.md`](EDITORIAL.md) and the `/develop` skill. This guide is how the result is written.
+
 - [Part 1: Voice](#part-1-voice): who we're talking to and how we sound
 - [Part 2: Structure](#part-2-structure): how pages are built so people can find what they need
 - [Part 3: Mechanics](#part-3-mechanics): words, numbers, formatting
@@ -94,33 +96,45 @@ Borrow the good parts of technical documentation: the reader should always know 
 
 ### Topic page anatomy
 
-Keep the frontmatter as it is. Sections, in order:
+A Topic is one of three kinds, and the kind decides the middle of the page. `EDITORIAL.md` (Stage 5) explains how to tell them apart.
+
+| Kind | The reader wants to… | The middle of the page |
+| --- | --- | --- |
+| `service` | get something from a system | **Where to get help**, sometimes after **How it works** |
+| `skill` | do something themselves | **How it works**, then **Where to get help** |
+| `inner` | understand something about themselves | **What's going on**, **Things to try**, then **Where to get help** |
+
+Keep the frontmatter as it is. The page, in order:
 
 ```markdown
-## What it is
+(Lead: no heading. 2–4 sentences.)
+What this is, in words you could say to a friend. Who often hasn't got it,
+and why, in one line. What changes once you have it: an outcome, not a
+promised feeling. ("You'll know where your money goes each month," not
+"You'll feel more in control.")
 
-One or two plain sentences. What this Topic covers.
-
-## Why it helps you
-
-What changes in the reader's life, in concrete terms. Outcomes, not
-promised feelings. ("You'll know where your money goes each month."
-not "You'll feel more in control.")
-
-## Good to have first
-
-Links to Topics that make this one easier. Omit the section if none.
+**Good to have first:** [Linked Topic](/area/topic/). One line, only when
+it's a real head start. Otherwise leave it out.
 
 :::tip[Start here]
 The single most useful first step, in 1–3 sentences, with the script if
-there is one. (This replaces "If you only do one thing first" at the bottom.)
+there is one.
 :::
+
+## What's going on
+
+For `inner` Topics; optional on the others. The mechanism: why this is hard
+after the life the reader had, or how the thing works. Explain, don't reassure.
 
 ## How it works
 
-Optional. For Topics that are a skill (budgeting, cooking, a phone call),
-not just a set of services. 3–7 numbered steps, each starting with a verb.
-Keep it general and true anywhere in the US. Flag specifics for verification.
+For `skill` Topics; optional on `service`. 3–7 numbered steps, each starting
+with a verb, or task-shaped ### sections. What you need, what happens, what
+to do if it goes wrong. Keep it true anywhere in the US.
+
+## Things to try
+
+For `inner` Topics. Small experiments: free, under 15 minutes, doable alone.
 
 ## Where to get help
 
@@ -132,9 +146,18 @@ Bulleted traps. See below.
 
 ## This opens up
 
-Links to the Topics this one makes easier. Topic links only, no vague
-outcomes like "Peace of mind."
+- [Linked Topic](/area/topic/): a few words on why it's next.
 ```
+
+Rules that go with it:
+
+- **No stub sections.** A heading with less than two full sentences under it isn't a section. Fold it into the lead or cut it. (The first draft had "What it is," "Why it helps you," "Good to have first," and "This opens up" as four one-line sections at the top of every page. The lead and the **Good to have first** line replace them.)
+- **The top of the page is for acting.** A reader on a phone reaches **Start here** without scrolling far: keep everything above the first `##` under about 170 words.
+- **The `##` headings are the fixed set above**, so readers learn where things are. `###` headings are task-shaped and belong to the Topic.
+- **Teach on the page; link for depth.** If a resource's main advice fits in three sentences, write the three sentences and link the resource for more.
+- **This opens up** is Topic links only, each with a few words on why. No vague outcomes like "Peace of mind."
+
+Pages that haven't been through `/develop` yet still have the old headings. `node scripts/check-editorial.mjs --status` shows which.
 
 **Watch out for** items follow one pattern: **bold trap name.** How to spot it. What to do instead.
 
@@ -160,7 +183,7 @@ The home page, "How to use this book," and Area intros work like documentation l
 4. **Where do I start?** A short "If X, go to Y" list.
 5. **What is it not?** Limits: not legal or medical advice, not a crisis line, US only.
 
-Area intros (`index.md` in each Area folder): 2–4 sentences on what the Area covers and why it matters, then the Topics are listed by the sidebar. No pep talk.
+Area intros (`index.md` in each Area folder): 2–4 sentences on what the Area covers, who tends to need it, and where to start. Then one line per Topic, linked, saying what the reader will be able to do. No pep talk.
 
 ---
 
@@ -205,7 +228,7 @@ One or two plain sentences on what it does.
 - **Good to know:** ID, money, address, or internet needed; hours if limited.
 ```
 
-- 3–10 resources per Topic. Prefer national, free, official, or long-running nonprofits. For things that are state- or county-run, link to an official **finder** and say how to find the local version. Never publish state-by-state phone tables.
+- 3–10 resources per Topic, chosen with the gates and fit scores in `EDITORIAL.md` (Stage 4): one primary pick per job, lowest-barrier first. Prefer national, free, official, or long-running nonprofits. For things that are state- or county-run, link to an official **finder** and say how to find the local version. Never publish state-by-state phone tables.
 - Never call a local or single-state program national. If a strong program is regional (for example, Holding Out HELP in Utah), you can include it, but say where it serves.
 - **Religious and faith-based resources are welcome.** Sometimes they are the only help nearby, and many shelters are religious. Include them when they verify, and say so plainly in **Good to know**: name the faith, quote any religious mission from their own site, and state any religious requirement (services, prayer, Bible study). If the site doesn't say whether there are requirements, tell readers to ask. Never drop a resource only because it is religious.
 - **Don't vouch for people's behavior.** Say what a service is for and what it offers. Don't promise staff will be kind or nonjudgmental.

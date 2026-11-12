@@ -1,0 +1,82 @@
+topic: "10.3"
+page: src/content/docs/fun-rest-and-being-you/swimming-and-water-safety.md
+type: skill
+also: service
+stage: built
+reader: >
+  They were invited to a pool, lake, or beach and can't swim, and don't want to say
+  so. Or they're near water with a child. They may never have worn a swimsuit, may
+  have been raised with strict modesty rules, or may be afraid of water.
+outcome: >
+  They know how to stay safe near water today without knowing how to swim, what to do
+  if someone is in trouble, and how to find and ask about an adult beginner lesson
+  they can afford.
+start_here: >
+  Call one pool near you and ask about adult beginner lessons, the price, and
+  financial help. Until you can swim: wear a life jacket near water, stay where a
+  lifeguard is on duty, and don't go in alone.
+constraints: [no money, no swimsuit, shame about not swimming as an adult, modesty or body shame, fear of water, no car]
+harms:
+  - "Every safety statement here is life-or-death. Tier 1 sources only (Red Cross, NWS, Coast Guard, CDC)."
+  - "A non-swimmer reading 'adults learn fast' and going into deep or open water."
+  - "Lessons that force submersion."
+not_here:
+  - what: "First aid and CPR"
+    topic: "10.4"
+  - what: "Fear and panic in the body"
+    topic: "3.2"
+questions:
+  - id: q1
+    ask: "I'm an adult and I can't swim. Is it too late? Is that unusual?"
+    priority: must
+    from: editor
+    was: answered
+    answered_in: "Lead"
+  - id: q2
+    ask: "How do I stay safe around water right now, before I can swim?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "Stay safe before you can swim"
+  - id: q3
+    ask: "Where do I find lessons I can afford?"
+    priority: must
+    from: outline
+    was: answered
+    answered_in: "Find adult swim lessons"
+  - id: q4
+    ask: "What happens at an adult lesson? What do I wear and bring?"
+    priority: must
+    from: editor
+    was: missing
+    answered_in: "What an adult lesson is like"
+  - id: q5
+    ask: "What do I do if I'm in trouble in the water, or someone else is?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: ["If someone is in trouble in the water", "If a rip current pulls you"]
+  - id: q6
+    ask: "I'm scared of water. Can I still learn?"
+    priority: should
+    from: editor
+    was: partly
+    answered_in: "What an adult lesson is like"
+  - id: q7
+    ask: "Can I cover up? What are the rules about what you wear in a pool?"
+    priority: should
+    from: lived
+    was: missing
+    answered_in: "What an adult lesson is like"
+  - id: q8
+    ask: "What does 'knowing how to swim' actually mean? How will I know I'm safe?"
+    priority: could
+    from: editor
+    was: missing
+    answered_in: "How you'll know you can swim"
+audit: >
+  The strongest of the four pages: real finders, good scripts, a useful Watch out for.
+  But the safety content a non-swimmer needs today is in the last section, as traps,
+  and the rip current steps are inside one resource's "Good to know." Nothing on what
+  a lesson is like or what to wear, which is what keeps many adults from calling.
+  The review file already flagged modest swimwear as a gap (marked `lived` for that).

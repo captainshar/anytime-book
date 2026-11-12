@@ -1,6 +1,6 @@
 # Review queue
 
-All 58 Topic pages are now `status: draft`. Each resource on them was checked on the organization's own page on 2026-10-04 (log: `sources/resources/<topic>.yml`). This file is the triage list for what a person still needs to do. Each Area's file has the details, the dropped resources, and ready-to-paste Gemini prompts.
+All 58 Topic pages are `status: draft`. Area 10 has been through the editorial method (`sources/EDITORIAL.md`); `node scripts/check-editorial.mjs --status` shows where every Topic stands. Each resource on them was checked on the organization's own page on 2026-10-04 (log: `sources/resources/<topic>.yml`). This file is the triage list for what a person still needs to do. Each Area's file has the details, the dropped resources, and ready-to-paste Gemini prompts.
 
 | Area | Review file |
 | --- | --- |
@@ -23,11 +23,14 @@ All 58 Topic pages are now `status: draft`. Each resource on them was checked on
 | DV advocate | Phone tracking, location sharing, Safety Check / Emergency Reset, saving evidence before deleting | 2.2, 2.4, 8.2 |
 | DV advocate | Freezing credit after family identity theft (no police report needed) | 4.4 |
 | DV advocate | Self-defense section; options for men are thin | 10.4 |
+| Clinician or CPR instructor | First aid steps (quoted from Red Cross and MedlinePlus, but read the page whole); wording on CPR for children | 10.4 |
+| 911 dispatcher, or 911.gov | What to say when you call 911 | 10.4 |
 | Lawyer / legal aid | Police and welfare checks for adults (based on two city police pages, not a national rule); name changes; immigrant survivors | 9.1, 9.2 |
 | Lawyer / legal aid | Fair-housing wording and "a landlord has to go through the courts" | 5.1 |
 | VITA volunteer / tax pro | "Someone else claimed you" steps (IRS reject codes, CP87B) | 4.3 |
 | Clinician | Triage list (when to go to the ER) and overdose signs | 6.3, 6.7 |
 | Trauma-informed reviewer | Meditation caution and night-light tip | 1.5 |
+| Trauma-informed reviewer | Why stopping feels wrong; relaxing that feels worse; freezing | 10.2, 10.4 |
 
 ## 2. Your calls (values, tone, inclusion)
 

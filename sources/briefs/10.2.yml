@@ -1,0 +1,84 @@
+topic: "10.2"
+page: src/content/docs/fun-rest-and-being-you/resting-without-guilt.md
+type: inner
+stage: reader-tested
+reader: >
+  They sat down on a day off and felt guilty, restless, or scared, and got back up.
+  Growing up, they were valued for work, chores, service, or caring for others, and
+  stopping was called lazy or sinful. They are worn out and can't seem to stop.
+outcome: >
+  They can rest for a short time on purpose, know what the guilt is and that it fades
+  with practice, and can tell ordinary tiredness from something to get help for.
+start_here: >
+  Set a timer for five minutes and do one restful thing: sit, lie down, look out a
+  window, listen to a song. When guilt shows up, let it be there and keep going until
+  the timer ends.
+constraints: [no money, no time (two jobs or kids), no private space, wary of religious or spiritual framing, stillness can bring up panic or memories]
+harms:
+  - "Meditation and long stillness can make trauma symptoms worse for some people. Say so, and give active options."
+  - "Unlicensed coaches and supplement sellers target burned-out people."
+  - "Exhaustion that doesn't lift can be a medical problem or depression. Don't let the page talk someone out of seeing a doctor."
+not_here:
+  - what: "Falling asleep and sleep habits"
+    topic: "1.5"
+  - what: "Calming panic and a body stuck on alert"
+    topic: "3.2"
+  - what: "The harsh inner voice"
+    topic: "3.3"
+  - what: "Saying no to people who want more from you"
+    topic: "3.4"
+questions:
+  - id: q1
+    ask: "Why do I feel guilty or panicky when I stop?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "Why stopping feels wrong"
+  - id: q2
+    ask: "What counts as rest? Is it only sleep? Does watching TV count?"
+    priority: must
+    from: editor
+    was: missing
+    answered_in: "What counts as rest"
+  - id: q3
+    ask: "How do I start when sitting still feels unbearable?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: ["Start here", "Things to try"]
+  - id: q4
+    ask: "How do I know if I'm tired, burned out, or something needs a doctor?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "Tired, burned out, or something for a doctor"
+  - id: q5
+    ask: "How do I rest when I truly have no time?"
+    priority: should
+    from: editor
+    was: missing
+    answered_in: "If you have no time"
+  - id: q6
+    ask: "What do I say when someone calls me lazy, or my own head does?"
+    priority: should
+    from: editor
+    was: partly
+    answered_in: "When someone says you're lazy"
+  - id: q7
+    ask: "I tried to relax and felt worse. Is something wrong with me?"
+    priority: must
+    from: editor
+    was: missing
+    answered_in: "If relaxing makes you feel worse"
+audit: >
+  Nine resources and two books. Three do other Topics' jobs (a sleep app, mental
+  health screening quizzes, a crisis line as a full card). The page's one practice,
+  the five-minute timer, is at the bottom. It never says what rest is or what kinds
+  there are. The lead resource is a long, dense article on an undated personal site.
+  Two of the picks use spiritual language that some readers leaving religion avoid.
+reader_test:
+  date: 2026-11-12
+  by: claude (fresh session, page only)
+  result: pass
+  notes: >
+    All 7 questions answered from the page. 3 of 3 readers named the five-minute timer first. Fixed after the test: put the see-a-provider signs on the page itself instead of behind a link; explained provider, anemia, and sleep apnea; reworded the alarm metaphor; added a line for readers whose family counts rest as selfish. Left open: no number of weeks (MedlinePlus gives none); whether 988 works in other languages; the Pete Walker article was the one resource a reader said they would never click.

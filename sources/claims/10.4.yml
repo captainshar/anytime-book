@@ -1,0 +1,525 @@
+# Written during the develop pass on 2026-11-12. It covers the page's new teaching text (safety, health,
+# and number sentences), each with a quote from a source read that day. It is not yet a full
+# /fact-check of the page: resource entries and everyday sentences are still to be logged.
+topic: "10.4"
+page: src/content/docs/fun-rest-and-being-you/protecting-yourself.md
+claims:
+  - id: c01
+    section: "If someone is badly hurt: check, call, care"
+    text: "Make sure the place is safe for you. Then check the person: shout, tap their shoulder, and shout again."
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    quote: CHECK the scene for safety, form an initial impression, obtain consent, and use personal protective equipment (PPE)
+    more:
+      - source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+        quote: CHECK for responsiveness, breathing, life-threatening bleeding or other life-threatening conditions using shout-tap-shout
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c02
+    section: "If someone is badly hurt: check, call, care"
+    text: "The check is quick: no more than 10 seconds."
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    quote: "Note: CHECK for no more than 10 seconds"
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c03
+    section: "If someone is badly hurt: check, call, care"
+    text: Call 911 if the person doesn't respond, isn't fully awake, isn't breathing or is only gasping, or is bleeding badly.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    quote: If the person does not respond, responds but is not fully awake, is not breathing or is only gasping, or has life-threatening bleeding or another obvious life-threatening condition, CALL 9-1-1 and get equipment, or tell someone to do so.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c04
+    section: "If someone is badly hurt: check, call, care"
+    text: If other people are there, point at one and say, "You, call 911."
+    kind: safety
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000013.htm
+    quote: tell one person to call 911 or the local emergency number while another person begins CPR.
+    note: The source says to tell one person to call. Pointing at a specific person is the editor's wording for how.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c05
+    section: "If someone is badly hurt: check, call, care"
+    text: If you are alone with someone who won't respond, MedlinePlus says to call 911 first, and then begin CPR.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000013.htm
+    quote: as soon as you determine that the person is unresponsive, call 911 or the local emergency number immediately. Then begin CPR.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c06
+    section: What to say when you call 911
+    text: Say where you are first, then what happened.
+    kind: safety
+    risk: high
+    verdict: needs-human
+    note: "No official source could be read: 911.gov was not reachable on this pass and MedlinePlus and Red Cross pages do not cover what to say. Standard advice, written as a script. A person should check this section against 911.gov before the page is promoted."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c07
+    section: What to say when you call 911
+    text: Then answer the questions you're asked, and stay on the phone until you're told you can hang up.
+    kind: safety
+    risk: high
+    verdict: needs-human
+    note: "Same as above: needs 911.gov or a dispatcher's read."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c08
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: The Red Cross teaches it for adults, for people who aren't trained in full CPR.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Hands-Only CPR for Adults
+    more:
+      - source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+        quote: If you are not trained in full CPR
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c09
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Babies and children need different steps, which a class teaches.
+    kind: health
+    risk: high
+    verdict: unsupported
+    note: Not quoted from a source read on this pass. Red Cross sells separate "Pediatric (Child and Baby)" courses and MedlinePlus titles its CPR article "adult and child after onset of puberty", which is why the page limits the steps to adults. A clinician or CPR instructor should confirm the wording.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c10
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Kneel beside the person.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Kneel beside the person
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c11
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Put the heel of one hand on the center of their chest.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Place the heel of one hand in the center of their chest, with your other hand on top
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c12
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Lean over so your shoulders are above your hands.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Position your body so that your shoulders are directly over your hands
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c13
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: "Push hard and fast: at least 2 inches down, 100 to 120 pushes a minute."
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Push hard and fast (at least 2 inches; 100 to 120 compressions per minute)
+    note: '"About two pushes every second" is arithmetic from 100 to 120 a minute.'
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c14
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Let the chest come back up after each push.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/cpr/performing-cpr/hands-only-cpr
+    quote: Allow chest to return to its normal position after each compression
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c15
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: follow its instructions exactly
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000013.htm
+    quote: When using an AED, follow the instructions exactly.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c16
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: Do not start chest pushes on someone who is breathing normally, coughing, or moving.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000013.htm
+    quote: If the person has normal breathing, coughing, or movement, do not begin chest compressions.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c17
+    section: If the person is bleeding badly
+    text: Press directly on the wound with a clean cloth, a bandage, or a piece of clothing. If you have nothing, use your hand.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000045.htm
+    quote: Put pressure directly on an external wound with a sterile bandage, clean cloth, or even a piece of clothing. If nothing else is available, use your hand.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c18
+    section: If the person is bleeding badly
+    text: Keep pressing. Don't lift the cloth to look.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000045.htm
+    quote: Do not peek at a wound to see if the bleeding is stopping.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c19
+    section: If the person is bleeding badly
+    text: If blood soaks through, leave the cloth there and put another one on top.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000045.htm
+    quote: If bleeding continues and seeps through the material being held on the wound, do not remove it. Simply place another cloth over the first one.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c20
+    section: If the person is bleeding badly
+    text: Don't pull out anything that is stuck in the body, like a knife or a stick.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000045.htm
+    quote: Do not remove an object such as a knife, stick, or arrow that is stuck in the body.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c21
+    section: If it might be poison
+    text: It's free and open 24 hours a day. It doesn't have to be an emergency.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/002804.htm
+    quote: It does NOT need to be an emergency. You can call for any reason, 24 hours a day, 7 days a week.
+    note: MedlinePlus wording about the national Poison Help line. HRSA's own page refused scripts on this pass.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c22
+    section: If it might be poison
+    text: They can tell you whether you need 911.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/firstaid.html
+    quote: They can often help you figure out what to do, including whether you need to call 911 or go to the emergency room.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c23
+    section: If it might be poison
+    text: If the person has collapsed or can't breathe, call 911 instead.
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/firstaid.html
+    quote: Call 911 right away for life-threatening emergencies, such as when someone collapses, can't breathe, or is unresponsive.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c24
+    section: What not to do
+    text: who may have hurt their head, neck, or back
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps
+    quote: Do not ask the person to move if you suspect a head, neck or spinal injury.
+    more:
+      - source_url: https://medlineplus.gov/ency/article/001927.htm
+        quote: DO NOT move the person, however, if there has been or may have been a neck injury.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c25
+    section: What not to do
+    text: to someone who is unconscious
+    kind: health
+    risk: high
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000022.htm
+    quote: Do not give an unconscious person any food or drink.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c26
+    section: What not to do
+    text: Keep them warm until help arrives.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000022.htm
+    quote: Keep the person warm until medical help arrives.
+    more:
+      - source_url: https://medlineplus.gov/ency/article/000022.htm
+        quote: Do not leave the person alone.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c27
+    section: What to keep at home
+    text: "MedlinePlus lists these for a basic first aid kit:"
+    kind: health
+    risk: low
+    verdict: confirmed
+    source_url: https://medlineplus.gov/firstaid.html
+    quote: "A basic first aid kit should include:"
+    more:
+      - source_url: https://medlineplus.gov/firstaid.html
+        quote: Adhesive bandages
+      - source_url: https://medlineplus.gov/firstaid.html
+        quote: Sterile gauze pads
+      - source_url: https://medlineplus.gov/firstaid.html
+        quote: Antiseptic wipes
+      - source_url: https://medlineplus.gov/firstaid.html
+        quote: Disposable gloves
+      - source_url: https://medlineplus.gov/firstaid.html
+        quote: A first-aid guide, so you know how to use each item
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c28
+    section: What to keep at home
+    text: Most of it is sold at a pharmacy or supermarket. Keep it all in one place.
+    kind: general
+    risk: low
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/001958.htm
+    quote: You can get most of them at a pharmacy or supermarket.
+    more:
+      - source_url: https://medlineplus.gov/ency/article/001958.htm
+        quote: Keep all of your supplies in one location so you know exactly where they are when you need them.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c29
+    section: What self-defense is
+    text: anything we think, say, or do that helps us feel safe, strong, and respected.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: ESD is anything we think, say, or do that helps us feel safe, strong, and respected.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c30
+    section: What self-defense is
+    text: "A good class teaches four things:"
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: In a good empowerment self-defense program, students learn awareness, assertiveness, and verbal and physical skills.
+    more:
+      - source_url: https://nwmaf.org/empowerment/
+        quote: people of different ages, sizes, and abilities can do
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c31
+    section: What self-defense is
+    text: lets you decide how much you take part, with no pressure to do any exercise
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: students should be able to determine their own levels of participation in the class, and no one should feel pressured into doing specific exercises.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c32
+    section: What self-defense is
+    text: covers people you know, like dates and partners, as well as strangers
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: a good class will address situations involving acquaintances and romantic partners as well as attacks by strangers.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c33
+    section: What self-defense is
+    text: respects whatever a person did to get through a bad situation, and doesn't blame them
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: does not blame or judge survivors.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c34
+    section: What self-defense is
+    text: uses consent throughout the class, including for touch
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: We use and model consent throughout the class
+    note: "\"Including for touch\" is the editor's gloss."
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c35
+    section: What self-defense is
+    text: A class isn't the first step. An advocate can help you plan for your safety, for free.
+    kind: safety
+    risk: high
+    verdict: needs-human
+    note: Safety advice for someone living with a person who hurts them. Already on the list for a DV advocate (sources/review/README.md).
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c36
+    section: If you froze when something happened
+    text: they aren't at fault. The responsibility lies 100% with the aggressor.
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: they aren’t at fault. The responsibility lies 100% with the aggressor.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c37
+    section: If you froze when something happened
+    text: Empowerment self-defense classes teach how bodies react under threat, and ways to manage the rush of adrenaline.
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://nwmaf.org/empowerment/
+    quote: awareness of trauma responses to reduce self blame and encourage healing and action
+    more:
+      - source_url: https://nwmaf.org/empowerment/
+        quote: techniques to manage adrenaline and activation under stress
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c38
+    section: If you froze when something happened
+    text: Freezing doesn't mean you can't protect yourself, and it doesn't make what happened your fault.
+    kind: health
+    risk: high
+    verdict: needs-human
+    note: No official explanation of the freeze response could be read on this pass, so the page states no mechanism and quotes NWMAF on fault. Worth a trauma-informed clinician's read.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c39
+    section: Learn first aid for free
+    text: "It teaches three ways to stop heavy bleeding: pressing on a wound, packing a wound, and using a tourniquet."
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.stopthebleed.org/get-trained/
+    quote: Use your hands to apply direct pressure to a wound.
+    more:
+      - source_url: https://www.stopthebleed.org/get-trained/
+        quote: Pack a wound to control bleeding.
+      - source_url: https://www.stopthebleed.org/get-trained/
+        quote: Apply a tourniquet.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c40
+    section: Learn first aid for free
+    text: The site also lists in-person classes, which usually last 90 minutes or less. Most are free.
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.stopthebleed.org/about/faq/
+    quote: Most ACS Stop the Bleed courses last no longer than 90 minutes.
+    more:
+      - source_url: https://www.stopthebleed.org/about/faq/
+        quote: Typically, there is no charge for most ACS Stop the Bleed courses.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c41
+    section: Learn first aid for free
+    text: It works in English and Spanish.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.redcross.org/get-help/how-to-prepare-for-emergencies/mobile-apps.html
+    quote: Select English or Spanish language with an in-app toggle.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c42
+    section: Get a CPR and first aid card for a job
+    text: The online-only adult First Aid/CPR/AED course is $37.
+    kind: number
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.redcross.org/take-a-class/classes/adult-first-aid%2Fcpr%2Faed-online/a6RVx000000Xi3t.html
+    quote: $37.00
+    more:
+      - source_url: https://www.redcross.org/take-a-class/classes/adult-first-aid%2Fcpr%2Faed-online/a6RVx000000Xi3t.html
+        quote: does not meet OSHA requirements for workplace certification
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c43
+    section: Find a self-defense class
+    text: Courses run nine hours or more.
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://www.rad-systems.com/rad_men.html
+    quote: It is a minimum nine (9) hour program
+    more:
+      - source_url: https://www.rad-systems.com/rad_basic.html
+        quote: Classes range from a minimum of nine to twelve hours plus in length
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c44
+    section: Find a self-defense class
+    text: R.A.D. says its instructors teach at colleges, universities, and police departments, and at other community groups.
+    kind: resource
+    risk: medium
+    verdict: confirmed
+    source_url: https://www.rad-systems.com/about_us.html
+    quote: teach at various colleges, universities, and municipal law enforcement agencies as well as various other community organizations
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c45
+    section: What to keep at home
+    text: longer list
+    kind: resource
+    risk: low
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/001958.htm
+    quote: Adhesive bandages (Band-Aid or similar brand); assorted sizes
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c46
+    section: "If the person is not breathing: Hands-Only CPR"
+    text: An AED is a machine, kept in many public places, that checks the heart and gives it a shock if one is needed.
+    kind: health
+    risk: medium
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000013.htm
+    quote: Machines called automated external defibrillators (AEDs) can be found in many public places, and are available for home use.
+    more:
+      - source_url: https://medlineplus.gov/ency/article/000013.htm
+        quote: They automatically check the heart rhythm and give a sudden shock if, and only if, that shock is needed to get the heart back into the right rhythm.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c47
+    section: Learn first aid for free
+    text: A tourniquet is a tight band around an arm or leg.
+    kind: health
+    risk: low
+    verdict: confirmed
+    source_url: https://medlineplus.gov/ency/article/000045.htm
+    quote: The tourniquet should be applied to the limb 2 to 3 in (5 to 7.7 cm) above the bleeding wound.
+    note: The source supports "applied to the limb"; "a tight band" is the editor's plain-word gloss. The page does not teach how to use one.
+    checked_on: 2026-11-12
+    checked_by: claude

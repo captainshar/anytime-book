@@ -5,38 +5,68 @@ resources:
     scope: national
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
-    notes: "Sponsored by US Dept of Labor; data from IMLS. Linked from usa.gov/libraries-and-archives. Library of Things and museum passes mentioned only as 'ask your library' (local; not every library has them)."
+    notes: "Sponsored by US Dept of Labor; data from IMLS. Linked from usa.gov/libraries-and-archives. Library of Things and museum passes mentioned only as 'ask your library' (local; not every library has them). 2026-11-12: careeronestop.org refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it."
+    job: [ q4, q3 ]
+    role: primary
+    fit:
+      reach: 2
+      barriers: 2
+      readable: null
+      trust: 2
+      fits_reader: 2
+      actionable: null
+      note: Walking into a public library needs nothing; the finder is a convenience. The one free indoor place in nearly every town.
   - name: Creativebug (through public libraries)
     url: https://www.creativebug.com/libraries
     scope: national
     eligibility: "Card holders at a library that subscribes"
     cost: free
-    prereqs: [library card, internet]
+    prereqs: [ library card, internet ]
     source_url: https://www.creativebug.com/libraries
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
     notes: "Page says trusted by 1,200+ libraries and has 'Find a Library Near You'. Main site pushes a 30-day free trial; page tells readers to use the library instead."
+    job: [ q3 ]
+    role: deeper
+    fit:
+      reach: 1
+      barriers: 0
+      readable: null
+      trust: 1
+      fits_reader: 1
+      actionable: null
+      note: "Needs a card from a library that subscribes, plus internet. A paid trial sits beside the free library route. Not re-read: host not reachable from the session."
   - name: OpenLearn free courses (The Open University)
     url: https://www.open.edu/openlearn/history-the-arts/free-courses
     scope: national
     serves_where: "Online, worldwide (UK public university)"
     eligibility: "Anyone"
     cost: free
-    prereqs: [internet]
+    prereqs: [ internet ]
     source_url: https://www.open.edu/openlearn/history-the-arts/free-courses
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
     on_page: true
-    notes: "Account optional. 'Start writing fiction' and 'Introduction to music theory' listed as Level 1 Introductory."
+    notes: "Account optional. 'Start writing fiction' and 'Introduction to music theory' listed as Level 1 Introductory. 2026-11-12: open.edu refused scripts (403) on 2026-11-12, so the page was not re-read on this pass; details stand as verified earlier. A person should re-open it. Course names on the page are as verified 2026-10-04."
+    job: [ q3 ]
+    role: deeper
+    fit:
+      reach: 2
+      barriers: 1
+      readable: null
+      trust: 2
+      fits_reader: 1
+      actionable: null
+      note: Free and no account needed, but courses are mostly reading and it is a UK university.
   - name: Extension Foundation - Find Cooperative Extension in Your State
     url: https://extension.org/find-cooperative-extension-in-your-state/
     scope: national
@@ -47,32 +77,86 @@ resources:
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
-    on_page: true
-    notes: "Nonprofit founded by Extension directors; USDA NIFA support. Lists land-grant institutions by state. Soil-test fees vary (not verified per state; page hedges)."
+    on_page: false
+    notes: "Nonprofit founded by Extension directors; USDA NIFA support. Lists land-grant institutions by state. Soil-test fees vary (not verified per state; page hedges). OFF PAGE 2026-11-12 (develop pass): Gardening is now taught on the page itself (one line under Things to try). The finder page is a list of universities by state; it does not support the old page text about free advice, canning, county offices, or classes. Re-check those sentences before using this resource on any page."
   - name: Extension Master Gardener program directory
     url: https://mastergardener.extension.org/state-and-provincial-master-gardener-programs-extension-and-affiliated-program-listings/
     scope: national
     eligibility: "Varies by state program"
     cost: "Varies by state; training fee common"
-    prereqs: [application, volunteer hours]
+    prereqs: [ application, volunteer hours ]
     source_url: https://mastergardener.extension.org/
     verified_on: 2026-10-04
     verified_by: claude
     risk: low
-    on_page: true
-    notes: "Programs in 49 states + DC; volunteers average 60 hours/yr. Gemini's $100-300 fee and 18+ age not verified nationally; page says 'varies' and to ask about fee help."
+    on_page: false
+    notes: "Programs in 49 states + DC; volunteers average 60 hours/yr. Gemini's $100-300 fee and 18+ age not verified nationally; page says 'varies' and to ask about fee help. OFF PAGE 2026-11-12 (develop pass): Training fee, volunteer-hour commitment, and possible background check: fails the cost gate and fits this reader poorly (join, train, owe hours). Host not reachable on this pass."
   - name: Museums for All
     url: https://museums4all.org/
     scope: national
     eligibility: "People receiving SNAP benefits"
-    cost: "free or reduced admission"
-    prereqs: [EBT card, photo ID]
+    cost: "$5 or less for up to four people per EBT card; some free"
+    prereqs: [ EBT card, photo ID ]
     source_url: https://museums4all.org/
-    verified_on: 2026-10-04
+    verified_on: 2026-11-12
     verified_by: claude
     risk: medium
     on_page: true
-    notes: "Not in Gemini doc; added. 1,600+ museums; IMLS initiative administered by the Association of Children's Museums. Needs photo ID. Per-museum price and group size not verified (page says to check with the museum)."
+    notes: "Not in Gemini doc; added. 1,600+ museums; IMLS initiative administered by the Association of Children's Museums. Needs photo ID. Per-museum price and group size not verified (page says to check with the museum). 2026-11-12: Re-read museums4all.org and /for-visitors/. Page wording corrected to the site's: \"Admission is $5 or less for up to four people per EBT card\"; EBT card \"is only for identification purposes\"; \"Visitors do not need to register\"; \"Many of the participating museums will accept WIC or some other form of identification, but they are not required to do so\"."
+    job: [ q4 ]
+    role: backup
+    fit:
+      reach: 2
+      barriers: 0
+      readable: 2
+      trust: 2
+      fits_reader: 1
+      actionable: 2
+      note: Only for people on SNAP, and needs the EBT card plus photo ID. Clear site, nothing to join. Backup because it cannot serve a reader with no benefits or no ID.
+  - name: Mental Health America - Why hobbies are good for your mental health
+    url: https://mhanational.org/resources/why-hobbies-are-good-for-your-mental-health/
+    scope: national
+    eligibility: Anyone
+    cost: free
+    prereqs: [ internet ]
+    source_url: https://mhanational.org/resources/why-hobbies-are-good-for-your-mental-health/
+    risk: low
+    role: primary
+    fit:
+      reach: 2
+      barriers: 1
+      readable: 2
+      trust: 2
+      fits_reader: 1
+      actionable: 2
+      note: Short, plain, with a "try it today" step for each of five hobbies. Suggests "community or church choirs" and ends with a screening link; the page says so.
+    notes: "Footer (c)2026. Five hobbies: art, reading, writing, music, gardening. \"Set a timer for 15-30 minutes.\" \"If one hobby doesn't feel right, try another.\" Printable PDF offered. No account."
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q1, q3, q5, q7 ]
+  - name: National Park Service - Plan Your Visit
+    url: https://www.nps.gov/planyourvisit/index.htm
+    scope: national
+    eligibility: Anyone; fee-free days are for US citizens and permanent residents only
+    cost: most sites free; some charge an entrance fee
+    prereqs: [ transportation ]
+    source_url: https://www.nps.gov/planyourvisit/passes.htm
+    risk: low
+    role: backup
+    fit:
+      reach: 1
+      barriers: 1
+      readable: 1
+      trust: 2
+      fits_reader: 2
+      actionable: 1
+      note: Free, nothing to join, no ID to walk in. But many parks need a car, so it is a backup to the library and city parks.
+    notes: 'passes.htm (updated Oct 9, 2026): "Most of the sites managed by the National Park Service are free to visit"; "Free entrance days only apply to US citizens and permanent residents." planyourvisit: "There are more than 400 national parks to choose from. Search for a national park based on a location, activity, or topic". 2026 fee-free dates had all passed; no dates printed on the page. Ranger programs not verified; not mentioned.'
+    verified_on: 2026-11-12
+    verified_by: claude
+    on_page: true
+    job: [ q4 ]
 dropped:
   - name: Instructables
     reason: "Own site would not render for verification (bot/JS wall in curl, WebFetch, and browser). Ownership by Autodesk confirmed only by third parties. Re-check by hand."
@@ -90,3 +174,11 @@ dropped:
     reason: "Local and vary by library; no national official page. Folded into the library entry as 'ask your library'."
     source_url: https://www.careeronestop.org/LocalHelp/CommunityServices/find-libraries.aspx
     checked_on: 2026-10-04
+  - name: VA Live Whole Health app
+    reason: In transition (features removed May 1, 2026; new version not released) and veteran-focused.
+    source_url: https://mobile.va.gov/app/live-whole-health
+    checked_on: 2026-11-12
+  - name: NPS Volunteers-In-Parks
+    reason: A sign-up-and-give-hours arrangement that needs a Volunteer.gov account; not a first step for finding what you enjoy. Could suit a Topic on community.
+    source_url: https://www.nps.gov/subjects/volunteer/index.htm
+    checked_on: 2026-11-12

@@ -1,6 +1,6 @@
 ---
 name: tighten
-description: Tighten Anytime Book pages to match the house voice and page structure in sources/STYLE.md — compassionate, no-BS, plain, nonjudgmental, never patronizing, with documentation-style structure (start-here tip, steps, linked cross-references). Use when the user says "tighten", "edit for tone", "apply the style guide", "make this less patronizing", "clean up the voice", or names a Topic, Area, or page under src/content/docs and asks to improve how it reads. Not for adding or verifying resources (that's the research workflow in STYLE.md Parts 4–5).
+description: Tighten Anytime Book pages to match the house voice and page structure in sources/STYLE.md — compassionate, no-BS, plain, nonjudgmental, never patronizing, with documentation-style structure (start-here tip, steps, linked cross-references). Use when the user says "tighten", "edit for tone", "apply the style guide", "make this less patronizing", "clean up the voice", or names a Topic, Area, or page under src/content/docs and asks to improve how it reads. Not for choosing resources, adding teaching content, or restructuring a page around its reader (that's /develop), and not for checking facts (that's /fact-check).
 ---
 
 # Tighten a page
@@ -23,8 +23,8 @@ Edit one or more pages in `src/content/docs/` so they match `sources/STYLE.md`. 
 
 - URLs, phone numbers, text codes, email addresses, hours, costs, ages, eligibility, and place names.
 - Text inside quotation marks that quotes an organization (religious missions, self-descriptions).
-- Frontmatter, except: `description` may be edited to match a rewritten **What it is**. Leave `status` and `last_verified` alone.
-- Which resources are on the page and which group they're in. You can rename a `###` group heading to be task-shaped; you can't add, drop, or move resources.
+- Frontmatter, except: `description` may be edited to match a rewritten lead. Leave `status` and `last_verified` alone.
+- Which resources are on the page and which group they're in. You can rename a `###` group heading to be task-shaped; you can't add, drop, or move resources. (Choosing resources is `/develop`'s job.)
 - Content flagged for legal or safety review. You can fix wording, but don't change the advice. If the advice itself seems off, flag it.
 
 If you notice a fact that looks wrong, leave it and list it in your report.
@@ -33,34 +33,30 @@ If you notice a fact that looks wrong, leave it and list it in your report.
 
 Go top to bottom. For each section, ask the questions, then edit.
 
-### 1. Opening (What it is / Why it helps you)
+### 1. Has the page been developed?
 
-- Is **What it is** one or two plain sentences that someone could repeat to a friend?
-- Does **Why it helps you** name concrete outcomes ("You'll know where your money goes each month") rather than promised feelings ("You'll feel more in control")?
+Run `node scripts/check-editorial.mjs --status`. If the Topic's stage is `built` or `reader-tested`, it already has the anatomy in STYLE.md Part 2: keep its sections and order, and edit wording only. If it says `no brief` or `brief`, the page still has the old headings; do steps 2 and 3 below, and tell the user the page needs `/develop` for anything deeper (missing teaching, wrong resources).
+
+### 2. Opening and Start here
+
+- **Lead.** Merge **What it is** and **Why it helps you** into 2–4 sentences with no heading: what this is in words you could repeat to a friend, then what concretely changes ("You'll know where your money goes each month," not "You'll feel more in control"). Delete both headings.
 - Any stacked reassurance, cheerleading, or telling the reader what they feel? Cut to one line, or replace with a fact.
-
-### 2. Start here
-
-- If the page has `## If you only do one thing first` at the bottom, move its content up into a `:::tip[Start here]` aside directly after **Good to have first** (or after **Why it helps you** if there is no Good to have first). Delete the old section.
-- The tip should be one action, with the script if there is one. Conditions first: "If someone may hear you, text START to 88788 instead."
+- **Good to have first** becomes one bold lead-in line under the lead, with linked Topics: `**Good to have first:** [A Bank Account](/money/a-bank-account/).` Drop it if there's no real prerequisite.
+- If the page has `## If you only do one thing first` at the bottom, move its content up into a `:::tip[Start here]` aside directly after that line. Delete the old section.
+- The tip is one action, with the script if there is one. Conditions first: "If someone may hear you, text START to 88788 instead."
 - Strip any reassurance padding from it. "A real person will help you find the next step" is fine: it says what happens next. "You can do this" is not.
 
 ### 3. Cross-references
 
-- Move **This opens up** to the end of the page, after **Watch out for**. It's the "next steps" section.
-- **Good to have first** and **This opens up** list Topics as links, comma-separated: `[A Bank Account](/money/a-bank-account/)`. Find slugs with `ls src/content/docs/<area>/`.
-- If **This opens up** has a vague outcome ("Peace of mind.", "A safer, freer life."), replace it with the Topics it leads to. Use `sources/outline.md` to find which Topics list this one under "Good to have first". If none fit, keep the outcome but make it concrete, and note it in the report.
+- Move **This opens up** to the end of the page, after **Watch out for**. It's the "next steps" section: a bulleted list, each item a linked Topic and a few words on why. Find slugs with `ls src/content/docs/<area>/`.
+- If **This opens up** has a vague outcome ("Peace of mind.", "A safer, freer life."), replace it with the Topics it leads to. Use `sources/outline.md` to find which Topics list this one under "Good to have first". If none fit, cut the section and note it in the report.
 - Any Topic mentioned by name in body text becomes a link.
 
-### 4. How it works (only for skill-type Topics)
+### 4. Missing teaching is not a tighten job
 
-If the Topic is a skill the reader does themselves (budgeting, cooking, laundry, making a phone call, reading a pay stub) and the page is only a list of resources, draft a `## How it works` section before **Where to get help**:
+If the Topic is a skill or an inner-life Topic (budgeting, laundry, rest, a phone call) and the page is only a list of resources, the page is missing its middle. Don't draft it here: new steps are new facts, and they need the brief, the sources, and the reader test that `/develop` brings. Say so in your report.
 
-- 3–7 numbered steps, each starting with a verb.
-- General knowledge that's true anywhere in the US. No program names, numbers, or legal claims.
-- Mark it for review: put `<!-- TODO(review): new "How it works" steps, check before publishing -->` on the line above the heading.
-
-Don't add this to Topics that are mainly about services (shelter, health insurance, legal aid). Their resources *are* the how.
+If the page already has **How it works**, **What's going on**, or **Things to try**, edit the wording like any other section. Steps start with a verb. One action per step.
 
 ### 5. Where to get help
 
@@ -96,7 +92,7 @@ Apply Part 1 and Part 3 of STYLE.md line by line:
 2. Run `npm run build` if you changed any links, to catch broken internal paths. (If the build is slow or fails for an unrelated reason, say so in the report.)
 3. Report to the user, per page:
    - **What changed:** 3–6 bullets, the substantive ones (structure moves, rewritten openings, links added). Skip trivial word swaps.
-   - **Flags for Sharon:** anything that looked factually off, any `TODO(review)` you added, any tone judgment you weren't sure about.
+   - **Flags for Sharon:** anything that looked factually off, any page that needs `/develop`, any tone judgment you weren't sure about.
 
 Don't commit unless the user asks.
 
@@ -108,10 +104,8 @@ Don't commit unless the user asks.
 >
 > Having a name for it is a huge relief. It shows you that you are not broken, and that you are not alone.
 
-**After:**
+**After (as part of the lead, no heading):**
 
-> ## Why it helps you
->
 > A name gives you something to search for, so you can find people who've been through it and help that fits. It also makes it clearer that what happened was done *to* you. It isn't a flaw in you.
 
 Why: removes "huge relief" (telling the reader how to feel) and replaces the assertion with the mechanism.

@@ -1,0 +1,89 @@
+topic: "10.1"
+page: src/content/docs/fun-rest-and-being-you/finding-what-you-enjoy.md
+type: inner
+also: skill
+stage: reader-tested
+reader: >
+  Someone asked "What do you do for fun?" and they had no answer. Or they have free
+  time for the first time and it feels empty. Growing up, what they did was assigned,
+  or fun was called wasteful, worldly, or sinful.
+outcome: >
+  They have tried one new thing this week for no reason but curiosity, they know how
+  to tell whether they liked it, and they know where free things to try can be found.
+start_here: >
+  Pick one thing you have been curious about and do it for 15 minutes this week.
+  Afterward, ask one question: would I do that again?
+constraints: [no money, no ID for a library card, no car, limited internet, guilt about spending time or money on self]
+harms:
+  - "People who left high-control groups are targets for recruiting. Hobby and wellness groups can be a front for MLMs or another controlling group."
+  - "Subscription traps and long contracts aimed at beginners."
+not_here:
+  - what: "Working out your values and what you believe"
+    topic: "3.5"
+  - what: "Meeting people and keeping friends"
+    topic: "7.3"
+  - what: "Rest that isn't an activity"
+    topic: "10.2"
+  - what: "Scams and MLMs in detail"
+    topic: "4.7"
+questions:
+  - id: q1
+    ask: "I don't know what I like. How do people find out?"
+    priority: must
+    from: editor
+    was: missing
+    answered_in: "How it works"
+  - id: q2
+    ask: "Why does doing something only for fun feel wrong, or like a waste?"
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "Why fun can feel wrong"
+  - id: q3
+    ask: "What is there to even try? I don't know what exists."
+    priority: must
+    from: editor
+    was: partly
+    answered_in: "Things to try"
+  - id: q4
+    ask: "I have no money. What can I try for free?"
+    priority: must
+    from: outline
+    was: partly
+    answered_in: "Go somewhere free"
+  - id: q5
+    ask: "What if I'm bad at it, or too old to start?"
+    priority: should
+    from: editor
+    was: partly
+    answered_in: "If you're a beginner as an adult"
+  - id: q6
+    ask: "What if I like something I was told was bad, like certain music, dancing, novels, or games?"
+    priority: should
+    from: editor
+    was: missing
+    answered_in: "If you like something you were told was bad"
+  - id: q7
+    ask: "Is it okay to quit something I started?"
+    priority: should
+    from: editor
+    was: partly
+    answered_in: "How it works"
+  - id: q8
+    ask: "How do I try things without wasting money or getting pulled into something?"
+    priority: should
+    from: outline
+    was: partly
+    answered_in: "Watch out for"
+audit: >
+  Six resources, all places to find activities (library, online classes, gardening,
+  museums). Nothing on how a person who was never allowed to choose finds out what
+  they like, which is the Topic. Two of six resources are about gardening. Museums
+  for All needs SNAP and photo ID with no alternative offered. The opening is four
+  one-line sections; "Good to have first" and "This opens up" are unlinked.
+reader_test:
+  date: 2026-11-12
+  by: claude (fresh session, page only)
+  result: pass
+  notes: >
+    All 8 questions answered from the page. 3 of 3 readers named a Start here action first. Fixed after the test: explained thrift store, EBT, WIC, and Parks and Recreation; said what to do inside a library; added a no-internet route to Parks and Rec; added how an ordinary group answers questions before you go. Left open: nothing for a reader whose faith or family still limits what they may do (the page is written for people who left); a woman alone in a park.
