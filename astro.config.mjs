@@ -32,6 +32,10 @@ export default defineConfig({
 				baseUrl: 'https://github.com/captainshar/anytime-book/edit/main/',
 			},
 			lastUpdated: true,
+			components: {
+				// Footer dates: facts checked, read by a person, then git's last updated.
+				LastUpdated: './src/components/ReviewDates.astro',
+			},
 			sidebar: [
 				{ label: 'How to use this book', slug: 'how-to-use' },
 				{ label: 'How this book was made', slug: 'how-this-book-was-made' },

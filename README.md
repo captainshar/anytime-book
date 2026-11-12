@@ -19,8 +19,22 @@ A free, plain-language guide for adults entering mainstream life from hard start
 ```yaml
 topic: "4.6"            # Topic number
 status: outline         # outline → draft → verified
-last_verified: 2026-10-04   # when resources were last checked
+last_verified: 2026-10-04   # when the facts and resources were last checked
+human_reviewed: 2026-11-02  # when a person last read the whole page (set by `npm run review`)
 ```
+
+Both dates show in the footer of every page ("Facts checked … · Read by a person …").
+
+### Reading pages one at a time
+
+```bash
+npm run review                          # opens the next page to read in your browser
+npm run review -- --done 4.2            # marks it read today and commits
+npm run review -- --done 4.2 --note "…" # also queues a fix in sources/review/<area>.md
+npm run review -- --status              # where you are
+```
+
+Pages nobody has read come first (safety, health, and big-decisions Areas before the rest), then the page read longest ago. In Claude Code, `/review-next` does the same by conversation.
 
 ## Working locally
 
