@@ -4,6 +4,17 @@ Area 10 was the first Area through the editorial method (`sources/EDITORIAL.md`,
 
 The original drafting notes from 2026-10-04 are folded in below where they still apply.
 
+## Where the four pages stand
+
+| Topic | Stage | Why |
+| --- | --- | --- |
+| 10.1 Finding What You Enjoy | reader-tested | A cold reader answered all 8 questions from the page. |
+| 10.2 Resting Without Guilt | reader-tested | All 7 answered. |
+| 10.3 Swimming and Water Safety | built | One `must` only partly answered: what happens at a lesson and what to wear. No official source exists that we could read. Needs a swim instructor, or Sharon. |
+| 10.4 Protecting Yourself | built | One `must` only partly answered: how to protect yourself from a person before you've taken a class. Left out on purpose; needs a self-defense instructor or DV advocate. |
+
+The checker holds a page at `built` until every `must` question tests as answered. Two pages failing honestly is the method working.
+
 ## What changed
 
 | Topic | Before | Now |
@@ -30,7 +41,7 @@ Every reader question in the four briefs is marked `from: editor` except two mar
 
 ### Needs a person in a browser
 
-These official sites refuse scripts, so they were not re-read on this pass. Their details stand as verified on 2026-10-04. Open each one, check the page text against the record, and update `verified_on`.
+These official sites refuse scripts, so they were not re-read on this pass. Their details stand as verified on 2026-10-04. Open each one, check the page text against the record, and update `verified_on`. `node scripts/check-resources.mjs --by-hand` prints this list from the records.
 
 | Topic | Site | What to confirm |
 | --- | --- | --- |

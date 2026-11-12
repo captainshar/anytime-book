@@ -20,6 +20,7 @@ resources:
     verified_by: claude          # claude | sharon | <name>
     risk: high                   # high | medium | low (how bad a wrong detail would be)
     on_page: true                # false = kept for the record but not published
+    blocked_on: 2026-11-12       # optional: the site refused a scripted check that day; a person must open it
     notes: "Pays ID fees; also helps with birth certificates."
 dropped:
   - name: Homeless ID Project
@@ -32,4 +33,6 @@ Rules:
 
 - `verified_on` is the day you opened `source_url` and confirmed every field.
 - Record anything from the Gemini doc you rejected under `dropped`, with the reason. This keeps the next person from re-adding it.
+- `blocked_on` means the site answered a script with 403 or 429. Don't work around it. `node scripts/check-resources.mjs --by-hand` lists these; a person opens each one in a browser, confirms the record, and sets `verified_on` to that day.
+- For a Topic with a brief, each on-page resource also carries `job`, `role`, and `fit` (see `sources/briefs/SCHEMA.md`).
 - Quote YAML strings that contain colons.

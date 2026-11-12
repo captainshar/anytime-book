@@ -34,6 +34,9 @@ All 58 Topic pages are `status: draft`. Area 10 has been through the editorial m
 
 ## 2. Your calls (values, tone, inclusion)
 
+- **Reading level.** `STYLE.md` asks for 6th–8th grade. Measured on 2026-11-12, the book averages about 4th grade and 9 words a sentence; the simplest pages (Everyday Math, Time and Schedules, Calming Your Body) are near 2nd grade and 7 words. No page reaches 6th. Decide whether the target is 6–8, lower, or different by Area (`node scripts/check-style.mjs --readability` prints every page). Until then, nobody should shorten or lengthen sentences to chase a number.
+- **A "Words to know" section.** Test readers' most common complaint on every Area 10 page was a word used without explanation. `STYLE.md` now asks for an explanation at first use. 6.5 already has an "insurance words" section (see "Page layout" below); making that an optional standard section for jargon-heavy Topics would help the same readers.
+
 - **988 "Press 3" for LGBTQ+ youth** was restored around Oct 1, 2026, without The Trevor Project. Decide how to present it (3.5).
 - **Faith (decided 2026-10-05):** include religious and faith-based resources, with a clear note of any religious mission or requirement (rule in `sources/STYLE.md`). Applied to 2.2. Still to revisit under this rule: Thrivent Money Canvas (4.5, dropped partly as faith-based) and any faith-based picks the agents left off for values reasons. 3.6 still has nothing for people who leave a group but keep their faith (Gemini prompt #11).
 - **Reproductive health:** whether to list abortion resources given state bans, the crisis-pregnancy-center warning, and Scarleteen (6.6, 9.5). Also whether to name harmful parenting books (9.5).

@@ -17,7 +17,7 @@ claims:
     checked_by: claude
   - id: c02
     section: Stay safe before you can swim
-    text: wear one whenever you're in, on, or around water, even if a lifeguard is there
+    text: wear one whenever you're in, on, or around water
     kind: safety
     risk: high
     verdict: confirmed
@@ -399,5 +399,52 @@ claims:
     risk: low
     verdict: unsupported
     note: Plain-word definition written by the editor; not quoted from a source.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c36
+    section: If you are the one in trouble
+    text: Roll onto your back and float if you know how, or tread water. Both use less energy than swimming.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+    quote: Roll over onto your back and float if you know how or try treading
+    more:
+      - source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+        quote: These moves use less energy than trying to swim if you are
+    note: From a Red Cross lesson plan for teaching children (Longfellow's WHALE Tales, Lesson 7, (c)2024). It is the only Red Cross text found with self-rescue steps for pools and lakes. Written there for a swimmer who is "suddenly too tired to swim" or has a cramp. A swim instructor should confirm it reads right for adult non-swimmers.
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c37
+    section: If you are the one in trouble
+    text: Grab anything nearby that floats, or a safety line if there is one.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+    quote: Grab onto a safety line or other floating object if there is one nearby
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c38
+    section: If you are the one in trouble
+    text: Shout to get the attention of a lifeguard or the person you came with.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+    quote: out to get the attention of the lifeguard or water watcher, or get your
+    checked_on: 2026-11-12
+    checked_by: claude
+  - id: c39
+    section: If you are the one in trouble
+    text: Stay calm. Panic makes it hard to think.
+    kind: safety
+    risk: high
+    verdict: confirmed
+    source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+    quote: If this happens, first stay calm! Then, use your water smarts.
+    more:
+      - source_url: https://www.redcross.org/content/dam/redcross/training-services/whale-tales/pdfs/Lesson_7_FINAL.pdf
+        quote: But feeling scared can make it hard to think so you don’t sink!
     checked_on: 2026-11-12
     checked_by: claude

@@ -10,6 +10,7 @@ What goes on a page in the first place (who it's for, which questions it answers
 - [Part 4: Resource entries](#part-4-resource-entries): the "Where to get help" format
 - [Part 5: Verification](#part-5-verification): checking every resource
 - [Part 6: Things that need a human](#part-6-things-that-need-a-human)
+- [Part 7: Checking your work](#part-7-checking-your-work): what the linter looks for, and how to overrule it
 
 ---
 
@@ -40,10 +41,60 @@ Dr. Glenn Patrick Doyle's writing on trauma recovery is the model. What to borro
 We aim for a 6th–8th grade reading level. That's about **sentence and word difficulty**, not idea difficulty. Adult ideas, plain words.
 
 - Short sentences, mostly under 20 words. But vary the rhythm. A page made only of 6-word sentences sounds like a children's book, and that reads as talking down.
+- **Explaining why takes a longer sentence.** "Because," "so," and "which means" join a fact to its reason. Cut every sentence to eight words and the reasons are the first thing to go. When a line reads like a list of orders, join two sentences with the word that connects them.
 - Short paragraphs: 1–3 sentences.
 - Talk to the reader as "you."
-- No jargon. If a term is needed (like "SNAP" or "FAFSA"), say what it means the first time. Then use it normally. Learning the real word is part of the point: it's what the office will say.
 - Explain unfamiliar things matter-of-factly. Don't signal that the reader *should* have known, and don't signal that it's remarkable they didn't.
+
+**Where the book is now.** Measured in November 2026, the book averages about a 4th-grade level and 9 words a sentence, and no page reaches 6th grade. Several pages average 7 words. That is below what this guide asks for. It may be right for the First Things pages, whose readers may be learning to read. For the rest, see Part 6: the target is Sharon's to confirm. `node scripts/check-style.mjs --readability` prints the table.
+
+### Say what a word means, where it first appears
+
+Readers told us the same thing on every page tested: the page used a word they didn't know and kept going. If a term is needed (like "SNAP" or "FAFSA"), say what it means the first time, then use it normally. Learning the real word is part of the point: it's what the office will say.
+
+- **Explain at first use, not three lines later.** If "EBT card" is in the Cost line, the explanation is in the Cost line.
+- **Short explanations go in parentheses:** "SNAP (food stamps)." Six words or fewer.
+- **Longer ones get their own sentence, right after:** "Put the heel of one hand on the center of their chest. The heel is the firm part of your palm, near the wrist."
+- **Abbreviations count,** including ones that feel universal: CPR, EBT, WIC, OSHA, LGBTQ+, and the names of agencies. So do ordinary American things a reader from another country, or an isolated home, may never have met: a thrift store, a front desk, Parks and Recreation, a ZIP code.
+- Explain once per page. Pages are read alone, so the explanation on another page doesn't count.
+
+### Write for someone still learning English
+
+Many readers are reading in a second language, on a phone. Idioms and two-word verbs are the hardest part of English, and a reader may take them literally.
+
+| Instead of | Write |
+| --- | --- |
+| walk away | leave |
+| set off (guilt, panic) | cause, start, bring on |
+| wound up | tense, on edge |
+| sign-off | permission |
+| heads-up | warning |
+| rule of thumb | a simple rule |
+| up front | before, first |
+| from scratch | from the beginning |
+| rip-off, ripped off | scam, cheated |
+| make ends meet | pay for what you need |
+
+The same goes for sports and weather sayings, jokes that depend on a double meaning, and metaphors that could be real ("an alarm goes off" reads as a real alarm). If you keep a metaphor, mark it: "something like an alarm."
+
+### No brochure words, no therapy words
+
+Readers who have been managed their whole lives hear these words as a signal that it's happening again. One test reader's note on "empowerment": "a word I distrust."
+
+| Sounds like a brochure or a therapist | Say what it means |
+| --- | --- |
+| empower, empowering | (say what the person can now do) |
+| self-care | rest, eating, seeing a doctor: name the thing |
+| safe space | (say who is there and what the rules are) |
+| trauma-informed | "taught by people who know how trauma affects people" |
+| nervous system | your body, your heart rate, your breathing |
+| triggered, triggering | brings back bad memories, sets off panic |
+| toxic | (say what the person does) |
+| healing journey, do the work | (cut) |
+| resilience, thrive | (cut, or say what changes) |
+| access services, navigate the system | get help, deal with offices |
+
+When one of these is the real name of something the reader will have to search for ("empowerment self-defense"), use it once, say it's a name, and explain it.
 
 ### Nonjudgmental
 
@@ -193,6 +244,7 @@ Area intros (`index.md` in each Area folder): 2–4 sentences on what the Area c
 - **Phone numbers:** write as `1-800-799-7233` and link `[1-800-799-7233](tel:18007997233)`. Vanity letters in parentheses after: `(1-800-799-SAFE)`. Text numbers: "Text START to 88788." 911 and 211 can be written `9-1-1` / `2-1-1` when telling someone to dial.
 - **Times:** "9 a.m. to 5 p.m. Eastern." "Open 24/7."
 - **Money:** "$10 a month." "Free." Not "free of charge" or "no cost to you."
+- **Link text says where the link goes:** "the [Red Cross first aid steps](…)", never "click [here](…)". Many readers use a screen reader or skim for links.
 - **Bold** for lead-ins in lists and for one key phrase per paragraph at most. Not for emphasis in running sentences.
 - **Italics** for book titles and the rare word that needs stress.
 - **Em dashes:** sparingly. A period is usually clearer.
@@ -229,6 +281,9 @@ One or two plain sentences on what it does.
 ```
 
 - 3–10 resources per Topic, chosen with the gates and fit scores in `EDITORIAL.md` (Stage 4): one primary pick per job, lowest-barrier first. Prefer national, free, official, or long-running nonprofits. For things that are state- or county-run, link to an official **finder** and say how to find the local version. Never publish state-by-state phone tables.
+- **A card has to give the reader something the page doesn't.** If the page already teaches what the resource says, the resource is a source: name it in a sentence ("These steps are from the National Weather Service") and skip the card. Test readers skipped every card whose blurb was "the source for the steps above."
+- **Lowest barrier first** in each group: the one that needs only a phone call or a walk-in goes above the one that needs an app, an account, or money. The record's `fit.barriers` score decides, and `check-editorial.mjs` checks the order.
+- **Further reading is a sentence, not a card.** A resource whose role is `deeper` gets one line with an honest note on what it asks of the reader (long, dense, sells something, uses spiritual language).
 - Never call a local or single-state program national. If a strong program is regional (for example, Holding Out HELP in Utah), you can include it, but say where it serves.
 - **Religious and faith-based resources are welcome.** Sometimes they are the only help nearby, and many shelters are religious. Include them when they verify, and say so plainly in **Good to know**: name the faith, quote any religious mission from their own site, and state any religious requirement (services, prayer, Bible study). If the site doesn't say whether there are requirements, tell readers to ask. Never drop a resource only because it is religious.
 - **Don't vouch for people's behavior.** Say what a service is for and what it offers. Don't promise staff will be kind or nonjudgmental.
@@ -250,6 +305,20 @@ Every resource:
 
 Record each resource in `sources/resources/<topic>.yml` (see `sources/resources/SCHEMA.md`).
 
+### Writing from what you verified
+
+- **Name the source for safety and health steps, in the sentence:** "These are the American Red Cross's three first aid steps." "MedlinePlus says to contact a provider if you've felt tired for weeks." The reader learns whose advice it is, and the next editor knows what to check it against.
+- **Stay as wide as the source and no wider.** If the source says "regular sweats," don't write "night sweats." If it says "inexperienced swimmers," don't write "everyone." Plainer words are fine. A different fact is not.
+- **A number is somebody's number.** Attribute it to whoever actually states it on the page you read ("U.S. Masters Swimming says about one-third…"), not to the agency it is rumored to come from.
+- **If you can't verify something the reader needs, give them the question, not a guess.** We could not find an official page on what to wear to a swim lesson, so the page gives the words to ask the pool: "What swimwear is allowed? Can I wear a full-coverage swimsuit?" A script is honest where a guess isn't.
+- **One person's account is one person's account.** A first-hand story is often the best answer to "what is it like?" Say whose it is and that the reader's experience may differ.
+- **Reassurance is a claim too.** "Most of these are treatable" and "it usually gets easier" need a source like any other fact, or they go.
+- Every safety, health, legal, or number sentence gets an entry in `sources/claims/<topic>.yml` with the exact words from the source. `node scripts/check-facts.mjs --claims <topic>` checks each quote against the saved page.
+
+### When a site refuses to be checked
+
+Some official sites refuse scripted readers and only load for a person in a browser (cdc.gov, consumer.ftc.gov, ymca.org, and others). Don't work around the block, and don't drop a good resource because of it. Record `blocked_on: <date>` on the resource. `node scripts/check-resources.mjs --by-hand` lists every resource waiting for a person to open it.
+
 **Editing for style never changes facts.** URLs, phone numbers, hours, costs, eligibility, and quoted text stay exactly as verified. If a fact looks wrong while you're editing, flag it; don't fix it in passing.
 
 ---
@@ -262,3 +331,46 @@ Do not guess on these. Write them up in `sources/review/<area-slug>.md` instead:
 - Anything you could not verify, or where official sources disagree.
 - Gaps that need new research: write a ready-to-paste Gemini Deep Research prompt that follows Block A of the prompt pack.
 - Judgment calls about tone, inclusion, or the book's values.
+- **The reading-level target.** This guide says 6th–8th grade. The book measures about 4th, with some pages near 2nd. Either the pages are choppier than intended, or the real target is lower than the guide says, or it differs by Area. That is Sharon's call. Until she makes it, don't shorten sentences further, and don't lengthen them only to raise a number.
+
+---
+
+## Part 7: Checking your work
+
+Four scripts check pages against this guide and the editorial method. None of them can tell whether a page is good. They catch what is cheap to catch, so a person's attention goes to the rest.
+
+| Script | Checks | Fails the build? |
+| --- | --- | --- |
+| `check-style.mjs` | Voice, plain words, layout, mechanics, resource entry format, reading level (rules below) | No. Advisory. |
+| `check-editorial.mjs` | The brief, the page anatomy, every question answered, resources vetted and in order, the reader test | Yes |
+| `check-resources.mjs` | Resource records: required fields, stale checks, shared phone numbers. `--by-hand` lists blocked sites. | Yes |
+| `check-facts.mjs` | Phone links dial what they show; with `--claims`, every quote is in its saved source | Yes |
+
+### What the style linter flags
+
+| Rule | Catches | Guide |
+| --- | --- | --- |
+| `minimizer`, `obvious`, `should`, `dont-worry`, `cheer`, `feelings`, `promise`, `fault`, `label`, `permission`, `exclaim` | The patterns in "Nonjudgmental" and "Not patronizing" | Part 1 |
+| `long` | A sentence over 25 words | Part 1 |
+| `choppy` | Four sentences in a row of six words or fewer | Part 1 |
+| `grade` | A page that reads above about 8th grade | Part 1 |
+| `acronym` | An abbreviation whose first use isn't explained on that line | Part 1 |
+| `idiom` | Phrases a reader learning English may not know | Part 1 |
+| `jargon` | Brochure and therapy words | Part 1 |
+| `structure`, `watchout`, `caution` | Old page anatomy, unlinked cross-references, trap items without a bold name, too many cautions | Part 2 |
+| `wordy`, `phone`, `linktext`, `emdash` | Word swaps, phone numbers that aren't links, "click here," em dashes | Part 3 |
+| `entry` | A resource entry missing Cost, Who can use it, How to start, or Good to know | Part 4 |
+
+It cannot see a buried action, a missing answer, a wrong resource, or a line that lands badly with someone who lived it. The reader test and Sharon are for those.
+
+### Overruling a flag
+
+Sometimes the flagged line is right: a quoted mission statement says "should," or "empowerment self-defense" is the name the reader has to search for. Say so in the page, on the line above:
+
+```markdown
+<!-- style-ok: jargon (the name of this kind of class; explained in the same line) -->
+The National Women's Martial Arts Federation certifies teachers of a kind of class called empowerment self-defense.
+```
+
+The flag is then counted as accepted instead of open. Give the reason every time. An accepted flag with no reason is a flag someone got tired of. The aim is a list of open flags short enough that a new one gets read.
+

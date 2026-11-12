@@ -50,7 +50,7 @@ claims:
     checked_by: claude
   - id: c05
     section: "If someone is badly hurt: check, call, care"
-    text: If you are alone with someone who won't respond, MedlinePlus says to call 911 first, and then begin CPR.
+    text: If you are alone with someone who won't respond, MedlinePlus says to call 911 first, and then begin CPR
     kind: safety
     risk: high
     verdict: confirmed
@@ -395,7 +395,7 @@ claims:
     checked_by: claude
   - id: c37
     section: If you froze when something happened
-    text: Empowerment self-defense classes teach how bodies react under threat, and ways to manage the rush of adrenaline.
+    text: These classes teach how bodies react under threat, and ways to manage the rush of adrenaline.
     kind: resource
     risk: medium
     verdict: confirmed

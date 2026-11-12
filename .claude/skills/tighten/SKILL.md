@@ -17,6 +17,8 @@ Edit one or more pages in `src/content/docs/` so they match `sources/STYLE.md`. 
    node scripts/check-style.mjs path/to/page.md
    ```
 
+   `--readability` prints each page's reading level. The rules are listed in STYLE.md Part 7.
+
    The checker is a pointer, not a judge. It misses most of what matters (stacked reassurance, buried actions, vague headings) and flags some things that are fine (a quoted mission statement, a real "must"). Read the whole page yourself.
 
 ## Hard rules: never change these
@@ -79,7 +81,9 @@ Apply Part 1 and Part 3 of STYLE.md line by line:
 - Common contractions (don't, can't, you're, it's). Keep "do not" for safety lines.
 - Word swaps from the Part 3 table.
 - No exclamation points. No "should" about the reader's choices. At most one "It's okay to…" per page.
-- Explain new terms once, matter-of-factly, then use them.
+- Explain new terms where they first appear, matter-of-factly, then use them. That includes abbreviations (`acronym` flags) and ordinary American things an isolated or newly arrived reader may not know.
+- Replace idioms and two-word verbs a reader learning English may not know (`idiom` flags), and brochure or therapy words (`jargon` flags). The swap tables are in STYLE.md Part 1.
+- If the page reads as a string of very short sentences (`choppy` flags, or under about 8 words a sentence in `--readability`), join the ones that belong together with "because," "so," or "and." Don't lengthen for its own sake.
 
 ### 8. Asides
 
@@ -88,7 +92,7 @@ Apply Part 1 and Part 3 of STYLE.md line by line:
 
 ## After editing
 
-1. Re-run the checker on what you changed and look at anything left. It's fine for flags to remain if they're right in context.
+1. Re-run the checker on what you changed and look at anything left. If a flagged line is right as it stands, put `<!-- style-ok: rule (reason) -->` on the line above it, so the open list stays short enough to read. Never accept a flag without a reason.
 2. Run `npm run build` if you changed any links, to catch broken internal paths. (If the build is slow or fails for an unrelated reason, say so in the report.)
 3. Report to the user, per page:
    - **What changed:** 3–6 bullets, the substantive ones (structure moves, rewritten openings, links added). Skip trivial word swaps.

@@ -23,7 +23,7 @@ That takes three things many readers of this book didn't have: time that was you
 
 ### Why fun can feel wrong
 
-Maybe you were taught that every hour has to be useful, or that pleasure leads somewhere bad. Then doing something for no reason can set off guilt or dread. That reaction is old training. It isn't evidence that you're doing something wrong.
+Maybe you were taught that every hour has to be useful, or that pleasure leads somewhere bad. Then doing something for no reason can bring on guilt or dread. That reaction is old training. It isn't evidence that you're doing something wrong.
 
 It tends to get quieter each time you do the thing and nothing bad happens.
 
@@ -104,9 +104,9 @@ The National Park Service runs more than 400 parks, trails, and historic places.
 **[Museums for All](https://museums4all.org/)**
 If you get SNAP (food stamps), more than 1,600 museums let you in for $5 or less. Some are free. They include art museums, science centers, zoos, and gardens.
 
-- **Cost:** $5 or less for up to four people per EBT card
+- **Cost:** $5 or less for up to four people per EBT card. (EBT is the card your SNAP benefits come on.)
 - **Who can use it:** People who get SNAP food benefits
-- **How to start:** Use the map on the site to find a museum near you. At the ticket desk, show your EBT card (the card your SNAP benefits come on) and a photo ID. The card is only to show you qualify. It isn't charged.
+- **How to start:** Use the map on the site to find a museum near you. At the ticket desk, show your EBT card and a photo ID. The card is only to show you qualify. It isn't charged.
 - **Good to know:** No sign-up. Not on SNAP? Some of these museums also take a WIC card (a different food benefit) or other ID, but they don't have to. Call the museum and ask before you go. [Food Right Now](/safety-and-getting-started/food-right-now/) covers how to apply for SNAP.
 
 :::tip[Your city or county]
@@ -115,14 +115,6 @@ Your local **Parks and Recreation** department is the city or county office that
 
 ### Take a free class online
 
-**[Creativebug](https://www.creativebug.com/libraries)**
-Video classes in drawing, painting, sewing, knitting, baking, and more. More than 1,200 libraries pay for it so their card holders can use it for free.
-
-- **Cost:** Free through a library that has it
-- **Who can use it:** Anyone with a card from a library that offers it
-- **How to start:** On your library's website, look for "Digital Resources" or "eResources" and find Creativebug. Or use "Find a Library Near You" on the Creativebug page.
-- **Good to know:** Needs internet and a library card. The main Creativebug site offers a paid trial. You don't need it. Go through your library instead.
-
 **[OpenLearn free courses](https://www.open.edu/openlearn/history-the-arts/free-courses)**
 Free short online courses from The Open University, a public university in the UK. Beginner choices include "Start writing fiction" and "Introduction to music theory."
 
@@ -130,6 +122,14 @@ Free short online courses from The Open University, a public university in the U
 - **Who can use it:** Anyone with internet
 - **How to start:** Open the link and pick a course marked "Introductory." You can read without signing up.
 - **Good to know:** A free account is optional. It lets you save your progress. The courses are mostly reading.
+
+**[Creativebug](https://www.creativebug.com/libraries)**
+Video classes in drawing, painting, sewing, knitting, baking, and more. More than 1,200 libraries pay for it so their card holders can use it for free.
+
+- **Cost:** Free through a library that has it
+- **Who can use it:** Anyone with a card from a library that offers it
+- **How to start:** On your library's website, look for "Digital Resources" or "eResources" and find Creativebug. Or use "Find a Library Near You" on the Creativebug page.
+- **Good to know:** Needs internet and a library card. The main Creativebug site offers a paid trial. You don't need it. Go through your library instead.
 
 ## Watch out for
 

@@ -105,7 +105,8 @@ for (const page of selected) {
 		if (!claimsLog) {
 			warnings.push(`no claims log (${claimsFile})`);
 		} else {
-			const pageText = normalize(visible.replace(/[*_`>#]/g, ''));
+			// Drop Markdown marks, including the brackets left around link text, so a claim can span a link.
+			const pageText = normalize(visible.replace(/[*_`>#[\]]/g, ''));
 			const ids = new Set();
 			for (const c of claims) {
 				const label = `claim ${c.id ?? '(no id)'}`;
@@ -117,7 +118,7 @@ for (const page of selected) {
 				if (c.kind && !KINDS.includes(c.kind)) errors.push(`${label}: kind "${c.kind}" is not one of ${KINDS.join(', ')}`);
 				if (c.verdict && !VERDICTS.includes(c.verdict)) errors.push(`${label}: verdict "${c.verdict}" is not one of ${VERDICTS.join(', ')}`);
 				if (c.verdict === 'corrected' && !c.fix) errors.push(`${label}: corrected but no fix`);
-				if (c.text && !pageText.includes(normalize(c.text.replace(/[*_`]/g, '')))) {
+				if (c.text && !pageText.includes(normalize(c.text.replace(/[*_`[\]]/g, '')))) {
 					warnings.push(`${label}: text is no longer on the page (edited since the check?)`);
 				}
 				if (NEEDS_QUOTE.includes(c.verdict)) {

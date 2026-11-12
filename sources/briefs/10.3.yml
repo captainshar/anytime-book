@@ -32,51 +32,65 @@ questions:
     from: editor
     was: answered
     answered_in: "Lead"
+    tested: answered
   - id: q2
     ask: "How do I stay safe around water right now, before I can swim?"
     priority: must
     from: editor
     was: partly
     answered_in: "Stay safe before you can swim"
+    tested: answered
   - id: q3
     ask: "Where do I find lessons I can afford?"
     priority: must
     from: outline
     was: answered
     answered_in: "Find adult swim lessons"
+    tested: answered
   - id: q4
     ask: "What happens at an adult lesson? What do I wear and bring?"
     priority: must
     from: editor
     was: missing
     answered_in: "What an adult lesson is like"
+    tested: partly
   - id: q5
     ask: "What do I do if I'm in trouble in the water, or someone else is?"
     priority: must
     from: editor
     was: partly
-    answered_in: ["If someone is in trouble in the water", "If a rip current pulls you"]
+    answered_in: ["If someone is in trouble in the water", "If you are the one in trouble", "If a rip current pulls you"]
+    tested: answered
   - id: q6
     ask: "I'm scared of water. Can I still learn?"
     priority: should
     from: editor
     was: partly
     answered_in: "What an adult lesson is like"
+    tested: answered
   - id: q7
     ask: "Can I cover up? What are the rules about what you wear in a pool?"
     priority: should
     from: lived
     was: missing
     answered_in: "What an adult lesson is like"
+    tested: partly
   - id: q8
     ask: "What does 'knowing how to swim' actually mean? How will I know I'm safe?"
     priority: could
     from: editor
     was: missing
     answered_in: "How you'll know you can swim"
+    tested: answered
 audit: >
   The strongest of the four pages: real finders, good scripts, a useful Watch out for.
   But the safety content a non-swimmer needs today is in the last section, as traps,
   and the rip current steps are inside one resource's "Good to know." Nothing on what
   a lesson is like or what to wear, which is what keeps many adults from calling.
   The review file already flagged modest swimwear as a gap (marked `lived` for that).
+reader_test:
+  date: 2026-11-12
+  by: claude (fresh sessions, page only)
+  result: fail
+  notes: >
+    Three tests, each by a fresh reader with only the page. All readers named the call-a-pool step first. After the first two tests the page gained a first-lesson account, plain explanations (tread water, Parks and Recreation), what to bring, and Red Cross steps for a swimmer in trouble. Still open: q4, a must. No official page says what happens at a lesson, how long it is, or what to wear, so the page gives one learner's account and the questions to ask a pool. q7: no national rule on swimwear exists; the page gives the question to ask. Both need a swim instructor's answers, or Sharon's, before this page can pass.

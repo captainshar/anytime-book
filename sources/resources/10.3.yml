@@ -22,6 +22,7 @@ resources:
       fits_reader: 1
       actionable: null
       note: The most widespread pool finder, and financial help is common. Proof of income may be asked for.
+    blocked_on: 2026-11-12
   - name: American Red Cross Adult Swim Lessons
     url: https://www.redcross.org/take-a-class/swimming/swim-lessons/adult-swim-lessons
     scope: national
@@ -88,6 +89,7 @@ resources:
       fits_reader: 2
       actionable: null
       note: Free and needs nothing, but only where a station exists.
+    blocked_on: 2026-11-12
   - name: "National Weather Service - Surviving a Rip Current"
     url: https://www.weather.gov/safety/ripcurrent-surviving
     scope: national

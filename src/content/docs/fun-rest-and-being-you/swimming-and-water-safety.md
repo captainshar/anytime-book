@@ -21,7 +21,7 @@ Call one pool near you and say: "Do you have beginner swim lessons for adults? W
 
 These rules come from the American Red Cross.
 
-1. **Wear a life jacket.** The Red Cross rule for inexperienced swimmers: wear one whenever you're in, on, or around water, even if a lifeguard is there. On a boat, everyone wears one, however well they swim.
+1. **Wear a life jacket.** The Red Cross rule for inexperienced swimmers is to wear one whenever you're in, on, or around water. That holds even if a lifeguard is there. On a boat, everyone wears one, however well they swim.
 2. **Check the life jacket.** Look for a stamp that says it is U.S. Coast Guard approved. Check the label for the weight it's made for. Don't use one with torn fabric or loose straps.
 3. **Go where there is a lifeguard,** and never swim alone.
 4. **Don't drink alcohol** before or while you're in the water.
@@ -74,9 +74,20 @@ Drowning is usually fast and quiet. The Red Cross says to watch for a person who
 
 [Protecting Yourself](/fun-rest-and-being-you/protecting-yourself/) covers what to do once the person is out.
 
+### If you are the one in trouble
+
+The Red Cross teaches these steps for anyone who gets too tired to keep swimming.
+
+1. **Stay calm.** Panic makes it hard to think.
+2. **Roll onto your back and float** if you know how, or tread water. Both use less energy than swimming.
+3. **Grab anything nearby that floats,** or a safety line if there is one.
+4. **Shout** to get the attention of a lifeguard or the person you came with.
+
+Swim lessons teach floating and treading water. Until you can do them, this is what the life jacket and the lifeguard are for.
+
 ### If a rip current pulls you
 
-A rip current is a channel of water flowing away from the beach. They happen at ocean beaches and on the Great Lakes. These steps are from the National Weather Service.
+A rip current is a channel of water flowing away from the beach. They happen at ocean beaches and on the Great Lakes. These steps are from the [National Weather Service](https://www.weather.gov/safety/ripcurrent-surviving).
 
 1. **Relax.** A rip current pulls you away from shore. It doesn't pull you under.
 2. **Don't swim straight toward shore.** You'd be fighting the current.
@@ -129,14 +140,6 @@ Free life jackets you can borrow at more than 1,500 stations. They are at boat r
 - **How to start:** On the page, click "See the map here" to find a station near you. Take a life jacket and bring it back when you're done.
 - **Good to know:** Not every lake or beach has a station. Check the map before you go.
 
-**[National Weather Service: How to survive a rip current](https://www.weather.gov/safety/ripcurrent-surviving)**
-The source for the rip current steps above, on one short page.
-
-- **Cost:** Free
-- **Who can use it:** Anyone
-- **How to start:** Read it before you go to an ocean or Great Lakes beach.
-- **Good to know:** No sign-up.
-
 The safety rules on this page come from the [American Red Cross water safety page](https://www.redcross.org/get-help/how-to-prepare-for-emergencies/types-of-emergencies/water-safety.html). If you look after children near water, that page has a free online course called "Water Safety for Parents & Caregivers."
 
 ## Watch out for
@@ -148,6 +151,6 @@ The safety rules on this page come from the [American Red Cross water safety pag
 
 ## This opens up
 
-- [Protecting Yourself](/fun-rest-and-being-you/protecting-yourself/): first aid, including CPR, for after a rescue.
+- [Protecting Yourself](/fun-rest-and-being-you/protecting-yourself/): first aid for after a rescue, including what to do if someone isn't breathing.
 - [Finding What You Enjoy](/fun-rest-and-being-you/finding-what-you-enjoy/): swimming, boats, and beaches become things you can try.
 - [Making Friends](/talking-to-people-and-the-world/making-friends/): a class is a place to meet people who are also starting out.

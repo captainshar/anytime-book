@@ -73,7 +73,7 @@ Then fill in each question's `answered_in`, set the brief to `stage: built`, and
 
 ```bash
 node scripts/check-editorial.mjs <topic>
-node scripts/check-style.mjs <page>
+node scripts/check-style.mjs <page>          # fix, or accept with a style-ok comment and a reason
 node scripts/check-resources.mjs
 node scripts/check-facts.mjs <topic>
 npm run build
@@ -83,7 +83,9 @@ npm run build
 
 One fresh worker per page, given `references/reader-test.md` and the page path. **Do not give it the brief file**; paste only the list of questions for Part 2. The whole value of the test is that the reader hasn't seen what you meant.
 
-Fix what it finds. If you rewrote a section, re-test that page. Record the result in the brief (`reader_test`), set `stage: reader-tested`, and put anything unresolved in the Area review file.
+Record each question's result in the brief as `tested: answered`, `partly`, or `not`, exactly as the tester reported it. Then fix what it found. If you added or rewrote a section, re-test that page with a new fresh worker and update the results.
+
+Set `stage: reader-tested` only when every `must` question is `answered`; the checker enforces this. If a `must` can't be fully answered because no source exists yet, leave the page at `built`, say why in `reader_test.notes`, and put it in the Area review file. Don't soften the tester's verdict to get the stage.
 
 ## 6. Report
 

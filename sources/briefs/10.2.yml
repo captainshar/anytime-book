@@ -34,42 +34,49 @@ questions:
     from: editor
     was: partly
     answered_in: "Why stopping feels wrong"
+    tested: answered
   - id: q2
     ask: "What counts as rest? Is it only sleep? Does watching TV count?"
     priority: must
     from: editor
     was: missing
     answered_in: "What counts as rest"
+    tested: answered
   - id: q3
     ask: "How do I start when sitting still feels unbearable?"
     priority: must
     from: editor
     was: partly
     answered_in: ["Start here", "Things to try"]
+    tested: answered
   - id: q4
     ask: "How do I know if I'm tired, burned out, or something needs a doctor?"
     priority: must
     from: editor
     was: partly
     answered_in: "Tired, burned out, or something for a doctor"
+    tested: answered
   - id: q5
     ask: "How do I rest when I truly have no time?"
     priority: should
     from: editor
     was: missing
     answered_in: "If you have no time"
+    tested: answered
   - id: q6
     ask: "What do I say when someone calls me lazy, or my own head does?"
     priority: should
     from: editor
     was: partly
     answered_in: "When someone says you're lazy"
+    tested: answered
   - id: q7
     ask: "I tried to relax and felt worse. Is something wrong with me?"
     priority: must
     from: editor
     was: missing
     answered_in: "If relaxing makes you feel worse"
+    tested: answered
 audit: >
   Nine resources and two books. Three do other Topics' jobs (a sleep app, mental
   health screening quizzes, a crisis line as a full card). The page's one practice,

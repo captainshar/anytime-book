@@ -26,6 +26,7 @@ questions:
     from: editor            # lived | practitioner | search | outline | editor
     was: missing            # audit of the page before this pass: answered | partly | missing
     answered_in: "What's going on"   # a heading on the page; filled in at build
+    tested: answered        # reader test, per question: answered | partly | not
 audit: >                 # optional: what the page did and didn't do before this pass
   Seven resources, three of them about sleep and screening. No explanation of rest.
 reader_test:             # filled in after the test
@@ -40,6 +41,7 @@ Rules:
 - 5 to 9 questions. At least two `must`.
 - `from: editor` means nobody has checked the question against a real reader. Sharon, or a reader, can change it to `lived`.
 - `answered_in` must match a `##` or `###` heading on the page exactly, or be `Lead`, `Start here`, or `Watch out for`. The checker enforces this from `stage: built` on.
+- `tested` is what a cold reader could do with the page alone: `answered` (they quoted the lines), `partly`, or `not`. A brief can only be `stage: reader-tested` when every `must` question is `answered`. If the reader test finds a `must` only partly answered and you can't fix it yet, leave the stage at `built` and say why in `reader_test.notes`.
 - `not_here` topics must exist. The page should link each one.
 - Quote YAML strings that contain colons.
 

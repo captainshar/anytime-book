@@ -33,48 +33,56 @@ questions:
     from: editor
     was: missing
     answered_in: "How it works"
+    tested: answered
   - id: q2
     ask: "Why does doing something only for fun feel wrong, or like a waste?"
     priority: must
     from: editor
     was: partly
     answered_in: "Why fun can feel wrong"
+    tested: answered
   - id: q3
     ask: "What is there to even try? I don't know what exists."
     priority: must
     from: editor
     was: partly
     answered_in: "Things to try"
+    tested: answered
   - id: q4
     ask: "I have no money. What can I try for free?"
     priority: must
     from: outline
     was: partly
     answered_in: "Go somewhere free"
+    tested: answered
   - id: q5
     ask: "What if I'm bad at it, or too old to start?"
     priority: should
     from: editor
     was: partly
     answered_in: "If you're a beginner as an adult"
+    tested: answered
   - id: q6
     ask: "What if I like something I was told was bad, like certain music, dancing, novels, or games?"
     priority: should
     from: editor
     was: missing
     answered_in: "If you like something you were told was bad"
+    tested: answered
   - id: q7
     ask: "Is it okay to quit something I started?"
     priority: should
     from: editor
     was: partly
     answered_in: "How it works"
+    tested: answered
   - id: q8
     ask: "How do I try things without wasting money or getting pulled into something?"
     priority: should
     from: outline
     was: partly
     answered_in: "Watch out for"
+    tested: answered
 audit: >
   Six resources, all places to find activities (library, online classes, gardening,
   museums). Nothing on how a person who was never allowed to choose finds out what

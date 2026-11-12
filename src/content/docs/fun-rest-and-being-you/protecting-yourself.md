@@ -29,7 +29,7 @@ These are the American Red Cross's three first aid steps.
 2. **Call 911** if the person doesn't respond, isn't fully awake, isn't breathing or is only gasping, or is bleeding badly. If other people are there, point at one and say, "You, call 911."
 3. **Care** for the person until help comes. The next sections say how.
 
-If you are alone with someone who won't respond, MedlinePlus says to call 911 first, and then begin CPR.
+If you are alone with someone who won't respond, MedlinePlus says to call 911 first, and then begin CPR (chest pushes, explained below).
 
 ### What to say when you call 911
 
@@ -90,7 +90,10 @@ Most of it is sold at a pharmacy or supermarket. Keep it all in one place. Medli
 
 ### What self-defense is
 
-Most self-defense isn't fighting. The National Women's Martial Arts Federation (NWMAF) certifies teachers of a kind of class called empowerment self-defense. It defines self-defense as "anything we think, say, or do that helps us feel safe, strong, and respected."
+Most self-defense isn't fighting.
+
+<!-- style-ok: jargon (the name of this kind of class, which a reader has to search for; the line says it is a name) -->
+The National Women's Martial Arts Federation (NWMAF) certifies teachers of a kind of class called empowerment self-defense. It defines self-defense as "anything we think, say, or do that helps us feel safe, strong, and respected."
 
 A good class teaches four things:
 
@@ -116,11 +119,21 @@ A class isn't the first step. An advocate can help you plan for your safety, for
 
 Freezing doesn't mean you can't protect yourself, and it doesn't make what happened your fault. NWMAF puts it this way: whatever someone does or doesn't do in the moment, "they aren't at fault. The responsibility lies 100% with the aggressor."
 
-Empowerment self-defense classes teach how bodies react under threat, and ways to manage the rush of adrenaline. [Calming Your Body](/your-mind-and-feelings/calming-your-body/) covers a body that stays on alert afterward.
+These classes teach how bodies react under threat, and ways to manage the rush of adrenaline. [Calming Your Body](/your-mind-and-feelings/calming-your-body/) covers a body that stays on alert afterward.
 
 ## Where to get help
 
 ### Learn first aid for free
+
+If you learn one thing first, make it Hands-Only CPR. Then learn how to stop bleeding. Print the first aid steps so you don't have to remember them.
+
+**[Poison Help](https://poisonhelp.hrsa.gov/)**
+Poison experts on the phone, for when someone swallowed, breathed in, or touched something that might be poison.
+
+- **Cost:** Free
+- **Who can use it:** Anyone in the US
+- **How to start:** Call [1-800-222-1222](tel:18002221222).
+- **Good to know:** Open 24/7, with help in more than 100 languages. You can call with a question when nothing is wrong yet.
 
 **[First aid steps (American Red Cross)](https://www.redcross.org/take-a-class/first-aid/performing-first-aid/first-aid-steps)**
 The check, call, care steps on one page, made to be printed and kept on your refrigerator or in your bag.
@@ -154,14 +167,6 @@ A free phone app with step-by-step help for burns, bleeding, bites, allergic rea
 - **How to start:** In your app store, search "American Red Cross" and pick the first aid app. Download it now, before you need it.
 - **Good to know:** It also helps you find the nearest hospital. It works in English and Spanish.
 
-**[Poison Help](https://poisonhelp.hrsa.gov/)**
-Poison experts on the phone, for when someone swallowed, breathed in, or touched something that might be poison.
-
-- **Cost:** Free
-- **Who can use it:** Anyone in the US
-- **How to start:** Call [1-800-222-1222](tel:18002221222).
-- **Good to know:** Open 24/7, with help in more than 100 languages. You can call with a question when nothing is wrong yet.
-
 MedlinePlus has plain guides to many more injuries, like burns, stings, and sprains, on its [First Aid page](https://medlineplus.gov/firstaid.html).
 
 ### Get a CPR and first aid card for a job
@@ -180,7 +185,7 @@ Some jobs, like child care or security, need a CPR and first aid card. The Red C
 A list of teachers certified by the National Women's Martial Arts Federation. NWMAF says its teachers teach with awareness of how trauma affects people.
 
 - **Cost:** Set by each instructor
-- **Who can use it:** Mostly women, LGBTQ+ people, and non-binary people
+- **Who can use it:** Mostly women, and LGBTQ+ people (lesbian, gay, bisexual, transgender, queer, and non-binary people)
 - **How to start:** Find a certified instructor near you on the list. Email or call and ask: "Do you have a beginner class? What does it cost? Who can come?"
 - **Good to know:** The list is short. If no one on it is near you, call [211](tel:211) or ask at your library whether anyone nearby runs a self-defense workshop.
 

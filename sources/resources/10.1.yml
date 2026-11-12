@@ -22,6 +22,7 @@ resources:
       fits_reader: 2
       actionable: null
       note: Walking into a public library needs nothing; the finder is a convenience. The one free indoor place in nearly every town.
+    blocked_on: 2026-11-12
   - name: Creativebug (through public libraries)
     url: https://www.creativebug.com/libraries
     scope: national
@@ -67,6 +68,7 @@ resources:
       fits_reader: 1
       actionable: null
       note: Free and no account needed, but courses are mostly reading and it is a UK university.
+    blocked_on: 2026-11-12
   - name: Extension Foundation - Find Cooperative Extension in Your State
     url: https://extension.org/find-cooperative-extension-in-your-state/
     scope: national

@@ -151,7 +151,8 @@ Resources are a set. Check the set:
 - **At least one way in with no internet, and one with no ID and no money,** wherever such a way exists.
 - **3 to 10 resources.** A tenth resource costs the reader more attention than it gives back.
 - **Nothing does another Topic's job.** Link to that Topic.
-- **Lowest-barrier first.** Within a group, the one that needs the least goes on top.
+- **Lowest-barrier first.** Within a group, the one that needs the least goes on top. (`check-editorial.mjs` checks this against the `barriers` scores.)
+- **A card has to add something.** If the page already teaches what a resource says, name it as the source in a sentence and skip the card.
 
 When two candidates are close, prefer the one more likely to still be there next year.
 
@@ -241,7 +242,7 @@ Pass means:
 - At least two of three readers name the **Start here** step, or something just as good, as what they'd do first.
 - Nothing flagged as talking down, alarming, or blocking is left unaddressed. Fix it, or write down why it stays.
 
-Record the result in the brief under `reader_test`, and anything unresolved in the Area's review file.
+Record the result **question by question** in the brief (`tested: answered | partly | not`), with the date and a note under `reader_test`. Put anything unresolved in the Area's review file. The checker will not accept `stage: reader-tested` while any `must` question is `partly` or `not`: the page goes back to `built` until it's fixed and re-tested. A page that honestly fails is worth more than one that was waved through.
 
 A model playing a reader is a stand-in. It catches missing answers, jargon, and buried actions well. It cannot tell you how a page lands with someone who lived it. Real readers and the expert reviewers in `sources/review/README.md` are still the standard for the safety pages.
 

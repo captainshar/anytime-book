@@ -66,6 +66,7 @@ resources:
       fits_reader: 2
       actionable: null
       note: "Short videos, in three languages: the option for readers who would rather watch than read."
+    blocked_on: 2026-11-12
   - name: ACS Stop the Bleed Interactive Course
     url: https://www.stopthebleed.org/get-trained/online-course/
     scope: national
@@ -111,6 +112,7 @@ resources:
       fits_reader: 2
       actionable: null
       note: A phone call, free, any hour, no ID. The lowest-barrier resource on the page.
+    blocked_on: 2026-11-12
   - name: American Red Cross First Aid/CPR/AED classes
     url: https://www.redcross.org/take-a-class/first-aid
     scope: national

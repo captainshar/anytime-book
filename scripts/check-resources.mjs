@@ -4,6 +4,8 @@
 //   different organizations, a non-national resource with no serves_where.
 //   Warnings (fail only with --strict): checks older than 180 days (high risk)
 //   or 365 days (medium/low), and draft/verified pages with no resource file.
+//   --by-hand prints the resources marked blocked_on: their site refused a scripted check,
+//   so a person has to open the page in a browser and confirm the record.
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
@@ -11,6 +13,8 @@ import { parse } from 'yaml';
 const DIR = 'sources/resources';
 const DOCS = 'src/content/docs';
 const strict = process.argv.includes('--strict');
+const byHand = process.argv.includes('--by-hand');
+const blocked = []; // { file, name, url, blocked_on, verified_on }
 const today = new Date();
 const MAX_AGE_DAYS = { high: 180, medium: 365, low: 365 };
 
@@ -51,6 +55,12 @@ for (const file of files) {
 		if (r.scope && r.scope !== 'national' && !r.serves_where) {
 			errors.push(`${label}: scope is ${r.scope} but serves_where is missing`);
 		}
+		if (r.blocked_on) {
+			if (Number.isNaN(new Date(r.blocked_on).getTime())) errors.push(`${label}: blocked_on is not a date`);
+			// A check after the block clears it: verified_on is then the newer date.
+			else if (r.on_page !== false && (!r.verified_on || new Date(r.verified_on) <= new Date(r.blocked_on)))
+				blocked.push({ file, name: r.name, url: r.source_url ?? r.url, blocked_on: r.blocked_on, verified_on: r.verified_on });
+		}
 		if (r.verified_on && r.on_page !== false) {
 			const limit = MAX_AGE_DAYS[r.risk] ?? 365;
 			const age = ageDays(r.verified_on);
@@ -85,7 +95,14 @@ for (const area of readdirSync(DOCS, { withFileTypes: true }).filter((d) => d.is
 	}
 }
 
+if (byHand) {
+	const day = (d) => (d instanceof Date ? d.toISOString().slice(0, 10) : String(d));
+	for (const b of blocked.sort((a, c) => a.file.localeCompare(c.file, 'en', { numeric: true })))
+		console.log(`${b.file.replace('.yml', '').padEnd(5)} ${b.name}\n      ${b.url}\n      refused scripts on ${day(b.blocked_on)}; last read ${day(b.verified_on)}`);
+	console.log(`\n${blocked.length} resource(s) to open by hand. After checking one, set verified_on to today; the blocked_on line can stay as history.`);
+	process.exit(0);
+}
 for (const w of warnings) console.warn(`warning: ${w}`);
 for (const e of errors) console.error(`error: ${e}`);
-console.log(`${files.length} resource files, ${errors.length} errors, ${warnings.length} warnings`);
+console.log(`${files.length} resource files, ${errors.length} errors, ${warnings.length} warnings${blocked.length ? `, ${blocked.length} to open by hand (--by-hand lists them)` : ''}`);
 process.exit(errors.length || (strict && warnings.length) ? 1 : 0);

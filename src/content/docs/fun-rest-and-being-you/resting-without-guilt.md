@@ -9,7 +9,7 @@ sidebar:
   label: "10.2 Resting Without Guilt"
 ---
 
-Rest is anything that lets your body and mind recover. Sleep is one kind. So is sitting, play, quiet, and time when nobody needs anything from you. If you grew up valued for your work, stopping can set off guilt, or even panic. This page explains why, what counts as rest, and how to practice it until it gets easier.
+Rest is anything that lets your body and mind recover. Sleep is one kind. So is sitting, play, quiet, and time when nobody needs anything from you. If you grew up valued for your work, stopping can bring on guilt, or even panic. This page explains why, what counts as rest, and how to practice it until it gets easier.
 
 :::tip[Start here]
 Set a timer for five minutes and do one restful thing: sit, lie down, look out a window, or listen to a song. If guilt shows up, let it be there and keep going until the timer ends. If sitting still feels bad, walk slowly for the five minutes instead.
@@ -40,7 +40,7 @@ Rest is more than sleep. Different kinds fix different kinds of tired.
 - **Time off from people.** Being alone, or with someone who needs nothing from you.
 - **Time off from noise.** The phone face down. The news off.
 
-Does TV count? Use this test for anything: how do you feel afterward? If you feel more settled, it was rest. If you feel wound up or numb, try something else next time.
+Does TV count? One test works for anything: ask how you feel afterward. If you feel more settled, it was rest. If you feel tense or numb, that's a sign to try something else next time.
 
 You don't have to meditate, and nothing here has to be spiritual.
 
@@ -91,7 +91,7 @@ Two jobs, kids, or caring for someone can mean a free hour doesn't exist. Rest i
 
 To someone else, you don't owe a reason. "I'm off right now. I'll get to it tomorrow" is a full answer. [Boundaries and Saying No](/your-mind-and-feelings/boundaries-and-saying-no/) has more words for this.
 
-If the people around you count any rest as selfish, you can rest without announcing it. A walk, a shower, or a slow cup of tea doesn't need anyone's sign-off.
+If the people around you count any rest as selfish, you can rest without announcing it. A walk, a shower, or a slow cup of tea doesn't need anyone's permission.
 
 When the voice is in your own head, answer it plainly: "Tired is not lazy. I get to stop." If that voice is harsh most of the time, see [Being Kind to Yourself](/your-mind-and-feelings/being-kind-to-yourself/).
 

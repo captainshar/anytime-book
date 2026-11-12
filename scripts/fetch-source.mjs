@@ -11,6 +11,13 @@ import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 import { CACHE_DIR, cachePath, htmlToText } from './lib/source-text.mjs';
 
+// Behind a proxy (cloud sessions set HTTPS_PROXY), Node's fetch only uses it when NODE_USE_ENV_PROXY
+// is set. Run again with it set, so nobody has to remember the prefix.
+if ((process.env.HTTPS_PROXY || process.env.https_proxy) && !process.env.NODE_USE_ENV_PROXY) {
+	const again = spawnSync(process.execPath, ['--no-warnings', ...process.argv.slice(1)], { stdio: 'inherit', env: { ...process.env, NODE_USE_ENV_PROXY: '1' } });
+	process.exit(again.status ?? 1);
+}
+
 const args = process.argv.slice(2);
 const mode = args[0] === '--save' || args[0] === '--path' ? args.shift() : 'fetch';
 const url = args[0];

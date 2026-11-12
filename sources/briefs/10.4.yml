@@ -38,54 +38,63 @@ questions:
     from: editor
     was: partly
     answered_in: "If someone is badly hurt: check, call, care"
+    tested: answered
   - id: q2
     ask: "What happens when I call 911? What do I say?"
     priority: must
     from: editor
     was: missing
     answered_in: "What to say when you call 911"
+    tested: answered
   - id: q3
     ask: "What should I learn first, and where can I learn it for free?"
     priority: must
     from: outline
     was: partly
     answered_in: "Learn first aid for free"
+    tested: answered
   - id: q4
     ask: "What do I keep at home for small injuries?"
     priority: should
     from: editor
     was: partly
     answered_in: "What to keep at home"
+    tested: answered
   - id: q5
     ask: "A job wants a CPR card. Which class do I take?"
     priority: should
     from: outline
     was: answered
     answered_in: "Get a CPR and first aid card for a job"
+    tested: answered
   - id: q6
     ask: "How do I protect myself from a person? What does a self-defense class teach?"
     priority: must
     from: outline
     was: partly
     answered_in: "What self-defense is"
+    tested: partly
   - id: q7
     ask: "How do I tell a good self-defense class from a bad one?"
     priority: must
     from: editor
     was: answered
     answered_in: ["What self-defense is", "Watch out for"]
+    tested: answered
   - id: q8
     ask: "I froze when something happened. Does that mean I can't protect myself?"
     priority: should
     from: editor
     was: missing
     answered_in: "If you froze when something happened"
+    tested: answered
   - id: q9
     ask: "Are there classes for men, or ones not run by police?"
     priority: should
     from: lived
     was: partly
     answered_in: "Find a self-defense class"
+    tested: answered
 audit: >
   Good resources, in a list. A reader who needs to know what to do when someone
   collapses has to open five links to find out; the page itself never says. Nothing
@@ -93,3 +102,9 @@ audit: >
   The self-defense half says where to find a class and what to avoid, not what
   self-defense is. First aid and self-defense are two different jobs sharing a page
   (flag for Sharon: first aid may belong in Area 6).
+reader_test:
+  date: 2026-11-12
+  by: claude (fresh sessions, page only)
+  result: fail
+  notes: >
+    Three tests, each by a fresh reader with only the page. All readers named saving the two numbers first. After the tests the page gained plain explanations (AED, heel of the hand, tourniquet), Poison Help moved to the top of its group, and a line on what to learn first. Still open: q6, a must. The page says what a class teaches but gives the reader nothing to do before taking one. Tactics were left out on purpose (STYLE Part 6); this needs an empowerment self-defense instructor or a DV advocate. Also thin: q2 tested as answered, but readers asked what the operator says back, whether there are interpreters, and whether calling can get them in trouble. No official source for those could be read (911.gov is outside the session's allowed sites).

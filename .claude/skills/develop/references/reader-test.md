@@ -42,6 +42,8 @@ You'll be given a numbered list of questions. For each one, answer **using only 
 - `partly`: quote what's there and say what's missing.
 - `not answered`: say so. Do not answer from your own knowledge.
 
+End Part 2 with one line the editor can copy, for example: `q1 answered, q2 answered, q3 partly, q4 not`. Be strict. If a reader would still have to guess, or go elsewhere for the core of the answer, it is `partly`.
+
 ## Part 3: the editor's five
 
 One line each:

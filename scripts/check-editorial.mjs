@@ -9,7 +9,10 @@
 //   From stage "built": the page has the anatomy in EDITORIAL.md Stage 5 (a lead, a Start here
 //     tip, no stub sections, the fixed ## headings), every must/should question points at a
 //     heading that exists, and every on-page resource has a job, a role, and fit scores.
-//   From stage "reader-tested": the reader test is recorded.
+//     Warnings: resources out of lowest-barrier-first order, a long Start here, stub ### sections,
+//     and no claims log yet.
+//   From stage "reader-tested": the reader test is recorded question by question, and every
+//     "must" question tested as answered. A page cannot be marked reader-tested on a summary.
 import { readFileSync, readdirSync, existsSync } from 'node:fs';
 import { join } from 'node:path';
 import { parse } from 'yaml';
@@ -32,12 +35,16 @@ const SECTIONS = ["What's going on", 'How it works', 'Things to try', 'Where to 
 const REQUIRED_BY_TYPE = { inner: ["What's going on", 'Things to try'], skill: ['How it works'], service: ['Where to get help'] };
 const LEGACY = ['What it is', 'Why it helps you', 'Good to have first', 'If you only do one thing first'];
 const NON_HEADING_ANSWERS = ['Lead', 'Start here', 'Watch out for'];
+const TESTED = ['answered', 'partly', 'not'];
 const STUB_WORDS = 25; // a ## section shorter than this is a stub
+const SUB_STUB_WORDS = 12; // same, for a ### section
+const TIP_MAX_WORDS = 60; // Start here is one step, 1–3 sentences
 const LEAD_MAX_WORDS = 110;
 const TOP_MAX_WORDS = 170; // lead + Good to have first + Start here: about one phone screen
 
 const plain = (s) => String(s).replace(/[‘’]/g, "'").replace(/[“”]/g, '"').trim();
 const words = (s) => s.split(/\s+/).filter((w) => /[a-z0-9]/i.test(w)).length;
+const bareUrl = (u) => String(u).replace(/^https?:\/\/(www\.)?/, '').replace(/[#?].*$/, '').replace(/\/$/, '').toLowerCase();
 
 // Every Topic page: topic -> { file, title }
 const pages = new Map();
@@ -55,15 +62,24 @@ function readPage(file) {
 	const body = readFileSync(file, 'utf8').replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/, '');
 	const lines = body.split(/\r?\n/);
 	const top = [];
-	const sections = []; // { name, lines, subs: [name] }
+	const sections = []; // { name, lines, subs: [name], subWords: {name: n}, groups: [{ name, urls }] }
 	for (const line of lines) {
 		const h2 = line.match(/^## (.+)$/);
-		if (h2) sections.push({ name: plain(h2[1]), lines: [], subs: [] });
+		if (h2) sections.push({ name: plain(h2[1]), lines: [], subs: [], subWords: {}, groups: [{ name: '', urls: [] }] });
 		else if (!sections.length) top.push(line);
 		else {
 			const h3 = line.match(/^### (.+)$/);
-			if (h3) sections.at(-1).subs.push(plain(h3[1]));
-			else sections.at(-1).lines.push(line);
+			const sec = sections.at(-1);
+			if (h3) {
+				sec.subs.push(plain(h3[1]));
+				sec.subWords[plain(h3[1])] = 0;
+				sec.groups.push({ name: plain(h3[1]), urls: [] });
+			} else {
+				sec.lines.push(line);
+				if (sec.subs.length) sec.subWords[sec.subs.at(-1)] += words(line);
+				const entry = line.match(/^\*\*\[[^\]]+\]\((https?:[^)]+)\)\*\*\s*$/);
+				if (entry) sec.groups.at(-1).urls.push(entry[1]);
+			}
 		}
 	}
 	const topText = top.join('\n');
@@ -138,6 +154,7 @@ for (const [topic, b] of [...briefs].sort((a, b) => topicOrder(a[0], b[0]))) {
 		if (sentences < 2) perr(`no lead: the page needs 2–4 sentences before the first heading (found ${sentences})`);
 		if (words(p.lead) > LEAD_MAX_WORDS) pwarn(`lead is ${words(p.lead)} words (aim for under ${LEAD_MAX_WORDS})`);
 		if (!p.tip) perr('no :::tip[Start here] before the first ## heading');
+		else if (words(p.tip) > TIP_MAX_WORDS) pwarn(`Start here is ${words(p.tip)} words (aim for under ${TIP_MAX_WORDS}: one step, with the words to say)`);
 		const topWords = words(p.topText.replace(/^:::.*$/gm, ''));
 		if (topWords > TOP_MAX_WORDS) pwarn(`${topWords} words before the first section; Start here may be below the first phone screen`);
 
@@ -156,6 +173,7 @@ for (const [topic, b] of [...briefs].sort((a, b) => topicOrder(a[0], b[0]))) {
 				const items = s.lines.filter((l) => l.trim());
 				if (!items.length || items.some((l) => !/^- \[[^\]]+\]\(\/[^)]+\)/.test(l))) perr('"This opens up" should be a list where every item starts with a linked Topic');
 			} else if (words(text) < STUB_WORDS) perr(`"## ${s.name}" is a stub (${words(text)} words): fold it into another section or cut it`);
+			for (const [sub, count] of Object.entries(s.subWords)) if (count < SUB_STUB_WORDS) pwarn(`"### ${sub}" has only ${count} words under it: fold it into its neighbor`);
 		}
 
 		// Questions point at real places on the page
@@ -177,6 +195,8 @@ for (const [topic, b] of [...briefs].sort((a, b) => topicOrder(a[0], b[0]))) {
 			const target = pages.get(String(n.topic));
 			if (target && !p.body.includes(`(${target.file.replace(DOCS, '').replace(/\.md$/, '/')}`)) pwarn(`does not link to Topic ${n.topic} (${n.what}), which the brief says is covered there`);
 		}
+
+		if (!existsSync(join('sources/claims', `${topic}.yml`))) pwarn(`no claims log yet (sources/claims/${topic}.yml): new teaching text needs its sources recorded, and /fact-check has not run`);
 
 		// Resources carry their vetting
 		const recordFile = join(RECORDS, `${topic}.yml`);
@@ -200,16 +220,31 @@ for (const [topic, b] of [...briefs].sort((a, b) => topicOrder(a[0], b[0]))) {
 				}
 			}
 			if (unscored.length) warnings.push(`${recordFile}: ${unscored.length} resource(s) not fully scored because their page was not read on this pass: ${unscored.join('; ')}`);
+			// Lowest barrier first within each group (EDITORIAL.md, Stage 4).
+			const barrierOf = new Map(on.filter((r) => r.url && typeof r.fit?.barriers === 'number').map((r) => [bareUrl(r.url), r.fit.barriers]));
+			for (const g of p.sections.find((s) => s.name === 'Where to get help')?.groups ?? []) {
+				const scores = g.urls.map((u) => barrierOf.get(bareUrl(u))).filter((b) => b !== undefined);
+				if (scores.some((b, i) => i && b > scores[i - 1])) pwarn(`"${g.name || 'Where to get help'}": resources are not lowest-barrier first (barriers scores in page order: ${scores.join(', ')})`);
+			}
 			if (on.length && !on.some((r) => r.fit?.barriers === 2)) warnings.push(`${recordFile}: no resource scores barriers: 2 (a way in that needs nothing but a phone call)`);
 		}
 	}
 
+	// The reader test is recorded per question, so "pass" is something the checker can see.
+	for (const q of qs) if (q.tested && !TESTED.includes(q.tested)) err(`${q.id}: tested "${q.tested}" is not one of ${TESTED.join(', ')}`);
+	const untested = qs.filter((q) => !q.tested).map((q) => q.id);
+	const weakMusts = musts.filter((q) => q.tested && q.tested !== 'answered').map((q) => `${q.id} (${q.tested})`);
+	const weakOthers = qs.filter((q) => q.priority !== 'must' && q.tested && q.tested !== 'answered').map((q) => `${q.id} (${q.tested})`);
 	if (b.stage === 'reader-tested') {
 		if (!b.reader_test?.date || !b.reader_test?.result) err('stage is reader-tested but reader_test has no date or result');
-		else if (b.reader_test.result !== 'pass') warn(`reader test result is "${b.reader_test.result}"`);
-	}
+		if (untested.length) err(`stage is reader-tested but these questions have no tested result: ${untested.join(', ')}`);
+		if (weakMusts.length) err(`stage is reader-tested but a cold reader could not fully answer these "must" questions from the page: ${weakMusts.join(', ')}. Fix the page and re-test, or set the stage back to built.`);
+		if (b.reader_test?.result && b.reader_test.result !== 'pass') err(`stage is reader-tested but reader_test.result is "${b.reader_test.result}"`);
+	} else if (b.reader_test && weakMusts.length) warn(`reader test: "must" questions not fully answered yet: ${weakMusts.join(', ')}`);
+	if (weakOthers.length) warn(`reader test: partly answered: ${weakOthers.join(', ')}`);
 
-	board.push({ topic, type: b.also ? `${b.type}+${b.also}` : b.type, stage: b.stage, q: `${answered}/${qs.length}`, must: `${mustAnswered}/${musts.length}`, res: onPage ?? '' });
+	const editorOnly = qs.filter((q) => q.from === 'editor').length;
+	board.push({ topic, type: b.also ? `${b.type}+${b.also}` : b.type, stage: b.stage, q: `${answered}/${qs.length}`, must: `${mustAnswered}/${musts.length}`, res: onPage ?? '', guess: `${editorOnly}/${qs.length}` });
 }
 
 if (status) {
@@ -217,10 +252,10 @@ if (status) {
 		const row = board.find((r) => r.topic === t);
 		const title = pages.get(t).title;
 		return row
-			? [t, title, row.type, row.stage, row.must, row.q, String(row.res)]
-			: [t, title, '', 'no brief', '', '', ''];
+			? [t, title, row.type, row.stage, row.must, row.q, String(row.res), row.guess]
+			: [t, title, '', 'no brief', '', '', '', ''];
 	});
-	const head = ['Topic', 'Title', 'Type', 'Stage', 'Must', 'All', 'Res'];
+	const head = ['Topic', 'Title', 'Type', 'Stage', 'Must', 'All', 'Res', 'Guessed'];
 	const width = head.map((h, i) => Math.max(h.length, ...rows.map((r) => r[i].length)));
 	const fmt = (r) => r.map((c, i) => c.padEnd(width[i])).join('  ').trimEnd();
 	console.log(fmt(head));
@@ -228,7 +263,8 @@ if (status) {
 	for (const r of rows) console.log(fmt(r));
 	const count = (s) => board.filter((r) => r.stage === s).length;
 	console.log(`\n${pages.size} Topics: ${count('reader-tested')} reader-tested, ${count('built')} built, ${count('brief')} briefed, ${pages.size - board.length} with no brief.`);
-	console.log('Must / All = questions answered. Before a page is built, this is the audit of the old page.\n');
+	console.log('Must / All = questions the page answers. Before a page is built, this is the audit of the old page.');
+	console.log('Guessed = questions marked "from: editor": nobody has checked them against a real reader yet.\n');
 }
 
 for (const w of warnings) console.warn(`warning: ${w}`);

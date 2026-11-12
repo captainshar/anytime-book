@@ -14,13 +14,12 @@ Work from the repo root. Do NOT edit any tracked file; you only write your repor
 ## Tools and hard limits
 - Fetch an official page and save its text:
     node scripts/fetch-source.mjs <url>
-  (In a cloud session behind a proxy, put NODE_USE_ENV_PROXY=1 in front.)
   It prints the saved file path (.cache/sources/<hash>.txt). Read or grep that file. `--path <url>` prints the path again.
 - WebSearch: for LEADS only (finding candidates, finding what readers ask). A search summary is never proof.
 - If your task lists the hosts this session can reach, any other host fails. Do not retry it and
   do not look for mirrors, caches, or archives. A resource on a host you can't reach is a LEAD.
 - If a site answers 403/429 (it refuses scripts; www.cdc.gov and consumer.ftc.gov do this), record it as
-  "blocked: needs a person" and move on. Do NOT try a headless browser, different headers, or any
+  "blocked: needs a person" and move on (the coordinator records `blocked_on` in the resource record). Do NOT try a headless browser, different headers, or any
   other way around a site's block.
 - Never call, text, or message any hotline or organization.
 - Do not use the Agent tool.
